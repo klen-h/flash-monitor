@@ -1,12 +1,12 @@
 {
-  "lastId": "20260506063120772800",
+  "lastId": "20260506065604697800",
   "pushedClusters": [
     {
       "cluster": "其他",
       "firstId": "20260505214512552800",
       "firstTime": "2026-05-05T18:33:22.600Z",
-      "lastUpdateId": "20260505223120543800",
-      "lastUpdateTime": "2026-05-05T18:33:22.600Z",
+      "lastUpdateId": "20260506065304024800",
+      "lastUpdateTime": "2026-05-05T23:10:20.183Z",
       "pushCount": 3,
       "hotMax": "沸",
       "hadUrgent": false,
@@ -16,8 +16,8 @@
       "cluster": "原油能源",
       "firstId": "20260505221429308800",
       "firstTime": "2026-05-05T18:33:22.600Z",
-      "lastUpdateId": "20260505221429308800",
-      "lastUpdateTime": "2026-05-05T18:33:22.600Z",
+      "lastUpdateId": "20260506065604697800",
+      "lastUpdateTime": "2026-05-05T23:10:20.183Z",
       "pushCount": 1,
       "hotMax": "爆",
       "hadUrgent": false,
