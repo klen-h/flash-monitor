@@ -1,0 +1,15 @@
+{
+  "name": "flash-monitor",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "快讯实时监控脚本",
+  "main": "scripts/fetch-flash.js",
+  "scripts": {
+    "start": "node scripts/fetch-flash.js",
+    "fetch-macro": "node scripts/macro-layer.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^17.4.2"
+  }
+}

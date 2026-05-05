@@ -1,0 +1,42 @@
+name: 快讯实时监控
+
+on:
+  workflow_dispatch:
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      contents: write
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 安装 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 安装依赖
+        run: pnpm install
+
+      - name: 运行监控
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          FLASH_COOKIE: ${{ secrets.FLASH_COOKIE }}
+          WECHAT_WEBHOOK: ${{ secrets.WECHAT_WEBHOOK }}
+        run: node scripts/fetch-flash.js
+
+      - name: 提交数据
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add public/data/
+          if ! git diff --staged --quiet; then
+            git commit -m "⚡ $(TZ='Asia/Shanghai' date +'%m-%d %H:%M') 原油快讯"
+            git push
+          fi
