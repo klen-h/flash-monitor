@@ -1,5 +1,5 @@
 {
-  "lastId": "20260506090224333800",
+  "lastId": "20260506100513109800",
   "pushedClusters": [
     {
       "cluster": "其他",
@@ -18,6 +18,17 @@
       "firstTime": "2026-05-05T18:33:22.600Z",
       "lastUpdateId": "20260506065604697800",
       "lastUpdateTime": "2026-05-05T23:10:20.183Z",
+      "pushCount": 1,
+      "hotMax": "爆",
+      "hadUrgent": false,
+      "hasMilitary": false
+    },
+    {
+      "cluster": "中美贸易",
+      "firstId": "20260506100513109800",
+      "firstTime": "2026-05-06T02:20:18.658Z",
+      "lastUpdateId": "20260506100513109800",
+      "lastUpdateTime": "2026-05-06T02:20:18.658Z",
       "pushCount": 1,
       "hotMax": "爆",
       "hadUrgent": false,
