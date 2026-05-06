@@ -3,7 +3,7 @@ import 'dotenv/config';
 
 export const CONFIG = {
   FLASH_COOKIE: process.env.FLASH_COOKIE || '',
-  WECHAT_WEBHOOK: process.env.WECHAT_WEBHOOK,
+  WECHAT_WEBHOOK_KIMI: process.env.WECHAT_WEBHOOK_KIMI,
   LLM: {
     API_KEY: process.env.LLM_API_KEY,
     BASE_URL: process.env.LLM_BASE_URL || 'https://api.siliconflow.cn/v1',

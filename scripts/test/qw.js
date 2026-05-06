@@ -33,7 +33,7 @@ async function testQw() {
 ---
 **当前盘面：** 休市中`;
 
-        const res = await axios.post(CONFIG.WECHAT_WEBHOOK, {
+        const res = await axios.post(CONFIG.WECHAT_WEBHOOK_KIMI, {
             msgtype: 'markdown', markdown: {
                 content: content
             }

@@ -463,15 +463,15 @@ function formatHoldingsForLLM(holdings) {
 
 // ==================== 企微推送 ====================
 async function pushWechat(analysis, rawItems, oilPrice, holdingsData) {
-  if (!CONFIG.WECHAT_WEBHOOK) {
-    console.log('⚠️ 未配置 WECHAT_WEBHOOK');
+  if (!CONFIG.WECHAT_WEBHOOK_KIMI) {
+    console.log('⚠️ 未配置 WECHAT_WEBHOOK_KIMI');
     return;
   }
 
   const sendMsg = async (content, label) => {
     if (!content || content.trim() === '') return;
     try {
-      const res = await axios.post(CONFIG.WECHAT_WEBHOOK, { msgtype: 'markdown', markdown: { content } }, { timeout: 15000 });
+      const res = await axios.post(CONFIG.WECHAT_WEBHOOK_KIMI, { msgtype: 'markdown', markdown: { content } }, { timeout: 15000 });
       if (res.data.errcode === 0) {
         console.log(`📲 [${label}] 推送成功`);
       } else {

@@ -28,7 +28,7 @@ jobs:
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
           LLM_MODEL: ${{ secrets.LLM_MODEL }}
           FLASH_COOKIE: ${{ secrets.FLASH_COOKIE }}
-          WECHAT_WEBHOOK: ${{ secrets.WECHAT_WEBHOOK }}
+          WECHAT_WEBHOOK_KIMI: ${{ secrets.WECHAT_WEBHOOK_KIMI }}
         run: node scripts/fetch-flash.js
 
       - name: 提交数据
