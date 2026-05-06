@@ -1,12 +1,12 @@
 {
-  "lastId": "20260506123241985800",
+  "lastId": "20260506125430384800",
   "pushedClusters": [
     {
       "cluster": "其他",
       "firstId": "20260505214512552800",
       "firstTime": "2026-05-05T18:33:22.600Z",
-      "lastUpdateId": "20260506123241985800",
-      "lastUpdateTime": "2026-05-06T04:50:25.889Z",
+      "lastUpdateId": "20260506125430384800",
+      "lastUpdateTime": "2026-05-06T05:10:19.094Z",
       "pushCount": 3,
       "hotMax": "沸",
       "hadUrgent": false,
@@ -31,6 +31,17 @@
       "lastUpdateTime": "2026-05-06T02:50:17.947Z",
       "pushCount": 1,
       "hotMax": "爆",
+      "hadUrgent": false,
+      "hasMilitary": false
+    },
+    {
+      "cluster": "伊朗局势",
+      "firstId": "20260506123916480800",
+      "firstTime": "2026-05-06T05:10:19.094Z",
+      "lastUpdateId": "20260506123916480800",
+      "lastUpdateTime": "2026-05-06T05:10:19.094Z",
+      "pushCount": 1,
+      "hotMax": "沸",
       "hadUrgent": false,
       "hasMilitary": false
     }
