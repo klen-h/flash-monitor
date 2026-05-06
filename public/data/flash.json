@@ -2,6 +2,19 @@
   "date": "2026/5/6",
   "items": [
     {
+      "id": "20260506090224333800",
+      "time": "2026-05-06 09:02:24",
+      "hot": "沸",
+      "content": "【金十数据整理：A股盘前市场要闻速递（2026-05-06）】<b>重要新闻</b><br/><span class=\"section-news\">1. 央行5月6日将开展3000亿元期限为3个月的买断式逆回购操作。</span><br/><span class=\"section-news\">2. 央行等三部门：着力做好对企业购买人工智能设备和软件服务的金融服务，促进“人工智能+产业”发展。</span><br/><span class=\"section-news\">3. 央行、海关总署：进一步优化黄金及黄金制品进出口准许证“非一批一证”管理。</span><br/><span class=\"section-news\">4. 四部门将支持地方开展冻猪肉商业储备收储。</span><br/><span class=\"section-news\">5. 十四届全国政协经济委员会原副主任易会满被“双开”。</span><br/><span class=\"section-news\">6. 针对浏阳烟花厂爆炸事故，将成立国务院事故调查组。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 五粮液：2025年净利润89.54亿元，同比下降71.89%；2026年Q1净利润80.63亿元。</span><br/><span class=\"section-news\">2. 赛力斯：2026年4月新能源汽车销量同比增长5.22%。</span><br/><span class=\"section-news\">3. 比亚迪：4月销量32.11万辆，上年同期销量38.01万辆。</span><br/><span class=\"section-news\">4. 东阳光：控股子公司签署算力服务采购框架合同，预计总金额160亿元至190亿元。</span><br/><span class=\"section-news\">5. 中芯国际：上交所并购重组审核委员会定于5月11日召开审议会议审议公司发行股份购买资产暨关联交易事项。</span><br/><span class=\"section-news\">6. 宁德时代：以628.20港元的配售价完成H股配售事项，所得款项总额约392亿港元。</span><br/><span class=\"section-news\">7. 赛微电子：拟受让CompoundTek10%股权，巩固和提升在硅光代工领域的竞争力及市场地位。</span><br/><span class=\"section-news\">8. 巨人网络：收到重庆证监局行政监管措施决定书，对董事长史玉柱出具警示函。</span><br/><span class=\"section-news\">9. 江西铜业：拟筹划分拆江铜铜箔至香港联合交易所上市。</span><br/><span class=\"section-news\">10. 红板科技：子公司成功竞拍江西志浩100%股权，利于快速扩充公司PCB产能。</span><br/><span class=\"section-news\">11. 科蓝软件：因涉嫌信息披露违法违规被证监会立案。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-05-06T01:20:24.824Z"
+    },
+    {
       "id": "20260506080155658800",
       "time": "2026-05-06 08:01:55",
       "hot": "沸",
@@ -161,5 +174,5 @@
       "collectedAt": "2026-05-05T18:32:48.892Z"
     }
   ],
-  "lastUpdated": "2026-05-06T00:40:28.709Z"
+  "lastUpdated": "2026-05-06T01:20:26.138Z"
 }
