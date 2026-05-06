@@ -1,4 +1,4 @@
-name: 快讯实时监控
+name: 快讯实时监控kimi
 
 on:
   workflow_dispatch:
