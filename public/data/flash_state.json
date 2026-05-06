@@ -1,5 +1,5 @@
 {
-  "lastId": "20260506213303946800",
+  "lastId": "20260506224455926800",
   "pushedClusters": [
     {
       "cluster": "中美贸易",
@@ -27,8 +27,8 @@
       "cluster": "伊朗局势",
       "firstId": "20260506123916480800",
       "firstTime": "2026-05-06T05:44:38.597Z",
-      "lastUpdateId": "20260506213303946800",
-      "lastUpdateTime": "2026-05-06T13:50:28.174Z",
+      "lastUpdateId": "20260506224406102800",
+      "lastUpdateTime": "2026-05-06T15:00:35.803Z",
       "pushCount": 1,
       "hotMax": "沸",
       "hadUrgent": false,
