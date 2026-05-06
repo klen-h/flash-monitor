@@ -1,5 +1,5 @@
 {
-  "lastId": "20260506165341901800",
+  "lastId": "20260506165724388800",
   "pushedClusters": [
     {
       "cluster": "中美贸易",
@@ -38,12 +38,12 @@
       "cluster": "原油能源",
       "firstId": "20260506151716778800",
       "firstTime": "2026-05-06T07:40:20.880Z",
-      "lastUpdateId": "20260506165341901800",
-      "lastUpdateTime": "2026-05-06T09:00:29.703Z",
-      "pushCount": 1,
+      "lastUpdateId": "20260506165724388800",
+      "lastUpdateTime": "2026-05-06T09:10:21.705Z",
+      "pushCount": 2,
       "hotMax": "沸",
-      "hadUrgent": false,
-      "hasMilitary": false
+      "hadUrgent": true,
+      "hasMilitary": true
     }
   ]
 }
