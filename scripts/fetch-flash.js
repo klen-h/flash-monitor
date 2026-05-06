@@ -273,6 +273,7 @@ function deduplicateByEvent(items) {
     _clusterSize: c.allItems.length,
     _clusterHot: c.hotMax === 2 ? '爆' : '沸',
     _clusterTime: c.earliestTime,
+    _allItems: c.allItems,
   }));
 }
 
@@ -308,7 +309,15 @@ async function analyzeWithLLM(clusteredItems, oilPrice, holdingsData) {
     const sizeTag = i._clusterSize > 1 ? ` [本簇共${i._clusterSize}条]` : '';
     const oilTag = ['原油能源', '伊朗局势', '中东战争'].includes(i._cluster) ? ' [原油核心]' : '';
     const urgentTag = hasUrgentTime(i.content) ? ' [时间敏感]' : '';
-    return `[${i._clusterHot}]${sizeTag}${oilTag}${urgentTag} ${i._cluster}\n时间: ${i.time}\n来源: ${i.source || '金十'}\n${i.content.slice(0, 350)}...`;
+    
+    // 汇总簇内所有快讯内容，去重并限制长度
+    const contents = i._allItems 
+      ? Array.from(new Set(i._allItems.map(item => item.content.trim())))
+      : [i.content.trim()];
+    
+    const aggregatedContent = contents.map((c, idx) => contents.length > 1 ? `${idx + 1}. ${c}` : c).join('\n');
+    
+    return `[${i._clusterHot}]${sizeTag}${oilTag}${urgentTag} ${i._cluster}\n时间: ${i.time}\n来源: ${i.source || '金十'}\n内容:\n${aggregatedContent}`;
   }).join('\n\n---\n\n');
 
   const macro = await fetchSinaMacro(); // 获取宏观锚定物
@@ -329,7 +338,26 @@ ${HOLDINGSTEXT}
 
  【核心判断标准】
  1. 盘面交叉验证（最重要）：新闻逻辑与盘面表现是否一致？
- 2. 原油传导链：关注原油价格变动对产业链的影响。
+ 2. 【原油-黄金相关性诊断】（核心判断标准，优先级最高）
+
+    步骤1：计算原油与黄金的日内相关性方向
+    - 原油跌 + 黄金跌 = 正相关 → 进入叙事A或C判断
+    - 原油跌 + 黄金涨/平 = 负相关 → D状态（分化/过渡态）
+    - 原油涨 + 黄金涨 = 正相关 → 通胀/滞胀交易
+    - 原油涨 + 黄金跌 = 负相关 → 紧缩/实际利率飙升
+
+    步骤2：用美元确认资金流向
+    - D状态下美元走平 → 确认非B（衰退），非C（流动性危机）
+    - D状态下美元暴涨 → 警惕向C转换
+
+    步骤3：用风险资产（纳指期指/恒生科技）确认情绪
+    - D状态下风险资产涨 → 供给恢复逻辑占上风，但黄金独立
+    - D状态下风险资产跌 → 市场担忧协议背后的经济代价
+
+    【D状态专属规则】
+    - 严禁基于"协议达成"逻辑推荐做空黄金
+    - 严禁基于"油价暴跌"逻辑推荐抄底油气（分化态下油价可能继续反映预期，也可能因协议破裂反弹，方向不明但波动确定）
+    - 允许推荐：科技ETF（成本下降逻辑）、黄金ETF（独立支撑逻辑）、军工ETF（对冲协议破裂）
  3. 时间敏感度：优先处理即将发生或正在发生的重大事件。
  4. 精准标的匹配：必须在用户持仓中的ETF中选。
 
@@ -339,31 +367,39 @@ ${flashText}
  【输出格式】（严格JSON）
  {
    "market_mood": "string",
-   "noise_level": "integer",
-   "oil_outlook": "string",
+   "uncertainty_level": "高/中/低",
+   "dominant_narrative": "市场当前主导叙事",
+   "narrative_fragility": "该叙事的脆弱点/证伪条件",
+   "scenarios": [
+     {
+       "scenario_name": "情景名称（如：协议达成/破裂）",
+       "probability_guess": "概率描述（不使用数字）",
+       "oil_path": "油价潜在路径",
+       "affected_etfs": ["影响的ETF全称"],
+       "action_if_confirmed": "若确认后的操作建议",
+       "trigger_to_watch": "关键触发/观察点"
+     }
+   ],
    "top_events": [
      {
        "cluster_name": "string",
        "value_score": "integer",
        "oil_impact": "string",
        "transmission_chain": "string",
-       "action": "加仓/减仓/调仓/观望/埋伏",
+       "action": "加仓/减仓/调仓/观望/埋伏/无法判断",
        "target": "必须是用户持仓中的ETF之一的全称",
        "urgency": "string",
        "time_sensitive": "boolean",
-       "holding_match": "string",
        "why": "核心价值逻辑",
        "market_validation": "盘面验证情况",
-       "contrarian": "逆向/埋伏机会",
        "risk": "误读风险"
      }
    ],
    "daily_strategy": {
      "overall_position": "string",
      "core_logic": "核心逻辑",
-     "oil_trade": "原油操作建议",
-     "key_risks": ["string"],
-     "watchlist": ["string"]
+     "pre_market_checklist": ["开盘前必须验证的指标"],
+     "key_risks": ["string"]
    }
  }`;
 console.log(prompt);
@@ -399,12 +435,30 @@ console.log(prompt);
 // ==================== 盘面格式化 ====================
 function formatHoldingsForLLM(holdings) {
   if (!holdings || holdings.length === 0) {
-    return '当前为非交易时段，无ETF实时盘面数据。请纯粹基于事件逻辑进行分析。';
+    return '当前为非交易时段，无ETF实时盘面数据。"盘面交叉验证"改为"逻辑自洽性检验"（新闻之间是否矛盾？）。';
   }
-  return [...holdings].sort((a, b) => b.change - a.change).map(h => {
-    const arrow = h.change > 0 ? '🔺' : (h.change < 0 ? '🔻' : '➖');
-    return `${arrow} ${h.name}: 现价${h.price} (${h.change > 0 ? '+' : ''}${h.changeStr}%)`;
-  }).join('\n');
+
+  // 定义分类，方便LLM进行板块联动分析
+  const categories = {
+    '宽基/权重': ['沪深300ETF', '中证1000ETF'],
+    '海外/科技': ['纳斯达克ETF', '日经225ETF', '恒生科技ETF', '中韩半导体ETF'],
+    '能源/商品': ['标普油气ETF', '黄金ETF', '稀土ETF'],
+    '行业/其他': ['芯片ETF', '半导体ETF', '军工ETF', '房地产ETF', '养殖ETF', '银行ETF', '港股创新药ETF', '香港证券ETF', '恒生红利ETF']
+  };
+
+  let output = '';
+  for (const [cat, names] of Object.entries(categories)) {
+    const matched = holdings.filter(h => names.includes(h.name));
+    if (matched.length > 0) {
+      output += `\n【${cat}】\n`;
+      output += matched.sort((a, b) => b.change - a.change).map(h => {
+        const arrow = h.change > 0 ? '🔺' : (h.change < 0 ? '🔻' : '➖');
+        return `${arrow} ${h.name}: ${h.change > 0 ? '+' : ''}${h.changeStr}%`;
+      }).join(' | ');
+      output += '\n';
+    }
+  }
+  return output;
 }
 
 // ==================== 企微推送 ====================
@@ -414,65 +468,69 @@ async function pushWechat(analysis, rawItems, oilPrice, holdingsData) {
     return;
   }
 
-  const events = analysis.top_events || [];
-  if (events.length === 0) {
-    console.log('📭 无高价值信号，不推送');
-    return;
-  }
+  const sendMsg = async (content, label) => {
+    if (!content || content.trim() === '') return;
+    try {
+      const res = await axios.post(CONFIG.WECHAT_WEBHOOK, { msgtype: 'markdown', markdown: { content } }, { timeout: 15000 });
+      if (res.data.errcode === 0) {
+        console.log(`📲 [${label}] 推送成功`);
+      } else {
+        console.error(`❌ [${label}] 推送失败:`, res.data.errmsg);
+      }
+    } catch (error) {
+      console.error(`❌ [${label}] 网络失败:`, error.message);
+    }
+  };
 
+  const events = analysis.top_events || [];
+  const scenarios = analysis.scenarios || [];
+  const moodColor = analysis.uncertainty_level === '高' ? 'warning' : (analysis.uncertainty_level === '低' ? 'info' : 'comment');
   const oilEmoji = oilPrice?.change > 0 ? '📈' : (oilPrice?.change < 0 ? '📉' : '➖');
   const sortedHoldings = [...holdingsData].sort((a,b) => a.change - b.change);
   const topGainer = sortedHoldings[sortedHoldings.length - 1];
   const topLoser = sortedHoldings[0];
 
-  let markdown = `## ${oilEmoji} 金十快讯 [原油核心+盘面验证] <font color="warning">${analysis.market_mood}</font> 
-  > 时间：${formatTime()} | 布伦特: **$${oilPrice?.price || '?'}** (${oilPrice?.change > 0 ? '+' : ''}${oilPrice?.change || 0}%)
-  > 仓位建议：**${analysis.daily_strategy?.overall_position || '观望'}**
-  > 原油展望：${analysis.oil_outlook || '无'}
-  > 盘面特征：${topGainer ? `领涨<font color="info">${topGainer.name}(+${topGainer.changeStr}%)</font> | 领跌<font color="red">${topLoser.name}(${topLoser.changeStr}%)</font>` : '休市中'}
-  --- 
-  `;
-
-  for (const event of events.slice(0, 3)) {
-    const raw = rawItems.find(i => i._cluster === event.cluster_name);
-    const scoreColor = event.value_score >= 8 ? 'red' : (event.value_score >= 6 ? 'warning' : 'info');
-    const oilTag = event.oil_impact && event.oil_impact !== '无' ? '<font color="red">[原油]</font>' : '';
-    const urgentTag = event.time_sensitive ? '<font color="red">[紧急]</font>' : '';
-
-    markdown += `### ${oilTag}${urgentTag} <font color="${scoreColor}">【${event.urgency}】${event.action} ${event.target} (${event.value_score}分)</font>
-**事件：** ${event.cluster_name}
-**持仓匹配：** ${event.holding_match || '无'}
-**逻辑：** ${event.why}
-**盘面验证：** ${event.market_validation || '无'}
-
-**原油影响：** ${event.oil_impact || '无'}
-**传导链：** ${event.transmission_chain || '无'}
-**逆向机会：** ${event.contrarian || '无'}
-**误读风险：** ${event.risk || '无'}
-
-${raw ? `> 原文：${raw.content.slice(0, 120)}...` : ''}
----
+  // --- 阶段 1: 核心摘要与情景推演 ---
+  let p1 = `## ${oilEmoji} 金十快讯 [${analysis.uncertainty_level || '中'}不确定性] <font color="${moodColor}">${analysis.market_mood}</font> 
+> 时间：${formatTime()} | 布伦特: **$${oilPrice?.price || '?'}** (${oilPrice?.change > 0 ? '+' : ''}${oilPrice?.change || 0}%)
+> 核心叙事：**${analysis.dominant_narrative || '未明'}**
+> 叙事脆弱点：${analysis.narrative_fragility || '无'}
+--- 
 `;
+  if (scenarios.length > 0) {
+    p1 += `### 🎭 情景推演 (Scenarios)\n`;
+    for (const s of scenarios) {
+      p1 += `> **${s.scenario_name}** (${s.probability_guess})\n> 路径: ${s.oil_path}\n> 观察: <font color="comment">${s.trigger_to_watch}</font>\n> 动作: ${s.action_if_confirmed}\n\n`;
+    }
+  }
+  await sendMsg(p1, '摘要与情景');
+
+  // --- 阶段 2: 重点事件分析 ---
+  if (events.length > 0) {
+    let p2 = `### 🔍 重点事件分析\n`;
+    for (const event of events.slice(0, 3)) {
+      const scoreColor = event.value_score >= 8 ? 'warning' : (event.value_score >= 6 ? 'warning' : 'info');
+      const oilTag = event.oil_impact && event.oil_impact !== '无' ? '<font color="warning">[原油]</font>' : '';
+      const urgentTag = event.time_sensitive ? '<font color="warning">[紧急]</font>' : '';
+
+      p2 += `#### ${oilTag}${urgentTag} <font color="${scoreColor}">${event.action} ${event.target}</font>
+**事件：** ${event.cluster_name} (${event.value_score}分)
+**逻辑：** ${event.why}
+**盘面：** ${event.market_validation || '未验证'}
+\n`;
+    }
+    await sendMsg(p2, '事件分析');
   }
 
-  if (analysis.daily_strategy?.oil_trade) {
-    markdown += `\n### 🛢️ 原油操作\n${analysis.daily_strategy.oil_trade}\n`;
-  }
-
-  if (analysis.daily_strategy?.key_risks?.length > 0) {
-    markdown += `\n### ⚠️ 警惕\n${analysis.daily_strategy.key_risks.map(r => `- ${r}`).join('\n')}\n`;
-  }
-
-  if (analysis.daily_strategy?.watchlist?.length > 0) {
-    markdown += `\n### 👀 观察\n${analysis.daily_strategy.watchlist.join('、')}\n`;
-  }
-
-  try {
-    await axios.post(CONFIG.WECHAT_WEBHOOK, { msgtype: 'markdown', markdown: { content: markdown } }, { timeout: 15000 });
-    console.log('📲 企微推送成功');
-  } catch (error) {
-    console.error('❌ 企微推送失败:', error.message);
-  }
+  // --- 阶段 3: 每日策略与盘面 ---
+  let p3 = `### 📅 每日策略
+> **总仓位：${analysis.daily_strategy?.overall_position || '观望'}**
+> **核心逻辑：** ${analysis.daily_strategy?.core_logic || '无'}
+> **开盘清单：** ${analysis.daily_strategy?.pre_market_checklist?.join(' | ') || '无'}
+> **关键风险：** ${analysis.daily_strategy?.key_risks?.join(' | ') || '无'}
+---
+**当前盘面：** ${topGainer ? `领涨<font color="info">${topGainer.name}(+${topGainer.changeStr}%)</font> | 领跌<font color="warning">${topLoser.name}(${topLoser.changeStr}%)</font>` : '休市中'}`;
+  await sendMsg(p3, '每日策略');
 }
 
 // ==================== 状态更新逻辑 ====================

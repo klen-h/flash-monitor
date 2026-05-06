@@ -60,10 +60,10 @@ export async function fetchSinaMacro() {
 
     // ================= 解析 美元指数 DINIW =================
     const dxy = map['DINIW'] || [];
-    // 结构: 0时间, 1现价, 2昨收, 3开盘, 4成交量, 5买价, 6最高, 7最低, 8卖价, 9名称, 10日期
+    // 结构: 0时间, 1现价, 3昨收, 5开盘, 4成交量, 6最高, 7最低, 8卖价, 9名称, 10日期
     const dxyData = {
       price: parseFloat(dxy[1]) || 0,
-      prevClose: parseFloat(dxy[2]) || 0,
+      prevClose: parseFloat(dxy[3]) || 0,
       high: parseFloat(dxy[6]) || 0,
       low: parseFloat(dxy[7]) || 0,
       time: `${dxy[10]} ${dxy[0]}`,
@@ -135,4 +135,4 @@ export async function fetchSinaMacro() {
 }
 
 // 测试运行
-fetchSinaMacro().then(res => console.log(JSON.stringify(res, null, 2)));
+// fetchSinaMacro().then(res => console.log(JSON.stringify(res, null, 2)));
