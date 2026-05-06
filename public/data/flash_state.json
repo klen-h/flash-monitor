@@ -1,12 +1,12 @@
 {
-  "lastId": "20260506103632598800",
+  "lastId": "20260506123241985800",
   "pushedClusters": [
     {
       "cluster": "其他",
       "firstId": "20260505214512552800",
       "firstTime": "2026-05-05T18:33:22.600Z",
-      "lastUpdateId": "20260506080155658800",
-      "lastUpdateTime": "2026-05-06T00:40:28.708Z",
+      "lastUpdateId": "20260506123241985800",
+      "lastUpdateTime": "2026-05-06T04:50:25.889Z",
       "pushCount": 3,
       "hotMax": "沸",
       "hadUrgent": false,
