@@ -1,1 +1,38 @@
-
+{
+  "lastId": "20260506125430384800",
+  "pushedClusters": [
+    {
+      "cluster": "中美贸易",
+      "firstId": "20260506100513109800",
+      "firstTime": "2026-05-06T05:41:50.011Z",
+      "lastUpdateId": "20260506100513109800",
+      "lastUpdateTime": "2026-05-06T05:41:50.011Z",
+      "pushCount": 1,
+      "hotMax": "爆",
+      "hadUrgent": false,
+      "hasMilitary": false
+    },
+    {
+      "cluster": "其他",
+      "firstId": "20260506123241985800",
+      "firstTime": "2026-05-06T05:41:50.011Z",
+      "lastUpdateId": "20260506125430384800",
+      "lastUpdateTime": "2026-05-06T05:41:50.011Z",
+      "pushCount": 2,
+      "hotMax": "沸",
+      "hadUrgent": false,
+      "hasMilitary": false
+    },
+    {
+      "cluster": "伊朗局势",
+      "firstId": "20260506123916480800",
+      "firstTime": "2026-05-06T05:41:50.011Z",
+      "lastUpdateId": "20260506123916480800",
+      "lastUpdateTime": "2026-05-06T05:41:50.011Z",
+      "pushCount": 1,
+      "hotMax": "沸",
+      "hadUrgent": false,
+      "hasMilitary": false
+    }
+  ]
+}
