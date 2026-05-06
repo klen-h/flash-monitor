@@ -6,7 +6,7 @@ export const CONFIG = {
   WECHAT_WEBHOOK: process.env.WECHAT_WEBHOOK || '',
   LLM: {
     API_KEY: process.env.LLM_API_KEY,
-    BASE_URL: process.env.LLM_BASE_URL,
+    BASE_URL: process.env.LLM_BASE_URL || 'https://api.siliconflow.cn/v1',
     MODEL: process.env.LLM_MODEL,
   },
   PATHS: {
