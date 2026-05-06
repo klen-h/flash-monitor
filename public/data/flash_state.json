@@ -1,5 +1,5 @@
 {
-  "lastId": "20260506100513109800",
+  "lastId": "20260506103632598800",
   "pushedClusters": [
     {
       "cluster": "其他",
@@ -27,8 +27,8 @@
       "cluster": "中美贸易",
       "firstId": "20260506100513109800",
       "firstTime": "2026-05-06T02:20:18.658Z",
-      "lastUpdateId": "20260506100513109800",
-      "lastUpdateTime": "2026-05-06T02:20:18.658Z",
+      "lastUpdateId": "20260506103632598800",
+      "lastUpdateTime": "2026-05-06T02:50:17.947Z",
       "pushCount": 1,
       "hotMax": "爆",
       "hadUrgent": false,
