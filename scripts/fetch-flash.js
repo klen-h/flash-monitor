@@ -84,7 +84,21 @@ async function main() {
   if (toAnalyze.length > 0) {
     console.log(`🧠 送审 LLM: ${toAnalyze.length} 个事件簇`);
     const analysis = await analyzeWithLLM(toAnalyze, oilPrice, holdingsData);
+    
+    // 推送主模型分析结果
     await pushWechat(analysis, toAnalyze, oilPrice, holdingsData);
+    
+    // 如果配置了对比模型，则运行第二次分析
+    if (CONFIG.LLM.MODEL_COMPARE) {
+      console.log(`🔍 运行对比分析 [${CONFIG.LLM.MODEL_COMPARE}]...`);
+      const analysisCompare = await analyzeWithLLM(toAnalyze, oilPrice, holdingsData, CONFIG.LLM.MODEL_COMPARE);
+      
+      // 推送对比简报到主 Webhook
+      await pushWechatComparison(analysis, analysisCompare, toAnalyze, oilPrice, holdingsData);
+      
+      // 推送对比模型的详细结果到对比 Webhook (默认同主 Webhook)
+      await pushWechat(analysisCompare, toAnalyze, oilPrice, holdingsData, CONFIG.WECHAT_WEBHOOK_COMPARE);
+    }
     
     updateStateAfterPush(state, toAnalyze);
   } else {
@@ -303,7 +317,7 @@ function isMajorUpdate(cluster, existing) {
 }
 
 // ==================== LLM 分析 ====================
-async function analyzeWithLLM(clusteredItems, oilPrice, holdingsData) {
+export async function analyzeWithLLM(clusteredItems, oilPrice, holdingsData, modelOverride = null) {
   const holdingsStatusText = formatHoldingsForLLM(holdingsData);
   const flashText = clusteredItems.map(i => {
     const sizeTag = i._clusterSize > 1 ? ` [本簇共${i._clusterSize}条]` : '';
@@ -402,13 +416,16 @@ ${flashText}
      "key_risks": ["string"]
    }
  }`;
-console.log(prompt);
+
+  const targetModel = modelOverride || CONFIG.LLM.MODEL;
+  console.log(`🤖 正在使用模型: ${targetModel}`);
+
   try {
-    const { API_KEY, BASE_URL, MODEL } = CONFIG.LLM;
+    const { API_KEY, BASE_URL } = CONFIG.LLM;
     const response = await axios.post(
       `${BASE_URL}/chat/completions`,
       {
-        model: MODEL,
+        model: targetModel,
         messages: [
           { role: "system", content: "你是冷酷的原油宏观交易员。当前一切以油价为核心。对无价值信息要毫不留情。必须输出合法JSON。" },
           { role: "user", content: prompt }
@@ -424,11 +441,12 @@ console.log(prompt);
     );
 
     const parsed = JSON.parse(response.data.choices[0].message.content);
-    console.log('✅ LLM 分析完成');
+    console.log(`✅ LLM [${targetModel}] 分析完成`);
+    parsed._model = targetModel; // 注入模型名称
     return parsed;
   } catch (error) {
-    console.error('❌ LLM 失败:', error.message?.slice(0, 200));
-    return { market_mood: '未知', noise_level: 0, top_events: [] };
+    console.error(`❌ LLM [${targetModel}] 失败:`, error.message?.slice(0, 200));
+    return { market_mood: '未知', noise_level: 0, top_events: [], _model: targetModel };
   }
 }
 
@@ -462,23 +480,26 @@ function formatHoldingsForLLM(holdings) {
 }
 
 // ==================== 企微推送 ====================
-async function pushWechat(analysis, rawItems, oilPrice, holdingsData) {
-  if (!CONFIG.WECHAT_WEBHOOK) {
+export async function pushWechat(analysis, rawItems, oilPrice, holdingsData, webhookOverride = null) {
+  const targetWebhook = webhookOverride || CONFIG.WECHAT_WEBHOOK;
+  if (!targetWebhook) {
     console.log('⚠️ 未配置 WECHAT_WEBHOOK');
     return;
   }
 
+  const modelTag = analysis._model ? ` [${analysis._model.split('/').pop()}]` : '';
+
   const sendMsg = async (content, label) => {
     if (!content || content.trim() === '') return;
     try {
-      const res = await axios.post(CONFIG.WECHAT_WEBHOOK, { msgtype: 'markdown', markdown: { content } }, { timeout: 15000 });
+      const res = await axios.post(targetWebhook, { msgtype: 'markdown', markdown: { content } }, { timeout: 15000 });
       if (res.data.errcode === 0) {
-        console.log(`📲 [${label}] 推送成功`);
+        console.log(`📲 [${label}${modelTag}] 推送成功`);
       } else {
-        console.error(`❌ [${label}] 推送失败:`, res.data.errmsg);
+        console.error(`❌ [${label}${modelTag}] 推送失败:`, res.data.errmsg);
       }
     } catch (error) {
-      console.error(`❌ [${label}] 网络失败:`, error.message);
+      console.error(`❌ [${label}${modelTag}] 网络失败:`, error.message);
     }
   };
 
@@ -491,7 +512,7 @@ async function pushWechat(analysis, rawItems, oilPrice, holdingsData) {
   const topLoser = sortedHoldings[0];
 
   // --- 阶段 1: 核心摘要与情景推演 ---
-  let p1 = `## ${oilEmoji} 金十快讯 [${analysis.uncertainty_level || '中'}不确定性] <font color="${moodColor}">${analysis.market_mood}</font> 
+  let p1 = `## ${oilEmoji} 金十快讯${modelTag} [${analysis.uncertainty_level || '中'}不确定性] <font color="${moodColor}">${analysis.market_mood}</font> 
 > 时间：${formatTime()} | 布伦特: **$${oilPrice?.price || '?'}** (${oilPrice?.change > 0 ? '+' : ''}${oilPrice?.change || 0}%)
 > 核心叙事：**${analysis.dominant_narrative || '未明'}**
 > 叙事脆弱点：${analysis.narrative_fragility || '无'}
@@ -531,6 +552,57 @@ async function pushWechat(analysis, rawItems, oilPrice, holdingsData) {
 ---
 **当前盘面：** ${topGainer ? `领涨<font color="info">${topGainer.name}(+${topGainer.changeStr}%)</font> | 领跌<font color="warning">${topLoser.name}(${topLoser.changeStr}%)</font>` : '休市中'}`;
   await sendMsg(p3, '每日策略');
+}
+
+// ==================== 企微推送对比版 ====================
+export async function pushWechatComparison(analysisA, analysisB, rawItems, oilPrice, holdingsData) {
+  if (!CONFIG.WECHAT_WEBHOOK) {
+    console.log('⚠️ 未配置 WECHAT_WEBHOOK');
+    return;
+  }
+
+  const sendMsg = async (content, label) => {
+    if (!content || content.trim() === '') return;
+    try {
+      const res = await axios.post(CONFIG.WECHAT_WEBHOOK, { msgtype: 'markdown', markdown: { content } }, { timeout: 15000 });
+      if (res.data.errcode === 0) {
+        console.log(`📲 [${label}] 推送成功`);
+      } else {
+        console.error(`❌ [${label}] 推送失败:`, res.data.errmsg);
+      }
+    } catch (error) {
+      console.error(`❌ [${label}] 网络失败:`, error.message);
+    }
+  };
+
+  const oilEmoji = oilPrice?.change > 0 ? '📈' : (oilPrice?.change < 0 ? '📉' : '➖');
+  const modelA = analysisA._model?.split('/').pop() || 'Model A';
+  const modelB = analysisB._model?.split('/').pop() || 'Model B';
+
+  let content = `## 🤖 LLM 对比分析报告 ${oilEmoji}
+> 时间：${formatTime()} | 布伦特: **$${oilPrice?.price || '?'}** (${oilPrice?.change > 0 ? '+' : ''}${oilPrice?.change || 0}%)
+---
+| 维度 | **${modelA}** | **${modelB}** |
+| :--- | :--- | :--- |
+| **情绪** | ${analysisA.market_mood} | ${analysisB.market_mood} |
+| **不确定性** | ${analysisA.uncertainty_level} | ${analysisB.uncertainty_level} |
+| **主导叙事** | ${analysisA.dominant_narrative?.slice(0, 15)}... | ${analysisB.dominant_narrative?.slice(0, 15)}... |
+
+### 🎯 核心操作建议
+- **${modelA}**: <font color="info">${analysisA.top_events?.[0]?.action || '无'}</font> ${analysisA.top_events?.[0]?.target || ''}
+> 理由: ${analysisA.top_events?.[0]?.why?.slice(0, 50) || '无'}
+- **${modelB}**: <font color="warning">${analysisB.top_events?.[0]?.action || '无'}</font> ${analysisB.top_events?.[0]?.target || ''}
+> 理由: ${analysisB.top_events?.[0]?.why?.slice(0, 50) || '无'}
+
+---
+### 📅 策略对比
+- **${modelA}**: ${analysisA.daily_strategy?.overall_position} | ${analysisA.daily_strategy?.core_logic?.slice(0, 40)}...
+- **${modelB}**: ${analysisB.daily_strategy?.overall_position} | ${analysisB.daily_strategy?.core_logic?.slice(0, 40)}...
+
+---
+*注：本报告由双模型自动对比生成，仅供参考。*`;
+
+  await sendMsg(content, '双模型对比');
 }
 
 // ==================== 状态更新逻辑 ====================
