@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 export async function fetchSinaMacro() {
-  // 【修复1】USDCNH 换成 fx_susdcnh 才能拿到数据
-  const url = 'https://hq.sinajs.cn/list=hf_CL,hf_GC,hf_XAU,DINIW,fx_susdcnh';
+  // 【修复1】增加纳指期货(hf_NQ)和恒生科技指数(rt_hkHSTECH)
+  const url = 'https://hq.sinajs.cn/list=hf_CL,hf_GC,hf_XAU,DINIW,fx_susdcnh,hf_NQ,rt_hkHSTECH';
   
   try {
     const { data } = await axios.get(url, {
@@ -11,9 +11,8 @@ export async function fetchSinaMacro() {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
       },
       timeout: 10000,
-      responseType: 'arraybuffer', // 【修复2】用 arraybuffer 接收，防止乱码干扰正则
+      responseType: 'arraybuffer',
     });
-    // 统一按 latin1 解析成字符串（数字和英文不会乱，中文会变成乱码但不影响我们提取数字）
     const text = Buffer.from(data, 'binary').toString('latin1');
     
     const map = {};
@@ -26,30 +25,52 @@ export async function fetchSinaMacro() {
 
     // ================= 解析 WTI 原油 hf_CL =================
     const cl = map['hf_CL'] || [];
-    // 结构: 0现价, 1空, 2昨收, 3开盘, 4最高, 5最低, 6时间, 12日期
     const crude = {
       price: parseFloat(cl[0]) || 0,
       prevClose: parseFloat(cl[2]) || 0,
       high: parseFloat(cl[4]) || 0,
       low: parseFloat(cl[5]) || 0,
+      change: cl[2] > 0 ? ((cl[0] - cl[2]) / cl[2] * 100).toFixed(2) : '0',
       time: `${cl[12]} ${cl[6]}`,
     };
 
     // ================= 解析 COMEX 黄金 hf_GC =================
     const gc = map['hf_GC'] || [];
-    // 结构同原油
     const gold = {
       price: parseFloat(gc[0]) || 0,
-      prevClose: parseFloat(gc[2]) || 0,
-      high: parseFloat(gc[4]) || 0, // 【修复3】纠正了索引
-      low: parseFloat(gc[5]) || 0,  // 【修复3】纠正了索引
-      time: `${gc[12]} ${gc[6]}`,  // 【修复3】纠正了索引
+      prevClose: parseFloat(gc[8]) || 0, // 8 是昨收
+      high: parseFloat(gc[4]) || 0,
+      low: parseFloat(gc[5]) || 0,
+      change: gc[8] > 0 ? ((gc[0] - gc[8]) / gc[8] * 100).toFixed(2) : '0',
+      time: `${gc[12]} ${gc[6]}`,
+    };
+
+    // ================= 解析 纳指期货 hf_NQ =================
+    const nq = map['hf_NQ'] || [];
+    // console.log(nq);
+    const nasdaq = {
+      price: parseFloat(nq[0]) || 0,
+      prevClose: parseFloat(nq[8]) || 0, // 8 是昨收
+      high: parseFloat(nq[4]) || 0,
+      low: parseFloat(nq[5]) || 0,
+      change: nq[8] > 0 ? ((nq[0] - nq[8]) / nq[8] * 100).toFixed(2) : '0',
+      time: `${nq[12]} ${nq[6]}`,
+    };
+
+    // ================= 解析 恒生科技 rt_hkHSTECH =================
+    const hst = map['rt_hkHSTECH'] || [];
+    // console.log(hst);
+    const hstech = {
+      price: parseFloat(hst[6]) || 0,
+      prevClose: parseFloat(hst[3]) || 0,
+      high: parseFloat(hst[4]) || 0,
+      low: parseFloat(hst[5]) || 0,
+      change: parseFloat(hst[8]) || 0, // 8 是涨跌幅
+      time: `${hst[17]} ${hst[18]}`,
     };
 
     // ================= 解析 伦敦金现货 hf_XAU =================
     const xau = map['hf_XAU'] || [];
-    // 结构略有不同: 0现价, 1昨收, 2开盘, 3最高(可能乱), 4最低(可能乱), 5昨收2, 6时间...
-    // 为了防错，我们直接用最大值/最小值逻辑兜底
     const xauNums = [xau[0], xau[2], xau[3], xau[4], xau[5]].map(Number).filter(n => !isNaN(n) && n > 0);
     const goldSpot = {
       price: parseFloat(xau[0]) || 0,
@@ -119,7 +140,7 @@ export async function fetchSinaMacro() {
       }
     }
 
-    return { crude, gold, goldSpot, dxy: dxyData, usdcnh: usdcnhData };
+    return { crude, gold, goldSpot, dxy: dxyData, usdcnh: usdcnhData, nasdaq, hstech };
 
   } catch (e) {
     console.error('❌ 新浪宏观数据获取失败:', e.message);
@@ -129,7 +150,9 @@ export async function fetchSinaMacro() {
       gold: { price: 0 }, 
       goldSpot: { price: 0 }, 
       dxy: { price: 0, change: '0' }, 
-      usdcnh: { price: 0, change: '0' } 
+      usdcnh: { price: 0, change: '0' },
+      nasdaq: { price: 0, change: '0' },
+      hstech: { price: 0, change: '0' }
     };
   }
 }
