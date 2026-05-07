@@ -1,4 +1,4 @@
-import { analyzeWithLLM, pushWechatComparison } from '../fetch-flash.js';
+import { analyzeWithLLM, pushWechat, pushWechatComparison } from '../fetch-flash.js';
 import { CONFIG } from '../config.js';
 
 async function testComparison() {
