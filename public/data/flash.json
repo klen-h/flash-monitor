@@ -2,6 +2,19 @@
   "date": "2026/5/8",
   "items": [
     {
+      "id": "20260508090442218800",
+      "time": "2026-05-08 09:04:42",
+      "hot": "沸",
+      "content": "【金十数据整理：A股盘前市场要闻速递（2026-05-08）】<b>重要新闻</b><br/><span class=\"section-news\">1. 中国央行连续第18个月增持黄金。</span><br/><span class=\"section-news\">2. 外汇局：4月末我国外汇储备规模为34105亿美元，较3月末上升684亿美元。</span><br/><span class=\"section-news\">3. 中国人民银行：4月通过公开市场国债买卖净投放资金400亿元。</span><br/><span class=\"section-news\">4. 巴西宣布对中国公民免签。</span><br/><span class=\"section-news\">5. 中国锂电池出口一季度大增超50%，国产储能出口迎爆发式增长。</span><br/><span class=\"section-news\">6. 工信部批复第六代移动通信系统技术试验频率。</span><br/><span class=\"section-news\">7. 明确9种禁止性情形，严防商业贿赂，《医药代表管理办法》发布。</span><br/><span class=\"section-news\">8. 商务部新闻发言人就欧盟禁止对使用中国逆变器项目提供资金支持相关问题答记者问。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 贵州茅台：累计回购108.33万股，耗资15.21亿元。</span><br/><span class=\"section-news\">2. 永杉锂业：正在筹划与四川南充经济开发区管理委员会签署《锂盐项目投资协议》。</span><br/><span class=\"section-news\">3. 中科电气：硬碳负极已量产，硅碳负极已完成中试产线建。</span><br/><span class=\"section-news\">4. ST洲际：控股股东被申请破产清算。</span><br/><span class=\"section-news\">5. 2连板东阳光：控股子公司与客户签署的《算力服务采购框架合同》目前处于履约过程，最终履约情况以及对未来业绩的影响存在不确定性。</span><br/><span class=\"section-news\">6. 深南电路：PCB业务受益于AI算力基础设施硬件相关产品需求增长，工厂产能利用率维持高位。</span><br/><span class=\"section-news\">7. 12天10板金螳螂：目前仅承接少量商业航天发射场配套工程及数据中心施工项目。</span><br/><span class=\"section-news\">8. 海川智能：实控人在未来12个月内没有将信越注入公司的计划，网传信越主营产品为磷化铟衬底系对其业务与产品不实解读。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-05-08T01:30:26.467Z"
+    },
+    {
       "id": "20260508082307205800",
       "time": "2026-05-08 08:23:07",
       "hot": "沸",
@@ -747,5 +760,5 @@
       "collectedAt": "2026-05-06T17:16:30.159Z"
     }
   ],
-  "lastUpdated": "2026-05-08T00:40:18.136Z"
+  "lastUpdated": "2026-05-08T01:30:27.784Z"
 }
