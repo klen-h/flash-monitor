@@ -2,6 +2,21 @@
   "date": "2026/5/8",
   "items": [
     {
+      "id": "20260508095913869800",
+      "time": "2026-05-08 09:59:13",
+      "hot": "沸",
+      "content": "【伊朗陆军总司令：美方会后悔的】金十数据5月8日讯，据伊朗方面8日消息，针对美方在波斯湾的冒险行径，伊朗陆军总司令哈塔米回应说，“他们会后悔的”。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=12460126374389821368&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D12460126374389821368%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
+      "important": 0,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-05-08T02:50:23.391Z"
+    },
+    {
       "id": "20260508095017331800",
       "time": "2026-05-08 09:50:17",
       "hot": "沸",
@@ -776,5 +791,5 @@
       "collectedAt": "2026-05-06T17:16:30.159Z"
     }
   ],
-  "lastUpdated": "2026-05-08T02:20:19.331Z"
+  "lastUpdated": "2026-05-08T02:50:24.507Z"
 }
