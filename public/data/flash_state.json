@@ -1,5 +1,5 @@
 {
-  "lastId": "20260508212328428800",
+  "lastId": "20260508213034031800",
   "pushedClusters": [
     {
       "cluster": "原油能源",
@@ -62,6 +62,17 @@
       "firstTime": "2026-05-08T12:52:53.297Z",
       "lastUpdateId": "20260508204442372800",
       "lastUpdateTime": "2026-05-08T13:10:19.988Z",
+      "pushCount": 1,
+      "hotMax": "沸",
+      "hadUrgent": false,
+      "hasMilitary": false
+    },
+    {
+      "cluster": "港股/中概股",
+      "firstId": "20260508213034031800",
+      "firstTime": "2026-05-08T13:53:04.209Z",
+      "lastUpdateId": "20260508213034031800",
+      "lastUpdateTime": "2026-05-08T13:53:04.209Z",
       "pushCount": 1,
       "hotMax": "沸",
       "hadUrgent": false,
