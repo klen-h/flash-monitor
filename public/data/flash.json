@@ -2,6 +2,36 @@
   "date": "2026/5/8",
   "items": [
     {
+      "id": "20260508222043259800",
+      "time": "2026-05-08 22:20:43",
+      "hot": "沸",
+      "content": "【伊武装部队在霍尔木兹海峡水域与美军舰发生“零星冲突”】金十数据5月8日讯，当地时间8日下午，伊朗伊斯兰革命卫队发布消息称，伊朗武装部队当天早些时候在霍尔木兹海峡水域与美国军舰发生“零星冲突”。革命卫队方面没有透露冲突发生的具体地点。稍早前，有消息称，靠近霍尔木兹海峡的伊朗锡里克地区8日发生爆炸，原因不明。",
+      "source": "央视",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=5058337438214403989&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D5058337438214403989%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-05-08T14:40:29.641Z"
+    },
+    {
+      "id": "20260508222834658800",
+      "time": "2026-05-08 22:28:34",
+      "hot": "爆",
+      "content": "伊朗努尔新闻：伊朗与美国舰船在霍尔木兹附近持续发生冲突。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-05-08T14:40:29.641Z"
+    },
+    {
       "id": "20260508221822236800",
       "time": "2026-05-08 22:18:22",
       "hot": "爆",
@@ -1138,5 +1168,5 @@
       "collectedAt": "2026-05-06T17:16:30.159Z"
     }
   ],
-  "lastUpdated": "2026-05-08T14:30:31.074Z"
+  "lastUpdated": "2026-05-08T14:40:30.491Z"
 }
