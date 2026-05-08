@@ -11,7 +11,8 @@ import {
   A_STOCK_KEYWORDS, 
   EVENT_CLUSTERS, 
   isSectorMove, 
-  hasUrgentTime 
+  hasUrgentTime,
+  evaluateDataQuality
 } from './rules.js';
 import { HOLDINGSTEXT } from './const/index.js';
 import { getMarketData } from './data-layer.js';
@@ -46,18 +47,6 @@ async function main() {
   });
 
   let marketData = null;
-  let oilPrice = null;
-  try {
-    marketData = await getMarketData();
-    console.log(`📊 数据层状态: A股${marketData.isAOpen ? '开市' : '休市'} | 获取到${marketData.holdings.length} 个ETF行情`);
-    oilPrice = marketData.oil;
-  } catch (e) {
-    console.log('⚠️ data-layer获取失败:', e.message);
-  }
-
-  // if (oilPrice) {
-  //   console.log(`📊 布伦特原油: $${oilPrice.price} (${oilPrice.change > 0 ? '+' : ''}${oilPrice.change}%)`);
-  // }
   const holdingsData = marketData?.holdings || [];
 
   const state = loadState();
@@ -80,10 +69,11 @@ async function main() {
       toUpdate.push({ cluster: cluster._cluster, lastId: cluster.id });
     }
   }
-
+  let macro = null;
   if (toAnalyze.length > 0) {
+    macro = await fetchSinaMacro();
     console.log(`🧠 送审 LLM: ${toAnalyze.length} 个事件簇`);
-    const analysis = await analyzeWithLLM(toAnalyze, oilPrice, holdingsData);
+    const analysis = await analyzeWithLLM(toAnalyze, macro, holdingsData);
     if (analysis.d_state_compliance) {
       if (analysis.d_state_compliance.gold_short_recommended) {
         console.error('🚫 LLM违规推荐做空黄金，已强制剔除');
@@ -100,18 +90,18 @@ async function main() {
       }
     }
     // 推送主模型分析结果
-    await pushWechat(analysis, toAnalyze, oilPrice, holdingsData);
+    await pushWechat(analysis, toAnalyze, macro, holdingsData);
     
     // 如果配置了对比模型，则运行第二次分析
     if (CONFIG.LLM.MODEL_COMPARE) {
       console.log(`🔍 运行对比分析 [${CONFIG.LLM.MODEL_COMPARE}]...`);
-      const analysisCompare = await analyzeWithLLM(toAnalyze, oilPrice, holdingsData, CONFIG.LLM.MODEL_COMPARE);
+      const analysisCompare = await analyzeWithLLM(toAnalyze, macro, holdingsData, CONFIG.LLM.MODEL_COMPARE);
       
       // 推送对比简报到主 Webhook
-      await pushWechatComparison(analysis, analysisCompare, toAnalyze, oilPrice, holdingsData);
+      await pushWechatComparison(analysis, analysisCompare, toAnalyze, macro, holdingsData);
       
       // 推送对比模型的详细结果到对比 Webhook (默认同主 Webhook)
-      await pushWechat(analysisCompare, toAnalyze, oilPrice, holdingsData, CONFIG.WECHAT_WEBHOOK_COMPARE);
+      await pushWechat(analysisCompare, toAnalyze, macro, holdingsData, CONFIG.WECHAT_WEBHOOK_COMPARE);
     }
     
     updateStateAfterPush(state, toAnalyze);
@@ -161,7 +151,7 @@ async function fetchJin10() {
           'x-version': '1.0',
           'cookie': CONFIG.FLASH_COOKIE
         },
-        timeout: 15000
+        timeout: 30000
       }
     );
 
@@ -330,64 +320,9 @@ function isMajorUpdate(cluster, existing) {
   return false;
 }
 
-// ==================== 数据质量预检 ====================
-function evaluateDataQuality(macro, holdingsData, oilPrice) {
-  const missingItems = [];
-  
-  // 1. 原油涨跌方向
-  if (!oilPrice || !oilPrice.price || oilPrice.price === 0 || oilPrice.price === '未知') {
-    missingItems.push('原油涨跌方向');
-  }
-  
-  // 2. 黄金涨跌方向
-  if (!macro.gold || macro.gold.price === 0 || macro.gold.prevClose === 0) missingItems.push('黄金涨跌方向');
-  
-  // 3. 美元指数走势
-  if (!macro.dxy || macro.dxy.price === 0) missingItems.push('美元指数走势');
-  
-  // 4. 纳指/恒科期货
-  if (!macro.nasdaq || macro.nasdaq.price === 0) missingItems.push('纳指期货盘中表现');
-  if (!macro.hstech || macro.hstech.price === 0) missingItems.push('恒生科技盘中表现');
-  
-  // 5. ETF盘面数据
-  if (!holdingsData || holdingsData.length === 0) missingItems.push('对应ETF的盘面数据');
-
-  let data_quality = '充足';
-  let activated_steps = ['1.1 必要数据清单', '1.2 数据质量判定', '2.4 事件簇分析'];
-  let aborted_steps = [];
-
-  if (missingItems.includes('原油涨跌方向')) {
-    data_quality = '严重不足';
-    aborted_steps.push('整个诊断模块 (原因: 缺失原油涨跌方向)');
-  } else if (missingItems.length >= 3) {
-    data_quality = '严重不足';
-    aborted_steps.push('多情景生成 (原因: 数据严重不足，仅执行单线推演)');
-  } else if (missingItems.length > 0) {
-    data_quality = '部分缺失';
-    if (missingItems.includes('黄金涨跌方向')) aborted_steps.push('相关性诊断步骤1 (原因: 黄金方向不明)');
-    if (missingItems.includes('美元指数走势')) aborted_steps.push('D状态步骤2 (原因: 美元细节缺失)');
-    if (missingItems.includes('纳指期货盘中表现') || missingItems.includes('恒生科技盘中表现')) aborted_steps.push('D状态步骤3 (原因: 风险资产数据缺失)');
-  }
-
-  // 判定激活步骤
-  if (data_quality !== '严重不足') {
-    activated_steps.push('2.2 原油-黄金相关性诊断');
-    if (!missingItems.includes('对应ETF的盘面数据')) activated_steps.push('2.1 盘面交叉验证');
-  }
-
-  return {
-    data_quality,
-    missing_items: missingItems,
-    activated_steps,
-    aborted_steps,
-    overall_confidence: data_quality === '充足' ? '高' : (data_quality === '部分缺失' ? '中' : '低')
-  };
-}
-
 // ==================== LLM 分析 ====================
-export async function analyzeWithLLM(clusteredItems, oilPrice, holdingsData, modelOverride = null) {
-  const macro = await fetchSinaMacro();
-  const dataQuality = evaluateDataQuality(macro, holdingsData, oilPrice);
+export async function analyzeWithLLM(clusteredItems, macro, holdingsData, modelOverride = null) {
+  const dataQuality = evaluateDataQuality(macro, holdingsData);
   
   const holdingsStatusText = formatHoldingsForLLM(holdingsData);
   const flashText = clusteredItems.map(i => {
@@ -404,6 +339,16 @@ export async function analyzeWithLLM(clusteredItems, oilPrice, holdingsData, mod
     return `[${i._clusterHot}]${sizeTag}${oilTag}${urgentTag} ${i._cluster}\n时间: ${i.time}\n内容:\n${aggregatedContent}`;
   }).join('\n\n---\n\n');
 
+  const clockDesc = dataQuality.market_clock.is_a_stock_trading
+    ? 'A股/港股盘中，ETF实时数据可用，可进行盘面交叉验证'
+    : (dataQuality.market_clock.is_us_trading
+        ? '美股活跃时段，ETF已收盘，仅能进行逻辑自洽检验'
+        : '亚盘已收盘，所有ETF无实时数据，盘面验证自动降级为逻辑自洽检验');
+
+  const hstechStatus = (dataQuality.market_clock.is_a_stock_trading || dataQuality.market_clock.is_hstech_extended)
+    ? '盘中实时'
+    : '已收盘静态数据（仅作宏观参考）';
+
   const prompt = `【角色定义】
 你目前是宏观交易信号过滤引擎。你的首要任务不是"给出答案"，而是"诚实地评估数据能支撑什么结论"。
 核心原则：宁可不交易，不可用残缺数据做决策。
@@ -411,12 +356,15 @@ export async function analyzeWithLLM(clusteredItems, oilPrice, holdingsData, mod
 ## 第一部分：数据预检（必须优先执行）
 ### 1.1 当前数据快照
 - 数据质量评估状态: ${JSON.stringify(dataQuality)}
-- 布伦特原油: $${oilPrice?.price || '未知'} (${oilPrice?.change > 0 ? '+' : ''}${oilPrice?.change || 0}%)
-- 原油(WTI): $${macro.crude.price} (昨收:${macro.crude.prevClose} 涨跌:${macro.crude.change}%)
-- 黄金(COMEX): $${macro.gold.price} (昨收:${macro.gold.prevClose} 涨跌:${macro.gold.change}%)
-- 美元指数(DXY): ${macro.dxy.price} (昨收:${macro.dxy.prevClose} 涨跌:${macro.dxy.change}%)
-- 纳指期货(NQ): ${macro.nasdaq.price} (昨收:${macro.nasdaq.prevClose} 涨跌:${macro.nasdaq.change}%)
+- 当前市场时段: ${dataQuality.market_clock.beijing_time} 北京时间 | ${clockDesc}
+- 恒科指数实时性: ${hstechStatus}
+- 布伦特原油: $${macro.brent.price} (昨结算:${macro.brent.prevClose} 涨跌:${macro.brent.change}%)
+- 纽约原油: $${macro.crude.price} (昨结算:${macro.crude.prevClose} 涨跌:${macro.crude.change}%)
+- 黄金(COMEX): $${macro.gold.price} (昨结算:${macro.gold.prevClose} 涨跌:${macro.gold.change}%)
+- 纳指期货(NQ): ${macro.nasdaq.price} (昨结算:${macro.nasdaq.prevClose} 涨跌:${macro.nasdaq.change}%)
+- 日经225(NK): ${macro.nke.price} (昨结算:${macro.nke.prevClose} 涨跌:${macro.nke.change}%)
 - 恒科指数(HSTECH): ${macro.hstech.price} (昨收:${macro.hstech.prevClose} 涨跌:${macro.hstech.change}%)
+- 美元指数(DXY): ${macro.dxy.price} (昨收:${macro.dxy.prevClose} 涨跌:${macro.dxy.change}%)
 - 离岸人民币(CNH): ${macro.usdcnh.price} (昨收:${macro.usdcnh.prevClose} 涨跌:${macro.usdcnh.change}%)
 
 ### 1.2 盘面实况 (ETF)
@@ -445,7 +393,7 @@ ${holdingsStatusText}
 - 4个以上：最多3个情景，优先级排序。
 
 ## 第三部分：持仓映射规则
-- 必须在用户持仓中选：[沪深300ETF, 中证1000ETF, 纳斯达克ETF, 日经225ETF, 恒生科技ETF, 港股创新药ETF, 香港证券ETF, 恒生红利ETF, 中韩半导体ETF, 标普油气ETF, 黄金ETF, 稀土ETF, 芯片ETF, 半导体ETF, 军工ETF, 房地产ETF, 养殖ETF, 银行ETF]
+- 必须在用户持仓中选：${HOLDINGSTEXT}
 - 必须通过传导链检验：事件 → 宏观变量 → 行业/资产 → 对应ETF。
 
 ## 输入事件簇
@@ -519,10 +467,8 @@ ${flashText}
     "compliance_note": "string"
   }
 }`;
-
   const targetModel = modelOverride || CONFIG.LLM.MODEL;
   console.log(`🤖 正在使用模型: ${targetModel}`);
-
   try {
     const { API_KEY, BASE_URL } = CONFIG.LLM;
     const response = await axios.post(
@@ -559,16 +505,8 @@ function formatHoldingsForLLM(holdings) {
     return '当前为非交易时段，无ETF实时盘面数据。"盘面交叉验证"改为"逻辑自洽性检验"（新闻之间是否矛盾？）。';
   }
 
-  // 定义分类，方便LLM进行板块联动分析
-  const categories = {
-    '宽基/权重': ['沪深300ETF', '中证1000ETF'],
-    '海外/科技': ['纳斯达克ETF', '日经225ETF', '恒生科技ETF', '中韩半导体ETF'],
-    '能源/商品': ['标普油气ETF', '黄金ETF', '稀土ETF'],
-    '行业/其他': ['芯片ETF', '半导体ETF', '军工ETF', '房地产ETF', '养殖ETF', '银行ETF', '港股创新药ETF', '香港证券ETF', '恒生红利ETF']
-  };
-
   let output = '';
-  for (const [cat, names] of Object.entries(categories)) {
+  for (const [cat, names] of Object.entries(HOLDINGSTEXT)) {
     const matched = holdings.filter(h => names.includes(h.name));
     if (matched.length > 0) {
       output += `\n【${cat}】\n`;
@@ -583,7 +521,7 @@ function formatHoldingsForLLM(holdings) {
 }
 
 // ==================== 企微推送 ====================
-export async function pushWechat(analysis, rawItems, oilPrice, holdingsData, webhookOverride = null) {
+export async function pushWechat(analysis, rawItems, macro, holdingsData, webhookOverride = null) {
   const targetWebhook = webhookOverride || CONFIG.WECHAT_WEBHOOK;
   if (!targetWebhook) {
     console.log('⚠️ 未配置 WECHAT_WEBHOOK');
@@ -595,7 +533,7 @@ export async function pushWechat(analysis, rawItems, oilPrice, holdingsData, web
   const sendMsg = async (content, label) => {
     if (!content || content.trim() === '') return;
     try {
-      const res = await axios.post(targetWebhook, { msgtype: 'markdown', markdown: { content } }, { timeout: 15000 });
+      const res = await axios.post(targetWebhook, { msgtype: 'markdown', markdown: { content } }, { timeout: 30000 });
       if (res.data.errcode === 0) {
         console.log(`📲 [${label}${modelTag}] 推送成功`);
       } else {
@@ -615,7 +553,7 @@ export async function pushWechat(analysis, rawItems, oilPrice, holdingsData, web
   const compliance = analysis.d_state_compliance || {};
 
   const moodColor = analysis.uncertainty_level === '高' ? 'warning' : (analysis.uncertainty_level === '低' ? 'info' : 'comment');
-  const oilEmoji = oilPrice?.change > 0 ? '📈' : (oilPrice?.change < 0 ? '📉' : '➖');
+  const oilEmoji = macro?.change > 0 ? '📈' : (macro?.change < 0 ? '📉' : '➖');
 
   // --- 阶段 1: 数据预检与宏观诊断 ---
   let p1 = `## ${oilEmoji} 宏观信号过滤引擎${modelTag}
@@ -632,7 +570,7 @@ export async function pushWechat(analysis, rawItems, oilPrice, holdingsData, web
   if (scenarios.length > 0) {
     p1 += `### 🎭 情景推演 (Scenarios)\n`;
     for (const s of scenarios) {
-      p1 += `> **${s.scenario_name}** (${s.probability_qualitative})\n> 路径: ${s.oil_path}\n> 触发: <font color="comment">${s.trigger_to_watch}</font>\n\n`;
+      p1 += `> **${s.scenario_name}** (${s.probability_qualitative})\n> 路径: ${s.oil_path || '无'}\n> 触发: <font color="comment">${s.trigger_to_watch}</font>\n\n`;
     }
   }
   await sendMsg(p1, '摘要与诊断');
@@ -668,7 +606,7 @@ export async function pushWechat(analysis, rawItems, oilPrice, holdingsData, web
 }
 
 // ==================== 企微推送对比版 ====================
-export async function pushWechatComparison(analysisA, analysisB, rawItems, oilPrice, holdingsData) {
+export async function pushWechatComparison(analysisA, analysisB, rawItems, macro, holdingsData) {
   if (!CONFIG.WECHAT_WEBHOOK) {
     console.log('⚠️ 未配置 WECHAT_WEBHOOK');
     return;
@@ -677,7 +615,7 @@ export async function pushWechatComparison(analysisA, analysisB, rawItems, oilPr
   const sendMsg = async (content, label) => {
     if (!content || content.trim() === '') return;
     try {
-      const res = await axios.post(CONFIG.WECHAT_WEBHOOK, { msgtype: 'markdown', markdown: { content } }, { timeout: 15000 });
+      const res = await axios.post(CONFIG.WECHAT_WEBHOOK, { msgtype: 'markdown', markdown: { content } }, { timeout: 30000 });
       if (res.data.errcode === 0) {
         console.log(`📲 [${label}] 推送成功`);
       } else {
@@ -688,12 +626,12 @@ export async function pushWechatComparison(analysisA, analysisB, rawItems, oilPr
     }
   };
 
-  const oilEmoji = oilPrice?.change > 0 ? '📈' : (oilPrice?.change < 0 ? '📉' : '➖');
+  const oilEmoji = macro?.crude?.change > 0 ? '📈' : (macro?.crude?.change < 0 ? '📉' : '➖');
   const modelA = analysisA._model?.split('/').pop() || 'Model A';
   const modelB = analysisB._model?.split('/').pop() || 'Model B';
 
   let content = `## 🤖 LLM 对比分析报告 ${oilEmoji}
-> 时间：${formatTime()} | 布伦特: **$${oilPrice?.price || '?'}** (${oilPrice?.change > 0 ? '+' : ''}${oilPrice?.change || 0}%)
+> 时间：${formatTime()} | 布伦特: **$${macro?.crude?.price || '?'}** (${macro?.crude?.change > 0 ? '+' : ''}${macro?.crude?.change || 0}%)
 ---
 | 维度 | **${modelA}** | **${modelB}** |
 | :--- | :--- | :--- |

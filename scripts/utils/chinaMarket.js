@@ -94,3 +94,36 @@ export function getChinaMarketStatus() {
   
   return { isOpen: false, reason: '未知状态' };
 }
+
+// ==================== 市场时钟感知层 ====================
+export function getMarketClock() {
+  const now = new Date();
+  const beijingHour = now.getUTCHours() + 8; // UTC+8
+  const beijingMinute = now.getUTCMinutes();
+  const beijingTime = beijingHour * 60 + beijingMinute;
+
+  // A股/港股连续竞价：9:30-11:30, 13:00-15:00
+  const aStockMorning = beijingTime >= 570 && beijingTime < 690;
+  const aStockAfternoon = beijingTime >= 780 && beijingTime < 900;
+  const isAStockTrading = aStockMorning || aStockAfternoon;
+
+  // 恒生科技指数收盘时间晚于ETF，ETF收盘后指数仍在发布（15:00-16:30）
+  const isHSTechExtended = beijingTime >= 900 && beijingTime < 990; // 15:00-16:30
+
+  // 日经225指数交易时段（北京时间）：上午8:00-10:30，下午11:30-14:00（近似，取整）
+  const nkMorning = beijingTime >= 480 && beijingTime < 630;   // 8:00-10:30
+  const nkAfternoon = beijingTime >= 690 && beijingTime < 840; // 11:30-14:00
+  const isNikkeiTrading = nkMorning || nkAfternoon;
+
+  // 美股常规交易：北京时间 21:30-04:00 (夏令时)
+  const isUSTrading = beijingTime >= 1290 || beijingTime < 240;
+
+  return {
+    beijingTime: `${String(Math.floor(beijingTime / 60)).padStart(2, '0')}:${String(beijingTime % 60).padStart(2, '0')}`,
+    isAStockTrading,
+    isHSTechExtended,
+    isNikkeiTrading,
+    isUSTrading,
+    isAsiaEquityClosed: !isAStockTrading && !isHSTechExtended && !isNikkeiTrading, // 亚盘主要股票市场全部关闭
+  };
+}

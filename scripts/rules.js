@@ -108,3 +108,131 @@ export function hasUrgentTime(content) {
     return content.includes(kw);
   });
 }
+
+// ==================== 市场时钟感知层 ====================
+function getMarketClock() {
+  const now = new Date();
+  const beijingHour = (now.getUTCHours() + 8) % 24;
+  const beijingMinute = now.getUTCMinutes();
+  const beijingTime = beijingHour * 60 + beijingMinute;
+
+  // A股/港股连续竞价：9:30-11:30, 13:00-15:00
+  const aStockMorning = beijingTime >= 570 && beijingTime < 690;
+  const aStockAfternoon = beijingTime >= 780 && beijingTime < 900;
+  const isAStockTrading = aStockMorning || aStockAfternoon;
+
+  // 恒生科技指数收盘时间晚于ETF，ETF收盘后指数仍在发布（15:00-16:30）
+  const isHSTechExtended = beijingTime >= 900 && beijingTime < 990; // 15:00-16:30
+
+  // 日经225指数交易时段（北京时间）：上午8:00-10:30，下午11:30-14:00（近似，取整）
+  const nkMorning = beijingTime >= 480 && beijingTime < 630;   // 8:00-10:30
+  const nkAfternoon = beijingTime >= 690 && beijingTime < 840; // 11:30-14:00
+  const isNikkeiTrading = nkMorning || nkAfternoon;
+
+  // 美股常规交易：北京时间 21:30-04:00 (夏令时)
+  const isUSTrading = beijingTime >= 1290 || beijingTime < 240;
+
+  return {
+    beijingTime: `${String(Math.floor(beijingTime / 60)).padStart(2, '0')}:${String(beijingTime % 60).padStart(2, '0')}`,
+    isAStockTrading,
+    isHSTechExtended,
+    isNikkeiTrading,
+    isUSTrading,
+    isAsiaEquityClosed: !isAStockTrading && !isHSTechExtended && !isNikkeiTrading, // 亚盘主要股票市场全部关闭
+  };
+}
+
+// ==================== 数据质量评估（修正版） ====================
+export function evaluateDataQuality(macro, holdingsData) {
+  const clock = getMarketClock();
+  const missingItems = [];
+  
+  // ---- 1. 原油涨跌方向（24h，无需时钟判断）----
+  if (!macro.crude || macro.crude.price === 0 || macro.crude.price === '未知') {
+    missingItems.push('纽约原油涨跌方向');
+  }
+  
+  // ---- 2. 黄金涨跌方向（24h，无需时钟判断）----
+  if (!macro.gold || macro.gold.price === 0 || macro.gold.prevClose === 0) {
+    missingItems.push('黄金涨跌方向');
+  }
+  
+  // ---- 3. 美元指数（24h，无需时钟判断）----
+  if (!macro.dxy || macro.dxy.price === 0) {
+    missingItems.push('美元指数走势');
+  }
+  
+  // ---- 4. 纳指期货（几乎24h，保持原检查）----
+  if (!macro.nasdaq || macro.nasdaq.price === 0) {
+    missingItems.push('纳指期货盘中表现');
+  }
+  
+  // ---- 5. 恒生科技指数：仅在亚盘时段才要求实时数据 ----
+  if (clock.isAStockTrading || clock.isHSTechExtended) {
+    // 亚盘仍在交易时段，应当有实时数据
+    if (!macro.hstech || macro.hstech.price === 0) {
+      missingItems.push('恒生科技盘中表现');
+    }
+  }
+  // 亚盘收盘后，不将缺失视为异常，恒生科技数据为静态收盘数据，不影响诊断准确性
+  
+  //  ---- 6. 日经225期货：24h品种，去掉时钟限制 ----
+  if (!macro.nke || macro.nke.price === 0) {
+    missingItems.push('日经225期货盘中表现');
+  }
+  
+  // ---- 7. ETF盘面数据：只有A股/港股交易时段才期望有ETF实时数据 ----
+  if (clock.isAStockTrading) {
+    // 盘中：需要有ETF数据
+    if (!holdingsData || holdingsData.length === 0) {
+      missingItems.push('对应ETF的盘面数据');
+    }
+  }
+  // 非交易时段：ETF无数据是正常的，不视为缺失，后续盘面验证自动降级为逻辑自洽检验
+
+  // ---- 8. 综合质量判断（保持原有逻辑）----
+  let data_quality = '充足';
+  let activated_steps = ['1.1 必要数据清单', '1.2 数据质量判定', '2.4 事件簇分析'];
+  let aborted_steps = [];
+
+  if (missingItems.includes('纽约原油涨跌方向')) {
+    data_quality = '严重不足';
+    aborted_steps.push('整个诊断模块 (原因: 缺失纽约原油涨跌方向)');
+  } else if (missingItems.length >= 3) {
+    data_quality = '严重不足';
+    aborted_steps.push('多情景生成 (原因: 数据严重不足，仅执行单线推演)');
+  } else if (missingItems.length > 0) {
+    data_quality = '部分缺失';
+    if (missingItems.includes('黄金涨跌方向')) aborted_steps.push('相关性诊断步骤1 (原因: 黄金方向不明)');
+    if (missingItems.includes('美元指数走势')) aborted_steps.push('D状态步骤2 (原因: 美元细节缺失)');
+    if (missingItems.includes('纳指期货盘中表现') || missingItems.includes('日经225期货盘中表现') || missingItems.includes('恒生科技盘中表现')) {
+      aborted_steps.push('D状态步骤3 (原因: 风险资产数据缺失)');
+    }
+  }
+
+  // 激活步骤：只要不是严重不足，就可激活相关性诊断
+  if (data_quality !== '严重不足') {
+    activated_steps.push('2.2 原油-黄金相关性诊断');
+    // 盘面验证：只有当ETF数据可用时才能激活（非交易时段即使未标注缺失，也无法执行盘面验证）
+    if (!missingItems.includes('对应ETF的盘面数据') && clock.isAStockTrading) {
+      activated_steps.push('2.1 盘面交叉验证');
+    }
+  }
+
+  // 追加时钟信息到返回对象，便于 prompt 和日志使用
+  return {
+    data_quality,
+    missing_items: missingItems,
+    activated_steps,
+    aborted_steps,
+    overall_confidence: data_quality === '充足' ? '高' : (data_quality === '部分缺失' ? '中' : '低'),
+    market_clock: {
+      beijing_time: clock.beijingTime,
+      is_a_stock_trading: clock.isAStockTrading,
+      is_hstech_extended: clock.isHSTechExtended,
+      is_nikkei_trading: clock.isNikkeiTrading,
+      is_us_trading: clock.isUSTrading,
+      is_asia_equity_closed: clock.isAsiaEquityClosed,
+    }
+  };
+}
