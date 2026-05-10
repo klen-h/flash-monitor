@@ -128,7 +128,7 @@ async function main() {
 
 // ==================== 采集 ====================
 async function fetchJin10() {
-  const params = JSON.stringify({ hot: ["爆", "沸"], channel: [1, 2, 3, 5] });
+  const params = JSON.stringify({ hot: ["爆", "沸", "热"], channel: [1, 5] });
 
   try {
     const { data } = await axios.get(

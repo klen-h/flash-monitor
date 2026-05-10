@@ -127,3 +127,11 @@ export function getMarketClock() {
     isAsiaEquityClosed: !isAStockTrading && !isHSTechExtended && !isNikkeiTrading, // 亚盘主要股票市场全部关闭
   };
 }
+
+// ==================== 市场时钟感知层 ====================
+export function getBeijingTimeISO() {
+  const now = new Date();
+  const utc = now.getTime() + now.getTimezoneOffset() * 60000; // 转为UTC毫秒
+  const beijing = new Date(utc + 8 * 3600 * 1000); // 加8小时
+  return beijing.toISOString().replace('Z', '+08:00');
+}

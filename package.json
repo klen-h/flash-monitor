@@ -9,7 +9,10 @@
     "fetch-macro": "node scripts/macro-layer.js",
     "test-nq": "node scripts/test/nq.js",
     "test-qw": "node scripts/test/qw.js",
-    "test-comparison": "node scripts/test/comparison-test.js"
+    "test-comparison": "node scripts/test/comparison-test.js",
+    "test-review-premarket": "node scripts/review.js premarket",
+    "test-review-postmarket": "node scripts/review.js postmarket",
+    "test-review": "node scripts/review.js"
   },
   "dependencies": {
     "axios": "^1.6.0",
