@@ -11,8 +11,10 @@
     "test-qw": "node scripts/test/qw.js",
     "test-comparison": "node scripts/test/comparison-test.js",
     "test-review-premarket": "node scripts/review.js premarket",
+    "test-review-lunchbreak": "node scripts/review.js lunchbreak",
     "test-review-postmarket": "node scripts/review.js postmarket",
-    "test-review": "node scripts/review.js"
+    "test-review": "node scripts/review.js",
+    "accuracy-report": "node scripts/test/accuracy-report.js"
   },
   "dependencies": {
     "axios": "^1.6.0",

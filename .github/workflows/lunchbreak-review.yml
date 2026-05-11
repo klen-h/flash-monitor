@@ -1,0 +1,43 @@
+name: A股午盘复盘
+
+on:
+  workflow_dispatch:        # 可手动触发
+
+jobs:
+  lunchbreak-review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 安装 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 安装依赖
+        run: npm install
+
+      - name: 执行午盘复盘
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          LLM_MODEL_COMPARE: ${{ secrets.LLM_MODEL_COMPARE }}
+          WECHAT_WEBHOOK_REVIEW: ${{ secrets.WECHAT_WEBHOOK_REVIEW }}
+          WECHAT_WEBHOOK_REVIEW_COMPARE: ${{ secrets.WECHAT_WEBHOOK_REVIEW_COMPARE }}
+        run: node scripts/review.js lunchbreak
+
+      - name: 提交数据（如有更新）
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add public/data/
+          if ! git diff --staged --quiet; then
+            git commit -m "☀️ $(TZ='Asia/Shanghai' date +'%m-%d %H:%M') 午盘复盘数据"
+            git push
+          fi

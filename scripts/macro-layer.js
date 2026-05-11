@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export async function fetchSinaMacro() {
   // 【修复1】增加纳指期货(hf_NQ)和恒生科技指数(rt_hkHSTECH)
-  const url = 'https://hq.sinajs.cn/list=hf_CL,hf_GC,hf_XAU,DINIW,fx_susdcnh,hf_NQ,rt_hkHSTECH,hf_OIL,hf_NK';
+  const url = 'https://hq.sinajs.cn/list=hf_CL,hf_GC,hf_XAU,DINIW,fx_susdcnh,hf_NQ,rt_hkHSTECH,hf_OIL,hf_NK,hf_SI';
   
   try {
     const { data } = await axios.get(url, {
@@ -59,6 +59,18 @@ export async function fetchSinaMacro() {
       low: parseFloat(gc[5]) || 0,
       change: gc[7] > 0 ? ((gc[0] - gc[7]) / gc[7] * 100).toFixed(2) : '0',
       time: `${gc[12]} ${gc[6]}`,
+    };
+
+    // ================= 解析 COMEX 白银 hf_SI =================
+    const si = map['hf_SI'] || [];
+    // console.log(si);
+    const silver = {
+      price: parseFloat(si[0]) || 0,
+      prevClose: parseFloat(si[7]) || 0, // 7 是昨收
+      high: parseFloat(si[4]) || 0,
+      low: parseFloat(si[5]) || 0,
+      change: si[7] > 0 ? ((si[0] - si[7]) / si[7] * 100).toFixed(2) : '0',
+      time: `${si[12]} ${si[6]}`,
     };
 
     // ================= 解析 纳指期货 hf_NQ =================
@@ -137,7 +149,7 @@ export async function fetchSinaMacro() {
 
 
 
-    return { brent: brentData, crude, gold, goldSpot, dxy: dxyData, usdcnh: usdcnhData, nasdaq, nke, hstech };
+    return { brent: brentData, crude, gold, goldSpot, dxy: dxyData, usdcnh: usdcnhData, nasdaq, nke, hstech, silver };
 
   } catch (e) {
     console.error('❌ 新浪宏观数据获取失败:', e.message);
@@ -151,7 +163,8 @@ export async function fetchSinaMacro() {
       nasdaq: { price: 0, change: '0' },
       hstech: { price: 0, change: '0' },
       brent: { price: 0, change: '0' },
-      nke: { price: 0, change: '0' }
+      nke: { price: 0, change: '0' },
+      silver: { price: 0, change: '0' },
     };
   }
 }
