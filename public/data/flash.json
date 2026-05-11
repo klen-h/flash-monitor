@@ -2,6 +2,21 @@
   "date": "2026/5/12",
   "items": [
     {
+      "id": "20260512064331490800",
+      "time": "2026-05-12 06:43:31",
+      "hot": "热",
+      "content": "【美国总统特朗普：非常期待中国之行】金十数据5月12日讯，当地时间5月11日，美国总统特朗普在其社交媒体“真实社交”发文表示，非常期待即将开启的中国之行，并称中国是“一个令人惊叹的国家”。",
+      "source": "央视",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=8557890114265284615&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D8557890114265284615%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-05-11T23:10:21.548Z"
+    },
+    {
       "id": "20260512063232482800",
       "time": "2026-05-12 06:32:32",
       "hot": "热",
@@ -2742,5 +2757,5 @@
       "collectedAt": "2026-05-06T17:16:30.159Z"
     }
   ],
-  "lastUpdated": "2026-05-11T23:00:24.773Z"
+  "lastUpdated": "2026-05-11T23:12:34.263Z"
 }
