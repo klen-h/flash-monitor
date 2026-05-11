@@ -2,6 +2,19 @@
   "date": "2026/5/11",
   "items": [
     {
+      "id": "20260511091059806800",
+      "time": "2026-05-11 09:10:59",
+      "hot": "热",
+      "content": "【金十数据整理：A股盘前市场要闻速递（2026-05-11）】<b>重要新闻</b><br/><span class=\"section-news\">1. 国常会：加强水网、新型电网、算力网、新一代通信网、城市地下管网、物流网等规划建设。</span><br/><span class=\"section-news\">2. 海关总署：今年1—4月，我国货物贸易进出口总值同比增长14.9%。</span><br/><span class=\"section-news\">3. 四部门：探索核电、氢能等能源以直连方式为算力设施供能。</span><br/><span class=\"section-news\">4. 中国汽车工业协会：网传“新能源车企因锁电问题被约谈、立案”为不实信息。</span><br/><span class=\"section-news\">5. 我国第四代自主超导量子计算机“本源悟空-180”上线。</span><br/><span class=\"section-news\">6. 商务部新闻发言人就中美经贸磋商有关问题答记者问。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 比亚迪与神州租车签署10万台采购框架协议。</span><br/><span class=\"section-news\">2. 胜宏科技：目前在手订单饱满，业务进展顺利。</span><br/><span class=\"section-news\">3. 长电科技：一季度产能利用率超过80%，产能供不应求。</span><br/><span class=\"section-news\">4. 中瓷电子：静电卡盘产品已通过国内头部半导体设备公司上机验证。</span><br/><span class=\"section-news\">5. 华润材料：已适度加大原材料备货，提升原料安全库存水平。</span><br/><span class=\"section-news\">6. 新华制药回应汉坦病毒相关药品：已布局并生产多款抗病毒产品，具体以医生治疗方案为准。</span><br/><span class=\"section-news\">7. 汉邦高科：子公司签署27.83亿元高性能GPU设备采购及集成维保服务合同，占公司2025年经审计营业收入的1515.13%。</span><br/><span class=\"section-news\">8. 中微公司旗下半导体设备公司增资至10亿元，增幅达900%。</span><br/><span class=\"section-news\">9. 泰坦股份：高端电子布喷气织机尚处于研发阶段，未形成任何销售收入。</span><br/><span class=\"section-news\">10. 通鼎互联：海南康宁仅作为公司的光棒供应商，不存在其他合作模式。</span><br/><span class=\"section-news\">11. 振华科技：公司光电耦合器系列产品在光通信、光模块等领域已实现应用。</span><br/><span class=\"section-news\">12. 高测股份：公司高度重视人形机器人业务战略地位并快速推进各业务落地。</span><br/><span class=\"section-news\">13. 长电科技：高密度存储及电源管理模块需求自二季度起、特别是下半年迎来爆发式增长。</span><br/><span class=\"section-news\">14. 中天科技：与华为合作实现国内首次O波段反谐振空芯光纤在数据中心内部连接的规模化应用。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-05-11T01:20:19.568Z"
+    },
+    {
       "id": "20260511090120003800",
       "time": "2026-05-11 09:01:20",
       "hot": "热",
@@ -2018,5 +2031,5 @@
       "collectedAt": "2026-05-06T17:16:30.159Z"
     }
   ],
-  "lastUpdated": "2026-05-11T01:10:22.737Z"
+  "lastUpdated": "2026-05-11T01:20:19.574Z"
 }
