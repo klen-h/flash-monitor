@@ -2,6 +2,36 @@
   "date": "2026/5/11",
   "items": [
     {
+      "id": "20260511090120003800",
+      "time": "2026-05-11 09:01:20",
+      "hot": "热",
+      "content": "中方宣布特朗普访华日期。",
+      "source": "新华社",
+      "source_link": "https://m.weibo.cn/detail/5297312579716946",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-05-11T01:10:22.732Z"
+    },
+    {
+      "id": "20260511090222372800",
+      "time": "2026-05-11 09:02:22",
+      "hot": "爆",
+      "content": "【美国总统特朗普将对中国进行国事访问】金十数据5月11日讯，外交部发言人宣布：应国家主席习近平邀请，美利坚合众国总统唐纳德·特朗普将于5月13日至15日对中国进行国事访问。",
+      "source": "央视",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=13601457401504872185&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D13601457401504872185%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-05-11T01:10:22.732Z"
+    },
+    {
       "id": "20260511084835155800",
       "time": "2026-05-11 08:48:35",
       "hot": "爆",
@@ -1988,5 +2018,5 @@
       "collectedAt": "2026-05-06T17:16:30.159Z"
     }
   ],
-  "lastUpdated": "2026-05-11T01:00:24.923Z"
+  "lastUpdated": "2026-05-11T01:10:22.737Z"
 }
