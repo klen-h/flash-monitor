@@ -158,6 +158,18 @@ async function callLLM(prompt, modelOverride = null) {
   }
 }
 
+function truncateToByteLength(str, maxByteLen) {
+  let buf = Buffer.from(str, 'utf8');
+  if (buf.length <= maxByteLen) return str;
+  // 逐字符后退，避免截断多字节字符
+  let truncated = buf.slice(0, maxByteLen).toString('utf8');
+  // 如果最后一个字符被截断（出现乱码），则再向前退一个字符
+  while (Buffer.byteLength(truncated, 'utf8') > maxByteLen) {
+    truncated = truncated.slice(0, -1);
+  }
+  return truncated;
+}
+
 // ==================== 企业微信推送（支持自动分批） ====================
 const MAX_CONTENT_BYTES = 4000; // 留出96字节安全余量
 
