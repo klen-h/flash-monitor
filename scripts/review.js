@@ -148,7 +148,7 @@ async function callLLM(prompt, modelOverride = null) {
       },
       {
         headers: { 'Authorization': `Bearer ${API_KEY}` },
-        timeout: 300000
+        timeout: 1000000
       }
     );
     return response.data.choices[0].message.content;
