@@ -100,7 +100,7 @@ export async function getMarketData() {
 
   // A 股：非交易时段直接不请求腾讯 ETF 接口
   let holdings = [];
-  if (isAOpen) {
+  if (true) {
     holdings = await getHoldingsFromTencent();
   } else {
     console.log(`A股未开市（${marketStatus.reason || '非交易时间'}），跳过获取 ETF 盘面`);
