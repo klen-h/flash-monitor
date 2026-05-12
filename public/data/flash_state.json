@@ -1,5 +1,5 @@
 {
-  "lastId": "20260513043933227800",
+  "lastId": "20260513063724487800",
   "pushedClusters": [
     {
       "cluster": "原油能源",
@@ -98,6 +98,17 @@
       "pushCount": 1,
       "hotMax": "沸",
       "hadUrgent": true,
+      "hasMilitary": false
+    },
+    {
+      "cluster": "美联储人事",
+      "firstId": "20260513063724487800",
+      "firstTime": "2026-05-12T23:02:52.337Z",
+      "lastUpdateId": "20260513063724487800",
+      "lastUpdateTime": "2026-05-12T23:02:52.337Z",
+      "pushCount": 1,
+      "hotMax": "沸",
+      "hadUrgent": false,
       "hasMilitary": false
     }
   ]
