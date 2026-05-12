@@ -201,46 +201,27 @@ async function pushWechatReview(title, content, webhookOverride = null) {
     return;
   }
 
-  // 需要分批：按段落拆分，预留批次标题变长的空间
-  const paragraphs = content.split(/\n\n+/);
-  const batches = [];
-  let currentBatch = '';
+  // 简化的分批逻辑
+  let remaining = content;
+  let batchIndex = 0;
 
-  for (const para of paragraphs) {
-    // 预估最大标题（批次1/n）
-    const testTitle = `${title} (${batches.length + 1}/9)`;
-    const testHeader = makeHeader(testTitle);
-    const candidate = currentBatch ? `${currentBatch}\n\n${para}` : para;
-    if (Buffer.byteLength(testHeader + candidate, 'utf8') <= MAX_CONTENT_BYTES) {
-      currentBatch = candidate;
-    } else {
-      if (currentBatch) {
-        batches.push(currentBatch);
-      }
-      // 单段落本身超长则截断
-      if (Buffer.byteLength(testHeader + para, 'utf8') > MAX_CONTENT_BYTES) {
-        const maxParaBytes = MAX_CONTENT_BYTES - Buffer.byteLength(testHeader + '\n\n...(该段过长已截断)', 'utf8');
-        const truncated = truncateToByteLength(para, maxParaBytes);
-        batches.push(truncated + '\n\n...(该段过长已截断)');
-        currentBatch = '';
-      } else {
-        currentBatch = para;
-      }
+  while (remaining.length > 0) {
+    batchIndex++;
+    const batchTitle = `${title} (${batchIndex}/?)`;
+    const header = makeHeader(batchTitle);
+    const headerBytes = Buffer.byteLength(header, 'utf8');
+    const maxContentBytes = MAX_CONTENT_BYTES - headerBytes - 20;
+
+    let batchContent = truncateToByteLength(remaining, maxContentBytes);
+    
+    // 确保不是在段落中间截断（如果可以的话）
+    const lastParaEnd = batchContent.lastIndexOf('\n\n');
+    if (lastParaEnd > 0 && lastParaEnd > batchContent.length * 0.5) {
+      batchContent = batchContent.slice(0, lastParaEnd);
     }
-  }
-  if (currentBatch) batches.push(currentBatch);
 
-  // 依次发送，每条消息再次校验长度
-  for (let i = 0; i < batches.length; i++) {
-    const batchTitle = batches.length > 1 ? `${title} (${i + 1}/${batches.length})` : title;
-    let batchMarkdown = makeHeader(batchTitle) + batches[i];
-
-    // 最终安全截断（防止因后缀长度变化导致超限）
-    if (Buffer.byteLength(batchMarkdown, 'utf8') > MAX_CONTENT_BYTES) {
-      const overflow = Buffer.byteLength(batchMarkdown, 'utf8') - MAX_CONTENT_BYTES;
-      const truncatedContent = truncateToByteLength(batches[i], Buffer.byteLength(batches[i], 'utf8') - overflow - 10);
-      batchMarkdown = makeHeader(batchTitle) + truncatedContent + '\n\n...(截断)';
-    }
+    const batchMarkdown = header + batchContent + (batchIndex > 1 ? '\n\n...(续)' : '');
+    console.log(batchMarkdown);
 
     try {
       const res = await axios.post(webhook, {
@@ -248,13 +229,15 @@ async function pushWechatReview(title, content, webhookOverride = null) {
         markdown: { content: batchMarkdown }
       }, { timeout: 30000 });
       if (res.data.errcode === 0) {
-        console.log(`📲 [${batchTitle}] 推送成功`);
+        console.log(`📲 [${title} (${batchIndex})] 推送成功`);
       } else {
-        console.error(`❌ [${batchTitle}] 推送失败:`, res.data.errmsg);
+        console.error(`❌ [${title} (${batchIndex})] 推送失败:`, res.data.errmsg);
       }
     } catch (error) {
-      console.error(`❌ [${batchTitle}] 网络失败:`, error.message);
+      console.error(`❌ [${title} (${batchIndex})] 网络失败:`, error.message);
     }
+
+    remaining = remaining.slice(batchContent.length).trim();
   }
 }
 
@@ -337,12 +320,20 @@ ${macroText}
     - 若白银与原油同向且涨幅接近，优先判断为供给冲击叙事，强化滞胀情景。
     - 若白银独自异动而黄金/原油平稳，可能为白银自身供需因素，不急于纳入宏观框架。
 
-2.  **事件驱动的情景更新**：更新情景概率时，必须明确引用"隔夜事件链"中的具体事件簇，并说明该事件是"强化"还是"削弱"了某个情景。不允许脱离具体事件空谈宏观。
-
+2.  **事件驱动的情景更新**：
+    -更新情景概率时，必须明确引用"隔夜事件链"中的具体事件簇，并说明该事件是"强化"还是"削弱"了某个情景。不允许脱离具体事件空谈宏观。
+      - **情景逻辑互斥提醒**：更新概率时，需注意几个情景的宏观逻辑是互斥的：
+      - “滞胀”由供给冲击驱动，特征是经济停滞+高通胀。
+      - “紧缩”是央行主动加息抑制通胀，会终结滞胀但可能引发衰退。
+      - “软着陆”则是通胀受控、增长平稳的理想状态。
+      理论上这三个情景不可同时存在。若有多事件分别强化互斥情景，必须在报告中指出市场主要在定价哪一种，另一种只是潜在尾部风险。
 3.  **矛盾信号识别与权衡**：【必须作为独立章节，标题为"⚡ 矛盾信号识别"】
     **数据时效性提醒**：在当前盘前时段，恒生科技与日经225为昨日收盘后的**静态数据**，仅用于复盘昨日逻辑，**不参与**今日盘前情绪的实时对比。纳指期货、美元、原油、黄金为**实时数据**，反映隔夜最新变化。
     - 矛盾信号应主要从**同期实时数据**中寻找（例如：纳指大涨与黄金同涨之间的风险偏好分歧、俄乌和谈信号与伊朗局势升温之间的地缘方向矛盾）。
     - 分析市场当前选择相信哪一方，以及未来反转的条件。
+    - **负相关真实性验证**：若诊断为负相关（紧缩逻辑），必须交叉验证美元和纳指走势。
+    - 若【美元走弱 + 纳指下跌】，则当前负相关极可能是“供给冲击+避险消退”的假象，而非真正的实际利率上行。此时必须在矛盾信号中明确指出，并据此调整策略基调。
+    - 若【美元走强 + 纳指下跌】，则紧缩逻辑成立，可维持当前诊断。
 
 4.  **策略的传导链依据**：给出任何方向建议时，必须附带完整的传导链（例如："美联储降息预期升温 → 实际利率下行 → 利好科技股估值 → 关注纳斯达克ETF"），不允许跳步推荐。
 
@@ -541,7 +532,7 @@ async function main() {
   if (!isPostmarket) {
     try {
       console.log('📈 拉取ETF行情数据...');
-      const marketData = await getMarketData();
+      const marketData = await getMarketData(true);
       etfHoldings = marketData.holdings || [];
       console.log(`   获取到 ${etfHoldings.length} 个ETF行情`);
     } catch (e) {
@@ -570,24 +561,25 @@ async function main() {
     const compareModel = CONFIG.LLM.MODEL_COMPARE;
     console.log(`🔍 对比模型 [${compareModel}] 分析中...`);
     const compareAnalysis = await callLLM(prompt, compareModel);
+    console.log(compareAnalysis);
 
     // 推送对比模型的完整结果到对比 Webhook
     const compareTitle = `${title} (对比模型)`;
     await pushWechatReview(
-      `### 对比模型 [${compareModel.split('/').pop()}]\n${compareAnalysis}`,
       compareTitle,
+      `### 对比模型 [${compareModel.split('/').pop()}]\n${compareAnalysis}`,
       CONFIG.WECHAT_WEBHOOK_REVIEW_COMPARE
     );
 
     // 构建并推送对比摘要报告
-    const comparisonReport = buildComparisonReport(
-      mainAnalysis,
-      compareAnalysis,
-      reviewType,
-      mainModel.split('/').pop(),
-      compareModel.split('/').pop()
-    );
-    await pushWechatReview('🤖 双模型复盘对比', comparisonReport, CONFIG.WECHAT_WEBHOOK_REVIEW_COMPARE);
+    // const comparisonReport = buildComparisonReport(
+    //   mainAnalysis,
+    //   compareAnalysis,
+    //   reviewType,
+    //   mainModel.split('/').pop(),
+    //   compareModel.split('/').pop()
+    // );
+    // await pushWechatReview('🤖 双模型复盘对比', comparisonReport, CONFIG.WECHAT_WEBHOOK_REVIEW_COMPARE);
   }
 
   // 7. LLM 预测验证与准确率报告（午盘和盘后）
