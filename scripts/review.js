@@ -538,7 +538,7 @@ async function main() {
 
   // 3. 午盘和盘后需要 ETF 数据
   let etfHoldings = [];
-  if (!isPremarket) {
+  if (!isPostmarket) {
     try {
       console.log('📈 拉取ETF行情数据...');
       const marketData = await getMarketData();
