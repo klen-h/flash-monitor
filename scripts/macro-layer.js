@@ -2,8 +2,8 @@ import axios from 'axios';
 
 export async function fetchSinaMacro() {
   // 【修复1】增加纳指期货(hf_NQ)和恒生科技指数(rt_hkHSTECH)
-  const url = 'https://hq.sinajs.cn/list=hf_CL,hf_GC,hf_XAU,DINIW,fx_susdcnh,hf_NQ,rt_hkHSTECH,hf_OIL,hf_NK,hf_SI';
-  
+  const url = 'https://hq.sinajs.cn/list=hf_CL,hf_GC,hf_XAU,DINIW,fx_susdcnh,hf_NQ,rt_hkHSTECH,hf_OIL,hf_NK,hf_SI,hf_HG';
+
   try {
     const { data } = await axios.get(url, {
       headers: {
@@ -14,7 +14,7 @@ export async function fetchSinaMacro() {
       responseType: 'arraybuffer',
     });
     const text = Buffer.from(data, 'binary').toString('latin1');
-    
+
     const map = {};
     const lines = text.trim().split('\n');
     for (const line of lines) {
@@ -71,6 +71,18 @@ export async function fetchSinaMacro() {
       low: parseFloat(si[5]) || 0,
       change: si[7] > 0 ? ((si[0] - si[7]) / si[7] * 100).toFixed(2) : '0',
       time: `${si[12]} ${si[6]}`,
+    };
+
+    // ================= 解析 美铜 hf_HG =================
+    const hg = map['hf_HG'] || [];
+    // console.log(hg);
+    const copper = {
+      price: parseFloat(hg[0]) || 0,
+      prevClose: parseFloat(hg[7]) || 0, // 7 是昨收
+      high: parseFloat(hg[4]) || 0,
+      low: parseFloat(hg[5]) || 0,
+      change: hg[7] > 0 ? ((hg[0] - hg[7]) / hg[7] * 100).toFixed(2) : '0',
+      time: `${hg[12]} ${hg[6]}`,
     };
 
     // ================= 解析 纳指期货 hf_NQ =================
@@ -147,24 +159,44 @@ export async function fetchSinaMacro() {
       };
     }
 
+    const copperOilRatio = (brentData.price > 0) ? (copper.price / brentData.price).toFixed(2) : '0';
+    // 注意：COMEX铜是美分/磅，布伦特是美元/桶。如果需要量纲对齐，铜通常用美元/吨或美元/磅，此处直接用价格比作为相对指标，追踪趋势变化而非绝对值。
 
+    const goldSilverRatio = (silver.price > 0) ? (gold.price / silver.price).toFixed(2) : '0';
 
-    return { brent: brentData, crude, gold, goldSpot, dxy: dxyData, usdcnh: usdcnhData, nasdaq, nke, hstech, silver };
+    return { 
+      brent: brentData, 
+      crude,
+      gold, 
+      goldSpot, 
+      dxy: dxyData, 
+      usdcnh: usdcnhData, 
+      nasdaq, 
+      nke, 
+      hstech, 
+      silver, 
+      copper, 
+      copperOilRatio,
+      goldSilverRatio,
+    };
 
   } catch (e) {
     console.error('❌ 新浪宏观数据获取失败:', e.message);
     // 兜底返回，防止程序因为外部接口挂掉而崩溃
-    return { 
-      crude: { price: 0, change: '0' }, 
-      gold: { price: 0, change: '0' }, 
-      goldSpot: { price: 0, change: '0' }, 
-      dxy: { price: 0, change: '0' }, 
+    return {
+      crude: { price: 0, change: '0' },
+      gold: { price: 0, change: '0' },
+      goldSpot: { price: 0, change: '0' },
+      dxy: { price: 0, change: '0' },
       usdcnh: { price: 0, change: '0' },
       nasdaq: { price: 0, change: '0' },
       hstech: { price: 0, change: '0' },
       brent: { price: 0, change: '0' },
       nke: { price: 0, change: '0' },
       silver: { price: 0, change: '0' },
+      copper: { price: 0, change: '0' },
+      copperOilRatio: '0',
+      goldSilverRatio: '0',
     };
   }
 }

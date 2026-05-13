@@ -1,0 +1,166 @@
+
+
+export function getCoreSkill() {
+return `# 任务
+**在完成以下所有任务时，必须遵守这些核心约束：**
+
+### 1. 原油-黄金相关性诊断（优先级最高）
+
+**状态诊断强制核对表**（必须逐项对应，禁止自创状态名称或叙事逻辑）：
+- 原油涨 + 黄金涨 = 正相关 → 通胀/滞胀交易（需求过热或供给冲击）
+- 原油涨 + 黄金跌 = 负相关 → 紧缩/实际利率飙升（通胀预期倒逼加息，压制金价）
+- 原油跌 + 黄金跌 = 正相关 → 衰退或流动性危机
+- 原油跌 + 黄金涨/平 = 负相关 → **D状态**
+    **D状态专属规则（若诊断为D状态则强制执行）**：
+    - ❌ 严禁推荐做空黄金
+    - ❌ 严禁推荐抄底油气ETF
+    - ✅ 允许推荐科技ETF（成本下降）、黄金ETF（独立支撑）、军工ETF（对冲风险）
+
+    **扩展诊断维度**（在基本状态判断后必须执行）：
+    - 负相关（原油涨+黄金跌）+ **铜跌** → 衰退预警（供给冲击正在扼杀需求）
+    - 负相关（原油涨+黄金跌）+ **铜涨** → 真紧缩/需求韧性（实际利率驱动为主）
+    - 负相关（原油涨+黄金跌）+ **铜涨+白银涨** → 供给冲击+工业韧性，滞胀情景强化
+    - 负相关时，必须交叉验证美元和纳指走势：
+        - 若【美元走弱 + 纳指下跌】，当前负相关可能是“供给冲击+避险消退”假象
+        - 若【美元走强 + 纳指下跌】，紧缩逻辑成立
+
+### 2. 白银交叉验证（辅助判断，若数据可用）
+- 若白银涨幅明显大于黄金（日内差距>2%），说明市场同时定价了地缘避险+工业需求，此时负相关（原油涨+黄金跌）可能是假象。
+- 若白银与原油同向且涨幅接近，优先判断为供给冲击叙事，强化滞胀情景。
+- 若白银独自异动而黄金/原油平稳，可能为自身供需因素，不急于纳入宏观框架。
+
+### 3. 铜与比价交叉验证（若数据可用）
+- 铜主要用于需求端验证：油价受供给冲击干扰时，铜价能判断需求是否在收缩。
+- 铜价涨 + 油价涨 → 需求扩张+供给偏紧，滞胀叙事强化。
+- 铜价跌 + 油价涨 → 供给冲击正在消耗需求韧性，警惕衰退风险上升。
+- **铜油比**趋势方向作为情景概率更新的辅助锚定。
+- **金银比**：上升=纯避险偏好，下降=工业需求预期占上风。
+
+### 4. 情景逻辑互斥提醒
+更新概率时，需注意几个情景的宏观逻辑互斥：
+- “滞胀”由供给冲击驱动，特征是经济停滞+高通胀。
+- “紧缩”是央行主动加息抑制通胀，会终结滞胀但可能引发衰退。
+- “软着陆”则是通胀受控、增长平稳的理想状态。
+理论上三者不可同时存在。若有多事件分别强化互斥情景，必须指出市场主要在定价哪一种，另一种只是潜在尾部风险。
+
+### 5. 策略传导链要求
+给出任何方向建议时，必须附带完整的传导链，不允许跳步推荐。
+
+### 6. 策略审慎性约束
+- 给出方向性建议时，必须考虑当前价格是否处于极端波动后的短期高位/低位（如单日涨跌幅超过4%）。
+- 禁止在日内暴涨暴跌后立即推荐追涨/杀跌，除非有明确的反转信号且已在报告中说明。
+
+### 7. 策略与诊断一致性
+策略建议必须与相关性状态诊断逻辑一致。若诊断为负相关（紧缩逻辑），则不推荐以“通胀/避险”为核心逻辑的配置，除非能明确指出该负相关是由特殊事件造成的假象（需在矛盾信号中已说明）。`
+}
+
+
+// 盘前专属规则
+export function getPremarketSkill() {
+return `## 盘前专属规则
+**具体任务清单：**
+
+1. **情景概率更新**：基于上述事件簇和资产收线，对昨日可能的情景（例如软着陆、滞胀、衰退等）概率进行倾向性调整。说明哪个情景在强化，哪个在消退。
+2. **核心叙事修正**：当前市场的主导叙事是否有变化？如有，请指出新叙事和脆弱点。
+3. **开盘关键锚点**：给出今日A股开盘最需关注的3个价格/指标（如纳指指数期货关键位、纽约原油压力、美元指数位置、离岸人民币等）。
+4. **今日策略基调**：整体仓位建议（偏进攻/防守/观望），重点关注方向（宽基、科技、消费、周期、防御等），并说明理由（附传导链）。
+5. **风险警示**：列出今日可能出现的黑天鹅或灰犀牛。`
+}
+
+// 午盘专属规则
+export function getMidmarketSkill() {
+return `## 午盘专属规则
+**具体任务清单：**
+
+1. **上午验证**：基于上午事件和ETF表现，验证早盘策略是否正确？哪些传导链成立，哪些不成立？
+2. **情景概率更新**：基于上午的新信息，对当前情景概率进行调整。说明哪个情景在强化，哪个在消退。
+3. **核心叙事修正**：上午的市场表现是否改变了当前的主导叙事？如有变化，指出新叙事和脆弱点。
+4. **下午关键锚点**：给出下午交易最需关注的3个价格/指标。
+5. **下午策略基调**：整体仓位建议（偏进攻/防守/观望），重点关注方向，并说明理由（附传导链）。
+6. **风险警示**：列出下午可能出现的黑天鹅或灰犀牛。`
+}
+
+// 盘后专属规则
+export function getPostmarketSkill() {
+return `## 盘后专属规则
+**具体任务清单：**
+
+1. **事件簇影响评估**：回顾今日推送的事件簇中，哪些对盘面产生了实质性影响？其传导链是否成立？
+2. **逻辑自洽检验**：基于今日资产表现，是否有证据表明之前的宏观框架需要修正？
+3. **错失信号识别**：今日盘面是否存在明显异动而无法用今日推送事件解释？
+4. **框架修正建议**：是否需要调整原油-黄金的相关性判断？对通用核心规则中定义的 D 状态规则下的持仓建议有何反思？
+5. **明日初步预案**：基于今日收盘状况，明日的核心观察指标和潜在情景是什么？`
+}
+
+
+// ==================== 趋势上下文生成 ====================
+/**
+ * 根据历史数据生成资产的趋势描述
+ * @param {string} symbol - 资产标识（如 'wti', 'gold'）
+ * @param {number} price - 当前价格
+ * @param {number} prevClose - 前收盘价
+ * @param {number} high - 日内最高
+ * @param {number} low - 日内最低
+ * @param {number} open - 开盘价（可选）
+ * @param {Array} history - 宏观历史数组（loadMacroHistory() 返回的）
+ * @returns {string} 趋势描述文本
+ */
+ export function getTrendContext(symbol, price, prevClose, high, low, open, history = []) {
+  // 关键心理价位
+  const keyLevels = {
+    'wti': [95, 100, 105],
+    'brent': [98, 103, 108],
+    'gold': [4650, 4700, 4750],
+    'silver': [84, 86, 88],
+    'copper': [4.50, 4.80, 5.10],
+    'nasdaq': [28500, 29000, 29500],
+    'dxy': [97.5, 98.0, 98.5],
+    'usdcnh': [6.75, 6.80, 6.85],
+  };
+  const levels = keyLevels[symbol] || [];
+  const nearestAbove = levels.find(l => l > price);
+  const nearestBelow = [...levels].reverse().find(l => l < price);
+
+  let context = '';
+  
+  // 日内动能
+  if (open && price > open && price > prevClose) context += '动能偏多，';
+  else if (open && price < open && price < prevClose) context += '动能偏空，';
+  
+  // 关键位
+  if (nearestAbove) context += `阻力$${nearestAbove}（${((nearestAbove - price) / price * 100).toFixed(1)}%），`;
+  if (nearestBelow) context += `支撑$${nearestBelow}（${((price - nearestBelow) / price * 100).toFixed(1)}%），`;
+  
+  // 日内振幅
+  if (high && low && price > 0) {
+    const amplitude = ((high - low) / price * 100).toFixed(1);
+    if (amplitude > 2) context += `日内振幅${amplitude}%（偏大），`;
+  }
+  
+  // 近期趋势（需要历史数据）
+  if (history.length >= 2) {
+    const recent = history.slice(-5); // 最近5条
+    let consecutiveUp = 0, consecutiveDown = 0;
+    for (let i = recent.length - 1; i > 0; i--) {
+      const prev = recent[i - 1]?.[symbol]?.price;
+      const curr = recent[i][symbol]?.price;
+      if (prev && curr > prev) { consecutiveUp++; consecutiveDown = 0; }
+      else if (prev && curr < prev) { consecutiveDown++; consecutiveUp = 0; }
+      else break;
+    }
+    if (consecutiveUp >= 2) context += `连涨${consecutiveUp}日，`;
+    else if (consecutiveDown >= 2) context += `连跌${consecutiveDown}日，`;
+    
+    // 近期高低点
+    const highs = recent.map(r => r[symbol]?.price).filter(Boolean);
+    const lows = recent.map(r => r[symbol]?.price).filter(Boolean);
+    if (highs.length && lows.length) {
+      const recentHigh = Math.max(...highs, price);
+      const recentLow = Math.min(...lows, price);
+      context += `近5日高$${recentHigh.toFixed(2)} 低$${recentLow.toFixed(2)}，`;
+    }
+  }
+  
+  // 去掉末尾多余的逗号
+  return context.replace(/，$/, '');
+}

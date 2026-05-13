@@ -18,5 +18,7 @@ export const CONFIG = {
     STATE: path.resolve('public/data/flash_state.json'),
     RAW: path.resolve('public/data/flash.json'),
     ANALYSIS: path.resolve('public/data/flash_analysis.json'),
+    MACRO_HISTORY: path.resolve('public/data/macro_history.json'),
+    ETF_CLOSE: path.resolve('public/data/etf_close.json'),
   }
 };
