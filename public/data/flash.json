@@ -2,6 +2,21 @@
   "date": "2026/5/14",
   "items": [
     {
+      "id": "20260514055219035800",
+      "time": "2026-05-14 05:52:19",
+      "hot": "热",
+      "content": "【金十数据整理：中东局势跟踪（5月14日）】<b>①伊朗</b><br/><span class=\"section-news\">1. 伊朗总统府：不会永久限制互联网访问。</span><br/><span class=\"section-news\">2. 伊朗副总统否认哈尔克岛石油设施漏油。</span><br/><span class=\"section-news\">3. 伊朗外长阿拉格齐抵达印度，参加金砖国家外长会议。</span><br/><span class=\"section-news\">4. 伊朗海军上将西亚里：美国在伊朗战争中的失败将载入史册。</span><br/><span class=\"section-news\">5. 伊朗外长：任何与以色列勾连、试图制造分裂的人，都将被追究责任。</span><br/><span class=\"section-news\">6. 伊朗外长：科威特非法袭击了一艘伊朗船只，并在波斯湾拘留了4名伊朗公民。要求立即释放伊朗公民。</span><br/><b>②以色列</b><br/><span class=\"section-news\">1. 以军称仍在加沙地带进行进攻性行动。</span><br/><span class=\"section-news\">2. 以军称过去一天打击40个黎真主党目标。</span><br/><span class=\"section-news\">3. 以色列国防军领导人：如有必要，以色列国防军已准备好恢复战斗。</span><br/><span class=\"section-news\">4. 美媒：在伊朗轰炸行动期间，以色列情报机构摩萨德首领曾访阿联酋协调作战。</span><br/><span class=\"section-news\">5. 以色列总理办公室发表声明称伊朗战争期间内塔尼亚胡曾秘密访问阿联酋，阿联酋方面否认。</span><br/><b>③霍尔木兹海峡</b><br/><span class=\"section-news\">1. 希腊总理：霍尔木兹海峡通航受阻扰动全球能源市场。</span><br/><span class=\"section-news\">2. 韩国防长：将评估分阶段参与霍尔木兹海峡护航行动。</span><br/><span class=\"section-news\">3. 伊朗军队发言人：对霍尔木兹海峡的控制将为我们带来相当于石油收入两倍的经济收益。</span><br/><span class=\"section-news\">4. 伊朗副总统Reza Aref：伊朗对霍尔木兹海峡的权利已经确立，此事已无需进行过多讨论。</span><br/><span class=\"section-news\">5. 美中央司令部：美军已迫使67艘商船改变航线，使4艘船只丧失航行能力，并允许15艘人道主义援助船只通过霍尔木兹海峡。</span><br/><b>④停火谈判</b><br/><span class=\"section-news\">1. 伊朗称美方漫天要价不可接受。</span><br/><span class=\"section-news\">2. 万斯：美伊谈判正取得进展。目前专注外交途径。</span><br/><b>⑤其他情况</b><br/><span class=\"section-news\">1. 以军称仍在加沙地带进行进攻性行动。</span><br/><span class=\"section-news\">2. 科威特指伊朗“武装渗透”布比延岛 伊朗说巡逻船“导航故障”。</span><br/><span class=\"section-news\">3. 伊媒：伊拉克埃尔比勒北部的伊朗反对派营地遭无人机袭击。</span><br/><span class=\"section-news\">4. 消息人士称，沙特战机在战争期间曾袭击了伊拉克境内受伊朗支持的民兵据点。</span><br/><span class=\"section-news\">5. 加沙和平委员会高级代表姆拉德诺夫：已起草关于哈马斯在加沙过渡的15点计划。</span><br/><span class=\"section-news\">6. 联合国副秘书长在以色列机场被盘问扣留45分钟，联合国回应称以方将此事归因于人为失误。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-05-13T22:10:20.683Z"
+    },
+    {
       "id": "20260514025058832800",
       "time": "2026-05-14 02:50:58",
       "hot": "热",
@@ -3963,5 +3978,5 @@
       "collectedAt": "2026-05-06T17:16:30.159Z"
     }
   ],
-  "lastUpdated": "2026-05-13T19:40:20.354Z"
+  "lastUpdated": "2026-05-13T22:10:20.686Z"
 }
