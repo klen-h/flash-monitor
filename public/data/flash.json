@@ -2,6 +2,40 @@
   "date": "2026/5/13",
   "items": [
     {
+      "id": "20260513170246342800",
+      "time": "2026-05-13 17:02:46",
+      "hot": "热",
+      "content": "【市场监管总局：开展破除妨碍统一市场和公平竞争卡点堵点专项行动】金十数据5月13日讯，今天从市场监管总局发布会了解到，市场监管总局部署开展破除妨碍统一市场和公平竞争卡点堵点专项行动，时间自5月持续至12月。专项行动紧盯妨碍企业公平准入与自主经营、限制商品要素自由流动、资质认定内外有别、不当实施信用评价设置招投标隐性壁垒4类堵点，进一步加大执法、审查、抽查力度，依法从严纠治不当干预市场竞争问题。到年底，依法查办一批重大案件，推动废除和修改一批妨碍全国统一市场和公平竞争的政策措施，公开曝光一批典型案例，加快出台一批制度机制，推动公平竞争、质量标准等市场基础制度更加科学完备，地方政府经济促进行为更加规范有序，市场监管执法更加公平公正，市场环境更加透明可预期。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=2734281305856596034&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D2734281305856596034%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        4,
+        5,
+        3,
+        1,
+        2
+      ],
+      "collectedAt": "2026-05-13T09:20:20.791Z"
+    },
+    {
+      "id": "20260513170508678800",
+      "time": "2026-05-13 17:05:08",
+      "hot": "热",
+      "content": "【市场监管总局：严查算法违规乱象 规范市场竞争秩序】金十数据5月13日讯，今天从市场监管总局发布会了解到，市场监管总局将部署开展反不正当竞争专项执法。聚焦平台经济、民生、科技创新等重点领域，统筹运用各类反不正当竞争措施，综合整治“内卷式”竞争，推动形成优质优价、良性竞争市场秩序。专项执法期间，市场监管总局将提升网络不正当竞争行为常态化监管水平，坚决规制利用数据和算法、技术、平台规则等实施的各类网络不正当竞争行为，依法保护经营者、消费者，特别是平台各方参与主体的合法权益；围绕打击社会关注度高、群众反映强烈的各类不正当竞争行为，开展全链条执法、穿透式监管，切实维护公平竞争市场环境。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=6014540859994992725&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D6014540859994992725%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        4,
+        5,
+        3,
+        1,
+        2
+      ],
+      "collectedAt": "2026-05-13T09:20:20.790Z"
+    },
+    {
       "id": "20260513163914065800",
       "time": "2026-05-13 16:39:14",
       "hot": "热",
@@ -3692,5 +3726,5 @@
       "collectedAt": "2026-05-06T17:16:30.159Z"
     }
   ],
-  "lastUpdated": "2026-05-13T09:00:29.029Z"
+  "lastUpdated": "2026-05-13T09:20:20.795Z"
 }
