@@ -2,6 +2,21 @@
   "date": "2026/5/15",
   "items": [
     {
+      "id": "20260515055732591800",
+      "time": "2026-05-15 05:57:32",
+      "hot": "热",
+      "content": "【金十数据整理：中东局势跟踪（5月15日）】<br/><b>①伊朗</b><br/><span class=\"section-news\">1. 伊朗外交部长阿拉格奇在印度出席金砖国家外长会</span><br/><span class=\"section-news\">2. 海湾国家探讨战后地区管理，沙特提出缔结互不侵犯条约。</span><br/><span class=\"section-news\">3. 伊朗议会内部事务委员会成员纳哈伊：作为对敌人任何侵略行径的回应，宣布关闭曼德海峡是合适的。</span><br/><span class=\"section-news\">4. 伊朗议会国家安全与外交政策委员会主席：我们已准备好在霍尔木兹海峡及其他战场再次击败敌人。</span><br/><b>②美国</b><br/><span class=\"section-news\">1. 美国财长贝森特：伊朗石油储存已耗尽，将被迫停产。</span><br/><span class=\"section-news\">2. 美众议院再度否决限制特朗普战争权力的议案 投票差距不断收窄。</span><br/><span class=\"section-news\">3. 美国中央司令部：我们针对伊朗的所有行动完全符合武装冲突法。并未对伊朗采取敌对行动，我们正处于停火状态。我们已瘫痪82%的伊朗防空导弹系统，还削弱了伊朗在生产弹道导弹和无人机方面的工业和技术能力。</span><br/><b>③以色列</b><br/><span class=\"section-news\">1. 以防长称或对伊朗再次采取行动。</span><br/><b>④霍尔木兹海峡</b><br/><span class=\"section-news\">1. 一艘悬挂印度国旗的船只在海峡遭遇袭击沉没。</span><br/><span class=\"section-news\">2. 霍尔木兹海峡原油流量回升 更多超级油轮驶离该水域。</span><br/><span class=\"section-news\">3. 美国中央司令部：自封锁开始以来，已有70艘船只改道。</span><br/><span class=\"section-news\">4. 美国中央司令部司令布拉德·库珀：美国军方有能力通过武力打开霍尔木兹海峡。</span><br/><span class=\"section-news\">5. Vitol在霍尔木兹海峡外供应伊拉克原油，表明部分货物可能已经成功离开波斯湾。</span><br/><span class=\"section-news\">6. 据伊朗国家媒体：伊朗革命卫队表示，自周三晚上以来，大约30艘船只在德黑兰的许可下穿越霍尔木兹海峡。</span><br/><b>⑤停火谈判</b><br/><span class=\"section-news\">1. 以色列和黎巴嫩在美国举行新一轮谈判。</span><br/><span class=\"section-news\">2. 消息人士：黎巴嫩与以色列第三轮谈判的气氛“令人不乐观”。没有迹象表明谈判取得任何重大突破。</span><br/><b>⑥其他情况</b><br/><span class=\"section-news\">1. 阿巴斯再次当选法塔赫主席。</span><br/><span class=\"section-news\">2. 以军称在黎南部打死多名黎真主党武装人员。</span><br/><span class=\"section-news\">3. 内塔尼亚胡称将对《纽约时报》提起诽谤诉讼。</span><br/><span class=\"section-news\">4. 海合会成员国内政部长举行紧急会议 讨论地区安全局势。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-05-14T22:40:20.515Z"
+    },
+    {
       "id": "20260515050557773800",
       "time": "2026-05-15 05:05:57",
       "hot": "热",
@@ -4505,24 +4520,7 @@
         3
       ],
       "collectedAt": "2026-05-07T07:20:25.653Z"
-    },
-    {
-      "id": "20260507143517916800",
-      "time": "2026-05-07 14:35:17",
-      "hot": "沸",
-      "content": "【中美正考虑启动有关人工智能的官方讨论？外交部回应】金十数据5月7日讯，5月7日，外交部发言人林剑主持例行记者会。路透社记者提问，华尔街日报报道称，中美双方正在考虑启动有关人工智能的官方讨论，也就是下周在北京中美元首会晤期间讨论AI，美国财长贝森特将会牵头，中方的牵头人会是谁？林剑表示，中美双方就特朗普总统访华事保持着沟通。关于你提到的具体问题，我目前没有可以提供的信息。",
-      "source": "澎湃新闻",
-      "source_link": "https://www.thepaper.cn/newsDetail_forward_33105606",
-      "important": 1,
-      "channel": [
-        4,
-        5,
-        3,
-        1,
-        2
-      ],
-      "collectedAt": "2026-05-07T07:00:38.593Z"
     }
   ],
-  "lastUpdated": "2026-05-14T21:30:26.128Z"
+  "lastUpdated": "2026-05-14T22:40:20.519Z"
 }
