@@ -2,6 +2,23 @@
   "date": "2026/5/14",
   "items": [
     {
+      "id": "20260514124033294800",
+      "time": "2026-05-14 12:40:33",
+      "hot": "热",
+      "content": "【中美元首会谈结束】金十数据5月14日讯，5月14日，国家主席习近平在北京人民大会堂同来华进行国事访问的美国总统特朗普举行会谈。<b>会谈用时超过2小时15分钟。</b>目前，会谈已结束。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=3144754441841780008&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D3144754441841780008%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        4,
+        5,
+        3,
+        1,
+        2
+      ],
+      "collectedAt": "2026-05-14T04:50:19.768Z"
+    },
+    {
       "id": "20260514115445852800",
       "time": "2026-05-14 11:54:45",
       "hot": "爆",
@@ -4214,5 +4231,5 @@
       "collectedAt": "2026-05-06T17:16:30.159Z"
     }
   ],
-  "lastUpdated": "2026-05-14T04:10:24.524Z"
+  "lastUpdated": "2026-05-14T04:50:19.774Z"
 }
