@@ -2,6 +2,23 @@
   "date": "2026/5/14",
   "items": [
     {
+      "id": "20260514101640371800",
+      "time": "2026-05-14 10:16:40",
+      "hot": "热",
+      "content": "【习近平同美国总统特朗普举行会谈】金十数据5月14日讯，5月14日上午，国家主席习近平在北京人民大会堂同来华进行国事访问的美国总统特朗普举行会谈。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=14378562527615191435&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D14378562527615191435%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        4,
+        5,
+        3,
+        1,
+        2
+      ],
+      "collectedAt": "2026-05-14T02:30:23.017Z"
+    },
+    {
       "id": "20260514093043281800",
       "time": "2026-05-14 09:30:43",
       "hot": "热",
@@ -4096,5 +4113,5 @@
       "collectedAt": "2026-05-06T17:16:30.159Z"
     }
   ],
-  "lastUpdated": "2026-05-14T01:50:18.614Z"
+  "lastUpdated": "2026-05-14T02:30:23.021Z"
 }
