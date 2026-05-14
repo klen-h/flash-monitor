@@ -2,6 +2,36 @@
   "date": "2026/5/14",
   "items": [
     {
+      "id": "20260514090514202800",
+      "time": "2026-05-14 09:05:14",
+      "hot": "沸",
+      "content": "【金十数据整理：A股盘前市场要闻速递（2026-05-14）】<b>重要新闻</b><br/><span class=\"section-news\">1. 美国总统特朗普抵达北京。</span><br/><span class=\"section-news\">2. 市场监管总局：严查算法违规乱象，规范市场竞争秩序。</span><br/><span class=\"section-news\">3. 中国科学家成功研制“九章四号”量子计算原型机。</span><br/><span class=\"section-news\">4. 上期所调整白银期货相关合约涨跌停板幅度和交易保证金比例。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 中科曙光发布高端全闪存存储。</span><br/><span class=\"section-news\">2. 6连板大唐发电：尚无已投运算电协同项目。</span><br/><span class=\"section-news\">3. 世纪互联引入新战略投资者，宁德时代入局。</span><br/><span class=\"section-news\">4. 中国巨石：拟投资44.31亿元建设年产5万吨电子纱暨3.2亿米电子布生产线项目。</span><br/><span class=\"section-news\">5. 欧陆通：数据中心电源业务高速增长，已与谷歌达成GPU电源项目合作。</span><br/><span class=\"section-news\">6. 通鼎互联澄清：与英伟达不存在任何业务关系。</span><br/><span class=\"section-news\">7. 雅化集团：津巴布韦锂精矿出口手续已完成并已启动发运。</span><br/><span class=\"section-news\">8. 恩捷股份：拟投资40亿元在自贡投建50亿平方米锂电池隔离膜项目。</span><br/><span class=\"section-news\">9. 2连板快克智能：先进封装TCB热压键合设备正与几家客户推进打样验证工作，未形成收入。</span><br/><span class=\"section-news\">10. 铜冠铜箔：自主研发的高频高速铜箔产品已开始批量供应，目前整体出货占比不高。</span><br/><span class=\"section-news\">11. 20CM3天2板中船特气：近期部分下游客户就六氟化钨产品与公司业务洽谈增加，目前尚未签署新的长期或大额实质性订单协议。</span><br/><span class=\"section-news\">12. 博威合金：拟约7.24亿美元出售美国太阳能业务电池资产。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-05-14T01:20:25.911Z"
+    },
+    {
+      "id": "20260514091031070800",
+      "time": "2026-05-14 09:10:31",
+      "hot": "沸",
+      "content": "【习近平将举行仪式欢迎美国总统特朗普访华】金十数据5月14日讯，5月14日上午，国家主席习近平将在北京人民大会堂东门外广场举行仪式，欢迎美国总统特朗普访华。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=5447121411326427302&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D5447121411326427302%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        4,
+        5,
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-05-14T01:20:25.911Z"
+    },
+    {
       "id": "20260514081607344800",
       "time": "2026-05-14 08:16:07",
       "hot": "热",
@@ -4033,5 +4063,5 @@
       "collectedAt": "2026-05-06T17:16:30.159Z"
     }
   ],
-  "lastUpdated": "2026-05-14T00:50:22.678Z"
+  "lastUpdated": "2026-05-14T01:20:25.916Z"
 }
