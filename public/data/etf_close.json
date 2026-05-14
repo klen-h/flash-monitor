@@ -1,0 +1,595 @@
+{
+  "date": "2026-05-14",
+  "holdings": [
+    {
+      "name": "沪深300ETF",
+      "code": "510300",
+      "price": "4.941",
+      "prevClose": "5.017",
+      "change": -1.51,
+      "changeStr": "-1.51",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "中证500ETF",
+      "code": "510500",
+      "price": "8.772",
+      "prevClose": "9.009",
+      "change": -2.63,
+      "changeStr": "-2.63",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "中证1000ETF",
+      "code": "560010",
+      "price": "3.619",
+      "prevClose": "3.685",
+      "change": -1.79,
+      "changeStr": "-1.79",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "创业板ETF",
+      "code": "159915",
+      "price": "3.961",
+      "prevClose": "4.048",
+      "change": -2.15,
+      "changeStr": "-2.15",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "科创板50ETF",
+      "code": "588000",
+      "price": "1.815",
+      "prevClose": "1.865",
+      "change": -2.68,
+      "changeStr": "-2.68",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "纳斯达克ETF",
+      "code": "513100",
+      "price": "2.105",
+      "prevClose": "2.093",
+      "change": 0.57,
+      "changeStr": "0.57",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "标普500ETF",
+      "code": "513500",
+      "price": "2.489",
+      "prevClose": "2.488",
+      "change": 0.04,
+      "changeStr": "0.04",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "日经225ETF",
+      "code": "513880",
+      "price": "1.970",
+      "prevClose": "1.999",
+      "change": -1.45,
+      "changeStr": "-1.45",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "德国ETF",
+      "code": "513030",
+      "price": "1.795",
+      "prevClose": "1.806",
+      "change": -0.61,
+      "changeStr": "-0.61",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "恒生ETF",
+      "code": "159920",
+      "price": "1.548",
+      "prevClose": "1.548",
+      "change": 0,
+      "changeStr": "0.00",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "恒生科技ETF",
+      "code": "513130",
+      "price": "0.637",
+      "prevClose": "0.636",
+      "change": 0.16,
+      "changeStr": "0.16",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "中韩半导体ETF",
+      "code": "513310",
+      "price": "6.237",
+      "prevClose": "6.134",
+      "change": 1.68,
+      "changeStr": "1.68",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "中概互联网ETF",
+      "code": "513050",
+      "price": "1.219",
+      "prevClose": "1.207",
+      "change": 0.99,
+      "changeStr": "0.99",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "港股创新药ETF",
+      "code": "513120",
+      "price": "1.167",
+      "prevClose": "1.198",
+      "change": -2.59,
+      "changeStr": "-2.59",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "香港证券ETF",
+      "code": "513090",
+      "price": "1.831",
+      "prevClose": "1.863",
+      "change": -1.72,
+      "changeStr": "-1.72",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "港股红利ETF",
+      "code": "159691",
+      "price": "1.295",
+      "prevClose": "1.300",
+      "change": -0.38,
+      "changeStr": "-0.38",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "芯片ETF",
+      "code": "159995",
+      "price": "2.321",
+      "prevClose": "2.384",
+      "change": -2.64,
+      "changeStr": "-2.64",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "半导体ETF",
+      "code": "512480",
+      "price": "2.043",
+      "prevClose": "2.088",
+      "change": -2.16,
+      "changeStr": "-2.16",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "人工智能ETF",
+      "code": "515070",
+      "price": "2.522",
+      "prevClose": "2.576",
+      "change": -2.1,
+      "changeStr": "-2.10",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "计算机ETF",
+      "code": "159998",
+      "price": "1.122",
+      "prevClose": "1.166",
+      "change": -3.77,
+      "changeStr": "-3.77",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "通信ETF",
+      "code": "515880",
+      "price": "1.544",
+      "prevClose": "1.557",
+      "change": -0.83,
+      "changeStr": "-0.83",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "传媒ETF",
+      "code": "512980",
+      "price": "0.979",
+      "prevClose": "1.024",
+      "change": -4.39,
+      "changeStr": "-4.39",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "机器人ETF",
+      "code": "562500",
+      "price": "1.128",
+      "prevClose": "1.156",
+      "change": -2.42,
+      "changeStr": "-2.42",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "新能源车ETF",
+      "code": "515030",
+      "price": "2.037",
+      "prevClose": "2.103",
+      "change": -3.14,
+      "changeStr": "-3.14",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "电池ETF",
+      "code": "159755",
+      "price": "1.174",
+      "prevClose": "1.209",
+      "change": -2.89,
+      "changeStr": "-2.89",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "光伏ETF",
+      "code": "515790",
+      "price": "1.128",
+      "prevClose": "1.146",
+      "change": -1.57,
+      "changeStr": "-1.57",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "电力ETF",
+      "code": "159611",
+      "price": "1.173",
+      "prevClose": "1.202",
+      "change": -2.41,
+      "changeStr": "-2.41",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "碳中和ETF",
+      "code": "560060",
+      "price": "1.060",
+      "prevClose": "1.086",
+      "change": -2.39,
+      "changeStr": "-2.39",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "环保ETF",
+      "code": "512580",
+      "price": "1.436",
+      "prevClose": "1.471",
+      "change": -2.38,
+      "changeStr": "-2.38",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "航空航天ETF",
+      "code": "159208",
+      "price": "1.352",
+      "prevClose": "1.416",
+      "change": -4.52,
+      "changeStr": "-4.52",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "消费ETF",
+      "code": "159928",
+      "price": "0.720",
+      "prevClose": "0.719",
+      "change": 0.14,
+      "changeStr": "0.14",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "食品饮料ETF",
+      "code": "515170",
+      "price": "0.499",
+      "prevClose": "0.499",
+      "change": 0,
+      "changeStr": "0.00",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "家电ETF",
+      "code": "159996",
+      "price": "1.550",
+      "prevClose": "1.573",
+      "change": -1.46,
+      "changeStr": "-1.46",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "旅游ETF",
+      "code": "159766",
+      "price": "0.631",
+      "prevClose": "0.643",
+      "change": -1.87,
+      "changeStr": "-1.87",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "医药ETF",
+      "code": "512010",
+      "price": "0.360",
+      "prevClose": "0.370",
+      "change": -2.7,
+      "changeStr": "-2.70",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "医疗ETF",
+      "code": "512170",
+      "price": "0.329",
+      "prevClose": "0.336",
+      "change": -2.08,
+      "changeStr": "-2.08",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "银行ETF",
+      "code": "512800",
+      "price": "0.784",
+      "prevClose": "0.780",
+      "change": 0.51,
+      "changeStr": "0.51",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "证券ETF",
+      "code": "512880",
+      "price": "1.071",
+      "prevClose": "1.095",
+      "change": -2.19,
+      "changeStr": "-2.19",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "保险ETF",
+      "code": "512070",
+      "price": "0.790",
+      "prevClose": "0.806",
+      "change": -1.99,
+      "changeStr": "-1.99",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "房地产ETF",
+      "code": "512200",
+      "price": "1.456",
+      "prevClose": "1.491",
+      "change": -2.35,
+      "changeStr": "-2.35",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "有色ETF",
+      "code": "512400",
+      "price": "2.130",
+      "prevClose": "2.209",
+      "change": -3.58,
+      "changeStr": "-3.58",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "稀土ETF",
+      "code": "516780",
+      "price": "1.987",
+      "prevClose": "2.055",
+      "change": -3.31,
+      "changeStr": "-3.31",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "化工ETF",
+      "code": "159870",
+      "price": "0.896",
+      "prevClose": "0.920",
+      "change": -2.61,
+      "changeStr": "-2.61",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "钢铁ETF",
+      "code": "515210",
+      "price": "1.406",
+      "prevClose": "1.436",
+      "change": -2.09,
+      "changeStr": "-2.09",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "煤炭ETF",
+      "code": "515220",
+      "price": "1.212",
+      "prevClose": "1.228",
+      "change": -1.3,
+      "changeStr": "-1.30",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "能源ETF",
+      "code": "159930",
+      "price": "1.678",
+      "prevClose": "1.697",
+      "change": -1.12,
+      "changeStr": "-1.12",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "黄金ETF",
+      "code": "518880",
+      "price": "9.795",
+      "prevClose": "9.804",
+      "change": -0.09,
+      "changeStr": "-0.09",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "白银ETF",
+      "code": "518850",
+      "price": "9.883",
+      "prevClose": "9.894",
+      "change": -0.11,
+      "changeStr": "-0.11",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "标普油气ETF",
+      "code": "159518",
+      "price": "1.135",
+      "prevClose": "1.150",
+      "change": -1.3,
+      "changeStr": "-1.30",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "基建ETF",
+      "code": "516950",
+      "price": "1.139",
+      "prevClose": "1.173",
+      "change": -2.9,
+      "changeStr": "-2.90",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "农业ETF",
+      "code": "159825",
+      "price": "0.806",
+      "prevClose": "0.809",
+      "change": -0.37,
+      "changeStr": "-0.37",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "养殖ETF",
+      "code": "159865",
+      "price": "0.600",
+      "prevClose": "0.591",
+      "change": 1.52,
+      "changeStr": "1.52",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "物流ETF",
+      "code": "516180",
+      "price": "0.926",
+      "prevClose": "0.943",
+      "change": -1.8,
+      "changeStr": "-1.80",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "教育ETF",
+      "code": "513360",
+      "price": "0.494",
+      "prevClose": "0.498",
+      "change": -0.8,
+      "changeStr": "-0.80",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "军工ETF",
+      "code": "512660",
+      "price": "1.419",
+      "prevClose": "1.488",
+      "change": -4.64,
+      "changeStr": "-4.64",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "国债ETF",
+      "code": "511010",
+      "price": "141.011",
+      "prevClose": "140.999",
+      "change": 0.01,
+      "changeStr": "0.01",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "可转债ETF",
+      "code": "511380",
+      "price": "14.231",
+      "prevClose": "14.443",
+      "change": -1.47,
+      "changeStr": "-1.47",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "短融ETF",
+      "code": "511360",
+      "price": "113.455",
+      "prevClose": "113.444",
+      "change": 0.01,
+      "changeStr": "0.01",
+      "isStale": false,
+      "source": "tencent"
+    },
+    {
+      "name": "城投债ETF",
+      "code": "511220",
+      "price": "10.342",
+      "prevClose": "10.340",
+      "change": 0.02,
+      "changeStr": "0.02",
+      "isStale": false,
+      "source": "tencent"
+    }
+  ]
+}
