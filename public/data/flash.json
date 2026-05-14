@@ -2,6 +2,21 @@
   "date": "2026/5/14",
   "items": [
     {
+      "id": "20260514203024481800",
+      "time": "2026-05-14 20:30:24",
+      "hot": "热",
+      "content": "【美国初请失业金人数高于预期】金十数据5月14日讯，美国至5月9日当周初请失业金人数录得21.1万人，为4月18日当周以来新高，高于市场预期的20.5万人。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-05-14T13:00:28.562Z"
+    },
+    {
       "id": "20260514203001466800",
       "time": "2026-05-14 20:30:01",
       "hot": "热",
@@ -4506,22 +4521,7 @@
         3
       ],
       "collectedAt": "2026-05-06T23:00:23.362Z"
-    },
-    {
-      "id": "20260507054207366800",
-      "time": "2026-05-07 05:42:07",
-      "hot": "沸",
-      "content": "【金十数据整理：中东局势跟踪（5月7日）】<br/><b>①伊朗</b><br/><span class=\"section-news\">1. 伊朗公布被击落敌方无人机残骸。</span><br/><span class=\"section-news\">2. 伊朗官员称目前该国石化产品供应充足。</span><br/><span class=\"section-news\">3. 伊朗称各港口已准备好提供一般海事服务和支持。</span><br/><span class=\"section-news\">4. 伊朗总统：对美不信任源于美方的敌对行为。</span><br/><span class=\"section-news\">5. 伊朗议会发言人：若美方不作出必要让步，伊朗已准备好开火。</span><br/><span class=\"section-news\">6. 美媒：伊朗对美军事资产造成的打击远超公开报道程度。</span><br/><span class=\"section-news\">7. 伊朗和沙特外长呼吁加强地区合作，以防止紧张局势升级。</span><br/><span class=\"section-news\">8. 伊朗最高领袖军事顾问：美国必须赔偿伊朗损失。</span><br/><b>②美国</b><br/><span class=\"section-news\">1. 据华尔街日报：伊朗呼吁拒绝美国支持的联合国霍尔木兹海决议。</span><br/><span class=\"section-news\">2. 特朗普：伊朗若履约“史诗之怒”行动将结束，否则将重启轰炸。</span><br/><span class=\"section-news\">3. 特朗普：伊朗已同意不拥有核武器；对伊朗问题从不设最后期限。</span><br/><span class=\"section-news\">4. 特朗普再称对美伊达成协议表示乐观，被问及（达成协议的）具体时间框架时，特朗普称预估“一周”。</span><br/><b>③以色列</b><br/><span class=\"section-news\">1. 消息称内塔尼亚胡就美伊谈判与特朗普政府磋商。</span><br/><span class=\"section-news\">2. 以军总参谋长：在伊朗仍有一系列目标尚待打击。</span><br/><span class=\"section-news\">3. 据黎巴嫩媒体报道，以色列与黎巴嫩之间的第三轮谈判最早可能于下周举行。</span><br/><span class=\"section-news\">4. 以色列消息人士：以色列并不知晓特朗普已接近与伊朗达成协议；以色列一直准备应对战事升级。</span><br/><span class=\"section-news\">5. 内塔尼亚胡：会在周三晚些时候与美国总统特朗普通话。以美共同目标包括移除伊朗所有浓缩铀。</span><br/><b>④霍尔木兹海峡</b><br/><span class=\"section-news\">1. 伊朗警告船只未经许可不得穿越霍尔木兹海峡。</span><br/><span class=\"section-news\">2. 美军称在对伊朗港口封锁行动中已要求52艘船只掉头。</span><br/><span class=\"section-news\">3. 伊朗官员：霍尔木兹海峡的安全只能由伊朗及其人民来保障。</span><br/><span class=\"section-news\">4. 法国“戴高乐”号航母驶向红海，为在霍尔木兹海峡护航做准备。</span><br/><span class=\"section-news\">5. 韩国青瓦台：目前尚不需要对特朗普提出的参与“自由计划”的呼吁进行审议。</span><br/><span class=\"section-news\">6. 意大利政府：霍尔木兹海峡的航行自由是国际法的基本原则，也是全球经济的必要元素。</span><br/><span class=\"section-news\">7. 韩国青瓦台：昨天尚不清楚HMM航运公司的船只是否遭到袭击。HMM航运公司船只在波斯湾的火灾发生在机舱。</span><br/><span class=\"section-news\">8. 美国能源部长赖特：美国将在霍尔木兹海峡实现交通畅通。无论伊朗协议是否达成，都会实现自由流动。</span><br/><span class=\"section-news\">9. 法国航运公司达飞：旗下船舶“圣安东尼奥”号周二在穿越霍尔木兹海峡时遭到袭击。袭击导致船员受伤，船只受损。受伤船员已被撤离，正在接受医疗救治。</span><br/><span class=\"section-news\">10. 美军中央司令部：一艘伊朗船试图突破封锁，美战机炸坏船舵。</span><br/><span class=\"section-news\">11. 伊朗常驻联合国代表团提出解决霍尔木兹海峡问题的可行方案：永久结束战争，解除海上封锁，恢复正常通行。</span><br/><b>⑤停火谈判</b><br/><span class=\"section-news\">1. 美媒称美伊接近达成一份单页备忘录，拟结束冲突并启动30天谈判窗口；伊朗指认美媒部分报道失实，称还在审阅美方提案。</span><br/><span class=\"section-news\">2. 美媒：特朗普称美伊面对面谈判为时尚早。</span><br/><span class=\"section-news\">3. 美媒：美伊谈判最快或于下周在伊斯兰堡恢复。</span><br/><span class=\"section-news\">4. 特朗普称伊朗战事“很有可能结束” 双方正接近达成协议。</span><br/><span class=\"section-news\">5. 美国中东问题特使威特科夫与伊朗官员之间最近举行了间接谈判。</span><br/><span class=\"section-news\">6. 巴基斯坦外长：我们正致力于推动美伊停火，最终实现战争的永久终结。</span><br/><span class=\"section-news\">7. 以色列高级官员：在相关讨论中，美方已向我们明确表示，特朗普将坚守其“红线”，其中最重要的是从伊朗移除核材料。</span><br/><b>⑥其他情况</b><br/><span class=\"section-news\">1. 黎总理称不寻求与以色列关系正常化。</span><br/><span class=\"section-news\">2. 据以色列媒体：消息人士称，美国已告知以方哈马斯拒绝解除武装。</span><br/><span class=\"section-news\">3. 以色列国防军总参谋长：自行动开始以来，已有超过2000名真主党武装分子被消灭。</span><br/><span class=\"section-news\">4. 真主党：与以色列国内的说法相反，真主党已重建其能力，并将继续进行斗争。</span><br/><span class=\"section-news\">5. 消息人士：有无人机袭击位于伊拉克埃尔比勒以北的伊朗库尔德反对派组织营地内的军火库。</span><br/><span class=\"section-news\">6. 以色列国防军：在过去24小时内，以色列国防军袭击了大约25个真主党目标，包括一个武器储存设施、多个用于军事目的的建筑以及其他恐怖分子基础设施。</span><br/><span class=\"section-news\">7. 市场消息：以色列在贝鲁特发动空袭，目标为真主党拉德万部队指挥官，据悉该部队指挥官马尔基·布卢特已身亡。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-06T22:10:17.771Z"
     }
   ],
-  "lastUpdated": "2026-05-14T12:50:21.010Z"
+  "lastUpdated": "2026-05-14T13:00:28.576Z"
 }
