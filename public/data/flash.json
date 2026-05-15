@@ -2,6 +2,36 @@
   "date": "2026/5/15",
   "items": [
     {
+      "id": "20260515151556818800",
+      "time": "2026-05-15 15:15:56",
+      "hot": "热",
+      "content": "【阿联酋将于2027年建成新输油管道 绕过霍尔木兹】金十数据5月15日讯，阿联酋正在建设一条绕过霍尔木兹海峡的新输油管道，并计划于2027年将其投入运营。根据该国媒体办公室在的一份声明，一旦该项目竣工，阿布扎比国家石油公司（ADNOC）经由富查伊拉港的石油出口能力将翻一番，从而有助于满足全球市场的需求。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-05-15T07:40:21.894Z"
+    },
+    {
+      "id": "20260515152140040800",
+      "time": "2026-05-15 15:21:40",
+      "hot": "热",
+      "content": "美国国务卿鲁比奥：如果我们允许伊朗拥有核武器，它将永久控制霍尔木兹海峡。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-05-15T07:40:21.894Z"
+    },
+    {
       "id": "20260515150040700800",
       "time": "2026-05-15 15:00:40",
       "hot": "热",
@@ -4494,37 +4524,7 @@
         3
       ],
       "collectedAt": "2026-05-07T23:00:24.893Z"
-    },
-    {
-      "id": "20260508062437973800",
-      "time": "2026-05-08 06:24:37",
-      "hot": "沸",
-      "content": "【特朗普回应打击伊朗：只是小惩罚，停火仍然有效】金十数据5月8日讯，据ABC新闻记者：美国总统特朗普表示，对伊朗目标的报复性打击只是一次“轻微的惩罚”。（当被问及停火是否已经结束）特朗普表示，停火正在进行中，它已经生效了。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-07T22:40:16.790Z"
-    },
-    {
-      "id": "20260508055712507800",
-      "time": "2026-05-08 05:57:12",
-      "hot": "沸",
-      "content": "【金十数据整理：中东局势跟踪（5月8日）】<br/><b>①伊朗</b><br/><span class=\"section-news\">1. 伊朗和巴基斯坦两国外长通话。</span><br/><span class=\"section-news\">2. 伊朗总统称近期与最高领袖会面。</span><br/><span class=\"section-news\">3. 伊朗称在霍尔木兹海峡上空击落美军无人机。</span><br/><span class=\"section-news\">4. 伊朗官媒称美媒记者疑发假消息操纵市场获利。</span><br/><span class=\"section-news\">5. 伊朗南部格什姆岛及阿巴斯港附近传出多次爆炸声，伊媒指阿联酋或涉“敌对行动”。</span><br/><span class=\"section-news\">6. 伊朗媒体：伊海军在霍尔木兹海峡附近攻击3艘美军驱逐舰。</span><br/><span class=\"section-news\">7. 伊朗武装部队：美军袭击油轮并空袭沿海地区，违反停火协议，伊方已进行反击。</span><br/><b>②美国</b><br/><span class=\"section-news\">1. 特朗普晒出“战争时长图”，称“伊朗行动”只用时6周。</span><br/><span class=\"section-news\">2. 美国发布对伊朗和古巴新一轮制裁措施，包括伊拉克副石油部长。</span><br/><span class=\"section-news\">3. 美媒：美官员称美军对伊朗港口实施打击，但此举不意味着战争的重启或停火协议的终结。</span><br/><span class=\"section-news\">4. 美中央司令部：美海军导弹驱逐舰通过霍尔木兹海峡前往阿曼湾期间，美军拦截了伊朗方面的攻击并实施了防卫打击，美方无意升级局势。</span><br/><b>③以色列</b><br/><span class=\"section-news\">1. 以色列不满美伊停战谅解备忘录。</span><br/><span class=\"section-news\">2. 内塔尼亚胡：在伊朗核浓缩问题上，以色列与美国拥有“共同目标”。与特朗普保持着“几乎每日”的联系。</span><br/><b>④霍尔木兹海峡</b><br/><span class=\"section-news\">1. 一艘伊朗油轮进入霍尔木兹海峡。</span><br/><span class=\"section-news\">2. 伊朗指定两条航道供船只通行霍尔木兹海峡。</span><br/><span class=\"section-news\">3. 中东媒体称美伊已就缓解美国海上封锁达成共识。</span><br/><span class=\"section-news\">4. 美媒：伊朗推行霍尔木兹海峡新规，要求船只通行前向“波斯湾海峡管理局”申报。</span><br/><span class=\"section-news\">5. 美媒称特朗普政府正寻求重启“自由计划”，最早可能在本周实施。半岛电视台援引美官员辟谣：有关报道不实。</span><br/><b>⑤停火谈判</b><br/><span class=\"section-news\">1. 美媒称美政府似乎正改变谈判策略。</span><br/><span class=\"section-news\">2. 伊朗：尚未就美方案作出任何回应。</span><br/><span class=\"section-news\">3. 瑞士外交部：已准备好主持美伊后续谈判。</span><br/><span class=\"section-news\">4. 巴基斯坦官员：巴方正为可能进行的美伊谈判做准备。</span><br/><span class=\"section-news\">5. 美情报称伊朗可在特朗普封锁下至少支撑三至四个月。</span><br/><span class=\"section-news\">6. 以色列媒体：伊朗对转移浓缩铀持开放态度，目的地仍然成谜。</span><br/><span class=\"section-news\">7. 伊朗高官称美14点方案“不切实际” 强调谈判需包含“切实利益”。</span><br/><span class=\"section-news\">8. 美国务院官员：黎巴嫩与以色列将于下周四、周五在华盛顿举行会谈。</span><br/><span class=\"section-news\">9. 据阿拉伯电视台：巴基斯坦消息人士表示，目前尚未安排伊朗与美国之间的任何直接会晤。</span><br/><span class=\"section-news\">10. 巴基斯坦外交部：至今尚未收到伊朗对美国意见的回应；消息人士称特朗普要求伊朗尽快作出回应。</span><br/><span class=\"section-news\">11. 据耶路撒冷邮报：以色列官员称，华盛顿与德黑兰之间的提议协议可能会使伊朗的导弹库保持完整。该协议还可能会限制以色列军队在黎巴嫩的行动自由。</span><br/><b>⑥其他情况</b><br/><span class=\"section-news\">1. 伊拉克空军空袭“伊斯兰国”据点。</span><br/><span class=\"section-news\">2. 伊朗外交部：伊朗国足将参加世界杯。</span><br/><span class=\"section-news\">3. 黎方消息称以军空袭并炮击多个黎南部市镇。</span><br/><span class=\"section-news\">4. 美司法机构调查伊朗战争相关重大公告前油市异常交易。</span><br/><span class=\"section-news\">5. 以军空袭加沙致多人死伤。哈马斯高官之子因伤势过重身亡。</span><br/><span class=\"section-news\">6. 真主党称在黎巴嫩南部击中以色列装甲车，战斗仍在继续。</span><br/><span class=\"section-news\">7. 以色列军方声称自黎巴嫩“停火”开始以来，已击毙220名真主党成员。</span><br/><span class=\"section-news\">8. 法国外交部：只要霍尔木兹海峡关闭，我们就不会解除对伊朗的制裁。</span><br/><span class=\"section-news\">9. 美能源部长：看起来伊朗已经减少了40万桶/天的产量。我们与伊朗官员没有直接对话。</span><br/><span class=\"section-news\">10. 以色列国防军：真主党多次向在黎巴嫩南部、前沿防线以南的以色列国防军士兵发射火箭。</span><br/><span class=\"section-news\">11. 市场消息：美国国务卿鲁比奥批准向中东国家提供258亿美元的武器支持。</span><br/><span class=\"section-news\">12. 美媒：沙特、科威特恢复美军基地与领空使用权，“自由计划”重启在即。此前，消息人士称沙特将限制美国使用其基地及领空，直至美方“针对伊朗的袭击提供妥善保护”。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-07T22:20:23.658Z"
     }
   ],
-  "lastUpdated": "2026-05-15T07:20:18.941Z"
+  "lastUpdated": "2026-05-15T07:40:21.899Z"
 }
