@@ -2,6 +2,19 @@
   "date": "2026/5/15",
   "items": [
     {
+      "id": "20260515110955411800",
+      "time": "2026-05-15 11:09:55",
+      "hot": "热",
+      "content": "【金十数据整理：每日存储市场要闻速递（2026-05-15）】<span class=\"section-news\">1. 美批准向10家中国企业出售H200芯片。</span><br/><span class=\"section-news\">2. 韩国无水氢氟酸商据悉将对三星、SK海力士提价 6-7月或大幅上涨。</span><br/><span class=\"section-news\">3. 最早用于Exynos 2800：三星被曝研发新手机内存封装技术，带宽最高提升30%。</span><br/><span class=\"section-news\">4. 杰富瑞：三星罢工可能会导致全球约3%的存储芯片生产受到影响。</span><br/><span class=\"section-news\">5. 鸿海高管：内存成本上升带来压力。</span><br/><span class=\"section-news\">6. 中芯国际赵海军：专用存储器仍处于供不应求状态。</span><br/><span class=\"section-news\">7. 机构：2Q26 Mobile DRAM合约价续强，压缩智能手机产量。</span><br/><span class=\"section-news\">8. 机构：2026年第一季度全球市场AMOLED智能手机面板出货量约2.1亿片，同比下降0.7%。</span><br/><span class=\"section-news\">9. 美格智能：将密切关注存储芯片市场行情，调整存储芯片库存。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-05-15T03:50:22.667Z"
+    },
+    {
       "id": "20260515110236779800",
       "time": "2026-05-15 11:02:36",
       "hot": "热",
@@ -4508,22 +4521,7 @@
         2
       ],
       "collectedAt": "2026-05-07T15:53:04.872Z"
-    },
-    {
-      "id": "20260507232547802800",
-      "time": "2026-05-07 23:25:47",
-      "hot": "沸",
-      "content": "据CNN：伊朗对霍尔木兹海峡通行实施新规。船只必须完成申请以确保安全通行。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-07T15:40:26.356Z"
     }
   ],
-  "lastUpdated": "2026-05-15T03:30:21.588Z"
+  "lastUpdated": "2026-05-15T03:50:22.672Z"
 }
