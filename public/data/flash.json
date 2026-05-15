@@ -2,6 +2,19 @@
   "date": "2026/5/15",
   "items": [
     {
+      "id": "20260515090618119800",
+      "time": "2026-05-15 09:06:18",
+      "hot": "热",
+      "content": "【金十数据整理：A股盘前市场要闻速递（2026-05-15）】<b>重要新闻</b><br/><span class=\"section-news\">1. 中国算力基建开辟海上赛道，探访全球首个海底数据中心。</span><br/><span class=\"section-news\">2. 央行：广义货币（M2）余额353.04万亿元，同比增长8.6%。</span><br/><span class=\"section-news\">3. 央行：2026年前四个月社会融资规模增量累计为15.45万亿元，比上年同期少8930亿元。</span><br/><span class=\"section-news\">4. 农业农村部修订印发生猪产能综合调控实施方案。</span><br/><span class=\"section-news\">5. 李强：一个稳定可预期的中美经贸关系符合两国和世界利益。</span><br/><span class=\"section-news\">6. 金融时报：银行存款创造渠道更为多元，这意味着贷款增速低于存款增速是必然的。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 源杰科技：陈文君因涉嫌刑事犯罪被刑拘 已解聘其副总经理职务。</span><br/><span class=\"section-news\">2. 中芯国际：第一季度净利润同比增长0.4%，预计二季度收入环比增长14%-16%。</span><br/><span class=\"section-news\">3. 华虹公司：第一季度净利润同比增长513%，主要系平均销售价格及付运晶圆数量上升使得毛利上升。</span><br/><span class=\"section-news\">4. 5连板蒙娜丽莎：参股公司珠海晶瓷并非英伟达供应商。</span><br/><span class=\"section-news\">5. 沃格光电：实控人及持股5%以上股东相关方因涉嫌信披违法违规被证监会立案。</span><br/><span class=\"section-news\">6. 隆华科技：靶材产品成功导入三星供应链并批量供货。</span><br/><span class=\"section-news\">7. 海泰新光：精密光学行业是技术密集型行业，公司产品核心技术依赖于持续的研发投入和研发创新。</span><br/><span class=\"section-news\">8. 赛意信息：拟开展以高性能算力服务器为标的的融资租赁业务，交易总额预计不超过200亿元。</span><br/><span class=\"section-news\">9. 锐捷网络：1.6T LPO产品正在研发中，预计2026年内提供送样。</span><br/><span class=\"section-news\">10. 天岳先进：碳化硅半导体衬底行业近年来市场竞争日趋激烈，产品价格面临一定下行压力。</span><br/><span class=\"section-news\">11. 科翔股份：陶积电公司应用于AI领域的陶瓷基板目前仍处于研发打样阶段，在公司销售收入占比极小。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-05-15T01:20:18.556Z"
+    },
+    {
       "id": "20260515081335056800",
       "time": "2026-05-15 08:13:35",
       "hot": "热",
@@ -4502,24 +4515,7 @@
         2
       ],
       "collectedAt": "2026-05-07T10:20:26.128Z"
-    },
-    {
-      "id": "20260507161215144800",
-      "time": "2026-05-07 16:12:15",
-      "hot": "沸",
-      "content": "【中东媒体称美伊已就缓解美国海上封锁达成共识】金十数据5月7日讯，据中东媒体7日援引消息人士的话报道，伊朗和美国已就缓解美国海上封锁以换取霍尔木兹海峡逐步重新开放达成共识。不过该消息尚未得到美伊证实。",
-      "source": "新华国际",
-      "source_link": "https://m.weibo.cn/detail/5295971157413082",
-      "important": 1,
-      "channel": [
-        4,
-        5,
-        3,
-        1,
-        2
-      ],
-      "collectedAt": "2026-05-07T08:30:25.217Z"
     }
   ],
-  "lastUpdated": "2026-05-15T00:30:21.124Z"
+  "lastUpdated": "2026-05-15T01:20:18.559Z"
 }
