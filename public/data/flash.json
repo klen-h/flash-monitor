@@ -2,6 +2,51 @@
   "date": "2026/5/16",
   "items": [
     {
+      "id": "20260516141522192800",
+      "time": "2026-05-16 14:15:22",
+      "hot": "热",
+      "content": "<b>据伊朗媒体报道，伊朗方面表示，霍尔木兹海峡不安定局势结束后，航运通行将恢复正常。</b>",
+      "source": "",
+      "source_link": "",
+      "important": 0,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-05-16T07:20:17.496Z"
+    },
+    {
+      "id": "20260516150050218800",
+      "time": "2026-05-16 15:00:50",
+      "hot": "爆",
+      "content": "【俄罗斯总统普京将对华进行国事访问】金十数据5月16日讯，外交部发言人宣布：应国家主席习近平邀请，俄罗斯总统普京将于5月19日至20日对中国进行国事访问。",
+      "source": "央视新闻",
+      "source_link": "https://ysxw.cctv.cn/article.html?toc_style_id=feeds_default&item_id=12054657640206666672&channelId=1215",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-05-16T07:20:17.496Z"
+    },
+    {
+      "id": "20260516151231684800",
+      "time": "2026-05-16 15:12:31",
+      "hot": "爆",
+      "content": "【消息人士：美以或最早下周恢复对伊朗军事行动】金十数据5月16日讯，美国消息人士称，五角大楼正在为恢复对伊朗的军事行动做准备，美国和以色列最早可能在下周恢复对伊朗的军事打击。美方消息称，目前谈判陷入僵局。消息显示，多位美国官员透露，如果美国决定对伊朗恢复军事打击，选项之一是对伊朗军事和基础设施目标进行更猛烈的轰炸；另一个选项是让特种作战部队地面进入，以获取伊朗的核材料。数百名特种作战部队人员已于3月抵达中东。但美国官员承认，这一选项伴随着巨大风险。此外，自4月初停火以来，美国已为该地区的战舰和战机重新配备了弹药。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=17183607350805354858&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D17183607350805354858%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-05-16T07:20:17.496Z"
+    },
+    {
       "id": "20260516130125818800",
       "time": "2026-05-16 13:01:25",
       "hot": "热",
@@ -4480,52 +4525,7 @@
         1
       ],
       "collectedAt": "2026-05-09T06:10:17.792Z"
-    },
-    {
-      "id": "20260509105534272800",
-      "time": "2026-05-09 10:55:34",
-      "hot": "沸",
-      "content": "【增长14.9%，我国外贸延续良好增长态势】金十数据5月9日讯，海关总署5月9日发布数据：今年前4个月我国货物贸易进出口总值16.23万亿元，同比增长14.9%。其中，出口9.33万亿元，同比增长11.3%，进口6.9万亿元，同比增长20%。4月当月我国进出口4.38万亿元，同比增速达到两位数，为14.2%，外贸运行态势良好。",
-      "source": "新华社",
-      "source_link": "https://h.xinhuaxmt.com/vh512/share/13093824",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-09T04:00:24.151Z"
-    },
-    {
-      "id": "20260509100400085800",
-      "time": "2026-05-09 10:04:00",
-      "hot": "沸",
-      "content": "【我国第四代自主超导量子计算机“本源悟空-180”上线】金十数据5月9日讯，从安徽省量子计算芯片重点实验室获悉，搭载单核180个计算比特自主超导量子芯片的“本源悟空-180”量子计算机已上线运行，今日起开始接收全球量子计算任务。",
-      "source": "央视",
-      "source_link": "https://ysxw.cctv.cn/article.html?toc_style_id=feeds_default&item_id=17276418866938744993&channelId=1119",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-09T02:30:27.653Z"
-    },
-    {
-      "id": "20260509085434510800",
-      "time": "2026-05-09 08:54:34",
-      "hot": "沸",
-      "content": "【金十数据整理：中东局势跟踪（5月9日）】<br/><b>①伊朗</b><br/><span class=\"section-news\">1. 伊朗商船遭美军袭击10人伤5人失踪。</span><br/><span class=\"section-news\">2. 伊朗官员：一名失踪水兵在昨晚的美军袭击中身亡。</span><br/><span class=\"section-news\">3. 伊朗外交部强烈谴责美军袭击伊朗油轮。</span><br/><span class=\"section-news\">4. 海事情报公司称有3艘伊朗油轮突破美军封锁。</span><br/><span class=\"section-news\">5. 伊武装部队在霍尔木兹海峡水域与美军舰发生“零星冲突”。</span><br/><span class=\"section-news\">6. 伊朗外长：伊当前导弹库存与发射能力较2月28日增长20%。</span><br/><span class=\"section-news\">7. 伊朗外交部：武装力量已做好全面准备，将回击任何侵略。</span><br/><span class=\"section-news\">8. 伊朗外长：美国破坏性做法正在削弱外交进程。</span><br/><span class=\"section-news\">9. 伊朗外交部：美国以毫无根据的理由针对伊拉克官员，实在令人感到羞耻和可悲。</span><br/><span class=\"section-news\">10. 伊媒：伊朗高级议员表示，从现在起，美国的海上封锁措施将遭到伊朗的军事回应。</span><br/><span class=\"section-news\">11. 伊朗最高领袖顾问穆赫贝尔：阿联酋已受到惩罚，并将遭受更严厉的惩罚。这些曾被视为投资避风港的国家，如今正面临资本外逃。</span><br/><b>②美国</b><br/><span class=\"section-news\">1. 美军说向两艘伊朗油轮开火，使其丧失航行能力。</span><br/><span class=\"section-news\">2. 美媒称万斯会见卡塔尔首相，讨论与伊朗谈判事宜。</span><br/><span class=\"section-news\">3. 美国称将为以黎会谈提供便利。</span><br/><span class=\"section-news\">4. 特朗普称可能恢复“自由计划”行动。</span><br/><b>③以色列</b><br/><span class=\"section-news\">1. 据塔斯尼姆通讯社：以色列军方宣布，其雷达系统误判伊朗发射了两枚导弹。</span><br/><b>④霍尔木兹海峡</b><br/><span class=\"section-news\">1. 遭美国扣押的伊朗货船抵达巴基斯坦卡拉奇港。</span><br/><span class=\"section-news\">2. 美方：目前有超70艘油轮受阻未能进出伊朗港口。</span><br/><span class=\"section-news\">3. 过去24小时没有大型商船通过霍尔木兹海峡。</span><br/><span class=\"section-news\">4. 伊媒：伊朗正制定关于霍尔木兹海峡“合法制度”的方案，相关计划将成为永久法律。</span><br/><b>⑤停火谈判</b><br/><span class=\"section-news\">1. 卡塔尔首相呼吁各方为美伊重启谈判创造条件。</span><br/><span class=\"section-news\">2. 伊媒：伊朗方面称仍在审议美国提出的结束战争的提案。</span><br/><span class=\"section-news\">3. 美国务卿：我们今天（8日）应该得到伊朗的回应。希望美伊进入严肃谈判进程。</span><br/><b>⑥其他情况</b><br/><span class=\"section-news\">1. 阿联酋再次遭到伊朗导弹袭击。</span><br/><span class=\"section-news\">2. 俄国家原子能公司：伊朗布什尔核电站施工现场逐步恢复运转。</span><br/><span class=\"section-news\">3. 以色列官员：自3月2日以来，我们已击毙超过2250名黎巴嫩真主党成员。</span><br/><span class=\"section-news\">4. 观察机构表示，美国和以色列的空袭使伊朗的核计划落后了最多两年。</span><br/><span class=\"section-news\">5. 据阿拉伯电视台：沙特表示未允许其他国家在进攻性行动中使用其领空。</span><br/><span class=\"section-news\">6. 据伊朗迈赫尔通讯社：由于阿联酋防空系统的启动，迪拜和阿布扎比之间的航班已暂停。</span><br/><span class=\"section-news\">7. 卫星图像显示伊朗哈尔克岛附近疑似出现大规模漏油。伊朗议员：哈尔克岛附近油污实为欧洲油轮排放物。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-09T01:30:28.225Z"
     }
   ],
-  "lastUpdated": "2026-05-16T05:40:17.512Z"
+  "lastUpdated": "2026-05-16T07:20:17.501Z"
 }
