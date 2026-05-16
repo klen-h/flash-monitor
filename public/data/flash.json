@@ -2,6 +2,21 @@
   "date": "2026/5/17",
   "items": [
     {
+      "id": "20260517024230307800",
+      "time": "2026-05-17 02:42:30",
+      "hot": "热",
+      "content": "【伊朗股市将于下周二重开】金十数据5月17日讯，据伊朗伊斯兰共和国通讯社（IRNA）周六援引一位高级官员的话报道，在因与美国及以色列的冲突而暂停交易后，伊朗将于周二重开其股票市场。伊朗证券交易组织副监管员哈米德·亚里（Hamid Yari）表示：“自战事爆发之初暂停股市活动，旨在保护股东资产、防止恐慌性交易，并营造更加透明的定价环境。”他补充道：“如今，随着股市的重开，我们将看到资本市场所有板块全面恢复运作。”",
+      "source": "",
+      "source_link": "",
+      "important": 0,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-05-16T22:10:17.842Z"
+    },
+    {
       "id": "20260517023242958800",
       "time": "2026-05-17 02:32:42",
       "hot": "热",
@@ -4504,20 +4519,7 @@
         2
       ],
       "collectedAt": "2026-05-10T06:50:18.808Z"
-    },
-    {
-      "id": "20260510084727210800",
-      "time": "2026-05-10 08:47:27",
-      "hot": "沸",
-      "content": "【金十数据整理：昨日今晨重要新闻汇总（2026-05-10）】<b>国内新闻：</b><br/><span class=\"section-news\">1. 江西组织开展猪肉临时储备收储。</span><br/><span class=\"section-news\">2. 比亚迪、特斯拉等八家车企否认被监管约谈。</span><br/><span class=\"section-news\">3. 中国人民银行行长潘功胜会见法国总统外事顾问博纳。</span><br/><span class=\"section-news\">4. 我国第四代自主超导量子计算机“本源悟空-180”上线。</span><br/><span class=\"section-news\">5. 2026年医保目录及商保创新药目录调整公开征求意见。</span><br/><span class=\"section-news\">6. 国家发展改革委主任郑栅洁赴上海人工智能实验室调研。</span><br/><span class=\"section-news\">7. 一季度我国造船业三大指标领跑全球，新接订单快速增长。</span><br/><span class=\"section-news\">8. 网传四川宜宾人员关联境外邮轮疫情，官方通报：无时空交集。</span><br/><span class=\"section-news\">9. 商务部部长王文涛与德国联邦经济和能源部部长赖歇举行视频会谈。</span><br/><span class=\"section-news\">10. 中国汽车工业协会：网传“新能源车企因锁电问题被约谈、立案”为不实信息。</span><br/><span class=\"section-news\">11. 国常会：加强水网、新型电网、算力网、新一代通信网、城市地下管网、物流网等规划建设。</span><br/><span class=\"section-news\">12. 今年前4个月我国货物贸易进出口总值16.23万亿元，同比增长14.9%，外贸延续良好增长态势。</span><br/><span class=\"section-news\">13. 2026年一季度我国黄金产量81.065吨，同比下降7.08%；一季度黄金消费量303.292吨，同比增长4.41%。</span><br/><b>国际新闻：</b><br/><span class=\"section-news\">1. 世卫已启动应对汉坦病毒疫情行动。</span><br/><span class=\"section-news\">2. 新西兰考虑在海外建实体燃油储备。</span><br/><span class=\"section-news\">3. 英国将派遣舰艇参加霍尔木兹海峡护航行动。</span><br/><span class=\"section-news\">4. 土耳其将对股票的“短期卖空”禁令延长至5月26日。</span><br/><span class=\"section-news\">5. 一艘卡塔尔液化天然气运载船正试图穿越霍尔木兹海峡。</span><br/><span class=\"section-news\">6. 员工人均奖金达610万人民币？SK海力士回应：今明两年年度业绩尚未确定，奖金规模也无法预测。</span><br/><span class=\"section-news\">7. 欧洲央行行长拉加德：欧洲央行在行动过早与过晚之间左右为难，需要“更多数据”来理解这场冲突的影响。</span><br/><span class=\"section-news\">8. 伊朗外长：停止侵略、放弃无理要求是推进外交进程必要条件。</span><br/><span class=\"section-news\">9. 伊朗欲掌控霍尔木兹海峡海底互联网电缆。</span><br/><span class=\"section-news\">10. 特朗普接受法国LCJ频道采访时表示：伊朗确实希望达成协议。</span><br/><span class=\"section-news\">11. 俄罗斯总统普京：我认为乌克兰冲突即将结束。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-05-10T02:00:28.711Z"
     }
   ],
-  "lastUpdated": "2026-05-16T20:42:23.802Z"
+  "lastUpdated": "2026-05-16T22:12:32.576Z"
 }
