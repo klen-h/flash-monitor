@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export async function fetchSinaMacro() {
   // 【修复1】增加纳指期货(hf_NQ)和恒生科技指数(rt_hkHSTECH)
-  const url = 'https://hq.sinajs.cn/list=hf_CL,hf_GC,hf_XAU,DINIW,fx_susdcnh,hf_NQ,rt_hkHSTECH,hf_OIL,hf_NK,hf_SI,hf_HG';
+  const url = 'https://hq.sinajs.cn/list=hf_CL,hf_GC,hf_XAU,DINIW,fx_susdcnh,hf_NQ,rt_hkHSTECH,hf_OIL,hf_NK,hf_SI,hf_HG,globalbd_us10yt,hf_VX,gb_gld';
 
   try {
     const { data } = await axios.get(url, {
@@ -22,6 +22,8 @@ export async function fetchSinaMacro() {
       if (!m) continue;
       map[m[1]] = m[2].split(',');
     }
+
+    // console.log(map);
 
     // ================= 解析 纽约原油 hf_CL =================
     const cl = map['hf_CL'] || [];
@@ -61,6 +63,18 @@ export async function fetchSinaMacro() {
       time: `${gc[12]} ${gc[6]}`,
     };
 
+    const gld = map['gb_gld'] || [];
+    // console.log(gld);
+    const gldData = {
+      price: parseFloat(gld[1]) || 0,
+      prevClose: parseFloat(gld[26]) || 0, // 26 是昨收
+      high: parseFloat(gld[6]) || 0,
+      low: parseFloat(gld[7]) || 0,
+      change: gld[26] > 0 ? ((gld[1] - gld[26]) / gld[26] * 100).toFixed(2) : '0',
+      time: `${gld[25]}`,
+    };
+
+
     // ================= 解析 COMEX 白银 hf_SI =================
     const si = map['hf_SI'] || [];
     // console.log(si);
@@ -83,6 +97,17 @@ export async function fetchSinaMacro() {
       low: parseFloat(hg[5]) || 0,
       change: hg[7] > 0 ? ((hg[0] - hg[7]) / hg[7] * 100).toFixed(2) : '0',
       time: `${hg[12]} ${hg[6]}`,
+    };
+
+    // ================= 解析 美国10年期国债 globalbd_us10yt =================
+    const us10yt = map['globalbd_us10yt'] || [];
+    const us10ytData = {
+      price: parseFloat(us10yt[3]) || 0,
+      prevClose: parseFloat(us10yt[2]) || 0, // 2 是昨收
+      high: parseFloat(us10yt[4]) || 0,
+      low: parseFloat(us10yt[5]) || 0,
+      change: us10yt[2] > 0 ? ((us10yt[3] - us10yt[2]) / us10yt[2] * 100).toFixed(2) : '0',
+      time: `${us10yt[12]} ${us10yt[13]}`,
     };
 
     // ================= 解析 纳指期货 hf_NQ =================
@@ -159,10 +184,26 @@ export async function fetchSinaMacro() {
       };
     }
 
+    // ================= 解析 VIX恐慌指数期货 hf_VX =================
+    const vx = map['hf_VX'] || [];
+    // console.log(vx);
+    const vxData = {
+      price: parseFloat(vx[0]) || 0,
+      prevClose: parseFloat(vx[7]) || 0, // 7 是昨收
+      high: parseFloat(vx[4]) || 0,
+      low: parseFloat(vx[5]) || 0,
+      change: vx[7] > 0 ? ((vx[0] - vx[7]) / vx[7] * 100).toFixed(2) : '0',
+      time: `${vx[12]} ${vx[6]}`,
+    };
+
     const copperOilRatio = (brentData.price > 0) ? (copper.price / brentData.price).toFixed(2) : '0';
     // 注意：COMEX铜是美分/磅，布伦特是美元/桶。如果需要量纲对齐，铜通常用美元/吨或美元/磅，此处直接用价格比作为相对指标，追踪趋势变化而非绝对值。
 
     const goldSilverRatio = (silver.price > 0) ? (gold.price / silver.price).toFixed(2) : '0';
+    // 金油比 = 金/油
+    const gldRatio = (gldData.price > 0) ? (gold.price / gldData.price).toFixed(2) : '0';
+    // 铜金比 = 铜/金
+    const copperGoldRatio = (copper.price > 0) ? (copper.price / gold.price).toFixed(2) : '0';
 
     return { 
       brent: brentData, 
@@ -176,8 +217,13 @@ export async function fetchSinaMacro() {
       hstech, 
       silver, 
       copper, 
+      us10yt: us10ytData,
+      vix: vxData,
+      gld: gldData,
       copperOilRatio,
       goldSilverRatio,
+      gldRatio,
+      copperGoldRatio,
     };
 
   } catch (e) {
@@ -197,6 +243,24 @@ export async function fetchSinaMacro() {
       copper: { price: 0, change: '0' },
       copperOilRatio: '0',
       goldSilverRatio: '0',
+      us10yt: {
+        price: 0,
+        change: '0',
+      },
+      vix: {
+        price: 0,
+        change: '0',
+      },
+      gld: {
+        price: 0,
+        prevClose: 0,
+        high: 0,
+        low: 0,
+        time: '',
+        change: '0',
+      },
+      gldRatio: '0',
+      copperGoldRatio: '0',
     };
   }
 }

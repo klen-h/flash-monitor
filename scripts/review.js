@@ -85,10 +85,13 @@ function getClusterContents(clusters) {
 // ==================== 格式化宏观快照（集成趋势） ====================
 function formatMacroSnapshot(macro, history = []) {
   const lines = [];
-  
+
   // 辅助格式化函数，自动添加趋势上下文
   const add = (label, symbol, data) => {
-    const change = data.change > 0 ? `+${data.change}` : data.change;
+    // 如果数据无效则跳过
+    if (!data || typeof data.price !== 'number' || isNaN(data.price)) return;
+    const change = typeof data.change === 'number' ? data.change : parseFloat(data.change);
+    const changeStr = !isNaN(change) ? (change > 0 ? `+${change.toFixed(2)}` : change.toFixed(2)) : '0.00';
     const context = getTrendContext(
       symbol,
       data.price,
@@ -98,21 +101,70 @@ function formatMacroSnapshot(macro, history = []) {
       data.open || data.prevClose,
       history
     );
-    lines.push(`- ${label}: $${data.price} (${change}%)  [${context}]`);
+    lines.push(`- ${label}: $${data.price} (${changeStr}%)  [${context}]`);
   };
-  
+
+  // 非美元计价的特殊处理
+  const addNonDollar = (label, data, unit = '', isPercent = false) => {
+    if (!data || typeof data.price !== 'number' || isNaN(data.price)) return;
+    const price = data.price;
+    const change = typeof data.change === 'number' ? data.change : parseFloat(data.change);
+    const changeStr = !isNaN(change) ? (change > 0 ? `+${change.toFixed(2)}` : change.toFixed(2)) : '0.00';
+    // 如果已经是百分比数值（如美债收益率），则直接显示，不另加百分号
+    const prefix = isPercent ? '' : '$';
+    lines.push(`- ${label}: ${prefix}${price}${unit} (${changeStr}%)`);
+  };
+
+  // 商品/指数（美元计价）
   add('布伦特原油', 'brent', macro.brent);
   add('纽约原油', 'wti', macro.crude);
   add('COMEX黄金', 'gold', macro.gold);
   add('COMEX白银', 'silver', macro.silver);
   add('COMEX铜', 'copper', macro.copper);
-  lines.push(`- 铜油比: ${macro.copperOilRatio || '?'} 金银比: ${macro.goldSilverRatio || '?'}`);
+
+  // 比值
+  const ratios = [];
+  if (macro.copperOilRatio) ratios.push(`铜油比: ${macro.copperOilRatio}`);
+  if (macro.goldSilverRatio) ratios.push(`金银比: ${macro.goldSilverRatio}`);
+  if (macro.gldRatio) ratios.push(`金油比: ${macro.gldRatio}`);
+  if (macro.copperGoldRatio) ratios.push(`铜金比: ${macro.copperGoldRatio}`);
+  if (ratios.length) lines.push(`- ${ratios.join('  ')}`);
+
+  // 股指期货
   add('纳指指数期货', 'nasdaq', macro.nasdaq);
   add('日经225指数期货', 'nke', macro.nke);
-  lines.push(`- 恒生科技指数: ${macro.hstech.price} (${macro.hstech.change > 0 ? '+' : ''}${macro.hstech.change}%)`);
+
+  // 恒生科技指数（可能无趋势上下文）
+  if (macro.hstech?.price) {
+    const hs = macro.hstech;
+    const change = typeof hs.change === 'number' ? hs.change : parseFloat(hs.change);
+    const changeStr = !isNaN(change) ? (change > 0 ? `+${change.toFixed(2)}` : change.toFixed(2)) : '0.00';
+    lines.push(`- 恒生科技指数: ${hs.price} (${changeStr}%)`);
+  }
+
   add('美元指数', 'dxy', macro.dxy);
-  lines.push(`- 离岸人民币: ${macro.usdcnh.price} (${macro.usdcnh.change > 0 ? '+' : ''}${macro.usdcnh.change}%)`);
-  
+
+  // 离岸人民币（非美元）
+  if (macro.usdcnh?.price) {
+    const cnh = macro.usdcnh;
+    const change = typeof cnh.change === 'number' ? cnh.change : parseFloat(cnh.change);
+    const changeStr = !isNaN(change) ? (change > 0 ? `+${change.toFixed(2)}` : change.toFixed(2)) : '0.00';
+    lines.push(`- 离岸人民币: ${cnh.price} (${changeStr}%)`);
+  }
+
+  // 美10年期国债收益率（百分比，不显示$）
+  addNonDollar('美10年期债收益率', macro.us10yt, '%', true);
+
+  // VIX期货
+  if (macro.vix?.price) {
+    addNonDollar('VIX期货', macro.vix);
+  }
+
+  // GLD价格
+  if (macro.gld?.price) {
+    addNonDollar('GLD价格', macro.gld);
+  }
+
   return lines.join('\n');
 }
 

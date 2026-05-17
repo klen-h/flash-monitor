@@ -35,6 +35,8 @@ export function appendMacroHistory(macro) {
     brent: { price: macro.brent.price, change: parseFloat(macro.brent.change) || 0 },
     wti: { price: macro.crude.price, change: parseFloat(macro.crude.change) || 0 },
     gold: { price: macro.gold.price, change: parseFloat(macro.gold.change) || 0 },
+    gld: { price: macro.gld.price, change: parseFloat(macro.gld.change) || 0 },
+    us10yt: { price: macro.us10yt.price, change: parseFloat(macro.us10yt.change) || 0 },
     silver: { price: macro.silver.price, change: parseFloat(macro.silver.change) || 0 },
     copper: { price: macro.copper.price, change: parseFloat(macro.copper.change) || 0 },
     nasdaq: { price: macro.nasdaq.price, change: parseFloat(macro.nasdaq.change) || 0 },
@@ -44,6 +46,8 @@ export function appendMacroHistory(macro) {
     usdcnh: { price: macro.usdcnh.price, change: parseFloat(macro.usdcnh.change) || 0 },
     copperOilRatio: macro.copperOilRatio,
     goldSilverRatio: macro.goldSilverRatio,
+    gldRatio: macro.gldRatio,
+    copperGoldRatio: macro.copperGoldRatio,
   };
 
   // 去重：若最后一条与当前时间相差小于 3 分钟，覆盖
