@@ -2,6 +2,23 @@
   "date": "2026/5/17",
   "items": [
     {
+      "id": "20260517215010949800",
+      "time": "2026-05-17 21:50:10",
+      "hot": "热",
+      "content": "【香港特区政府启动埃博拉病毒病戒备应变级别】金十数据5月17日讯，香港特区政府17日宣布启动“埃博拉病毒准备及应变计划”下的戒备应变级别，保障市民健康。香港卫生署卫生防护中心表示，已主动向世卫、非洲疾病预防控制中心、刚果民主共和国和乌干达卫生当局索取进一步资讯。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=5642167712364750888&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D5642167712364750888%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 0,
+      "channel": [
+        4,
+        5,
+        3,
+        2,
+        1
+      ],
+      "collectedAt": "2026-05-17T15:10:22.403Z"
+    },
+    {
       "id": "20260517212811009800",
       "time": "2026-05-17 21:28:11",
       "hot": "热",
@@ -4505,21 +4522,7 @@
         3
       ],
       "collectedAt": "2026-05-10T23:30:20.715Z"
-    },
-    {
-      "id": "20260511063157820800",
-      "time": "2026-05-11 06:31:57",
-      "hot": "沸",
-      "content": "【金十数据整理：昨日今晨重要新闻汇总（2026-05-11）】<b>国内新闻：</b><br/><span class=\"section-news\">1. 何立峰将于5月12日—13日率团赴韩国与美方举行经贸磋商。</span><br/><span class=\"section-news\">2. 山西调整住房公积金贷款和提取政策。</span><br/><span class=\"section-news\">3. 商务部发布关于2026年度牛肉保障措施执行提示信息。</span><br/><b>国际新闻：</b><br/><span class=\"section-news\">1. 地方选举惨败后 斯塔默周一将发表“保位演讲”。</span><br/><span class=\"section-news\">2. 美能源部长：政府对暂停征收燃油税持开放态度。</span><br/><span class=\"section-news\">3. 特朗普下令所有联邦机构必须“买美国货”：毫无例外。</span><br/><span class=\"section-news\">4. 美国财长贝森特：将于周一出发，前往日本和韩国进行一系列简短的会议。</span><br/><span class=\"section-news\">5. 中东局势——<br/>①据悉伊朗已拒绝美国的提案。<br/>②伊朗对美国提案的回应已通过巴基斯坦转交，据悉回应聚焦“结束战争与海上安全”。<br/>③特朗普称其不喜欢伊朗的回应，完全不可接受！<br/>④伊媒：特朗普对伊朗回应的反应无关紧要，如果特朗普对此不满意，那反而是更好的结果。<br/>⑤特朗普：美方一直在监控伊朗埋在废墟下的浓缩铀，一旦有人靠近将马上获悉，并会将其炸毁。<br/>⑥伊媒援引消息人士否认华尔街日报有关伊朗核议题的报道。<br/>⑦卡塔尔液化天然气运输船时隔约70天首次通过霍尔木兹海峡，期间使用伊朗航道。<br/>⑧一艘美国商船遭伊朗无人机袭击。<br/>⑨伊朗海军司令：自主建造的轻型潜艇正在霍尔木兹海峡待命。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-05-10T22:50:16.996Z"
     }
   ],
-  "lastUpdated": "2026-05-17T14:00:29.980Z"
+  "lastUpdated": "2026-05-17T15:10:22.410Z"
 }
