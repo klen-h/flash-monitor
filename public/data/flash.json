@@ -2,6 +2,21 @@
   "date": "2026/5/18",
   "items": [
     {
+      "id": "20260518112516148800",
+      "time": "2026-05-18 11:25:16",
+      "hot": "热",
+      "content": "摩根大通：将2026年平均黄金价格预测下调5243美元/盎司，之前为5708美元/盎司。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-05-18T04:20:19.068Z"
+    },
+    {
       "id": "20260518102048407800",
       "time": "2026-05-18 10:20:48",
       "hot": "热",
@@ -4496,20 +4511,7 @@
         3
       ],
       "collectedAt": "2026-05-11T06:20:18.977Z"
-    },
-    {
-      "id": "20260511134315383800",
-      "time": "2026-05-11 13:43:15",
-      "hot": "热",
-      "content": "【金十数据整理：每日全球外汇市场要闻速递（2026-05-11）】<b>美元：</b><br/><span class=\"section-news\">1. 美联储金融稳定报告：私人信贷赎回相关风险“可控”。</span><br/><span class=\"section-news\">2. “美联储传声筒”：非农数据意味着美联储关注点将从就业转向通胀。</span><br/><span class=\"section-news\">3. 美国白宫国家经济委员会主任哈塞特：我们相信强势美元。因为沃什，我们今年会看到降息。没有迹象表明通胀失控，美联储无需加息。</span><br/><span class=\"section-news\">4. 美联储古尔斯比：通胀方面的积极进展将导致降息，但目前尚未出现。当价格压力加剧时，我们必须关注通胀率。</span><br/><span class=\"section-news\">5. 美银全球研究：预计美联储将在2027年7月和9月各降息25个基点，此前预测为2026年9月和10月降息。</span><br/><span class=\"section-news\">6. 高盛：预计美联储将在2026年12月和2027年3月各降息25个基点，此前预测为今年9月和12月降息。</span><br/><span class=\"section-news\">7. 中信证券：预计美联储下半年基准情形为降息1次25bps。</span><br/><b>欧元：</b><br/><span class=\"section-news\">1. 欧洲央行管委内格尔：欧洲央行对通胀威胁保持高度警惕。欧洲央行将采取必要措施控制能源价格上涨。</span><br/><span class=\"section-news\">2. 欧洲央行行长拉加德：欧洲央行在行动过早与过晚之间左右为难，需要“更多数据”来理解这场冲突的影响。</span><br/><span class=\"section-news\">3. 欧洲央行管委科赫尔：（当被问及欧洲央行是否可能在下次会议上加息时）除非局势显著改善，否则在不久的将来加息将不可避免。</span><br/><span class=\"section-news\">4. 欧洲央行副行长金多斯：我认为在决定下一步利率政策之前，我们应该再等等。</span><br/><b>英镑：</b><br/><span class=\"section-news\">1. 英国执政党工党在地方选举中惨败，改革党势头强劲。</span><br/><b>日元：</b><br/><span class=\"section-news\">1. 日本本周四或未进行汇市干预。</span><br/><span class=\"section-news\">2. 日本央行任命货币政策专家正木一博负责国际事务。</span><br/><span class=\"section-news\">3. 日本当局出手后，日元看跌头寸大幅减少。</span><br/><span class=\"section-news\">4. 日本央行：日本央行行长植田和男将于5月9日至13日访问瑞士，参加国际清算银行会议。</span><br/><b>其他：</b><br/><span class=\"section-news\">1. 冰岛央行：已决定在银行间市场恢复常规外汇购买。</span><br/><span class=\"section-news\">2. 马来西亚和印尼央行签署协议，加强双边合作。</span><br/><span class=\"section-news\">3. 交易员：印度央行或正抛售美元以遏制卢比跌势。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-05-11T06:10:22.207Z"
     }
   ],
-  "lastUpdated": "2026-05-18T02:30:24.407Z"
+  "lastUpdated": "2026-05-18T04:20:19.073Z"
 }
