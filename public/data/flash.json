@@ -2,6 +2,21 @@
   "date": "2026/5/18",
   "items": [
     {
+      "id": "20260518200047782800",
+      "time": "2026-05-18 20:00:47",
+      "hot": "热",
+      "content": "【消息人士：美方同意在谈判期间暂时豁免对伊朗的石油制裁】金十数据5月18日讯，当地时间18日，一位接近美伊谈判团队的消息人士称，<b>美方在最新谈判方案文本中已同意在谈判期间对伊朗的石油制裁进行“豁免”</b>，这意味着美方将暂时中止制裁。伊朗强调，取消所有对伊制裁必须属于美方承诺的一部分。然而，美方提出的是在达成最终谅解之前，由美国财政部外国资产控制办公室（OFAC）实施暂时性豁免。<b>截至目前，美伊官方均未证实该消息。</b>",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=272644036347742137&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D272644036347742137%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-05-18T12:10:20.029Z"
+    },
+    {
       "id": "20260518194606916800",
       "time": "2026-05-18 19:46:06",
       "hot": "沸",
@@ -4491,24 +4506,7 @@
         2
       ],
       "collectedAt": "2026-05-11T13:00:39.047Z"
-    },
-    {
-      "id": "20260511193643563800",
-      "time": "2026-05-11 19:36:43",
-      "hot": "热",
-      "content": "【央行：外部输入型通胀对国内经济运行的影响需要密切关注】金十数据5月11日讯，央行发布2026年第一季度中国货币政策执行报告。其中提到，近期中东地缘政治事件引起国际原油和部分大宗商品价格上行，对当前我国物价指标回升有一定作用，但外部输入型通胀对国内经济运行的影响需要密切关注。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        4,
-        5,
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-11T12:30:24.427Z"
     }
   ],
-  "lastUpdated": "2026-05-18T12:00:26.679Z"
+  "lastUpdated": "2026-05-18T12:10:20.034Z"
 }
