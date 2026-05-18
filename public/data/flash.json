@@ -2,6 +2,23 @@
   "date": "2026/5/18",
   "items": [
     {
+      "id": "20260518162752163800",
+      "time": "2026-05-18 16:27:52",
+      "hot": "热",
+      "content": "【消息人士：伊朗提出的修订方案已转交至美方】金十数据5月18日讯，巴基斯坦消息人士称，巴基斯坦已将伊朗为结束战争而提出的修订方案转交给美国，美国方面已收到相关方案。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=12917520032826038071&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D12917520032826038071%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        5,
+        4,
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-05-18T08:50:23.970Z"
+    },
+    {
       "id": "20260518161502672800",
       "time": "2026-05-18 16:15:02",
       "hot": "热",
@@ -4490,21 +4507,7 @@
         3
       ],
       "collectedAt": "2026-05-11T08:10:21.142Z"
-    },
-    {
-      "id": "20260511155425496800",
-      "time": "2026-05-11 15:54:25",
-      "hot": "热",
-      "content": "【印尼推迟提高矿业特许权使用费和出口税的计划】金十数据5月11日讯，印尼矿业部长周一表示，印尼已推迟从矿业领域进一步增加财政收入的计划，原因是在找到一套既能惠及政府又造福矿企的“理想方案”之前，当局希望暂缓推进相关措施。印尼政府原计划提高部分矿业公司的特许权使用费，同时对包括煤炭在内的部分矿产品出口征收出口税。该国能源与矿产资源部长拉哈达利亚表示，政府目前正在收集矿业企业的反馈意见，以确保最终出台的政策不会给行业带来过重负担。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2
-      ],
-      "collectedAt": "2026-05-11T08:10:21.142Z"
     }
   ],
-  "lastUpdated": "2026-05-18T08:40:22.599Z"
+  "lastUpdated": "2026-05-18T08:50:23.975Z"
 }
