@@ -2,6 +2,19 @@
   "date": "2026/5/18",
   "items": [
     {
+      "id": "20260518143619401800",
+      "time": "2026-05-18 14:36:19",
+      "hot": "热",
+      "content": "【金十数据整理：每日全球外汇市场要闻速递（2026-05-18）】<b>美元</b><br/><span class=\"section-news\">1. 美联储：沃什正式就任前鲍威尔将暂任“临时主席”。</span><br/><span class=\"section-news\">2. “新债王”冈拉克：美联储根本不可能降息。</span><br/><span class=\"section-news\">3. 美国利率期货显示，预计到明年1月份美联储加息的概率超过50%。</span><br/><b>欧元</b><br/><span class=\"section-news\">1. 欧洲央行管委武伊契奇：6月是否加息取决于即将公布的数据。</span><br/><span class=\"section-news\">2. 欧洲央行管委斯图纳拉斯：小幅加息可以在不造成经济损害的情况下抑制通胀。</span><br/><span class=\"section-news\">3. 法国财政部长：我认为法国经济将在第二季度复苏。预计今年法国经济将增长0.9%。</span><br/><b>英镑</b><br/><span class=\"section-news\">1. 英媒：英国首相斯塔默打算辞去首相职务，并制定了有序的离任时间表。</span><br/><span class=\"section-news\">2. 现任曼彻斯特市长安迪·伯纳姆宣布有意挑战英国首相职位。</span><br/><span class=\"section-news\">3. 英国前卫生大臣斯特里廷：我将参加任何接替英国首相斯塔默领导职位的角逐。</span><br/><span class=\"section-news\">4. 英国央行副行长布里登：英国央行不应在利率问题上过于“激进”；政治不确定性将对商业造成影响。</span><br/><b>其他</b><br/><span class=\"section-news\">1. 交易员：印度央行可能在96.20卢比水平附近卖出美元。</span><br/><span class=\"section-news\">2. 土耳其财长：伊朗战争冲击或将加剧土耳其预算赤字。</span><br/><span class=\"section-news\">3. 澳大利亚财长重申资本利得税改革旨在修复楼市。</span><br/><span class=\"section-news\">4. 消息人士：日本政府可能会发行新债务，以为补充预算提供资金。</span><br/><span class=\"section-news\">5. 泰国财政部长：将增加投资以支持经济复苏。财政政策有空间支持经济增长。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-05-18T07:10:25.981Z"
+    },
+    {
       "id": "20260518141242504800",
       "time": "2026-05-18 14:12:42",
       "hot": "热",
@@ -4495,23 +4508,7 @@
         3
       ],
       "collectedAt": "2026-05-11T06:50:25.487Z"
-    },
-    {
-      "id": "20260511144334323800",
-      "time": "2026-05-11 14:43:34",
-      "hot": "沸",
-      "content": "中韩半导体ETF(513310)尾盘涨停，成交额69亿元。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        4,
-        5,
-        3,
-        1
-      ],
-      "collectedAt": "2026-05-11T06:50:25.487Z"
     }
   ],
-  "lastUpdated": "2026-05-18T06:40:28.910Z"
+  "lastUpdated": "2026-05-18T07:10:25.985Z"
 }
