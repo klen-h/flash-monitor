@@ -2,6 +2,19 @@
   "date": "2026/5/19",
   "items": [
     {
+      "id": "20260519111454299800",
+      "time": "2026-05-19 11:14:54",
+      "hot": "热",
+      "content": "【金十数据整理：每日存储市场要闻速递（2026-05-19）】<span class=\"section-news\">1. 英伟达CEO黄仁勋：内存需求将超过产能。</span><br/><span class=\"section-news\">2. 产能将激增 前三星芯片负责人预测明年下半年内存将显著降价。</span><br/><span class=\"section-news\">3. 应对罢工风险：消息称三星减少新晶圆投片、产能转向HBM等高价值内存。</span><br/><span class=\"section-news\">4. 三星计划将原本专供服务器使用的HBM高带宽内存下放至智能手机、平板电脑等消费终端。</span><br/><span class=\"section-news\">5. 广颖电通推出内容创作存储系列CreatePro，覆盖多种应用场景与产品形态。</span><br/><span class=\"section-news\">6. 英特尔CEO陈立武回应为苹果代工芯片：正与多家客户合作。</span><br/><span class=\"section-news\">7. 国民技术与安谋科技深化技术合作，签署Arm Total Access授权。</span><br/><span class=\"section-news\">8. 兆易创新推出全新三相栅极驱动器，并已全面开放样品申请并实现量产。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-05-19T04:10:19.415Z"
+    },
+    {
       "id": "20260519100128812800",
       "time": "2026-05-19 10:01:28",
       "hot": "热",
@@ -4495,21 +4508,7 @@
         3
       ],
       "collectedAt": "2026-05-12T01:50:21.009Z"
-    },
-    {
-      "id": "20260512091913422800",
-      "time": "2026-05-12 09:19:13",
-      "hot": "热",
-      "content": "沪银主力合约日内暴涨8.00%，现报21460.00元/千克。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2
-      ],
-      "collectedAt": "2026-05-12T01:30:21.476Z"
     }
   ],
-  "lastUpdated": "2026-05-19T03:50:17.833Z"
+  "lastUpdated": "2026-05-19T04:10:19.420Z"
 }
