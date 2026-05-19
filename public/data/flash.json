@@ -2,6 +2,34 @@
   "date": "2026/5/19",
   "items": [
     {
+      "id": "20260519144513623800",
+      "time": "2026-05-19 14:45:13",
+      "hot": "热",
+      "content": "【金十数据整理：每日全球外汇市场要闻速递（2026-05-19）】<b>美元</b><br/><span class=\"section-news\">1. 沃什周五将宣誓就任美联储主席，宣誓仪式由特朗普主持。</span><br/><span class=\"section-news\">2. 美联储古尔斯比：如果降息过多，将会进一步引发通胀。</span><br/><span class=\"section-news\">3. 英国在3月增持美债，中国和日本减持美债。</span><br/><b>欧元</b><br/><span class=\"section-news\">1. 德国央行行长：我们可以做很多事情来平抚市场并提供积极的动能。</span><br/><span class=\"section-news\">2. 欧盟经济事务专员东布罗夫斯基斯：伊朗冲突阴影下，欧盟将下调经济增长预期并上调通胀预测。</span><br/><span class=\"section-news\">3. 法国财政部长：七国集团一致认为国际货币基金组织和世界银行需要加大对脆弱国家的援助力度。</span><br/><b>英镑</b><br/><span class=\"section-news\">1. 英国副首相称斯塔默不会设定“辞职时间表”。</span><br/><span class=\"section-news\">2. 国际货币基金组织官员：预计2026年英国GDP增速将为1.0%，而4月的预测为0.8%；预计英国的通货膨胀率将在2026年底达到略低于4%的峰值，到2027年底将恢复至2%的目标水平。</span><br/><b>日元</b><br/><span class=\"section-news\">1. 日本官员：日本在储蓄和现金方面具备干预能力。</span><br/><span class=\"section-news\">2. 日本财务大臣片山皋月：将对外汇波动采取适当措施。</span><br/><span class=\"section-news\">3. 日本内阁官房长官木原稔：密切关注中东局势下的价格走势。</span><br/><span class=\"section-news\">4. 日本经济财政大臣城内实：不排除额外预算用于资助紧急和必要措施。</span><br/><span class=\"section-news\">5. 日本财务省一位高级官员质疑抛美债撑日元操作，担忧干预可能适得其反。</span><br/><b>其他</b><br/><span class=\"section-news\">1. 匈牙利总理毛焦尔：匈牙利的目标是采用欧元；匈牙利将缩小预算赤字，不会支持紧缩政策。</span><br/><span class=\"section-news\">2. 澳洲联储助理主席亨特：近期油价上涨带来了尤其难以应对的挑战。通胀预期上升的风险较高。</span><br/><span class=\"section-news\">3. 瑞典央行：包括外汇掉期在内的现货和远期市场流动性仍被认为良好；过去六个月流动性略有恶化。</span><br/><span class=\"section-news\">4. 泰国联合商业集团将泰国2026年GDP增长预测维持在1.2%至1.6%之间，预计泰国2026年通胀在2.0%至3.0%之间。</span><br/><span class=\"section-news\">5. 印尼央行行长：并未设定印尼盾汇率的任何具体目标值。印尼盾通常在四月、五月和六月承压，随后在七月和八月升值。</span><br/><span class=\"section-news\">6. 澳洲联储会议纪要：委员预计通胀将在无需进一步收紧政策的情况下回归目标；经济增长在一段时间内可能低于潜在水平。</span><br/><span class=\"section-news\">7. 据路透调查：16位经济学家中有9位表示，印尼央行将在5月加息25个基点至5.00%；根据调查中位数预测，印尼央行7天逆回购利率到2026年底将为5.00%（4月份调查时为4.75%）。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-05-19T07:30:23.256Z"
+    },
+    {
+      "id": "20260519150202497800",
+      "time": "2026-05-19 15:02:02",
+      "hot": "热",
+      "content": "【伊朗副外长公布伊对美协议草案提议 包括美军从周边地区撤离】金十数据5月19日讯，综合伊通社及路透社19日发布的消息，伊朗外交部副部长加里巴巴迪在一场国家会议上通报了当前与美国的谈判进程以及伊朗对美方协议草案的回应。加里巴巴迪表示，伊朗在近期的提议中，明确强调了伊朗和平利用核能的权利、要求结束包括黎巴嫩在内的所有战线的战争、解除美国对伊朗的海上封锁、归还和解冻伊朗遭冻结资产、要求美国提供发动战争造成伊方损失及重建所需的赔偿、终止所有单边制裁以及美军撤离伊朗周边地区。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=10984543457068340775&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D10984543457068340775%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
+      "important": 0,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-05-19T07:30:23.256Z"
+    },
+    {
       "id": "20260519141824553800",
       "time": "2026-05-19 14:18:24",
       "hot": "热",
@@ -4480,38 +4508,7 @@
         1
       ],
       "collectedAt": "2026-05-12T04:40:17.831Z"
-    },
-    {
-      "id": "20260512113920952800",
-      "time": "2026-05-12 11:39:20",
-      "hot": "热",
-      "content": "据英国金融时报：外国投资者从印度撤资规模创下历史新高。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-12T03:50:21.301Z"
-    },
-    {
-      "id": "20260512095717180800",
-      "time": "2026-05-12 09:57:17",
-      "hot": "沸",
-      "content": "【中际旭创股价破千】金十数据5月12日讯，中际旭创股价突破1000元，为创业板历史上第二只千元股，也是A股第十只千元股。现涨超6%，总市值达1.11万亿元。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        4,
-        5,
-        3,
-        1
-      ],
-      "collectedAt": "2026-05-12T02:10:21.468Z"
     }
   ],
-  "lastUpdated": "2026-05-19T06:30:24.294Z"
+  "lastUpdated": "2026-05-19T07:30:23.261Z"
 }
