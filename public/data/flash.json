@@ -2,6 +2,21 @@
   "date": "2026/5/20",
   "items": [
     {
+      "id": "20260520070141681800",
+      "time": "2026-05-20 07:01:41",
+      "hot": "热",
+      "content": "美联储保尔森：市场开始考虑利率维持不变或上升的情景是“健康的”。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-05-19T23:40:19.261Z"
+    },
+    {
       "id": "20260520063054285800",
       "time": "2026-05-20 06:30:54",
       "hot": "热",
@@ -4500,20 +4515,7 @@
         3
       ],
       "collectedAt": "2026-05-13T01:20:24.827Z"
-    },
-    {
-      "id": "20260513090420663800",
-      "time": "2026-05-13 09:04:20",
-      "hot": "热",
-      "content": "【金十数据整理：A股盘前市场要闻速递（2026-05-13）】<span class=\"section-news\">1. MSCI中国指数调整：新纳入22只标的。</span><br/><span class=\"section-news\">2. 外资集体加仓中国资产，持股市值暴增697.6亿元。</span><br/><span class=\"section-news\">3. 国内航线燃油附加费5月16日起再上调。</span><br/><span class=\"section-news\">4. 国家发改委价格成本和认证中心赴浙江省开展虚拟电厂调研。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 亿纬锂能与印度GNEPL签署8GWh储能大电池订单。</span><br/><span class=\"section-news\">2. 万科A：就220亿股东借款与深铁集团签署补充协议。</span><br/><span class=\"section-news\">3. 中微半导：正式发布自研32 M bit SPI NOR Flash芯片。</span><br/><span class=\"section-news\">4. 恒宇信通：拟购买卫星导航公司神导科技100%股权，股票复牌。</span><br/><span class=\"section-news\">5. 2连板双枪科技：“竹基禾塑”材料目前在中试阶段，且未应用于光模块、机器人等领域。</span><br/><span class=\"section-news\">6. 安靠智电：与星辰瀑布签订固态变压器(SST)委托研发合作协议。</span><br/><span class=\"section-news\">7. 云南锗业：生产的化合物半导体材料磷化铟晶片可以用于生产光模块中的激光器、探测器芯片 相关产品营收占比较低。</span><br/><span class=\"section-news\">8. 泰格医药：因涉嫌持股变动相关信息披露违法违规，实控人叶小平、曹晓春被证监会立案。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-05-13T01:20:24.827Z"
     }
   ],
-  "lastUpdated": "2026-05-19T22:50:23.547Z"
+  "lastUpdated": "2026-05-19T23:40:19.266Z"
 }
