@@ -2,6 +2,21 @@
   "date": "2026/5/20",
   "items": [
     {
+      "id": "20260520054425231800",
+      "time": "2026-05-20 05:44:25",
+      "hot": "热",
+      "content": "【金十数据整理：中东局势跟踪（5月20日）】<br/><b>①伊朗</b><br/><span class=\"section-news\">1. 伊朗议员：伊朗从未主动发动战争，也从未离开谈判桌。</span><br/><span class=\"section-news\">2. 伊朗军方发言人：若再次遭袭 将“开启新战线”。</span><br/><span class=\"section-news\">3. 伊朗副外长：伊朗准备应对任何军事侵略。美国正将“威胁”粉饰为“和平机会”。</span><br/><span class=\"section-news\">4. 伊朗格什姆岛传出爆炸声，伊朗官员：爆炸声是由于正在排除未爆弹药所致。</span><br/><span class=\"section-news\">5. 伊朗司法部：查封与敌对网络有关的52名个人的资产，收益将用于人民。</span><br/><b>②美国</b><br/><span class=\"section-news\">1. 美财政部出台新一轮涉伊朗制裁措施。</span><br/><span class=\"section-news\">2. 美国官员：伊朗的许多弹道导弹部署在地下深洞和其他花岗岩山体中开凿的设施中，美军攻击机难以摧毁。</span><br/><span class=\"section-news\">3. 美国官员：在特朗普推迟对伊朗的打击后，周二白宫国家安全委员会的会议已被推迟。</span><br/><span class=\"section-news\">4. 特朗普：我们可能不得不再打击一次伊朗，目前还不确定。我同意再给伊朗2-3天的时间，也许到周五或周六，也许到下周初，时间有限。</span><br/><b>③以色列</b><br/><span class=\"section-news\">1. 以色列国防军：在过去24小时内，在黎巴嫩南部多个地区打击了超过25个真主党基础设施目标。</span><br/><span class=\"section-news\">2. 以色列高层评估认为美方仍倾向对伊重启军事行动。</span><br/><b>④霍尔木兹海峡</b><br/><span class=\"section-news\">1. 卡塔尔外交部：在霍尔木兹海峡的自由通航问题上，任何对现状的改变都是不可接受的。</span><br/><span class=\"section-news\">2. G7财长声明：重开霍尔木兹海峡势在必行。继续致力于保持能源市场稳定。</span><br/><span class=\"section-news\">3. 美国中央司令部：已迫使89艘商船改变航向。</span><br/><span class=\"section-news\">4. 北约设最后期限：若霍尔木兹海峡7月初未开放，拟部署兵力护航。</span><br/><b>⑤停火谈判</b><br/><span class=\"section-news\">1. 伊朗副外长公布伊对美协议草案提议，包括美军从周边地区撤离。</span><br/><span class=\"section-news\">2. 调解方认为美伊谈判几乎进展甚微，伊朗坚持核心诉求不变。</span><br/><span class=\"section-news\">3. 美国副总统万斯：美伊谈判进展很大，但美方也预备了“B方案”。</span><br/><b>⑥其他情况</b><br/><span class=\"section-news\">1. 特朗普政府拟缩减北约危机响应部队，要求欧洲接棒安全主导权。</span><br/><span class=\"section-news\">2. 英国航空暂停飞往以色列的航班，直至8月1日。</span><br/><span class=\"section-news\">3. 哈马斯：我们拒绝和平委员会的报告，其中包含免除占领政府责任的错误陈述。</span><br/><span class=\"section-news\">4. 黎巴嫩官方消息人士表示，正在研究一项由美国斡旋的与以色列的意向声明草案，尚未最终定稿。</span><br/><span class=\"section-news\">5. 阿联酋国防部：在过去48小时内发现并处理了从伊拉克发射的六架无人机。所有目标成功拦截，没有人员伤亡，也未对重要设施的安全造成影响。 </span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-05-19T22:10:20.511Z"
+    },
+    {
       "id": "20260520025500119800",
       "time": "2026-05-20 02:55:00",
       "hot": "热",
@@ -4498,23 +4513,7 @@
         3
       ],
       "collectedAt": "2026-05-12T23:40:18.098Z"
-    },
-    {
-      "id": "20260513070055728800",
-      "time": "2026-05-13 07:00:55",
-      "hot": "热",
-      "content": "【MSCI中国指数调整：新纳入22只标的】金十数据5月13日讯，国际指数编制公司MSCI（明晟公司）公布了其2026年5月的指数季度调整结果，本次调整将于5月29日收盘后生效。其中最值得关注的MSCI中国指数（MSCI CHINA INDEX）新纳入光库科技、长飞光纤、盛科通信等22只股票；网易云音乐、欧菲光、汇顶科技、美图、公牛集团等24只股票遭剔除。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        4,
-        5,
-        3,
-        1
-      ],
-      "collectedAt": "2026-05-12T23:20:22.381Z"
     }
   ],
-  "lastUpdated": "2026-05-19T20:50:20.095Z"
+  "lastUpdated": "2026-05-19T22:10:20.515Z"
 }
