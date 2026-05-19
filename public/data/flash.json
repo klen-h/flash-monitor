@@ -2,6 +2,20 @@
   "date": "2026/5/19",
   "items": [
     {
+      "id": "20260519090506010800",
+      "time": "2026-05-19 09:05:06",
+      "hot": "热",
+      "content": "韩国KOSPI指数日内大跌3%，跌破7300点。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-05-19T01:20:19.174Z"
+    },
+    {
       "id": "20260519080354755800",
       "time": "2026-05-19 08:03:54",
       "hot": "热",
@@ -4494,20 +4508,7 @@
         2
       ],
       "collectedAt": "2026-05-12T01:20:27.400Z"
-    },
-    {
-      "id": "20260512090311075800",
-      "time": "2026-05-12 09:03:11",
-      "hot": "热",
-      "content": "【金十数据整理：A股盘前市场要闻速递（2026-05-12）】<b>重要新闻</b><br/><span class=\"section-news\">1. 央行：继续实施好适度宽松的货币政策，增强政策前瞻性灵活性针对性。</span><br/><span class=\"section-news\">2. 央行：改革完善贷款市场报价利率（LPR），着重提高LPR报价质量。</span><br/><span class=\"section-news\">3. 国务院办公厅：完善人工智能治理，加快推进人工智能健康发展综合性立法。</span><br/><span class=\"section-news\">4. 农业农村部党组书记张柱：多措并举推动生猪产业节本提质增效、高质量发展。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 京沪高铁：对京沪高速线和合蚌高速线部分动车组列车的公布票价上浮20%.。</span><br/><span class=\"section-news\">2. 两连板京投发展：筹划收购西安奇芯光电股权。</span><br/><span class=\"section-news\">3. 复旦微电：拟与复旦大学、国盛投资共建集成电路技术中心。</span><br/><span class=\"section-news\">4. 百济神州：第一季度净利润为16.08亿元，同比扭亏为盈。.</span><br/><span class=\"section-news\">5. 大金重工：与欧洲船东签署约10.44亿元船舶建造合同。</span><br/><span class=\"section-news\">6. 2连板康欣新材：半导体业务可能对公司业绩贡献存在不确定性。</span><br/><span class=\"section-news\">7. 步科股份：无框力矩电机一季度出货3.5万台 人形机器人订单从“小批量”跨越至“批量”。</span><br/><span class=\"section-news\">8. 迅捷兴：拟定增募资不超1.3亿元，用于信丰高多层、HDI产线技改与升级项目等。</span><br/><span class=\"section-news\">9. 兴福电子：SK海力士系IPO前股东持股500万股，公司电子级高纯红磷仍处于技术研发阶段。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-05-12T01:20:27.400Z"
     }
   ],
-  "lastUpdated": "2026-05-19T00:42:44.434Z"
+  "lastUpdated": "2026-05-19T01:20:19.179Z"
 }
