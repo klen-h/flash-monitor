@@ -2,6 +2,20 @@
   "date": "2026/5/20",
   "items": [
     {
+      "id": "20260520220943959800",
+      "time": "2026-05-20 22:09:43",
+      "hot": "沸",
+      "content": "英特尔(INTC.O)盘初涨幅扩大，现涨超10%。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-05-20T14:20:30.240Z"
+    },
+    {
       "id": "20260520220002636800",
       "time": "2026-05-20 22:00:02",
       "hot": "热",
@@ -4494,21 +4508,7 @@
         3
       ],
       "collectedAt": "2026-05-14T00:00:27.352Z"
-    },
-    {
-      "id": "20260514062914280800",
-      "time": "2026-05-14 06:29:14",
-      "hot": "热",
-      "content": "【金十数据整理：昨日今晨重要新闻汇总（2026-05-14）】<b>国内新闻：</b><br/><span class=\"section-news\">1. 美国总统特朗普抵达北京开始访华。</span><br/><span class=\"section-news\">2. 何立峰与美国财政部长贝森特在韩国举行经贸磋商。</span><br/><span class=\"section-news\">3. 创业板指创历史新高。</span><br/><span class=\"section-news\">4. 市场监管总局：开展破除妨碍统一市场和公平竞争卡点堵点专项行动。</span><br/><span class=\"section-news\">5. 国家医保局印发《医疗保障基金监督检查五年行动计划（2026年—2030年）》。</span><br/><span class=\"section-news\">6. 腾讯一季度营收1964.6亿元，同比增9%；净利润580亿元，同比增21%。</span><br/><span class=\"section-news\">7. 阿里巴巴第四财季营收2433.8亿元，同比增3%；净利润为254.76亿元，同比增106%。</span><br/><b>国际新闻：</b><br/><span class=\"section-news\">1. 英媒曝卫生大臣准备辞职竞选工党党首。</span><br/><span class=\"section-news\">2. 美联储柯林斯：若通胀不缓解，可能需加息。</span><br/><span class=\"section-news\">3. 全球市值排行前三公司——英伟达、苹果和谷歌齐创新高。</span><br/><span class=\"section-news\">4. 美国4月PPI环比飙升1.4%，同比大涨6%，均为2022年以来最大涨幅。</span><br/><span class=\"section-news\">5. 欧佩克将2026年全球石油需求增长预期从138万桶/日下调至117万桶/日。</span><br/><span class=\"section-news\">6. 万斯：伊朗谈判正在取得进展，目前专注于外交途径；总统和整个团队都关心美国人民的财务状况。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-05-13T22:50:20.707Z"
     }
   ],
-  "lastUpdated": "2026-05-20T14:10:33.733Z"
+  "lastUpdated": "2026-05-20T14:20:30.247Z"
 }
