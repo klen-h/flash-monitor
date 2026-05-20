@@ -2,6 +2,21 @@
   "date": "2026/5/21",
   "items": [
     {
+      "id": "20260521060020064800",
+      "time": "2026-05-21 06:00:20",
+      "hot": "热",
+      "content": "【金十数据整理：中东局势跟踪（5月21日）】<br/><b>①伊朗</b><br/><span class=\"section-news\">1. 伊朗总统：战争期间能源生产供应未中断。</span><br/><span class=\"section-news\">2. 伊朗议会否认卡利巴夫辞去谈判代表团团长职务。</span><br/><span class=\"section-news\">3. 伊朗革命卫队：如果再次对伊朗发动攻击，战争将扩展至地区之外。</span><br/><span class=\"section-news\">4. 伊朗外长阿拉格齐准备前往美国，参加联合国会议。</span><br/><span class=\"section-news\">5. 伊朗革命卫队：陆军正处于备战状态，我们将停火期视为战时，并利用这一机会加强了作战能力。</span><br/><b>②美国</b><br/><span class=\"section-news\">1. 美军加油机现身以色列机场。</span><br/><span class=\"section-news\">2. 特朗普：内塔尼亚胡会按照我的要求行事。我对伊朗问题一点也不着急。</span><br/><span class=\"section-news\">3. 美国财长贝森特：在巴黎与卡塔尔财政大臣讨论了伊朗问题。</span><br/><span class=\"section-news\">4. 美国军方：美国海军陆战队周三登上了一艘悬挂伊朗国旗的商业油轮。</span><br/><b>③以色列</b><br/><span class=\"section-news\">1. 以媒：特朗普与内塔尼亚胡昨晚通电话，通话被形容为“漫长且紧张”。</span><br/><span class=\"section-news\">2. 以色列军方：我们在周一袭击了位于黎巴嫩南部图尔地区的真主党武器生产设施。</span><br/><b>④霍尔木兹海峡</b><br/><span class=\"section-news\">1. 伊朗提出与阿曼合作建设霍尔木兹海峡长期安全机制。</span><br/><span class=\"section-news\">2. 美国中央司令部：截至5月20日，美国军队已重新引导90艘船只。</span><br/><span class=\"section-news\">3. 韩国周三与伊朗伊斯兰革命卫队就穿越海峡进行了协调。</span><br/><span class=\"section-news\">4. 伊朗革命卫队：霍尔木兹海峡的局势不可能回到以前的状态。敌人的唯一出路是尊重伊朗民族，并遵守伊朗的合法权利。</span><br/><span class=\"section-news\">5. 伊朗革命卫队海军指挥官：过去24小时内，有26艘船只在海军的协调和安保下通过海峡。</span><br/><span class=\"section-news\">6. 伊朗方面表示，在霍尔木兹海峡的入口处，违规和隐蔽的油轮已被识别并受到惩罚。</span><br/><span class=\"section-news\">7. 伊朗发布视频，显示一架无人机瞄准了一艘未经伊朗当局事先协调就通过霍尔木兹海峡的油轮。</span><br/><span class=\"section-news\">8. 伊朗外交部：不能允许美国和以色列通过霍尔木兹海峡，因为这会影响我们的国家安全。</span><br/><b>⑤停火谈判</b><br/><span class=\"section-news\">1. 伊美据称将在朝觐季结束后举行新一轮谈判。</span><br/><span class=\"section-news\">2. 伊朗称将在“强烈不信任美国”的情况下继续推进谈判。</span><br/><span class=\"section-news\">3. 伊朗外交部：巴基斯坦内政部长到访伊朗，以促进信息交流。</span><br/><span class=\"section-news\">4. 特朗普：美国与伊朗谈判已进入最后阶段。可能对伊朗发动更猛烈的打击，但将先观察能否达成协议。</span><br/><span class=\"section-news\">5. 消息人士：美国展现有限灵活性，但不会在核要求和海峡问题上让步。</span><br/><span class=\"section-news\">6. 伊朗外交部：美国必须证明其善意，并结束对伊朗船只的“海盗行为”。伊朗要求结束所有冲突并释放伊朗资产。</span><br/><span class=\"section-news\">7. 伊朗正在审查美方最新提案，尚未作出回复。</span><br/><span class=\"section-news\">8. 巴基斯坦内政部长周三现身德黑兰，并与伊朗革命卫队指挥官、伊朗总统和伊朗内政部长进行了会晤。  </span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-05-20T22:20:22.942Z"
+    },
+    {
       "id": "20260521050939808800",
       "time": "2026-05-21 05:09:39",
       "hot": "热",
@@ -4454,24 +4469,7 @@
         2
       ],
       "collectedAt": "2026-05-14T09:20:26.513Z"
-    },
-    {
-      "id": "20260514170110160800",
-      "time": "2026-05-14 17:01:10",
-      "hot": "热",
-      "content": "央行：2026年5月15日，中国人民银行将以固定数量、利率招标、多重价位中标方式开展3000亿元买断式逆回购操作，期限为6个月（184天），到期日为2026年11月15日（遇节假日顺延）。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        4,
-        5,
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-14T09:10:21.808Z"
     }
   ],
-  "lastUpdated": "2026-05-20T21:50:21.949Z"
+  "lastUpdated": "2026-05-20T22:20:22.946Z"
 }
