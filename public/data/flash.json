@@ -2,6 +2,19 @@
   "date": "2026/5/20",
   "items": [
     {
+      "id": "20260520090526740800",
+      "time": "2026-05-20 09:05:26",
+      "hot": "热",
+      "content": "【金十数据整理：A股盘前市场要闻速递（2026-05-20）】<b>重要新闻</b><br/><span class=\"section-news\">1. 外交部：中美同意开展人工智能政府间对话。</span><br/><span class=\"section-news\">2. 长江存储启动IPO辅导。</span><br/><span class=\"section-news\">3. 国家能源局：2026年4月份全社会用电量同比增长6.0%。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 20CM两连板弘信电子：向华为采购4台华为昇腾910C384超节点服务器不属于日常重大经营合同。</span><br/><span class=\"section-news\">2. 20CM涨停沪硅产业：第二大股东国家集成电路产业投资基金减持至13.89%。</span><br/><span class=\"section-news\">3. 东方国信：中标中国电信Token工厂标包一15%份额。</span><br/><span class=\"section-news\">4. 大唐发电：公司以火力发电为主，公司尚无已投运算电协同项目。</span><br/><span class=\"section-news\">5. 中矿资源：拟定增募资不超52亿元，用于津巴布韦年产10万吨硫酸锂等项目。</span><br/><span class=\"section-news\">6. 弘信电子：公司向华为采购4台华为昇腾910C384超节点服务器，该事项不属于日常重大经营合同。</span><br/><span class=\"section-news\">7. 北化股份：接到实控人兵器工业集团通知，公司实际控制人或将发生变更。</span><br/><span class=\"section-news\">8. 江南化工：接到实控人兵器工业集团通知，公司控股股东及实际控制人或将发生变更。</span><br/><span class=\"section-news\">9. 杭州柯林：拟收购参股公司开普勒41.57%股权，取得控制权。</span><br/><span class=\"section-news\">10. 中天科技：公司已跻身多家头部互联网公司供应商体系，相继中标长乐机场智算中心机电总承包工程等。</span><br/><span class=\"section-news\">11. 本川智能：800G光模块相关PCB已实现小批量供货，对接数家客户开展样品验证。</span><br/><span class=\"section-news\">12. 金利华电：拟收购中科西光82.50%股权，20日起股票复牌，将新增卫星制造及相关服务、卫星遥感信息服务板块。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-05-20T01:20:18.938Z"
+    },
+    {
       "id": "20260520084309820800",
       "time": "2026-05-20 08:43:09",
       "hot": "热",
@@ -4497,24 +4510,7 @@
         2
       ],
       "collectedAt": "2026-05-13T03:50:17.528Z"
-    },
-    {
-      "id": "20260513114138627800",
-      "time": "2026-05-13 11:41:38",
-      "hot": "热",
-      "content": "【中美经贸磋商在韩国开始举行】金十数据5月13日讯，当地时间5月13日中午，中美两国经贸团队在韩国首尔仁川国际机场开始举行中美经贸磋商。",
-      "source": "新华社",
-      "source_link": "https://h.xinhuaxmt.com/vh512/share/13099753",
-      "important": 1,
-      "channel": [
-        4,
-        5,
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-05-13T03:50:17.528Z"
     }
   ],
-  "lastUpdated": "2026-05-20T01:00:27.214Z"
+  "lastUpdated": "2026-05-20T01:20:18.942Z"
 }
