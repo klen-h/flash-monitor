@@ -2,6 +2,22 @@
   "date": "2026/5/21",
   "items": [
     {
+      "id": "20260521155413636800",
+      "time": "2026-05-21 15:54:13",
+      "hot": "热",
+      "content": "【A股和港股午后突然下跌，分析人士：两大原因】金十数据5月21日讯，在日韩等外围股市大涨的背景之下，A股和港股午后突然下跌，究竟是何缘故？从消息面上看，并无太大利空出现。分析人士认为，一方面是外围不稳定，美股期指今天亚洲时段明显走弱，而且美联储息口有收紧的信号出现；丹斯克银行高级分析师Antti Ilvonen表示，该行调整了对美联储的预期，现在预计下一次政策调整将是2026年12月和2027年3月，届时将分别加息25个基点。另一方面则是近期相应板块涨幅过大，有些板块有泡沫化迹象，获利盘可能出现了借利好兑现的情况。",
+      "source": "券商中国",
+      "source_link": "https://mp.weixin.qq.com/s?__biz=MzA3NjM5MjIwOQ==&mid=2652266598&idx=1&sn=7a444c45262f1e9fbf8ed080382607b7&chksm=85a2503ac449963c312f3ccbc2b3c74b0c4f9be98822cf7fc6ecd1f2b414636de019602d1e92&scene=0&xtrack=1#rd",
+      "important": 0,
+      "channel": [
+        5,
+        4,
+        3,
+        1
+      ],
+      "collectedAt": "2026-05-21T08:30:28.021Z"
+    },
+    {
       "id": "20260521151839309800",
       "time": "2026-05-21 15:18:39",
       "hot": "热",
@@ -4437,20 +4453,7 @@
         2
       ],
       "collectedAt": "2026-05-15T01:30:21.907Z"
-    },
-    {
-      "id": "20260515090618119800",
-      "time": "2026-05-15 09:06:18",
-      "hot": "热",
-      "content": "【金十数据整理：A股盘前市场要闻速递（2026-05-15）】<b>重要新闻</b><br/><span class=\"section-news\">1. 中国算力基建开辟海上赛道，探访全球首个海底数据中心。</span><br/><span class=\"section-news\">2. 央行：广义货币（M2）余额353.04万亿元，同比增长8.6%。</span><br/><span class=\"section-news\">3. 央行：2026年前四个月社会融资规模增量累计为15.45万亿元，比上年同期少8930亿元。</span><br/><span class=\"section-news\">4. 农业农村部修订印发生猪产能综合调控实施方案。</span><br/><span class=\"section-news\">5. 李强：一个稳定可预期的中美经贸关系符合两国和世界利益。</span><br/><span class=\"section-news\">6. 金融时报：银行存款创造渠道更为多元，这意味着贷款增速低于存款增速是必然的。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 源杰科技：陈文君因涉嫌刑事犯罪被刑拘 已解聘其副总经理职务。</span><br/><span class=\"section-news\">2. 中芯国际：第一季度净利润同比增长0.4%，预计二季度收入环比增长14%-16%。</span><br/><span class=\"section-news\">3. 华虹公司：第一季度净利润同比增长513%，主要系平均销售价格及付运晶圆数量上升使得毛利上升。</span><br/><span class=\"section-news\">4. 5连板蒙娜丽莎：参股公司珠海晶瓷并非英伟达供应商。</span><br/><span class=\"section-news\">5. 沃格光电：实控人及持股5%以上股东相关方因涉嫌信披违法违规被证监会立案。</span><br/><span class=\"section-news\">6. 隆华科技：靶材产品成功导入三星供应链并批量供货。</span><br/><span class=\"section-news\">7. 海泰新光：精密光学行业是技术密集型行业，公司产品核心技术依赖于持续的研发投入和研发创新。</span><br/><span class=\"section-news\">8. 赛意信息：拟开展以高性能算力服务器为标的的融资租赁业务，交易总额预计不超过200亿元。</span><br/><span class=\"section-news\">9. 锐捷网络：1.6T LPO产品正在研发中，预计2026年内提供送样。</span><br/><span class=\"section-news\">10. 天岳先进：碳化硅半导体衬底行业近年来市场竞争日趋激烈，产品价格面临一定下行压力。</span><br/><span class=\"section-news\">11. 科翔股份：陶积电公司应用于AI领域的陶瓷基板目前仍处于研发打样阶段，在公司销售收入占比极小。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-05-15T01:20:18.556Z"
     }
   ],
-  "lastUpdated": "2026-05-21T07:30:24.775Z"
+  "lastUpdated": "2026-05-21T08:30:28.026Z"
 }
