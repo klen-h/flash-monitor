@@ -2,6 +2,19 @@
   "date": "2026/5/21",
   "items": [
     {
+      "id": "20260521090148294800",
+      "time": "2026-05-21 09:01:48",
+      "hot": "热",
+      "content": "【金十数据整理：A股盘前市场要闻速递（2026-05-21）】<b>重要新闻</b><br/><span class=\"section-news\">1. 李强签署国务院令，公布《中华人民共和国矿产资源法实施条例》。</span><br/><span class=\"section-news\">2. 财政部：今年前4个月证券交易印花税同比增长74.8%。</span><br/><span class=\"section-news\">3. 郑栅洁：深入整治“内卷式”竞争 积极扩大有效益的投资。</span><br/><span class=\"section-news\">4. 长鑫科技科创板IPO将于5月27日上会。</span><br/><span class=\"section-news\">5. 外交部：中方决定将对俄罗斯免签政策延长至2027年12月31日。</span><br/><span class=\"section-news\">6. 中华人民共和国和俄罗斯联邦关于进一步加强全面战略协作、深化睦邻友好合作的联合声明。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 中国移动在全国上线词元套餐，价格最低为5元月包。</span><br/><span class=\"section-news\">2. 赣锋锂业：500Wh/kg级的10Ah产品已实现小批量量产。</span><br/><span class=\"section-news\">3. 德方纳米：拟合计87亿元建设锂电新材料及磷基新能源材料项目。</span><br/><span class=\"section-news\">4. 6连板威龙股份：截至目前无注入“算力”相关计划。</span><br/><span class=\"section-news\">5. 赛意信息：拟采购高性能算力服务器，合同总金额预计不超8.33亿元。</span><br/><span class=\"section-news\">6. 京东方A：与康宁公司签署合作备忘录，围绕玻璃基封装载板、可折叠玻璃等重点领域开展合作。</span><br/><span class=\"section-news\">7. 金螳螂：公司目前未从事商业航天核心产业，亦未开展数据中心算力运营业务。</span><br/><span class=\"section-news\">8. 璞泰来：拟投资56亿元建设年产72亿平方米锂离子电池隔膜建设项目。</span><br/><span class=\"section-news\">9. 中集集团：美国司法部指控公司及部分高管谋划限制特定非冷藏运输集装箱的产量并操纵价格。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-05-21T01:20:23.254Z"
+    },
+    {
       "id": "20260521083120666800",
       "time": "2026-05-21 08:31:20",
       "hot": "热",
@@ -4439,22 +4452,7 @@
         3
       ],
       "collectedAt": "2026-05-14T13:50:27.030Z"
-    },
-    {
-      "id": "20260514203024481800",
-      "time": "2026-05-14 20:30:24",
-      "hot": "热",
-      "content": "【美国初请失业金人数高于预期】金十数据5月14日讯，美国至5月9日当周初请失业金人数录得21.1万人，为4月18日当周以来新高，高于市场预期的20.5万人。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-05-14T13:00:28.562Z"
     }
   ],
-  "lastUpdated": "2026-05-21T01:10:22.582Z"
+  "lastUpdated": "2026-05-21T01:20:23.259Z"
 }
