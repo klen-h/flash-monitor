@@ -2,6 +2,35 @@
   "date": "2026/5/22",
   "items": [
     {
+      "id": "20260522071645202800",
+      "time": "2026-05-22 07:16:45",
+      "hot": "热",
+      "content": "【金十数据整理：每日科技要闻速递（5月22日）】<br/><b>新能源汽车：</b><br/><span class=\"section-news\">1. 比亚迪回应“考虑收购玛莎拉蒂”：不属实，谣言。</span><br/><span class=\"section-news\">2. 蔚来2026年一季度经营利润6680万元，官方宣布连续两个季度盈利。</span><br/><span class=\"section-news\">3. 北汽集团与新紫光集团签约，围绕车规级芯片、智能座舱、自动驾驶深度合作。</span><br/><span class=\"section-news\">4. 截至2026年4月底，我国电动汽车充电基础设施（枪）总数达到2195.5万个，同比增长47.4%。</span><br/><b>其他：</b><br/><span class=\"section-news\">1. 据悉OpenAI在第一季度创造57亿美元收入。</span><br/><span class=\"section-news\">2. Anthropic正在与微软洽谈使用其人工智能芯片。</span><br/><span class=\"section-news\">3. 外媒：SpaceX计划在奥斯汀附近建造一个10吉瓦的太阳能工厂。</span><br/><span class=\"section-news\">4. 网易2026年第一季度营收306亿元同比增长6.1%，净利润107亿元。</span><br/><span class=\"section-news\">5. 三星电子股东团体称与工会达成的薪资协议无效，若获批准将申请禁令。</span><br/><span class=\"section-news\">6. 美媒：美国将向九家量子计算公司提供总额为20亿美元的拨款并考虑入股。</span><br/><span class=\"section-news\">7. 乘联分会崔东树：4月我国动力和其它电池合计产量为184GWh，同比增长34%。 </span>",
+      "source": "",
+      "source_link": "",
+      "important": 0,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-05-22T00:20:20.175Z"
+    },
+    {
+      "id": "20260522074025201800",
+      "time": "2026-05-22 07:40:25",
+      "hot": "热",
+      "content": "【美众议院委员会通过夏令时永久化法案】金十数据5月22日讯，当地时间5月21日，美国总统特朗普在社交平台发文称，美国众议院能源与商业委员会当天以48票赞成、1票反对的投票结果，通过包含《阳光保护法案》（SunshineProtectionAct）在内的相关法案，该法案旨在永久实施夏令时。特朗普表示，每年频繁调整时钟让个人、城市与州政府花费“数亿美元”，尤其是高塔时钟需要动用重型设备进行调整，成本十分高昂。他说，众议院计划将《阳光保护法案》附加至“公路法案”（HighwayBill）中推进立法，并称自己将“非常努力”推动该法案最终签署成为法律。",
+      "source": "央视",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=8882534938397429163&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D8882534938397429163%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 0,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-05-22T00:20:20.175Z"
+    },
+    {
       "id": "20260522064000001800",
       "time": "2026-05-22 06:40:00",
       "hot": "热",
@@ -4414,36 +4443,7 @@
         2
       ],
       "collectedAt": "2026-05-15T13:10:19.045Z"
-    },
-    {
-      "id": "20260515210048283800",
-      "time": "2026-05-15 21:00:48",
-      "hot": "热",
-      "content": "现货白银日内重挫8.00%，现报76.79美元/盎司。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2
-      ],
-      "collectedAt": "2026-05-15T13:10:19.045Z"
-    },
-    {
-      "id": "20260515190350101800",
-      "time": "2026-05-15 19:03:50",
-      "hot": "热",
-      "content": "美国总统特朗普：（谈及伊朗浓缩铀材料）可能在合适的时机获得。如果我们得不到伊朗的核尘埃，我们就会采取行动。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-15T11:10:22.893Z"
     }
   ],
-  "lastUpdated": "2026-05-21T23:50:22.283Z"
+  "lastUpdated": "2026-05-22T00:20:20.181Z"
 }
