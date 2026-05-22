@@ -2,6 +2,21 @@
   "date": "2026/5/22",
   "items": [
     {
+      "id": "20260522233311269800",
+      "time": "2026-05-22 23:33:11",
+      "hot": "沸",
+      "content": "金十提示：新任美联储主席沃什的宣誓就职仪式即将举行。",
+      "source": "",
+      "source_link": "",
+      "important": 0,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-05-22T15:50:23.073Z"
+    },
+    {
       "id": "20260522230657107800",
       "time": "2026-05-22 23:06:57",
       "hot": "热",
@@ -4446,22 +4461,7 @@
         2
       ],
       "collectedAt": "2026-05-17T04:20:21.419Z"
-    },
-    {
-      "id": "20260517082539796800",
-      "time": "2026-05-17 08:25:39",
-      "hot": "热",
-      "content": "【金十数据整理：中东局势跟踪（5月17日）】<br/><b>①伊朗</b><br/><span class=\"section-news\">1. 伊朗布什尔核电站二号机组恢复建设。</span><br/><span class=\"section-news\">2. 伊朗一机油工厂发生火灾致至少10人受伤。</span><br/><span class=\"section-news\">3. 据伊朗官方媒体：伊朗股市将于下周二重开。</span><br/><b>②美国</b><br/><span class=\"section-news\">1. 美国“福特”号航母返回美国母港。</span><br/><span class=\"section-news\">2. 特朗普暗示伊朗局势是“风暴前的平静”。</span><br/><span class=\"section-news\">3. 美国怀疑伊朗黑客入侵多州加油站燃油监测系统。</span><br/><span class=\"section-news\">4. 消息人士：美以或最早下周恢复对伊朗军事行动。</span><br/><b>③以色列</b><br/><span class=\"section-news\">1. 以色列军方：一名士兵在黎巴嫩南部战斗中丧生。</span><br/><span class=\"section-news\">2. 以军对黎南部多地真主党基础设施发动空袭。</span><br/><b>④霍尔木兹海峡</b><br/><span class=\"section-news\">1. 美以伊冲突致伊拉克原油出口锐减。</span><br/><span class=\"section-news\">2. 伊朗：已准备好管理霍尔木兹海峡的机制，相关细节很快公布。</span><br/><span class=\"section-news\">3. 伊朗媒体：欧洲方面已开始就霍尔木兹海峡通行问题与革命卫队接触。</span><br/><span class=\"section-news\">4. 据伊朗媒体报道，伊朗方面表示，霍尔木兹海峡不安定局势结束后，航运通行将恢复正常。</span><br/><span class=\"section-news\">5. 美国中央司令部：截至5月16日，已有78艘商船被重新引导航线，4艘被拦截停运，以确保封锁措施得到遵守。</span><br/><span class=\"section-news\">6. 据伊朗国际电视台：伊朗推出了一项针对途经霍尔木兹海峡船只的新海上保险平台。据相关报道，该系统提供数字化保险保单。</span><br/><b>⑤停火谈判</b><br/><span class=\"section-news\">1. 巴基斯坦内政部长到访伊朗，讨论边境安全等问题。</span><br/><span class=\"section-news\">2. 特朗普：如果不能达成和平协议，伊朗将面临“非常糟糕的处境”。</span><br/><b>⑥其他情况</b><br/><span class=\"section-news\">1. 本轮以黎冲突已造成黎巴嫩2969人丧生。</span><br/><span class=\"section-news\">2. 巴基斯坦内政部长到访伊朗 讨论边境安全等问题。</span><br/><span class=\"section-news\">3. 过去48小时加沙数次遭袭，已致13人死亡57人受伤。</span><br/><span class=\"section-news\">4. 英媒：美国官员怂恿阿联酋夺取伊朗的关键岛屿拉万岛。</span><br/><span class=\"section-news\">5. 霍尔木兹海峡危机未解，美国仍终止俄罗斯原油销售豁免。</span><br/><span class=\"section-news\">6. 伊媒：受霍尔木兹海峡中断的影响，沙特石油产量降至1990年以来的最低水平。</span><br/><span class=\"section-news\">7. 据俄新社：克里姆林宫表示，普京与阿联酋总统通电话，讨论了中东和伊朗问题。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-17T00:50:17.837Z"
     }
   ],
-  "lastUpdated": "2026-05-22T15:30:29.732Z"
+  "lastUpdated": "2026-05-22T15:52:52.464Z"
 }
