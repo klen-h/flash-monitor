@@ -2,6 +2,22 @@
   "date": "2026/5/22",
   "items": [
     {
+      "id": "20260522164157523800",
+      "time": "2026-05-22 16:41:57",
+      "hot": "热",
+      "content": "盈透证券(IBKR.O)美股盘前涨超8%。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        4,
+        5,
+        3,
+        1
+      ],
+      "collectedAt": "2026-05-22T09:10:23.062Z"
+    },
+    {
       "id": "20260522164026380800",
       "time": "2026-05-22 16:40:26",
       "hot": "热",
@@ -4432,22 +4448,7 @@
         3
       ],
       "collectedAt": "2026-05-16T01:30:19.324Z"
-    },
-    {
-      "id": "20260516091203249800",
-      "time": "2026-05-16 09:12:03",
-      "hot": "热",
-      "content": "【金十数据整理：中东局势跟踪（5月16日）】<br/><b>①伊朗</b><br/><span class=\"section-news\">1. 伊朗外长阿拉格齐证实已与俄罗斯就储存浓缩铀的提议进行会谈。</span><br/><span class=\"section-news\">2. 伊朗最高领袖顾问：新的秩序正在迅速调整规则，而这些规则不再以美国为中心。</span><br/><span class=\"section-news\">3. 伊朗外长阿拉格齐：对美国缺乏信任，但仍希望维持停火留下外交空间；已与美国达成一致，推迟关于浓缩铀材料的谈判。</span><br/><b>②美国</b><br/><span class=\"section-news\">1. 特朗普：伊朗暂停（浓缩铀）20年的承诺还不够；（谈及伊朗浓缩铀材料）可能在合适的时机获得。如果我们得不到伊朗的核尘埃，我们就会采取行动。</span><br/><b>③以色列</b><br/><span class=\"section-news\">1. 以官员：以色列正在为重启对伊朗军事行动做准备。</span><br/><span class=\"section-news\">2. 以色列驻美国大使：与黎巴嫩的谈判成功机会很大。</span><br/><span class=\"section-news\">3. 巴勒斯坦“灾难日”当天 以空袭加沙称炸死哈马斯军事领导人。</span><br/><span class=\"section-news\">4. 以色列战机轰炸加沙地带北部加沙城内的一处住宅楼和一辆汽车，造成4人死亡，另有数十人受伤。</span><br/><b>④霍尔木兹海峡</b><br/><span class=\"section-news\">1. 美国军方：已让75艘船只在霍尔木兹海峡改道。</span><br/><span class=\"section-news\">2. 德国总理默茨：伊朗必须开放霍尔木兹海峡，且不得拥有核武器。</span><br/><span class=\"section-news\">3. 金砖国家主席国声明：金砖国家强调红海和巴布阿尔曼达布海峡的航行权利和自由。</span><br/><span class=\"section-news\">4. 伊朗外长阿拉格齐：霍尔木兹海峡仍对友好国家商业船只开放。伊朗不寻求发展核武器。</span><br/><span class=\"section-news\">5. 法国海军“戴高乐”号航空母舰已抵达并部署在阿拉伯海，为霍尔木兹海峡多国护航行动做准备。</span><br/><b>⑤停火谈判</b><br/><span class=\"section-news\">1. 美国已拒绝伊朗就结束战争提出的书面方案。</span><br/><span class=\"section-news\">2. 美国务院：以色列与黎巴嫩之间的停火协议将延长45天。</span><br/><span class=\"section-news\">3. 德国总理默茨：与美国总统特朗普达成共识，伊朗必须回到谈判桌上。</span><br/><span class=\"section-news\">4. 伊朗外长阿拉格齐：已收到来自美国的信息，表示他们希望继续谈判，美方认真才可能重启谈判。</span><br/><b>⑥其他情况</b><br/><span class=\"section-news\">1. 伊朗总统佩泽希齐扬呼吁与伊拉克开展战略合作。</span><br/><span class=\"section-news\">2. 巴基斯坦外交部长：被美国扣押船只上的11名巴基斯坦公民和20名伊朗公民已被遣返。</span><br/><span class=\"section-news\">3. 阿联酋正在建设一条绕过霍尔木兹海峡的新输油管道，并计划于2027年将其投入运营。</span><br/><span class=\"section-news\">4. 伊朗革命卫队：在西北部阿尔达比勒省破获一个隶属于摩萨德的间谍网络，并逮捕了其中一名主要成员。</span><br/><span class=\"section-news\">5. 阿联酋发表声明称，保留采取一切主权、法律、外交和军事手段回应任何伊朗威胁或敌对行为的全部权利。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-05-16T01:30:19.324Z"
     }
   ],
-  "lastUpdated": "2026-05-22T09:00:29.714Z"
+  "lastUpdated": "2026-05-22T09:10:23.067Z"
 }
