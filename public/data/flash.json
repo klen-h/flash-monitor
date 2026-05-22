@@ -2,6 +2,19 @@
   "date": "2026/5/22",
   "items": [
     {
+      "id": "20260522091126428800",
+      "time": "2026-05-22 09:11:26",
+      "hot": "热",
+      "content": "【金十数据整理：每日热门ETF要闻汇总（2026-05-22）】<span class=\"section-news\">1. 伊朗最高领袖下令：接近武器级的铀必须留在国内。</span><br/><span class=\"section-news\">2. 半岛电视台：美伊非常接近达成协议 但目前判断能否达成最终协议还为时过早。</span><br/><span class=\"section-news\">3. 伊朗驻法国大使：重开海峡需要成本，想过的国家需付费。</span><br/><span class=\"section-news\">4. 消息人士：尽管霍尔木兹海峡航行受阻，欧佩克+仍计划提高7月石油产量目标。</span><br/><span class=\"section-news\">5. 美媒：美国将向量子计算公司提供20亿美元资助并考虑入股。</span><br/><span class=\"section-news\">6. 国投白银LOF提示二级市场溢价风险。</span><br/><span class=\"section-news\">7. 纳指科技ETF景顺提示高溢价风险并临时停牌。</span><br/><span class=\"section-news\">8. 全球芯片LOF二级市场溢价约为35.3%，基金将于5月22日开市起停牌至10:30。</span><br/><span class=\"section-news\">9. 中韩半导体ETF：基金将于5月22日开市起停牌至10:30。</span><br/><span class=\"section-news\">10. 油气ETF再现高溢价 警示风险或触发临停。</span><br/><span class=\"section-news\">11. 纳指ETF国泰溢价升温，风险提示再度拉响。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-05-22T02:30:24.774Z"
+    },
+    {
       "id": "20260522090619628800",
       "time": "2026-05-22 09:06:19",
       "hot": "热",
@@ -4429,21 +4442,7 @@
         2
       ],
       "collectedAt": "2026-05-15T14:00:31.796Z"
-    },
-    {
-      "id": "20260515211227878800",
-      "time": "2026-05-15 21:12:27",
-      "hot": "热",
-      "content": "【金十数据整理：每日美股市场要闻速递（2026-05-15）】<b>重要新闻</b><br/><span class=\"section-news\">1. 美国已拒绝伊朗就结束战争提出的“14点”书面方案，并重申其“强硬立场”。</span><br/><span class=\"section-news\">2. 美银首席投资策略师迈克尔哈特内特认为，投资者涌入股票和科技股的热潮已接近尾声，并提示6月初或是开始逢高减仓的时机。</span><br/><span class=\"section-news\">3. 美国利率期货显示，预计到明年1月份美联储加息的概率超过50%。</span><br/><span class=\"section-news\">4. 美国总统特朗普：接受伊朗暂停核计划20年，但必须是一个“真实”的承诺。（谈及伊朗浓缩铀材料）可能在合适的时机获得。如果我们得不到伊朗的核尘埃，我们就会采取行动。</span><br/><span class=\"section-news\">5. 伊朗外长阿拉格齐：我们已收到来自美国的信息，表示他们希望继续谈判。</span><br/><span class=\"section-news\">6. 全球债券市场正经历新一轮剧烈重定价，美国、日本、德国、英国国债收益率本周集体走高，多项指标触及数十年乃至历史新高，全球借贷成本的系统性上移正在重塑市场对央行政策路径的预期。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 台积电(TSM.N)第一季度净利润为5728亿新台币。</span><br/><span class=\"section-news\">2. 丰田汽车(TM.N)提交德州建厂申请，拟斥资20亿美元拓展在美产能。</span><br/><span class=\"section-news\">3. 谷歌(GOOG.O)发行史上最大规模外企日元债，四个月融资总额直逼600亿美元。</span><br/><span class=\"section-news\">4. 闪迪(SNDK.O)建议股东拒绝Tutanota LLC主动提出的“迷你收购”要约。</span><br/><span class=\"section-news\">5. 苹果(AAPL.O)与OpenAI的合作关系出现裂痕，OpenAI拟指控苹果对其技术的使用非常有限。</span><br/><span class=\"section-news\">6. 三星电子开发下一代HBM封装技术，或用于智能手机等移动设备。</span><br/><span class=\"section-news\">7. Stellantis(STLA.N)与东风集团签署10亿欧元协议，明年起在华投产Jeep与标致新能源车。</span><br/><span class=\"section-news\">8. 铠侠表示，AI服务器客户的订单量持续走强，以美元计价的NAND价格在一季度上涨逾一倍， 预计2027年供应仍将吃紧。</span><br/><span class=\"section-news\">9. 法拉第未来(FFIE.O)：将2026年机器人出货目标上调至1500台，并计划于6月初推出新款机器人。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-05-15T13:40:25.402Z"
     }
   ],
-  "lastUpdated": "2026-05-22T02:10:23.273Z"
+  "lastUpdated": "2026-05-22T02:30:24.778Z"
 }
