@@ -2,6 +2,21 @@
   "date": "2026/5/22",
   "items": [
     {
+      "id": "20260522230657107800",
+      "time": "2026-05-22 23:06:57",
+      "hot": "热",
+      "content": "数据显示：土耳其央行周五进行了18亿美元的里拉结算外汇远期卖出交易。",
+      "source": "",
+      "source_link": "",
+      "important": 0,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-05-22T15:30:29.727Z"
+    },
+    {
       "id": "20260522230203325800",
       "time": "2026-05-22 23:02:03",
       "hot": "热",
@@ -4446,22 +4461,7 @@
         2
       ],
       "collectedAt": "2026-05-17T00:50:17.837Z"
-    },
-    {
-      "id": "20260517081109125800",
-      "time": "2026-05-17 08:11:09",
-      "hot": "热",
-      "content": "【金十数据整理：昨日今晨重要新闻汇总（2026-05-17）】<b>国内新闻：</b><br/><span class=\"section-news\">1. 俄罗斯总统普京将对华进行国事访问。</span><br/><span class=\"section-news\">2. 4家连锁药房化妆品串换为药品被约谈。</span><br/><span class=\"section-news\">3. 国内品牌金饰价格继续下降，跌破1400元/克。</span><br/><span class=\"section-news\">4. 商务部新闻发言人就中美经贸磋商初步成果答记者问。</span><br/><span class=\"section-news\">5. 国内首笔 数据中心接入虚拟电厂参与电力现货市场交易。</span><br/><span class=\"section-news\">6. 上海电信率先发布Token资费套餐，1元对应25万额度点。</span><br/><span class=\"section-news\">7. 证监会主席吴清会见花旗集团董事会主席兼首席执行官范洁恩。</span><br/><span class=\"section-news\">8. 神舟二十三号计划近日择机实施发射，船箭组合体已转运至发射区。</span><br/><span class=\"section-news\">9. 国家外汇管理局局长朱鹤新会见美国高盛集团董事长兼首席执行官苏德巍。</span><br/><span class=\"section-news\">10. 商务部新闻发言人就认定欧盟外国补贴调查相关做法构成不当域外管辖措施答记者问。</span><br/><b>国际新闻：</b><br/><span class=\"section-news\">1. 哈马斯军事领导人哈达德身亡。</span><br/><span class=\"section-news\">2. 印度对部分银制品实施进口限制。</span><br/><span class=\"section-news\">3. 马斯克称不会出售任何SpaceX股份。</span><br/><span class=\"section-news\">4. 特朗普说“伊斯兰国”二号头目被“清除”。</span><br/><span class=\"section-news\">5. 英媒：英国首相斯塔默打算辞去首相职务。</span><br/><span class=\"section-news\">6. 贝莱德考虑向SpaceX的IPO投资50亿至100亿美元。</span><br/><span class=\"section-news\">7. 伯克希尔Q1大举加仓Alphabet、重返达美航空、清仓亚马逊。</span><br/><span class=\"section-news\">8. 三星电子韩国工会表示，与三星电子计划于下周一恢复薪资谈判。</span><br/><span class=\"section-news\">9. 欧洲央行管委斯图纳拉斯：小幅加息可以在不造成经济损害的情况下抑制通胀。</span><br/><span class=\"section-news\">10. 特斯拉上调Model Y长续航全轮驱动版、后轮驱动版与高性能全轮驱动版在美售价。</span><br/><span class=\"section-news\">11. 美伊局势——①消息人士：美以或最早下周恢复对伊朗军事行动。②据伊朗媒体报道，伊朗方面表示，霍尔木兹海峡不安定局势结束后，航运通行将恢复正常。③美以伊冲突致伊拉克原油出口锐减。④伊朗：已准备好管理霍尔木兹海峡的机制。⑤伊媒：伊朗内政部长与到访的巴基斯坦内政部长讨论了恢复美伊和谈的前景。⑥伊朗股市将于下周二重开。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-05-17T00:40:16.801Z"
     }
   ],
-  "lastUpdated": "2026-05-22T15:10:26.343Z"
+  "lastUpdated": "2026-05-22T15:30:29.732Z"
 }
