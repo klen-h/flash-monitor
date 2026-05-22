@@ -2,6 +2,21 @@
   "date": "2026/5/23",
   "items": [
     {
+      "id": "20260523003352264800",
+      "time": "2026-05-23 00:33:52",
+      "hot": "热",
+      "content": "<b>美国财长贝森特：美联储主席沃什将在降息问题上做出正确决定。</b>",
+      "source": "",
+      "source_link": "",
+      "important": 0,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-05-22T16:50:21.923Z"
+    },
+    {
       "id": "20260523001217430800",
       "time": "2026-05-23 00:12:17",
       "hot": "热",
@@ -4446,22 +4461,7 @@
         2
       ],
       "collectedAt": "2026-05-17T13:40:19.085Z"
-    },
-    {
-      "id": "20260517184132510800",
-      "time": "2026-05-17 18:41:32",
-      "hot": "热",
-      "content": "【伊朗外交部：美以用“维护能源稳定”作借口 为对伊战争辩护】金十数据5月17日讯，当地时间17日，伊朗外交部发言人巴加埃在其社交媒体账号发文，批评美国和以色列以“维护全球能源市场和平与稳定”为由，为针对伊朗的军事行动进行辩护。巴加埃表示，美以正在为其“非法战争”制造又一个“巨大谎言”，即声称自身是在“维护全球能源市场的和平与稳定”。他称，恰恰是美国和以色列的战争行为破坏了原本“充满希望”的外交进程，并通过对伊朗发动“无端军事侵略”，故意向关键能源运输通道制造不安全因素，随后又反过来指责伊朗破坏稳定。巴加埃称，这种做法是在重复“制造危机和战争，再以恢复稳定与捍卫和平为名进一步升级局势”的惯用套路。",
-      "source": "央视新闻",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=3702166902443784066&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D3702166902443784066%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-17T13:10:19.277Z"
     }
   ],
-  "lastUpdated": "2026-05-22T16:30:26.857Z"
+  "lastUpdated": "2026-05-22T16:50:21.928Z"
 }
