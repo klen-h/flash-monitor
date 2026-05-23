@@ -2,6 +2,21 @@
   "date": "2026/5/23",
   "items": [
     {
+      "id": "20260523131925707800",
+      "time": "2026-05-23 13:19:25",
+      "hot": "热",
+      "content": "【伊朗外长：美国要求过分、立场矛盾 阻碍谈判进程】金十数据5月23日讯，伊朗外长阿拉格齐22日晚在社交媒体发文说，他与联合国秘书长古特雷斯通电话，就最新地区局势以及经巴基斯坦斡旋的伊朗与美国之间的外交进展交换意见。阿拉格齐说：“美国屡次背信弃义、对伊朗进行军事侵略，其前后矛盾的立场和一再过分的要求，都是阻碍巴基斯坦斡旋谈判进程的因素。”阿拉格齐同时表示，尽管对美国抱有强烈的怀疑，但伊朗仍以负责任且高度认真的态度参与相关外交进程，并努力寻求达成合理公正的结果。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=17668866375946957491&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D17668866375946957491%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 0,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-05-23T05:50:22.262Z"
+    },
+    {
       "id": "20260523120953607800",
       "time": "2026-05-23 12:09:53",
       "hot": "热",
@@ -4450,21 +4465,7 @@
         2
       ],
       "collectedAt": "2026-05-18T00:30:20.489Z"
-    },
-    {
-      "id": "20260518082103332800",
-      "time": "2026-05-18 08:21:03",
-      "hot": "热",
-      "content": "韩国交易所因KOSPI 200期货下跌5%而启动KOSPI的熔断机制，程序化交易暂停5分钟。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-05-18T00:30:20.489Z"
     }
   ],
-  "lastUpdated": "2026-05-23T05:40:22.284Z"
+  "lastUpdated": "2026-05-23T05:50:22.268Z"
 }
