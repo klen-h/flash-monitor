@@ -1,6 +1,21 @@
 {
-  "date": "2026/5/23",
+  "date": "2026/5/24",
   "items": [
+    {
+      "id": "20260524000945140800",
+      "time": "2026-05-24 00:09:45",
+      "hot": "热",
+      "content": "【特朗普称可能于24日决定是否恢复对伊军事行动】当地时间5月23日，美国总统特朗普表示，他将于当天晚些时候与谈判团队会面，讨论伊朗方面最新提议，并可能于24日决定是否恢复军事行动。特朗普称，目前达成协议的可能性“大约占一半”。他说，美方要么达成“一项好的协议”，要么将对伊朗采取更强硬行动。据称，特朗普当天将与特使威特科夫和女婿库什纳等人举行会谈，美国副总统万斯预计也将参加。特朗普表示，他只会接受涵盖铀浓缩及伊朗现有铀库存等问题的协议。不过，这些问题预计不会在当前讨论中的意向文件中得到详细解决。根据相关提议，美伊双方将同意结束冲突，并在随后30天内继续进行更深入谈判。特朗普还表示，“事情可能朝两个方向发展，要么我对他们实施前所未有的更强打击，要么我们签署一项好的协议。”",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=14779377612738960214&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D14779377612738960214%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 0,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-05-23T17:00:28.371Z"
+    },
     {
       "id": "20260523233803190800",
       "time": "2026-05-23 23:38:03",
@@ -4453,22 +4468,7 @@
         3
       ],
       "collectedAt": "2026-05-18T12:50:22.831Z"
-    },
-    {
-      "id": "20260518200047782800",
-      "time": "2026-05-18 20:00:47",
-      "hot": "热",
-      "content": "【消息人士：美方同意在谈判期间暂时豁免对伊朗的石油制裁】金十数据5月18日讯，当地时间18日，一位接近美伊谈判团队的消息人士称，<b>美方在最新谈判方案文本中已同意在谈判期间对伊朗的石油制裁进行“豁免”</b>，这意味着美方将暂时中止制裁。伊朗强调，取消所有对伊制裁必须属于美方承诺的一部分。然而，美方提出的是在达成最终谅解之前，由美国财政部外国资产控制办公室（OFAC）实施暂时性豁免。<b>截至目前，美伊官方均未证实该消息。</b>",
-      "source": "央视新闻",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=272644036347742137&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D272644036347742137%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
-      "important": 1,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-05-18T12:10:20.029Z"
     }
   ],
-  "lastUpdated": "2026-05-23T15:50:20.435Z"
+  "lastUpdated": "2026-05-23T17:00:28.377Z"
 }
