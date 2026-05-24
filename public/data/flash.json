@@ -2,6 +2,21 @@
   "date": "2026/5/24",
   "items": [
     {
+      "id": "20260524085827625800",
+      "time": "2026-05-24 08:58:27",
+      "hot": "热",
+      "content": "【金十数据整理：中东局势跟踪（5月24日）】<br/><b>①停火谈判</b><br/><span class=\"section-news\">1. 特朗普称美伊协议基本谈成，细节将于近期公布。</span><br/><span class=\"section-news\">2. 特朗普：我只会签署一个能让我们从伊朗获得所有想要的东西的协议。</span><br/><span class=\"section-news\">3. 伊朗：伊美正处于谅解备忘录最终敲定阶段。谈判重点是结束战争，核问题暂不涉及。</span><br/><span class=\"section-news\">4. 英媒：美国和伊朗接近达成延长停火60天的协议。</span><br/><span class=\"section-news\">5. 巴基斯坦陆军元帅结束对伊访问，称谈判取得重要进展。</span><br/><span class=\"section-news\">6. 美国务卿：谈判取得一些进展，未来几天或宣布涉伊消息。</span><br/><span class=\"section-news\">7. 沙特媒体：伊朗将在谅解备忘录中承诺不发展核武，但要求保留有限铀浓缩权利。</span><br/><span class=\"section-news\">8. 沙特媒体：伊朗欲以开放海峡换美国赔偿，并要求在签署任何协议前讨论制裁和冻结资金问题。</span><br/><span class=\"section-news\">9. 美媒：美伊有望24小时内宣布和平协议最终达成。</span><br/><span class=\"section-news\">10. 伊朗外交部发言人：美伊双方分歧仍然很大。</span><br/><b>②伊朗</b><br/><span class=\"section-news\">1. 伊朗方面称特朗普关于霍尔木兹海峡的最新说法不完整。</span><br/><span class=\"section-news\">2. 伊朗警告若再遭袭将开启战斗3.0。</span><br/><span class=\"section-news\">3. 伊朗与阿曼强调恢复自由安全航行的重要性。</span><br/><span class=\"section-news\">4. 伊朗民用航空组织：暂时关闭西部除大不里士国际机场、梅赫拉巴德国际机场等8座机场外的所有机场。</span><br/><span class=\"section-news\">5. 伊朗首席谈判代表卡利巴夫：我们不会在国家和民族的权利上妥协。我们的武装部队在停火期间进行了重建。</span><br/><b>③以色列</b><br/><span class=\"section-news\">1. 以军宣布进入最高警戒状态，以防与伊朗可能发生的局势升级。</span><br/><span class=\"section-news\">2. 以色列官员证实，美以达成协议，禁止伊朗保留铀浓缩能力。</span><br/><b>④其他情况</b><br/><span class=\"section-news\">1. 以军称袭击黎巴嫩贝卡谷地的真主党地下设施。</span><br/><span class=\"section-news\">2. 卡塔尔埃米尔宫：卡塔尔埃米尔与美国总统特朗普通话。</span><br/><span class=\"section-news\">3. 黎巴嫩真主党：收到伊朗外长的信息称，伊朗不会放弃对真主党的支持。</span><br/><span class=\"section-news\">4. 伊朗外长致电卡塔尔外交大臣，就建立和平与增进地区稳定的努力进行了磋商。</span><br/><span class=\"section-news\">5. 法国外交部长：从今天起，以色列警察部长本-格维尔被禁止进入法国领土。</span><br/><span class=\"section-news\">6. 加沙医疗人员称，以色列对加沙北部警察阵地的袭击造成五人死亡，六人受伤。</span><br/><span class=\"section-news\">7. 海湾五国反对伊朗设立“波斯湾海峡管理局”，拒绝使用伊朗指定航道。 </span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-05-24T01:20:21.801Z"
+    },
+    {
       "id": "20260524084445124800",
       "time": "2026-05-24 08:44:45",
       "hot": "热",
@@ -4454,21 +4469,7 @@
         3
       ],
       "collectedAt": "2026-05-18T15:30:32.307Z"
-    },
-    {
-      "id": "20260518231150502800",
-      "time": "2026-05-18 23:11:50",
-      "hot": "热",
-      "content": "美股三大指数悉数转跌，美光科技(MU.O)跌近3%，此前一度涨超4%，闪迪(SNDK.O)跌近6%，英伟达(NVDA.O)跌超1%，此前涨超2%。消息面上，伊朗称双方仍存在实质性分歧，美国官员称伊朗最新提议不足以达成协议。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-05-18T15:20:23.508Z"
     }
   ],
-  "lastUpdated": "2026-05-24T01:10:23.336Z"
+  "lastUpdated": "2026-05-24T01:20:21.805Z"
 }
