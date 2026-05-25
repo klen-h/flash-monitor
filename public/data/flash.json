@@ -2,6 +2,21 @@
   "date": "2026/5/25",
   "items": [
     {
+      "id": "20260525224711342800",
+      "time": "2026-05-25 22:47:11",
+      "hot": "热",
+      "content": "【伊朗代表团结束在卡塔尔会谈议程 将返回德黑兰】金十数据5月25日讯，当地时间25日获悉，由伊朗伊斯兰议会议长卡利巴夫率领的伊朗代表团结束在卡塔尔首都多哈的会议后，将于今晚返回德黑兰。据悉，代表团在卡塔尔的相关议程目前已结束。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=15392758293961657499&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D15392758293961657499%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-05-25T15:00:31.560Z"
+    },
+    {
       "id": "20260525224142005800",
       "time": "2026-05-25 22:41:42",
       "hot": "沸",
@@ -4460,22 +4475,7 @@
         3
       ],
       "collectedAt": "2026-05-20T14:30:37.536Z"
-    },
-    {
-      "id": "20260520221723065800",
-      "time": "2026-05-20 22:17:23",
-      "hot": "爆",
-      "content": "据阿拉伯电视台：消息人士称，下一轮谈判将在朝觐季节之后于伊斯兰堡举行。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-05-20T14:30:37.536Z"
     }
   ],
-  "lastUpdated": "2026-05-25T14:50:21.728Z"
+  "lastUpdated": "2026-05-25T15:03:03.115Z"
 }
