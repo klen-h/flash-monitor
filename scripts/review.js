@@ -20,12 +20,20 @@
  *   - loadState()        读取pushedClusters
  *   - macro-history.js   宏观历史存储与读取
  */
-import { readFileSync, writeFileSync, existsSync } from 'fs';
+import { readFileSync, existsSync } from 'fs';
 import axios from 'axios';
 import { CONFIG } from './config.js';
 import { fetchSinaMacro } from './macro-layer.js';
 import { getMarketData } from './data-layer.js';
-import { loadState } from './storage.js';
+import { loadState, saveETFClose } from './storage.js';
+import { 
+  addSignalWithValidation, 
+  updateSignals, 
+  generateTrackingReport,
+  generateProTraderReport,
+  getHistory,
+  getActiveSignals
+} from './tracker.js';
 import { loadMacroHistory, appendMacroHistory } from './macro-history.js';
 import { getCoreSkill, getPremarketSkill, getMidmarketSkill, getPostmarketSkill, getTrendContext } from './const/prompt.js';
 
@@ -194,28 +202,6 @@ function formatETFPerformance(holdings) {
   const top5 = sorted.slice(0, 5).map(h => `🔺 ${h.name} +${h.changeStr}%`);
   const bottom5 = sorted.slice(-5).map(h => `🔻 ${h.name} ${h.changeStr}%`);
   return `**领涨**：${top5.join(' | ')}\n**领跌**：${bottom5.join(' | ')}`;
-}
-
-// ==================== ETF收盘存储与读取 ====================
-const ETF_CLOSE_PATH = CONFIG.PATHS.ETF_CLOSE || 'public/data/etf_close.json';
-function saveETFClose(holdings) {
-  try {
-    const data = { date: new Date().toISOString().slice(0, 10), holdings };
-    writeFileSync(ETF_CLOSE_PATH, JSON.stringify(data, null, 2), 'utf-8');
-    console.log('✅ ETF收盘数据已保存');
-  } catch (e) {
-    console.error('❌ 保存ETF收盘数据失败:', e.message);
-  }
-}
-
-function loadETFClose() {
-  if (!existsSync(ETF_CLOSE_PATH)) return null;
-  try {
-    return JSON.parse(readFileSync(ETF_CLOSE_PATH, 'utf-8'));
-  } catch (e) {
-    console.error('⚠️ 读取ETF收盘数据失败:', e.message);
-    return null;
-  }
 }
 
 // ==================== LLM 调用封装 ====================
@@ -421,7 +407,7 @@ async function main() {
   console.log('📊 拉取宏观数据...');
   const macro = await fetchSinaMacro();
   appendMacroHistory(macro);          // 存储到历史文件
-  const history = loadMacroHistory(); // 加载全部历史（用于趋势计算）
+  const macroHistory = loadMacroHistory(); // 加载全部宏观历史（用于趋势计算）
 
   // 2. 拉取已推送事件簇
   const hours = isPremarket ? 24 : (isLunchbreak ? 6 : 12);
@@ -489,7 +475,146 @@ async function main() {
     );
   }
 
+  // 7. 解析交易信号并保存
+  console.log('🔍 解析交易信号...');
+  const marketData = await getMarketData(true);
+  const signals = parseSignalsFromAnalysis(mainAnalysis, reviewType);
+  for (const signal of signals) {
+    const result = addSignalWithValidation(signal, marketData);
+    if (result.validation.passed) {
+      const gradeEmoji = result.techCheck.grade === 'A' ? '🌟' : result.techCheck.grade === 'B' ? '✨' : result.techCheck.grade === 'C' ? '⚠️' : '❌';
+      console.log(`   ✅ ${gradeEmoji} ${signal.etfName} (评分:${result.techCheck.score}/${result.techCheck.grade})`);
+      if (result.validation.warnings.length > 0) {
+        console.log(`      ⚠️ ${result.validation.warnings.join(', ')}`);
+      }
+    } else {
+      console.log(`   ❌ ${signal.etfName} 被拒绝: ${result.validation.reasons.join(', ')}`);
+    }
+  }
+
+  // 8. 更新现有信号状态
+  console.log('📈 更新信号状态...');
+  const result = updateSignals(marketData);
+  const { alerts } = result;
+
+  if (alerts.entries.length > 0 || alerts.exits.length > 0) {
+    console.log('   🎯 发现交易信号!');
+    for (const entry of alerts.entries) {
+      console.log(`      🚀 买入: ${entry.message}`);
+    }
+    for (const exit of alerts.exits) {
+      console.log(`      💰 卖出: ${exit.message}`);
+    }
+  }
+
+  // 9. 生成并推送报告
+  console.log('📊 生成专业交易报告...');
+  const activeSignals = getActiveSignals();
+  const history = getHistory();
+  let proReport = generateProTraderReport(activeSignals, history);
+  
+  if (alerts.entries.length > 0 || alerts.exits.length > 0) {
+    let alertSection = '## 🎯 交易信号提醒\n\n';
+    
+    if (alerts.entries.length > 0) {
+      alertSection += '### 🚀 买入信号\n';
+      for (const alert of alerts.entries) {
+        const s = alert.signal;
+        alertSection += `**${s.etfName}** (${s.direction === 'long' ? '做多' : '做空'})\n`;
+        alertSection += `- 入场价：${alert.currentPrice}\n`;
+        alertSection += `- 止损：${s.stopLoss}\n`;
+        alertSection += `- 止盈：${s.takeProfit}\n`;
+        if (s.positionSize && s.positionSize.positionValue > 0) {
+          alertSection += `- 建议仓位：¥${s.positionSize.positionValue.toLocaleString()}\n`;
+        }
+        alertSection += '\n';
+      }
+    }
+    
+    if (alerts.exits.length > 0) {
+      alertSection += '### 💰 卖出信号\n';
+      for (const alert of alerts.exits) {
+        const s = alert.signal;
+        const profitStr = alert.profit ? `${alert.profit > 0 ? '+' : ''}${alert.profit.toFixed(2)}%` : '';
+        alertSection += `**${s.etfName}** (${s.direction === 'long' ? '做多' : '做空'})\n`;
+        alertSection += `- 出场价：${alert.currentPrice}\n`;
+        alertSection += `- 盈亏：${profitStr}\n`;
+        alertSection += `- 原因：${s.exits[s.exits.length - 1]?.reason || ''}\n\n`;
+      }
+    }
+    
+    proReport = alertSection + '\n---\n' + proReport;
+  }
+  
+  await pushWechatReview('🎯 专业交易员报告', proReport);
+
   console.log(`[${formatTime()}] ✅ ${title}完成\n`);
+}
+
+// ==================== 交易信号解析 ====================
+function parseSignalsFromAnalysis(analysis, reviewType) {
+  const signals = [];
+  
+  try {
+    const lines = analysis.split('\n');
+    let currentSignal = null;
+    
+    for (const line of lines) {
+      const trimmed = line.trim();
+      
+      const etfMatch = trimmed.match(/(纳斯达克|纳指|科创50|创业板|沪深300|上证50|中证500|黄金|白银|原油|油气|军工|半导体|芯片|科技|消费|医药|地产|金融|券商|银行|保险)ETF/i);
+      if (etfMatch && !trimmed.includes('---') && !trimmed.includes('##')) {
+        const etfName = etfMatch[1] + 'ETF';
+        
+        const priceMatch = trimmed.match(/(\d+\.?\d*)/g);
+        if (priceMatch && priceMatch.length >= 2) {
+          let direction = 'long';
+          if (trimmed.includes('做空') || trimmed.includes('看空') || trimmed.includes('卖出')) {
+            direction = 'short';
+          }
+          
+          currentSignal = {
+            etfName,
+            direction,
+            trend: trimmed.includes('上涨') || trimmed.includes('看涨') || trimmed.includes('多头') ? 'up' : 
+                   trimmed.includes('下跌') || trimmed.includes('看空') || trimmed.includes('空头') ? 'down' : 'neutral',
+            support: null,
+            resistance: null,
+            entryCondition: { type: 'price', targetPrice: null },
+            stopLoss: null,
+            takeProfit: null,
+            reasoning: trimmed,
+            source: reviewType
+          };
+          
+          const prices = priceMatch.map(p => parseFloat(p)).filter(p => p > 0);
+          if (prices.length >= 2) {
+            prices.sort((a, b) => a - b);
+            currentSignal.support = prices[0].toString();
+            currentSignal.resistance = prices[prices.length - 1].toString();
+            
+            if (currentSignal.direction === 'long') {
+              currentSignal.entryCondition.targetPrice = prices[0].toString();
+              currentSignal.stopLoss = (prices[0] * 0.97).toFixed(3);
+              currentSignal.takeProfit = prices[prices.length - 1].toString();
+            } else {
+              currentSignal.entryCondition.targetPrice = prices[prices.length - 1].toString();
+              currentSignal.stopLoss = (prices[prices.length - 1] * 1.03).toFixed(3);
+              currentSignal.takeProfit = prices[0].toString();
+            }
+          }
+          
+          if (currentSignal.entryCondition.targetPrice) {
+            signals.push(currentSignal);
+          }
+        }
+      }
+    }
+  } catch (e) {
+    console.error('解析交易信号失败:', e.message);
+  }
+  
+  return signals;
 }
 
 main().catch(err => {

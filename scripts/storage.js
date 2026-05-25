@@ -55,6 +55,23 @@ export function saveAnalysis(analyzedItems) {
   fs.writeFileSync(CONFIG.PATHS.ANALYSIS, JSON.stringify(history, null, 2));
 }
 
+export function saveETFClose(holdings) {
+  ensureDataDir();
+  const data = {
+    date: new Date().toLocaleDateString('zh-CN', { timeZone: 'Asia/Shanghai' }),
+    timestamp: new Date().toISOString(),
+    holdings: holdings.map(h => ({
+      name: h.name,
+      code: h.code,
+      price: h.price,
+      prevClose: h.prevClose,
+      change: h.change,
+      changeStr: h.changeStr
+    }))
+  };
+  fs.writeFileSync(CONFIG.PATHS.ETF_CLOSE, JSON.stringify(data, null, 2));
+}
+
 function ensureDataDir() {
   if (!fs.existsSync(CONFIG.PATHS.DATA_DIR)) {
     fs.mkdirSync(CONFIG.PATHS.DATA_DIR, { recursive: true });

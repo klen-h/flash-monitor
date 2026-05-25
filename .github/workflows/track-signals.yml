@@ -1,0 +1,52 @@
+name: 交易信号监控
+
+on:
+  workflow_dispatch:
+    inputs:
+      debug:
+        description: '调试模式 (只输出不推送)'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 安装 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 安装依赖
+        run: npm install
+
+      - name: 检查交易信号
+        env:
+          WECHAT_WEBHOOK: ${{ secrets.WECHAT_WEBHOOK }}
+          WECHAT_WEBHOOK_REVIEW: ${{ secrets.WECHAT_WEBHOOK_REVIEW }}
+          WECHAT_WEBHOOK_REVIEW_COMPARE: ${{ secrets.WECHAT_WEBHOOK_REVIEW_COMPARE }}
+        run: |
+          if [ "${{ github.event.inputs.debug }}" == "true" ]; then
+            echo "调试模式：只运行不推送"
+            node scripts/track-signals.js
+          else
+            node scripts/track-signals.js
+          fi
+
+      - name: 提交数据
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add public/data/
+          if ! git diff --staged --quiet; then
+            git commit -m "📊 $(TZ='Asia/Shanghai' date +'%m-%d %H:%M') 交易信号更新"
+            git push
+          fi

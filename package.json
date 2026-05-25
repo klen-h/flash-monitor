@@ -14,7 +14,9 @@
     "test-review-lunchbreak": "node scripts/review.js lunchbreak",
     "test-review-postmarket": "node scripts/review.js postmarket",
     "test-review": "node scripts/review.js",
-    "accuracy-report": "node scripts/test/accuracy-report.js"
+    "accuracy-report": "node scripts/test/accuracy-report.js",
+    "test-track-signals": "node scripts/track-signals.js",
+    "test-tracker": "node scripts/test-tracker.js"
   },
   "dependencies": {
     "axios": "^1.6.0",

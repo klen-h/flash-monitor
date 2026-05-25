@@ -20,5 +20,6 @@ export const CONFIG = {
     ANALYSIS: path.resolve('public/data/flash_analysis.json'),
     MACRO_HISTORY: path.resolve('public/data/macro_history.json'),
     ETF_CLOSE: path.resolve('public/data/etf_close.json'),
+    TRACKING: path.resolve('public/data/tracking.json'),
   }
 };
