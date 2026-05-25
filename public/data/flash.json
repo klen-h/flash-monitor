@@ -2,6 +2,21 @@
   "date": "2026/5/26",
   "items": [
     {
+      "id": "20260526050429003800",
+      "time": "2026-05-26 05:04:29",
+      "hot": "热",
+      "content": "【伊朗南部阿巴斯港传出连续爆炸声】金十数据5月26日讯，当地时间26日凌晨，伊朗南部阿巴斯港传来三次爆炸声。随后有伊朗方面消息称，阿巴斯港发生大规模爆炸，目前相关方面正在进行调查以确定其原因。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=982875555214218378&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D982875555214218378%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 0,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-05-25T21:50:21.293Z"
+    },
+    {
       "id": "20260526043043853800",
       "time": "2026-05-26 04:30:43",
       "hot": "热",
@@ -4460,21 +4475,7 @@
         1
       ],
       "collectedAt": "2026-05-20T16:44:23.349Z"
-    },
-    {
-      "id": "20260521002407958800",
-      "time": "2026-05-21 00:24:07",
-      "hot": "热",
-      "content": "据华尔街日报：消息人士称，OpenAI正准备在近期提交IPO申请。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-05-20T16:44:23.349Z"
     }
   ],
-  "lastUpdated": "2026-05-25T21:30:26.591Z"
+  "lastUpdated": "2026-05-25T21:50:21.297Z"
 }
