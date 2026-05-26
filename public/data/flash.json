@@ -2,6 +2,19 @@
   "date": "2026/5/27",
   "items": [
     {
+      "id": "20260527065509668800",
+      "time": "2026-05-27 06:55:09",
+      "hot": "热",
+      "content": "【金十数据整理：每日科技要闻速递（2026-05-27）】<b>人工智能：</b><br/><span class=\"section-news\">1. 昆仑万维天工AI发布SkyClaw-v1.0：面向真实工作流的百万上下文Agent模型。</span><br/><span class=\"section-news\">2. 面壁智能开源MiniCPM5-1B：在AA-Index上超越所有2B参数以下模型，能跑在手机、浏览器上。</span><br/><span class=\"section-news\">3. Code Arena昨日更新榜单，阿里旗舰模型Qwen3.7-Max得分1541分，仅次于Claude系列，在大模型厂商中排名全球第二。</span><br/><b>集成电路（芯片）：</b><br/><span class=\"section-news\">1. 香农芯创：预计2026年来自阿里、腾讯、字节跳动等客户收入有较大增长。</span><br/><span class=\"section-news\">2. 思特威与紫光展锐宣布达成战略合作，双方将联合布局MicroLED高速光互连领域，围绕光互连芯片设计与系统解决方案落地展开深度协同。</span><br/><b>新能源汽车：</b><br/><span class=\"section-news\">1. 鸿蒙智行问界M6汽车上市首月交付量突破2万台。</span><br/><span class=\"section-news\">2. 小米集团：2026年第一季度，我们的新车交付量达到80856辆，同比增长6.6%。</span><br/><b>其他：</b><br/><span class=\"section-news\">1. 我国成功发射通信技术试验卫星二十四号。</span><br/><span class=\"section-news\">2. 日本云服务商樱花互联网2026财年计划资本开支或增近6倍。</span><br/><span class=\"section-news\">3. 据CNBC：马斯克与同事讨论了将特斯拉与SpaceX合并的可能性。</span><br/><span class=\"section-news\">4. 星河动力智神星系列火箭发射工位（一期）正式竣工，目标今年首飞。</span><br/><span class=\"section-news\">5. 海尔发布全球最轻AI运动外骨骼机器人：仅重1.75kg，单腿最大助力16N·m。</span><br/><span class=\"section-news\">6. SpaceX已获得美国空军价值22.9亿美元的合同，用于建设太空数据网络。</span><br/><span class=\"section-news\">7. 美国航空航天局（NASA）：已向“蓝色起源”公司授予18.8亿美元合同，用于执行两项向月球南极区域运送探测器的任务。</span><br/><span class=\"section-news\">8. 美国国家航空航天局（NASA）公布月球基地建设三阶段路线图，进一步细化未来在月球南极地区建设长期驻留设施的发展目标和实施路径。</span><br/><span class=\"section-news\">9. 富时罗素：根据富时罗素的快速纳入规则，SpaceX似乎有资格被纳入富时美国股票指数系列及富时全球股票指数系列。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-05-26T23:20:22.803Z"
+    },
+    {
       "id": "20260527063009193800",
       "time": "2026-05-27 06:30:09",
       "hot": "热",
@@ -4475,22 +4488,7 @@
         2
       ],
       "collectedAt": "2026-05-21T18:00:32.574Z"
-    },
-    {
-      "id": "20260522013032796800",
-      "time": "2026-05-22 01:30:32",
-      "hot": "热",
-      "content": "【鲁比奥：美伊谈判有进展 难保协议定达成】金十数据5月22日讯，美国国务卿鲁比奥21日说，美国同伊朗的谈判目前取得一些进展，但他无法保证协议一定能达成。他同时表示，如果无法达成一份“好协议”，“所有人清楚”美国有哪些其他选项。鲁比奥当天从佛罗里达州迈阿密市前往瑞典出席北约外长会。他在机场对媒体说，美国总统特朗普的首要意愿是达成一份“好协议”，美方“将竭尽全力争取实现这一目标”，“不过，总统也已明确表示，如果无法达成一份好协议，他还有其他备选方案”。鲁比奥说，目前虽已出现一些积极迹象，但他不希望表现得过于乐观。“所以，让我们看看接下来几天会发生什么。”",
-      "source": "新华社",
-      "source_link": "https://baijiahao.baidu.com/s?id=1865819313347860784",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-21T17:50:25.093Z"
     }
   ],
-  "lastUpdated": "2026-05-26T22:50:20.540Z"
+  "lastUpdated": "2026-05-26T23:20:22.808Z"
 }
