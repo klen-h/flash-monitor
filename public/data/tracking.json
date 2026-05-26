@@ -1,5 +1,111 @@
 {
-  "activeSignals": [],
+  "activeSignals": [
+    {
+      "etfName": "纳斯达克ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "1.51",
+      "resistance": "30500",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "1.51"
+      },
+      "stopLoss": "1.465",
+      "takeProfit": "30500",
+      "reasoning": "| **纳斯达克ETF** | 2.180  | 2.250  | 现价附近做多   | 纳指期货涨+1.51% → 全球科技情绪提振 → 目标阻力2.250（对应纳指$30500）。          |",
+      "source": "premarket",
+      "id": "1779817747263",
+      "createdAt": "2026-05-26T17:49:07.263Z",
+      "status": "waiting",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": true,
+        "warnings": [
+          "价格历史数据不足，无法进行技术分析"
+        ],
+        "reasons": []
+      },
+      "techScore": 90,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 33333,
+        "positionValue": 50332.83,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      },
+      "lastCheckedPrice": 2.185
+    },
+    {
+      "etfName": "科创50ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "1.15",
+      "resistance": "50",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "1.15"
+      },
+      "stopLoss": "1.115",
+      "takeProfit": "50",
+      "reasoning": "| **科创50ETF**   | 1.950  | 2.000  | 1.960以下做多  | A股科技补涨逻辑 → 纳指带动 + 半导体ETF超跌（-1.15%）→ 反弹动能蓄积。             |",
+      "source": "premarket",
+      "id": "1779817747266",
+      "createdAt": "2026-05-26T17:49:07.266Z",
+      "status": "waiting",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": true,
+        "warnings": [],
+        "reasons": []
+      },
+      "techScore": 100,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 42857,
+        "positionValue": 49285.549999999996,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "黄金ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "9.4",
+      "resistance": "9.5",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "9.4"
+      },
+      "stopLoss": "9.118",
+      "takeProfit": "9.5",
+      "reasoning": "| **黄金ETF**     | 9.400  | 9.500  | 观望或轻仓试多 | 关税事件支撑 + 中东风险未消 → 但金价跌压制空间，破9.400止损（防负相关延续）。   |",
+      "source": "premarket",
+      "id": "1779817747268",
+      "createdAt": "2026-05-26T17:49:07.268Z",
+      "status": "waiting",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": true,
+        "warnings": [
+          "价格历史数据不足，无法进行技术分析"
+        ],
+        "reasons": []
+      },
+      "techScore": 90,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 5319,
+        "positionValue": 49998.6,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      },
+      "lastCheckedPrice": 9.454
+    }
+  ],
   "history": [],
   "priceHistory": {
     "沪深300ETF": [

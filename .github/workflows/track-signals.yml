@@ -32,7 +32,6 @@ jobs:
         env:
           WECHAT_WEBHOOK: ${{ secrets.WECHAT_WEBHOOK }}
           WECHAT_WEBHOOK_REVIEW: ${{ secrets.WECHAT_WEBHOOK_REVIEW }}
-          WECHAT_WEBHOOK_REVIEW_COMPARE: ${{ secrets.WECHAT_WEBHOOK_REVIEW_COMPARE }}
         run: |
           if [ "${{ github.event.inputs.debug }}" == "true" ]; then
             echo "调试模式：只运行不推送"

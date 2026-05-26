@@ -27,9 +27,7 @@ jobs:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
           LLM_MODEL: ${{ secrets.LLM_MODEL }}
-          LLM_MODEL_COMPARE: ${{ secrets.LLM_MODEL_COMPARE }}
           WECHAT_WEBHOOK_REVIEW: ${{ secrets.WECHAT_WEBHOOK_REVIEW }}
-          WECHAT_WEBHOOK_REVIEW_COMPARE: ${{ secrets.WECHAT_WEBHOOK_REVIEW_COMPARE }}
         run: node scripts/review.js premarket
 
       - name: 提交数据（如有更新）

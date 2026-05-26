@@ -2,15 +2,6 @@ name: 快讯实时监控
 
 on:
   workflow_dispatch:
-    inputs:
-      llm_model:
-        description: '主 LLM 模型名称 (覆盖 Secrets 中的 LLM_MODEL)'
-        required: false
-        default: ''
-      llm_model_compare:
-        description: '对比 LLM 模型名称 (留空则不进行对比)'
-        required: false
-        default: ''
 
 jobs:
   monitor:
@@ -35,11 +26,9 @@ jobs:
         env:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
-          LLM_MODEL: ${{ github.event.inputs.llm_model || secrets.LLM_MODEL }}
-          LLM_MODEL_COMPARE: ${{ github.event.inputs.llm_model_compare || secrets.LLM_MODEL_COMPARE }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
           FLASH_COOKIE: ${{ secrets.FLASH_COOKIE }}
           WECHAT_WEBHOOK: ${{ secrets.WECHAT_WEBHOOK }}
-          WECHAT_WEBHOOK_COMPARE: ${{ secrets.WECHAT_WEBHOOK_COMPARE }}
         run: node scripts/fetch-flash.js
 
       - name: 提交数据

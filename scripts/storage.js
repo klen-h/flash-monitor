@@ -57,8 +57,9 @@ export function saveAnalysis(analyzedItems) {
 
 export function saveETFClose(holdings) {
   ensureDataDir();
-  const data = {
-    date: new Date().toLocaleDateString('zh-CN', { timeZone: 'Asia/Shanghai' }),
+  const today = new Date().toLocaleDateString('zh-CN', { timeZone: 'Asia/Shanghai' });
+  const newData = {
+    date: today,
     timestamp: new Date().toISOString(),
     holdings: holdings.map(h => ({
       name: h.name,
@@ -69,7 +70,42 @@ export function saveETFClose(holdings) {
       changeStr: h.changeStr
     }))
   };
-  fs.writeFileSync(CONFIG.PATHS.ETF_CLOSE, JSON.stringify(data, null, 2));
+
+  let history = [];
+  try {
+    const existing = JSON.parse(fs.readFileSync(CONFIG.PATHS.ETF_CLOSE, 'utf-8'));
+    if (Array.isArray(existing)) {
+      history = existing.filter(d => d.date !== today);
+    }
+  } catch {}
+
+  history.unshift(newData);
+  history = history.slice(0, 30);
+  fs.writeFileSync(CONFIG.PATHS.ETF_CLOSE, JSON.stringify(history, null, 2));
+}
+
+export function loadETFClose() {
+  try {
+    const data = JSON.parse(fs.readFileSync(CONFIG.PATHS.ETF_CLOSE, 'utf-8'));
+    if (Array.isArray(data)) {
+      return data[0] || null;
+    }
+    return data;
+  } catch {
+    return null;
+  }
+}
+
+export function loadETFCloseHistory(days = 7) {
+  try {
+    const data = JSON.parse(fs.readFileSync(CONFIG.PATHS.ETF_CLOSE, 'utf-8'));
+    if (Array.isArray(data)) {
+      return data.slice(0, days);
+    }
+    return data ? [data] : [];
+  } catch {
+    return [];
+  }
 }
 
 function ensureDataDir() {

@@ -92,18 +92,6 @@ async function main() {
     // 推送主模型分析结果
     await pushWechat(analysis, toAnalyze, macro, holdingsData);
     
-    // 如果配置了对比模型，则运行第二次分析
-    if (CONFIG.LLM.MODEL_COMPARE) {
-      console.log(`🔍 运行对比分析 [${CONFIG.LLM.MODEL_COMPARE}]...`);
-      const analysisCompare = await analyzeWithLLM(toAnalyze, macro, holdingsData, CONFIG.LLM.MODEL_COMPARE);
-      
-      // 推送对比简报到主 Webhook
-      await pushWechatComparison(analysis, analysisCompare, toAnalyze, macro, holdingsData);
-      
-      // 推送对比模型的详细结果到对比 Webhook (默认同主 Webhook)
-      await pushWechat(analysisCompare, toAnalyze, macro, holdingsData, CONFIG.WECHAT_WEBHOOK_COMPARE);
-    }
-    
     updateStateAfterPush(state, toAnalyze);
   } else {
     console.log('📭 无新事件需分析，静默');
