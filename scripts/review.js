@@ -25,7 +25,7 @@ import axios from 'axios';
 import { CONFIG } from './config.js';
 import { fetchSinaMacro } from './macro-layer.js';
 import { getMarketData } from './data-layer.js';
-import { loadState, saveETFClose } from './storage.js';
+import { loadState, saveETFClose, loadETFClose } from './storage.js';
 import { 
   addSignalWithValidation, 
   updateSignals, 
@@ -445,14 +445,14 @@ async function main() {
     }
   }
 
-  // 4. 构建 Prompt（传入 history）
+  // 4. 构建 Prompt（传入 macroHistory）
   let prompt;
   if (isPremarket) {
-    prompt = buildPremarketPrompt(clusters, macro, contentMap, history);
+    prompt = buildPremarketPrompt(clusters, macro, contentMap, macroHistory);
   } else if (isLunchbreak) {
-    prompt = buildLunchbreakPrompt(clusters, macro, etfHoldings, contentMap, history);
+    prompt = buildLunchbreakPrompt(clusters, macro, etfHoldings, contentMap, macroHistory);
   } else {
-    prompt = buildPostmarketPrompt(clusters, macro, etfHoldings, contentMap, history);
+    prompt = buildPostmarketPrompt(clusters, macro, etfHoldings, contentMap, macroHistory);
   }
   // console.log(prompt);
   // return;
