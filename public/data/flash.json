@@ -2,6 +2,19 @@
   "date": "2026/5/26",
   "items": [
     {
+      "id": "20260526090423445800",
+      "time": "2026-05-26 09:04:23",
+      "hot": "热",
+      "content": "【金十数据整理：A股盘前市场要闻速递（2026-05-26）】<b>重要新闻</b><br/><span class=\"section-news\">1. 宇树科技科创板IPO将于6月1日上会，公司2026年1-3月扣非后净利润由上年同期的8483.65万元降至4025.36万元，同比下降幅度为52.55%。</span><br/><span class=\"section-news\">2. 生猪价格跌至近10年低位。</span><br/><span class=\"section-news\">3. 山西109座炼焦煤矿山停产，产能总计1.22亿吨。</span><br/><span class=\"section-news\">4. 安徽：支持科技创新，着力投早、投小、投长期、投硬科技，不断提升安徽创新效能。</span><br/><span class=\"section-news\">5. 国家能源局：截至4月底全国累计发电装机容量39.9亿千瓦，同比增长14.2%。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 晶科能源签约意大利115MW飞虎3地面电站订单。</span><br/><span class=\"section-news\">2. 立讯精密：商业航天业务方面目前已供应部分部件。</span><br/><span class=\"section-news\">3. 行云科技：签订3.22亿元企业级SSD硬盘销售框架协议。</span><br/><span class=\"section-news\">4. 鼎龙股份：CMP抛光液产品获头部晶圆厂奖项及新订单，碳化硅衬底抛光液落地批量订单。</span><br/><span class=\"section-news\">5. 博云新材：未与蓝箭航天签署任何框架协议，也并非蓝箭航天‘朱雀三号’可回收火箭热防护系统的供应商。</span><br/><span class=\"section-news\">6. *ST闻泰：控股股东闻天下所持全部1.54亿股被司法冻结。</span><br/><span class=\"section-news\">7. 九安医疗：不涉及AI业务单独收费，糖尿病诊疗照护业务收入占比低。</span><br/><span class=\"section-news\">8. 澜起科技：初步确定本次询价转让价格为250.08元/股。</span><br/><span class=\"section-news\">9. 5天3板风华高科：未与英伟达直接开展业务合作。</span><br/><span class=\"section-news\">10. 四会富仕：1.6T光模块用PCB已有小批量订单，光模块用PCB目前营收占比仍低于1%。</span><br/><span class=\"section-news\">11. 2连板鹏鼎控股：股票异常波动期间，第一大股东及其一致行动人通过大宗交易共计减持公司股份3999.99万股。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-05-26T01:20:23.618Z"
+    },
+    {
       "id": "20260526084959105800",
       "time": "2026-05-26 08:49:59",
       "hot": "沸",
@@ -4463,22 +4476,7 @@
         2
       ],
       "collectedAt": "2026-05-20T22:20:22.942Z"
-    },
-    {
-      "id": "20260521050939808800",
-      "time": "2026-05-21 05:09:39",
-      "hot": "热",
-      "content": "【美媒：调解方拟定美伊意向书 欲开启为期30天的谈判】金十数据5月21日讯，据AXIOS报道，美国消息人士称，特朗普告诉内塔尼亚胡，调解人正在拟定一份“意向书”，由美国和伊朗签署，以正式结束战争，并就伊朗核计划、开放霍尔木兹海峡等问题启动为期30天的谈判。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-20T21:50:21.943Z"
     }
   ],
-  "lastUpdated": "2026-05-26T01:12:53.878Z"
+  "lastUpdated": "2026-05-26T01:20:23.623Z"
 }
