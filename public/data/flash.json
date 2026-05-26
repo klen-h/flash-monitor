@@ -2,6 +2,21 @@
   "date": "2026/5/27",
   "items": [
     {
+      "id": "20260527061428496800",
+      "time": "2026-05-27 06:14:28",
+      "hot": "热",
+      "content": "【伊朗官员：美国处于“请求”与伊朗达成协议的地位】金十数据5月27日讯，伊朗伊斯兰革命卫队海军副司令穆罕默德·阿克巴尔扎德当地时间26日晚间表示，<b>美国和欧洲经济高度依赖能源价格，并容易受到地区局势变化影响，这种压力杠杆使美国在与伊朗达成协议问题上处于“请求”的地位</b>。阿克巴尔扎德还表示，美国霸权正在衰落，西方的战略判断也遭遇失败，地区国家和全球大国已经认识到，美国已无力为其盟友提供安全保障。",
+      "source": "央视",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=12408455598294151023&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D12408455598294151023%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
+      "important": 0,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-05-26T22:40:21.659Z"
+    },
+    {
       "id": "20260527053707014800",
       "time": "2026-05-27 05:37:07",
       "hot": "沸",
@@ -4477,22 +4492,7 @@
         2
       ],
       "collectedAt": "2026-05-21T17:50:25.092Z"
-    },
-    {
-      "id": "20260522010503324800",
-      "time": "2026-05-22 01:05:03",
-      "hot": "热",
-      "content": "【美国驻丹麦大使：特朗普已排除对格陵兰岛使用武力】金十数据5月22日讯，当地时间5月21日，美国驻丹麦大使肯尼思·豪韦里在格陵兰岛首府努克新美国领事馆开幕仪式上发表的讲话，称美国总统特朗普已排除对格陵兰岛使用武力的可能性。格陵兰岛的未来必须由格陵兰人民自己决定。",
-      "source": "央视新闻",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=7340001695136131730&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D7340001695136131730%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-21T17:40:25.190Z"
     }
   ],
-  "lastUpdated": "2026-05-26T22:00:31.092Z"
+  "lastUpdated": "2026-05-26T22:40:21.666Z"
 }
