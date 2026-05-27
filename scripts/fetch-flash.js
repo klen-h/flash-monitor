@@ -46,8 +46,16 @@ async function main() {
     console.log(`   ${c._clusterHot === '爆' ? '🔴' : '🔵'} ${urgentTag} ${c._cluster} (${c._clusterSize}条)`);
   });
 
+  console.log('📈 拉取ETF行情数据...');
   let marketData = null;
-  const holdingsData = marketData?.holdings || [];
+  let holdingsData = [];
+  try {
+    marketData = await getMarketData();
+    holdingsData = marketData?.holdings || [];
+    console.log(`   获取到 ${holdingsData.length} 个ETF行情`);
+  } catch (e) {
+    console.log('⚠️ ETF数据获取失败');
+  }
 
   const state = loadState();
   const toAnalyze = [];
@@ -336,6 +344,8 @@ export async function analyzeWithLLM(clusteredItems, macro, holdingsData, modelO
   const hstechStatus = (dataQuality.market_clock.is_a_stock_trading || dataQuality.market_clock.is_hstech_extended)
     ? '盘中实时'
     : '已收盘静态数据（仅作宏观参考）';
+    
+  const formatChange = (val) => val > 0 ? `+${val}%` : `${val}%`;
 
   const prompt = `【角色定义】
 你目前是宏观交易信号过滤引擎。你的首要任务不是"给出答案"，而是"诚实地评估数据能支撑什么结论"。
@@ -344,16 +354,34 @@ export async function analyzeWithLLM(clusteredItems, macro, holdingsData, modelO
 ## 第一部分：数据预检（必须优先执行）
 ### 1.1 当前数据快照
 - 数据质量评估状态: ${JSON.stringify(dataQuality)}
-- 当前市场时段: ${dataQuality.market_clock.beijing_time} 北京时间 | ${clockDesc}
+- 当前市场时段: ${dataQuality.market_clock.beijing_time} 北京时间 |${clockDesc}
 - 恒科指数实时性: ${hstechStatus}
-- 布伦特原油: $${macro.brent.price} (昨结算:${macro.brent.prevClose} 涨跌:${macro.brent.change}%)
-- 纽约原油: $${macro.crude.price} (昨结算:${macro.crude.prevClose} 涨跌:${macro.crude.change}%)
-- 黄金(COMEX): $${macro.gold.price} (昨结算:${macro.gold.prevClose} 涨跌:${macro.gold.change}%)
-- 纳指期货(NQ): ${macro.nasdaq.price} (昨结算:${macro.nasdaq.prevClose} 涨跌:${macro.nasdaq.change}%)
-- 日经225(NK): ${macro.nke.price} (昨结算:${macro.nke.prevClose} 涨跌:${macro.nke.change}%)
-- 恒科指数(HSTECH): ${macro.hstech.price} (昨收:${macro.hstech.prevClose} 涨跌:${macro.hstech.change}%)
-- 美元指数(DXY): ${macro.dxy.price} (昨收:${macro.dxy.prevClose} 涨跌:${macro.dxy.change}%)
-- 离岸人民币(CNH): ${macro.usdcnh.price} (昨收:${macro.usdcnh.prevClose} 涨跌:${macro.usdcnh.change}%)
+
+【核心能源与避险】
+- 布伦特原油: $${macro.brent.price} (昨结:${macro.brent.prevClose} ${formatChange(macro.brent.change)}) [日内高:${macro.brent.high} 低:${macro.brent.low}]
+- 纽约原油: $${macro.crude.price} (昨结:${macro.crude.prevClose} ${formatChange(macro.crude.change)}) [日内高:${macro.crude.high} 低:${macro.crude.low}]
+- 黄金(COMEX): $${macro.gold.price} (昨结:${macro.gold.prevClose} ${formatChange(macro.gold.change)}) [日内高:${macro.gold.high} 低:${macro.gold.low}]
+- 黄金现货: $${macro.goldSpot.price} [日内高:${macro.goldSpot.high} 低:${macro.goldSpot.low}]
+
+【全球风险资产】
+- 纳指期货(NQ): ${macro.nasdaq.price} (昨结:${macro.nasdaq.prevClose} ${formatChange(macro.nasdaq.change)}) [日内高:${macro.nasdaq.high} 低:${macro.nasdaq.low}]
+- 恒科指数(HSTECH): ${macro.hstech.price} (昨收:${macro.hstech.prevClose} ${formatChange(macro.hstech.change)}) [日内高:${macro.hstech.high} 低:${macro.hstech.low}]
+
+【宏观定价锚与汇率】
+- 美元指数(DXY): ${macro.dxy.price} (昨收:${macro.dxy.prevClose} ${formatChange(macro.dxy.change)})
+- 离岸人民币(CNH): ${macro.usdcnh.price} (昨收:${macro.usdcnh.prevClose} ${formatChange(macro.usdcnh.change)})
+- 美10年期债收益率: ${macro.us10yt.price} (昨收:${macro.us10yt.prevClose} ${formatChange(macro.us10yt.change)})
+- VIX恐慌指数: ${macro.vix.price} (昨收:${macro.vix.prevClose} ${formatChange(macro.vix.change)})
+
+【工业需求与交叉验证】
+- 白银(COMEX): $${macro.silver.price} (昨结:${macro.silver.prevClose} ${formatChange(macro.silver.change)})
+- 铜(COMEX): $${macro.copper.price} (昨结:${macro.copper.prevClose} ${formatChange(macro.copper.change)})
+
+【前置宏观比率(极高参考价值)】
+- 金银比: ${macro.goldSilverRatio} (避险/工业情绪，>80极度恐慌)
+- 铜金比: ${macro.copperGoldRatio} (经济动能/避险，越小越衰退)
+- 铜油比: ${macro.copperOilRatio} (需求/供给博弈)
+
 
 ### 1.2 盘面实况 (ETF)
 ${holdingsStatusText}
@@ -364,16 +392,23 @@ ${holdingsStatusText}
 ### 2.1 盘面交叉验证
 - 若存在盘面数据，验证新闻逻辑与盘面表现是否一致。
 - 若无盘面数据，降级为"逻辑自洽性检验"。
+- 【强制反身性校验】：若新闻呈利多但盘面放量滞涨/高开低走，或新闻利空但盘面缩量抗跌/低开高走，必须触发"主力逻辑切换"警报，并在输出中标注 dominant_narrative 的 fragility 为"极高"。
 
 ### 2.2 原油-黄金相关性诊断（优先级最高）
-- 步骤1：计算日内相关性方向（原油跌+黄金涨/平 = D状态）。
-- 步骤2：D状态下的美元确认（需美元盘中走势，若无则标注缺失）。
-- 步骤3：D状态下的风险资产情绪确认（需纳指/恒科表现）。
+- 步骤1：计算日内相关性方向与相对强弱（原油大跌 + 黄金涨/平/或微跌但显著抗跌 = D状态）。
+- 步骤2：D状态成因诊断（核心！）。判断当前 D 状态是：
+  - D1(供给驱动)：地缘缓和/增产导致油价跌。验证信号：铜价企稳或上涨，铜金比上升，VIX未飙升。
+  - D2(衰退驱动)：需求崩塌导致油价跌。验证信号：铜价同步暴跌，铜金比骤降，金银比飙升，VIX异常走高。
+- 步骤3：极端走势校验。对比当前价格与日内高低点，若价格贴近日内低点，说明抛压未释放完毕；若从低点大幅回收，说明买盘承接极强。
+- 步骤4：D状态下的美元与风险资产确认（需纳指/恒科/美债表现）。
+
 
 ### 2.3 D状态专属规则（强制遵守）
 - ❌ 严禁基于"协议达成"逻辑推荐做空黄金。
 - ❌ 严禁基于"油价暴跌"逻辑推荐抄底油气ETF。
-- ✅ 允许推荐：科技ETF（成本下降）、黄金ETF（独立支撑）、军工ETF（对冲风险）。
+- ✅ D1(供给驱动)下允许推荐：科技ETF（成本下降）、黄金ETF（独立支撑）、军工ETF（对冲风险）。
+- ❌ D2(衰退驱动)下严禁推荐：科技ETF、宽基ETF（盈利预期恶化）。
+- ✅ D2(衰退驱动)下允许推荐：国债ETF、黄金ETF、短融ETF。
 
 ### 2.4 事件簇分析
 - 1个事件：禁止创建多情景，仅单线推演。
@@ -400,6 +435,7 @@ ${flashText}
     "oil_direction": "string",
     "gold_direction": "string",
     "correlation_state": "正相关/负相关/D状态/无法判断",
+    "d_state_type": "D1供给驱动/D2衰退驱动/不适用/无法判断",
     "dollar_confirmation": "string",
     "risk_asset_confirmation": "string",
     "current_phase": "A/B/C/D/无法判断"
@@ -428,15 +464,15 @@ ${flashText}
       "cluster_name": "string",
       "time_sensitivity_level": "紧急/中等/背景",
       "time_sensitive": "boolean",
-      "value_score": "number",
+      "value_score": "number (1-10)",
       "oil_impact": "string",
-      "transmission_chain": "string",
+      "transmission_chain": "string (必须严格按照：事件 -> 宏观变量 -> 行业逻辑 -> 具体ETF 格式填写)",
       "transmission_confidence": "强/中/弱",
       "action": "加仓/减仓/调仓/观望/埋伏/无法判断",
-      "target": "string",
+      "target": "string (必须严格从【第三部分：持仓映射规则】的ETF列表中选择，若无法映射则填'无对应持仓')",
       "urgency": "即刻/本周/观察/中长期",
       "why": "string",
-      "market_validation": "string",
+      "market_validation": "string (需验证的盘面信号)",
       "risk": "string"
     }
   ],
@@ -449,10 +485,13 @@ ${flashText}
     "do_not_touch": ["string"]
   },
   "d_state_compliance": {
+    "is_d_state": "boolean",
+    "d_state_type": "D1供给驱动/D2衰退驱动/不适用", 
     "gold_short_recommended": "boolean",
     "oil_bottom_fishing_recommended": "boolean",
+    "tech_recommended_in_d2": "boolean", 
     "allowed_recommendations_used": ["string"],
-    "compliance_note": "string"
+    "compliance_note": "string (说明如何遵守2.3规则，特别是D1/D2的区分)"
   }
 }`;
   const targetModel = modelOverride || CONFIG.LLM.MODEL;
