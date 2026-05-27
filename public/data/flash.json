@@ -2,6 +2,19 @@
   "date": "2026/5/27",
   "items": [
     {
+      "id": "20260527090648134800",
+      "time": "2026-05-27 09:06:48",
+      "hot": "热",
+      "content": "【金十数据整理：A股盘前市场要闻速递（2026-05-27）】<b>重要新闻</b><br/><span class=\"section-news\">1. 工信部：重点围绕驾驶自动化、汽车数据、“车路云一体化”等领域加速标准研制与迭代。</span><br/><span class=\"section-news\">2. 内地资金绕道香港豪赌场外期权，高收益背后暗藏风险。</span><br/><span class=\"section-news\">3. 信通院：4月国内市场手机出货量2573.3万部，同比增长2.8%。</span><br/><span class=\"section-news\">4. 几内亚将限制铝土矿出口，外交部回应。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 兆易创新：公司持有长鑫科技股份仅占其当前总股本的1.8%，持股比例较小。</span><br/><span class=\"section-news\">2. 天赐材料：开展年产16万吨高压实磷酸铁锂项目前期工作，预计投资不超21亿元。</span><br/><span class=\"section-news\">3. 沪电股份：随着PCB行业整体产能持续释放，未来市场竞争预计将会加剧。</span><br/><span class=\"section-news\">4. 莲花控股：拟对阶跃星辰增资不超过3亿元。</span><br/><span class=\"section-news\">5. 深科技：子公司拟扩大高端存储芯片封测产能，投资14.7亿元。</span><br/><span class=\"section-news\">6. 嘉戎技术：拟作价约13.5亿元购买杭州蓝然100%股权。</span><br/><span class=\"section-news\">7. 甬矽电子：2.5D封装产品线目前正在与客户送样验证中，尚未实现量产。</span><br/><span class=\"section-news\">8. 仕佳光子：终止购买福可喜玛通讯公司事项。</span><br/><span class=\"section-news\">9. 盛视科技：全资子公司签署60亿元算力产业合作协议。</span><br/><span class=\"section-news\">10. 林州重机：因涉嫌信息披露违法违规，证监会决定对公司立案调查。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-05-27T01:20:22.769Z"
+    },
+    {
       "id": "20260527080439981800",
       "time": "2026-05-27 08:04:39",
       "hot": "爆",
@@ -4468,22 +4481,7 @@
         2
       ],
       "collectedAt": "2026-05-21T22:20:23.271Z"
-    },
-    {
-      "id": "20260522041941266800",
-      "time": "2026-05-22 04:19:41",
-      "hot": "热",
-      "content": "【特朗普再威胁伊朗交出浓缩铀 称到手后或销毁】金十数据5月22日讯，美国总统特朗普21日在白宫对媒体说，伊朗必须交出其拥有的高丰度浓缩铀，美国拿到后很可能会将其销毁。特朗普回答记者提问时说：“我们会拿到那些高浓缩铀的。我们不需要，也不想要。我们拿到后很可能会将其销毁，我们不会让他们拥有。”他还说，美伊正在进行谈判，结果如何尚待观察。特朗普此前多次威胁伊朗交出浓缩铀。据美国方面10日消息，特朗普称，美国一直在对掩埋在废墟下的伊朗浓缩铀进行监控，美国太空军负责此事。",
-      "source": "央视",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=6002857179373255944&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D6002857179373255944%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-21T22:10:22.710Z"
     }
   ],
-  "lastUpdated": "2026-05-27T00:20:22.319Z"
+  "lastUpdated": "2026-05-27T01:20:22.773Z"
 }
