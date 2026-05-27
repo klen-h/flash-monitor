@@ -473,7 +473,7 @@ ${flashText}
       },
       {
         headers: { 'Authorization': `Bearer ${API_KEY}` },
-        timeout: 120000
+        timeout: 1200000
       }
     );
 
