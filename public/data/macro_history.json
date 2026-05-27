@@ -1708,5 +1708,60 @@
     "goldSilverRatio": "59.37",
     "gldRatio": "10.97",
     "copperGoldRatio": "0.14"
+  },
+  {
+    "time": "2026-05-27T01:10:23.779Z",
+    "brent": {
+      "price": 95.714,
+      "change": -0.99
+    },
+    "wti": {
+      "price": 92.759,
+      "change": -1.2
+    },
+    "gold": {
+      "price": 4551.008,
+      "change": 0.35
+    },
+    "gld": {
+      "price": 414,
+      "change": 0.04
+    },
+    "us10yt": {
+      "price": 4.48,
+      "change": -0.29
+    },
+    "silver": {
+      "price": 77.506,
+      "change": 1.17
+    },
+    "copper": {
+      "price": 645.175,
+      "change": 0.86
+    },
+    "nasdaq": {
+      "price": 30146.225,
+      "change": 0.24
+    },
+    "nke": {
+      "price": 65967.6,
+      "change": 1.29
+    },
+    "hstech": {
+      "price": 4946.88,
+      "change": 0
+    },
+    "dxy": {
+      "price": 99.089,
+      "change": -0.06
+    },
+    "usdcnh": {
+      "price": 6.7794,
+      "change": -0.08
+    },
+    "copperOilRatio": "6.74",
+    "goldSilverRatio": "58.72",
+    "gldRatio": "10.99",
+    "copperGoldRatio": "0.14"
   }
 ]
