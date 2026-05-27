@@ -85,8 +85,14 @@
       "source": "premarket",
       "id": "1779817747268",
       "createdAt": "2026-05-26T17:49:07.268Z",
-      "status": "waiting",
-      "entries": [],
+      "status": "active",
+      "entries": [
+        {
+          "price": 9.4,
+          "time": "2026-05-27T02:00:34.959Z",
+          "reason": "触发入场价格"
+        }
+      ],
       "exits": [],
       "validation": {
         "passed": true,
@@ -103,7 +109,9 @@
         "riskAmount": 1500,
         "riskPercent": "1.50"
       },
-      "lastCheckedPrice": 9.402
+      "lastCheckedPrice": 9.4,
+      "entryPrice": 9.4,
+      "entryTime": "2026-05-27T02:00:34.959Z"
     }
   ],
   "history": [],
