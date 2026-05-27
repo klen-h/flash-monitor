@@ -2,6 +2,21 @@
   "date": "2026/5/28",
   "items": [
     {
+      "id": "20260528060218259800",
+      "time": "2026-05-28 06:02:18",
+      "hot": "热",
+      "content": "【金十数据整理：俄乌冲突最新24小时局势跟踪（5月28日）】<br/><b>冲突情况：</b><br/><span class=\"section-news\">1. 乌外长呼吁阻止俄方继续袭击基辅。</span><br/><span class=\"section-news\">2. 乌克兰五州因俄新一轮袭击遭遇断电。</span><br/><span class=\"section-news\">3. 俄罗斯黑海港口遭乌克兰无人机袭击起火。</span><br/><span class=\"section-news\">4. 当地州长表示，在俄罗斯南部城市塔甘罗格，一枚导弹被击落。</span><br/><span class=\"section-news\">5. 俄国防部：在乌扎波罗热地区夺取了沃兹德维日夫卡，在乌哈尔科夫地区夺取了赫拉尼夫。</span><br/><span class=\"section-news\">6. 乌克兰将军安德烈·比列茨基：认为俄罗斯在乌克兰的部队已疲惫不堪，无法实现重大突破。</span><br/><b>其他情况：</b><br/><span class=\"section-news\">1. 俄、伊外交官赴联合国参会遇阻。</span><br/><span class=\"section-news\">2. 泽连斯基致信特朗普：乌克兰面临严峻的防空物资短缺。</span><br/><span class=\"section-news\">3. 乌克兰总统泽连斯基驳斥了乌克兰获得欧盟“部分成员国”地位的提议。</span><br/><span class=\"section-news\">4. 土耳其总统埃尔多安寻求在世界杯赛事期间会晤特朗普，讨论北约问题。</span><br/><span class=\"section-news\">5. 欧盟委员会主席冯德莱恩：与乌克兰总统泽连斯基通电话，重申欧洲全力支持乌克兰。</span><br/><span class=\"section-news\">6. 克里姆林宫：欧盟假装希望与俄罗斯就乌克兰问题进行谈判，但实际上只是推动乌克兰继续作战。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 0,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-05-27T22:40:24.533Z"
+    },
+    {
       "id": "20260528052138235800",
       "time": "2026-05-28 05:21:38",
       "hot": "热",
@@ -4465,21 +4480,7 @@
         3
       ],
       "collectedAt": "2026-05-22T14:40:23.370Z"
-    },
-    {
-      "id": "20260522221409547800",
-      "time": "2026-05-22 22:14:09",
-      "hot": "沸",
-      "content": "现货黄金、纽约期金双双失守4500美元/盎司，日内跌0.94%。交易员完全定价美联储截至2026年底将加息25个基点。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2
-      ],
-      "collectedAt": "2026-05-22T14:30:30.221Z"
     }
   ],
-  "lastUpdated": "2026-05-27T22:03:05.279Z"
+  "lastUpdated": "2026-05-27T22:40:25.965Z"
 }
