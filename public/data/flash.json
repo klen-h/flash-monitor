@@ -2,6 +2,22 @@
   "date": "2026/5/28",
   "items": [
     {
+      "id": "20260528164055368800",
+      "time": "2026-05-28 16:40:55",
+      "hot": "热",
+      "content": "【京沪首次联合对三大外卖平台企业开展行政指导】金十数据5月28日讯，从北京市市场监管局获悉，京沪两市市场监管局签订《网络餐饮第三方平台食品安全治理合作框架协议》，建立网络餐饮食品安全协同治理机制。为有效落实将于6月1日施行的《网络餐饮服务经营者落实食品安全主体责任监督管理规定》，北京市市场监管局、上海市市场监管局于签订协议当日，联合召开外卖平台企业行政指导会，指导美团（注册地位于北京）、淘宝闪购（注册地位于上海）、京东外卖（注册地位于上海）三大外卖平台企业完善细化落实举措，严格落实食品安全主体责任。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=1344214460931885044&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D1344214460931885044%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        4,
+        5,
+        3,
+        1
+      ],
+      "collectedAt": "2026-05-28T09:10:24.848Z"
+    },
+    {
       "id": "20260528154846847800",
       "time": "2026-05-28 15:48:46",
       "hot": "热",
@@ -4462,22 +4478,7 @@
         2
       ],
       "collectedAt": "2026-05-23T01:40:21.201Z"
-    },
-    {
-      "id": "20260523090337798800",
-      "time": "2026-05-23 09:03:37",
-      "hot": "热",
-      "content": "【美伊协议草案或将在数小时内公布】金十数据5月23日讯，据沙特阿拉伯阿拉比亚电视台报道，消息人士22日透露，美国和伊朗“接近达成”的协议草案预计将在数小时内公布。",
-      "source": "新华社",
-      "source_link": "https://h.xinhuaxmt.com/vh512/share/13116132?docid=13116132&newstype=1113&d=13526ab",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-23T01:40:21.201Z"
     }
   ],
-  "lastUpdated": "2026-05-28T08:53:20.423Z"
+  "lastUpdated": "2026-05-28T09:10:26.234Z"
 }
