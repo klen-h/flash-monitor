@@ -2,6 +2,22 @@
   "date": "2026/5/28",
   "items": [
     {
+      "id": "20260528183116162800",
+      "time": "2026-05-28 18:31:16",
+      "hot": "热",
+      "content": "【两部门联手 系统布局人工智能计量能力建设】金十数据5月28日讯，市场监管总局、国家发展改革委联合印发《人工智能计量体系和能力建设指引（2026版）》，系统布局人工智能计量能力建设。《指引》围绕基础支撑、通用技术、核心技术、计量技术规范、计量服务产业、智能赋能计量等六大部分系统布局，打通实验室创新与行业应用“最后一公里”。聚焦“测不准”难题，让人工智能更可信。针对算法“黑箱”、决策可解释性差等痛点，《指引》部署AI系统内部状态监测与表征等关键技术攻关，推动建立人工智能可靠、安全、可信计量标准，实现AI技术性能“可测量、可比较、可追溯”。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=5072981965807845812&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D5072981965807845812%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        4,
+        5,
+        3,
+        1
+      ],
+      "collectedAt": "2026-05-28T10:50:22.130Z"
+    },
+    {
       "id": "20260528164055368800",
       "time": "2026-05-28 16:40:55",
       "hot": "热",
@@ -4463,22 +4479,7 @@
         2
       ],
       "collectedAt": "2026-05-23T02:10:21.919Z"
-    },
-    {
-      "id": "20260523083809091800",
-      "time": "2026-05-23 08:38:09",
-      "hot": "热",
-      "content": "<b>据伊朗国家媒体报道，伊朗军方已进入最高戒备状态。</b>",
-      "source": "",
-      "source_link": "",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-23T01:40:21.201Z"
     }
   ],
-  "lastUpdated": "2026-05-28T09:10:26.234Z"
+  "lastUpdated": "2026-05-28T10:50:23.349Z"
 }
