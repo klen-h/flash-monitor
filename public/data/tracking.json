@@ -34,7 +34,7 @@
         "riskAmount": 1500,
         "riskPercent": "1.50"
       },
-      "lastCheckedPrice": 2.209
+      "lastCheckedPrice": 2.206
     },
     {
       "etfName": "科创50ETF",
@@ -68,7 +68,9 @@
         "riskAmount": 1500,
         "riskPercent": "1.50"
       }
-    },
+    }
+  ],
+  "history": [
     {
       "etfName": "黄金ETF",
       "direction": "long",
@@ -85,7 +87,7 @@
       "source": "premarket",
       "id": "1779817747268",
       "createdAt": "2026-05-26T17:49:07.268Z",
-      "status": "active",
+      "status": "closed",
       "entries": [
         {
           "price": 9.4,
@@ -93,7 +95,13 @@
           "reason": "触发入场价格"
         }
       ],
-      "exits": [],
+      "exits": [
+        {
+          "price": 9.116,
+          "time": "2026-05-28T06:15:25.965Z",
+          "reason": "触发止损"
+        }
+      ],
       "validation": {
         "passed": true,
         "warnings": [
@@ -109,12 +117,16 @@
         "riskAmount": 1500,
         "riskPercent": "1.50"
       },
-      "lastCheckedPrice": 9.145,
+      "lastCheckedPrice": 9.116,
       "entryPrice": 9.4,
-      "entryTime": "2026-05-27T02:00:34.959Z"
+      "entryTime": "2026-05-27T02:00:34.959Z",
+      "lastStatus": "closed",
+      "exitPrice": 9.116,
+      "exitTime": "2026-05-28T06:15:25.965Z",
+      "profit": -3.021276595744688,
+      "isWin": false
     }
   ],
-  "history": [],
   "priceHistory": {
     "沪深300ETF": [
       {
@@ -1128,9 +1140,9 @@
     ]
   },
   "performance": {
-    "total": 0,
+    "total": 1,
     "wins": 0,
-    "losses": 0,
-    "winRate": 0
+    "losses": 1,
+    "winRate": "0.0"
   }
 }
