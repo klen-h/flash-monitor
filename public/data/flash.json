@@ -2,6 +2,19 @@
   "date": "2026/5/28",
   "items": [
     {
+      "id": "20260528080453412800",
+      "time": "2026-05-28 08:04:53",
+      "hot": "热",
+      "content": "【金十数据整理：每日科技要闻速递（2026-05-28）】<b>人工智能：</b><br/><span class=\"section-news\">1. Meta推出AI聊天机器人订阅服务，以试图抵消相关支出。</span><br/><span class=\"section-news\">2. 市场消息：字节跳动预计到2026年将在人工智能领域投入高达700亿美元的资本支出。</span><br/><span class=\"section-news\">3. 据华尔街日报：亚马逊与Snowflake达成60亿美元协议，采购Graviton智能计算芯片。</span><br/><b>集成电路（芯片）：</b><br/><span class=\"section-news\">1. 报道称台积电3纳米下半年涨价15%，明年或再涨10%。</span><br/><span class=\"section-news\">2. 联电：下半年展开选择性涨价，2027年将进行更全面议价。</span><br/><span class=\"section-news\">3. 消息称高通与字节跳动达成AI ASIC芯片合作，采购量在数百万颗级别。</span><br/><span class=\"section-news\">4. 消息称SK海力士拒绝美国科技巨头资金支持提议，保持供应策略独立性。</span><br/><span class=\"section-news\">5. 年产1533亿Gb DRAM内存芯片，三星越南首座半导体测试工厂有望明年投产。</span><br/><span class=\"section-news\">6. 三星电子韩国工会表示，已投票通过一项临时薪资协议，避免了一场原本可能扰乱全球芯片供应并冲击韩国经济的罢工。</span><br/><b>其他：</b><br/><span class=\"section-news\">1. 特斯拉副总裁Lars Moravy称不排除ModelS/X未来会回归的可能。</span><br/><span class=\"section-news\">2. 我国将加快研究推进人工智能健康发展综合性立法、低空经济立法等。</span><br/><span class=\"section-news\">3. 美国国家航空航天局公布月球基地建设三阶段路线图，进一步细化未来在月球南极地区建设长期驻留设施的发展目标和实施路径。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-05-28T00:30:26.952Z"
+    },
+    {
       "id": "20260528073746020800",
       "time": "2026-05-28 07:37:46",
       "hot": "热",
@@ -4462,22 +4475,7 @@
         3
       ],
       "collectedAt": "2026-05-22T16:10:25.378Z"
-    },
-    {
-      "id": "20260522234641117800",
-      "time": "2026-05-22 23:46:41",
-      "hot": "沸",
-      "content": "金十提示：美国总统特朗普与美联储主席提名人沃什进入会场。",
-      "source": "",
-      "source_link": "",
-      "important": 0,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-05-22T16:00:34.000Z"
     }
   ],
-  "lastUpdated": "2026-05-28T00:20:25.902Z"
+  "lastUpdated": "2026-05-28T00:30:28.072Z"
 }
