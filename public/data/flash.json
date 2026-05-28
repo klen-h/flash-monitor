@@ -2,6 +2,21 @@
   "date": "2026/5/29",
   "items": [
     {
+      "id": "20260529022920185800",
+      "time": "2026-05-29 02:29:20",
+      "hot": "热",
+      "content": "【知情人士称伊朗方面尚未同意任何谅解备忘录】金十数据5月29日讯，当地时间5月28日，伊朗谈判代表团媒体团队成员赛义德·阿加卢表示，截至目前，伊朗方面尚未同意任何谅解备忘录，也未向巴基斯坦方面的调解人确认已批准该备忘录。此外，他明确表示，在与美国的谈判过程中，伊朗并未在核问题上作出任何承诺。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=11049959921679639942&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D11049959921679639942%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-05-28T19:00:39.310Z"
+    },
+    {
       "id": "20260529022207681800",
       "time": "2026-05-29 02:22:07",
       "hot": "沸",
@@ -4467,22 +4482,7 @@
         2
       ],
       "collectedAt": "2026-05-23T14:40:42.219Z"
-    },
-    {
-      "id": "20260523223305131800",
-      "time": "2026-05-23 22:33:05",
-      "hot": "热",
-      "content": "【沙特媒体：伊朗将在谅解备忘录中承诺不发展核武，但要求保留有限铀浓缩权利】金十数据5月23日讯，据沙特媒体哈达斯（Alhadath）：伊朗提议将铀浓缩水平维持在3.6%以下，持续10年，并提出在国内减少超过20%的浓缩铀。伊朗确认将在谅解备忘录中承诺不发展核武器；要求在任何协议中保留有限的铀浓缩权利。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-23T14:40:42.219Z"
     }
   ],
-  "lastUpdated": "2026-05-28T18:40:23.882Z"
+  "lastUpdated": "2026-05-28T19:00:40.324Z"
 }
