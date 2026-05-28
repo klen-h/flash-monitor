@@ -2,6 +2,19 @@
   "date": "2026/5/28",
   "items": [
     {
+      "id": "20260528141622328800",
+      "time": "2026-05-28 14:16:22",
+      "hot": "热",
+      "content": "【金十数据整理：每日全球大宗商品市场要闻速递（2026-05-28）】<b>能源：</b><br/><span class=\"section-news\">1. 莱茵河水位下降，运油驳船被迫减少载货量。</span><br/><span class=\"section-news\">2. 特朗普：可能会与国会商讨暂停征收汽油税一事。</span><br/><span class=\"section-news\">3. 美联储洛根：全球可能需要减少石油和天然气的使用量。</span><br/><span class=\"section-news\">4. 澳大利亚LNG生产大州实施出口限制，州长称不会损害产业。</span><br/><span class=\"section-news\">5. 国际能源署：今年天然气投资将创10年高位，石油投资或连三年下降。</span><br/><span class=\"section-news\">6. 美国至5月22日当周API原油库存录得减少281.9万桶，市场预期降幅为436.7万桶。</span><br/><span class=\"section-news\">7. 数据显示，俄罗斯乌拉尔原油对土耳其的供应在5月份降至近一年半以来的最低水平。</span><br/><b>贵金属和矿业：</b><br/><span class=\"section-news\">1. 现货黄金失守4400美元，为3月以来首次。</span><br/><span class=\"section-news\">2. 津巴布韦宣布：将锂、镍等14种矿产列为“关键矿产”，强制引入国家持股。</span><br/><b>农业：</b><br/><span class=\"section-news\">1. 受伊朗战事影响，印度大米出口下滑。</span><br/><b>伊朗局势：</b><br/><span class=\"section-news\">1. 美伊互相打击对方军事基地。</span><br/><span class=\"section-news\">2. 伊媒：4艘船在伊朗海军鸣枪示警后被迫返航。</span><br/><span class=\"section-news\">3. 特朗普：没有任何国家能够控制霍尔木兹海峡，美国将进行监管。</span><br/><span class=\"section-news\">4. 据伊朗方面披露伊美谅解备忘录初步非正式文件，白宫方面称其为捏造。</span><br/><span class=\"section-news\">5. 美官员称美国锁定伊朗新目标，包括去年6月已遭美军空袭的一些核设施、战略石油设施、发电厂以及军事指挥中心和通信设施。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-05-28T06:50:21.593Z"
+    },
+    {
       "id": "20260528133015650800",
       "time": "2026-05-28 13:30:15",
       "hot": "热",
@@ -4461,22 +4474,7 @@
         3
       ],
       "collectedAt": "2026-05-22T22:00:29.107Z"
-    },
-    {
-      "id": "20260523041456068800",
-      "time": "2026-05-23 04:14:56",
-      "hot": "热",
-      "content": "【欧盟与墨西哥签署升级版贸易协定 推动经贸合作多元化】金十数据5月23日讯，当地时间5月22日，第八届墨西哥-欧盟峰会在墨西哥首都墨西哥城举行。欧盟与墨西哥领导人当天发布联合声明表示，双方将开启战略伙伴关系新篇章，进一步深化政治、经济与安全合作，共同维护多边主义和以规则为基础的国际秩序。峰会期间，欧盟委员会主席冯德莱恩、欧洲理事会主席科斯塔与墨西哥总统辛鲍姆共同签署升级版贸易协定（现代化全球协定）。该协定是对双方2000年签署贸易协定的全面升级，合作范围扩展至服务、政府采购、数字贸易、投资及农产品等多个领域。",
-      "source": "央视新闻",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=15314374624886312706&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D15314374624886312706%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
-      "important": 0,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-05-22T22:00:29.107Z"
     }
   ],
-  "lastUpdated": "2026-05-28T06:10:27.121Z"
+  "lastUpdated": "2026-05-28T06:50:23.614Z"
 }
