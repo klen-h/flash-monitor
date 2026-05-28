@@ -2,6 +2,33 @@
   "date": "2026/5/28",
   "items": [
     {
+      "id": "20260528090038202800",
+      "time": "2026-05-28 09:00:38",
+      "hot": "热",
+      "content": "据华尔街日报：美国总统特朗普政府正在与美国无人机公司洽谈融资事宜。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-05-28T01:20:23.458Z"
+    },
+    {
+      "id": "20260528090315081800",
+      "time": "2026-05-28 09:03:15",
+      "hot": "沸",
+      "content": "【金十数据整理：A股盘前市场要闻速递（2026-05-28）】<b>重要新闻</b><br/><span class=\"section-news\">1. 李强：积极探索期货现货联动经营，增强大宗商品价格形成机制的国际影响力。</span><br/><span class=\"section-news\">2. 上交所：长鑫科技集团股份有限公司IPO审核状态变更为提交注册。</span><br/><span class=\"section-news\">3. 香港金管局：就内地投资者投资账户新增三项监管措施，开户核查倒查至2023年1月。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 未依法事先申报实施经营者集中，市场监管总局对立讯精密处以90万元罚款的行政处罚。</span><br/><span class=\"section-news\">2. 龙芯中科：拟定增募资不超23亿元，用于基于Xnm工艺的信息化芯片研发及产业化项目等。</span><br/><span class=\"section-news\">3. 宁德时代旗下公司与张雪机车高层正式开始接洽合作。</span><br/><span class=\"section-news\">4. 雄韬股份：韬（τ）定律相关概念与公司主营业务不存在关联关系。</span><br/><span class=\"section-news\">5. 云南锗业：近期磷化铟晶片价格有所上涨。</span><br/><span class=\"section-news\">6. 长信科技：子公司拟不超30亿元采购算力服务器。</span><br/><span class=\"section-news\">7. 贵州茅台：股份回购完成 耗资30亿元回购218.86万股。</span><br/><span class=\"section-news\">8. 德福科技：拟投资31亿元建设年产5万吨高端AI电子电路铜箔项目。</span><br/><span class=\"section-news\">9. 有研新材：控股子公司有研亿金是长江存储和长鑫存储的靶材供应商。</span><br/><span class=\"section-news\">10. 香农芯创：预计2026年海普存储的收入会有显著增长。</span><br/><span class=\"section-news\">11. 3天2板华电辽能：绿氢市场仍处于培育阶段，下游需求和产品价格存在不确定性。</span><br/><span class=\"section-news\">12. 皖维高新：已成功开发多款电子陶瓷MLCC用PVB树脂并获客户测试合格。</span><br/><span class=\"section-news\">13. 康龙化成：拟投资30亿元建设年产200吨医药中间体及API项目。</span><br/><span class=\"section-news\">14. 恩捷股份：拟收购江苏爱思开100%股权，基础购买价款为4亿元。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-05-28T01:20:23.458Z"
+    },
+    {
       "id": "20260528085521118800",
       "time": "2026-05-28 08:55:21",
       "hot": "沸",
@@ -4445,37 +4472,7 @@
         3
       ],
       "collectedAt": "2026-05-22T16:30:26.850Z"
-    },
-    {
-      "id": "20260523000549977800",
-      "time": "2026-05-23 00:05:49",
-      "hot": "热",
-      "content": "【特朗普主持沃什就任美联储主席仪式】金十数据5月23日讯，美国总统特朗普5月22日在白宫主持凯文·沃什就任美国联邦储备委员会主席的宣誓仪式。据美媒报道，此次仪式并未按照惯例在美联储总部举行，而是改在白宫。",
-      "source": "CCTV国际时讯",
-      "source_link": "https://m.weibo.cn/detail/5301525854563708",
-      "important": 0,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-05-22T16:20:23.718Z"
-    },
-    {
-      "id": "20260523000959724800",
-      "time": "2026-05-23 00:09:59",
-      "hot": "沸",
-      "content": "【沃什宣誓就任美联储主席】金十数据5月23日讯，凯文·沃什宣誓就任美联储主席一职。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-05-22T16:20:23.718Z"
     }
   ],
-  "lastUpdated": "2026-05-28T01:10:25.456Z"
+  "lastUpdated": "2026-05-28T01:20:24.323Z"
 }
