@@ -103,7 +103,7 @@
         "riskAmount": 1500,
         "riskPercent": "1.50"
       },
-      "lastCheckedPrice": 9.364
+      "lastCheckedPrice": 9.389
     },
     {
       "etfName": "军工ETF",
@@ -145,7 +145,7 @@
         "riskAmount": 1500,
         "riskPercent": "1.50"
       },
-      "lastCheckedPrice": 1.296,
+      "lastCheckedPrice": 1.288,
       "entryPrice": 1.313,
       "entryTime": "2026-05-29T02:00:32.994Z"
     },
