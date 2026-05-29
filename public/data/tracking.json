@@ -68,6 +68,111 @@
         "riskAmount": 1500,
         "riskPercent": "1.50"
       }
+    },
+    {
+      "etfName": "黄金ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "9",
+      "resistance": "9.3",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "9"
+      },
+      "stopLoss": "8.730",
+      "takeProfit": "9.3",
+      "reasoning": "| **黄金ETF**  | 9.000  | 9.300  | 现价附近做多   | D状态避险逻辑 + 伊朗事件催化，目标 GLB 溢价。 |",
+      "source": "premarket",
+      "id": "1780017130364",
+      "createdAt": "2026-05-29T01:12:10.364Z",
+      "status": "waiting",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": true,
+        "warnings": [
+          "价格历史数据不足，无法进行技术分析"
+        ],
+        "reasons": []
+      },
+      "techScore": 90,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 5555,
+        "positionValue": 49995,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      },
+      "lastCheckedPrice": 9.132
+    },
+    {
+      "etfName": "军工ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "1.32",
+      "resistance": "1.37",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "1.32"
+      },
+      "stopLoss": "1.280",
+      "takeProfit": "1.37",
+      "reasoning": "| **军工ETF**  | 1.320  | 1.370  | 1.330 以下做多 | 地缘风险对冲需求 + 伊朗局势不确定性强化。     |",
+      "source": "premarket",
+      "id": "1780017130365",
+      "createdAt": "2026-05-29T01:12:10.365Z",
+      "status": "waiting",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": true,
+        "warnings": [
+          "价格历史数据不足，无法进行技术分析"
+        ],
+        "reasons": []
+      },
+      "techScore": 90,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 37499,
+        "positionValue": 49498.68,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      },
+      "lastCheckedPrice": 1.344
+    },
+    {
+      "etfName": "科创50ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "1.92",
+      "resistance": "50",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "1.92"
+      },
+      "stopLoss": "1.862",
+      "takeProfit": "50",
+      "reasoning": "| **科创50ETF**| 1.920  | 1.980  | 观望           | 纳指承压但GPU突破提供长期支撑，需待油价企稳。|",
+      "source": "premarket",
+      "id": "1780017130366",
+      "createdAt": "2026-05-29T01:12:10.366Z",
+      "status": "waiting",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": true,
+        "warnings": [],
+        "reasons": []
+      },
+      "techScore": 100,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 25862,
+        "positionValue": 49655.04,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
     }
   ],
   "history": [
