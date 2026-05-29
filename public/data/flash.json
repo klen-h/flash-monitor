@@ -2,6 +2,19 @@
   "date": "2026/5/29",
   "items": [
     {
+      "id": "20260529090333055800",
+      "time": "2026-05-29 09:03:33",
+      "hot": "热",
+      "content": "【金十数据整理：A股盘前市场要闻速递（2026-05-29）】<b>重要新闻</b><br/><span class=\"section-news\">1. 国务院印发《城市更新“十五五”规划》。</span><br/><span class=\"section-news\">2. 两部门联手，系统布局人工智能计量能力建设。</span><br/><span class=\"section-news\">3. 《国家基本医疗保险医疗服务项目目录（第一批）制定工作方案》公开征求意见。</span><br/><span class=\"section-news\">4. 京沪首次联合对三大外卖平台企业开展行政指导。</span><br/><span class=\"section-news\">5. 国家发展改革委组织召开视频会议安排部署全国迎峰度夏能源保供工作。</span><br/><span class=\"section-news\">6. 深交所：将研究细化QFII制度优化落实举措，积极推动境外ETF产品开发。</span><br/><span class=\"section-news\">7. 中方提前启动稀土出口管制，与中美协议不符？外交部回应。</span><br/><span class=\"section-news\">8. 商务部回应中美关税谈判进展：双方经贸团队将商定具体安排并尽快推动实施。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 津巴布韦将强制持股关键矿产企业？中矿资源、天华新能回应：暂时对公司没有任何影响。</span><br/><span class=\"section-news\">2. 比亚迪发布璇玑A3，为中国首款4nm智驾芯片。</span><br/><span class=\"section-news\">3. 国家集成电路基金对中芯国际的多头持仓比例降至7.99%。</span><br/><span class=\"section-news\">4. 沪硅产业：第二大股东国家大基金5月20日至5月28日减持3305.02万股，持股比例降至12.89%。</span><br/><span class=\"section-news\">5. 德邦科技：第一大股东国家大基金5月19日至5月28日减持142.24万股，持股比例降至11.9%。</span><br/><span class=\"section-news\">6. 澜起科技：股东上海融迎及其一致行动人询价转让1222.8万股，持股比例降至5.78%。</span><br/><span class=\"section-news\">7. 北京科锐澄清：与特斯拉采购协议仅为意向性约定，存在重大不确定性。</span><br/><span class=\"section-news\">8. 2连板江海股份：公司目前超级电容器、MLPC的规模、营收占比及其在AI服务器电源上的应用都较小。</span><br/><span class=\"section-news\">9. 润建股份战略签约中国—东盟人工智能应用合作中心 将围绕Token服务等方向开展深度合作。</span><br/><span class=\"section-news\">10. 中国交建：2026年计划发起设立基金不超过123.1亿元。</span><br/><span class=\"section-news\">11. 徐工机械：拟斥资3~6亿元回购股份并用于注销。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-05-29T01:20:22.533Z"
+    },
+    {
       "id": "20260529082514722800",
       "time": "2026-05-29 08:25:14",
       "hot": "热",
@@ -4463,22 +4476,7 @@
         2
       ],
       "collectedAt": "2026-05-23T21:00:29.447Z"
-    },
-    {
-      "id": "20260524043232235800",
-      "time": "2026-05-24 04:32:32",
-      "hot": "热",
-      "content": "美国总统特朗普：伊朗协议已基本谈妥。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-23T20:40:19.672Z"
     }
   ],
-  "lastUpdated": "2026-05-29T00:50:22.859Z"
+  "lastUpdated": "2026-05-29T01:20:23.905Z"
 }
