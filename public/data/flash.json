@@ -2,6 +2,21 @@
   "date": "2026/5/31",
   "items": [
     {
+      "id": "20260531024236027800",
+      "time": "2026-05-31 02:42:36",
+      "hot": "热",
+      "content": "据伊朗国家电视台：伊朗已获得与美国的谅解备忘录非正式文本。文本显示，伊朗将有权决定霍尔木兹海峡船只的性质，并将决定霍尔木兹海峡的航线和费用。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-05-30T20:20:22.235Z"
+    },
+    {
       "id": "20260531000722608800",
       "time": "2026-05-31 00:07:22",
       "hot": "热",
@@ -4468,22 +4483,7 @@
         2
       ],
       "collectedAt": "2026-05-24T22:00:30.043Z"
-    },
-    {
-      "id": "20260525053434477800",
-      "time": "2026-05-25 05:34:34",
-      "hot": "热",
-      "content": "【金十数据整理：中东局势跟踪（5月25日）】<br/><b>①伊朗</b><br/><span class=\"section-news\">1. 伊朗称正处于第三次防御阶段。</span><br/><span class=\"section-news\">2. 伊朗总统称伊方随时准备向世界宣告伊方不寻求核武器。</span><br/><span class=\"section-news\">3. 据伊朗迈赫尔通讯社：一架以色列间谍无人机在伊朗霍尔木兹甘上空被击落。</span><br/><span class=\"section-news\">4. 伊媒：伊朗不愿将解冻资产和核材料问题挂钩，现阶段伊朗尚未就核问题的细节做出任何承诺。</span><br/><span class=\"section-news\">5. 伊媒：知情人士表示，沙特阿拉伯电视台关于伊朗提议暂停丰度3.6%以上的铀浓缩活动为期10年的报道从根本上说是错误的。</span><br/><b>②以色列</b><br/><span class=\"section-news\">1. 以色列总参谋长：我们已准备好随时重返高强度战斗，以削弱伊朗恐怖主义政权。</span><br/><span class=\"section-news\">2. 据以色列第13频道：以色列总理内塔尼亚胡在私下谈话中承认，难以对特朗普施加压力。</span><br/><span class=\"section-news\">3. 据以色列时报：以色列国防军制定黎巴嫩计划，担忧伊朗协议可能限制与真主党的冲突。</span><br/><b>③霍尔木兹海峡</b><br/><span class=\"section-news\">1. 美军对伊朗港口封锁未见松动。</span><br/><span class=\"section-news\">2. 当前约有240艘船只等待伊朗批准通过霍尔木兹海峡。</span><br/><span class=\"section-news\">3. 据阿曼通讯社：阿曼与伊朗官员举行会议，讨论依据国际法规范霍尔木兹海峡航行自由的原则。</span><br/><span class=\"section-news\">4. 伊朗官员：霍尔木兹海峡的管理不会恢复到战前状态。战争结束后，伊朗可为船舶通行提供便利。</span><br/><span class=\"section-news\">5. 伊朗最高领袖顾问：管控霍尔木兹海峡是“合法权利”，，伊朗将对波斯湾所受任何侵犯作出“严厉回应”。</span><br/><span class=\"section-news\">6. 据伊朗媒体Fars News：伊朗革命卫队海军表示，过去24小时内，33艘船只在获得伊朗许可后通过霍尔木兹海峡。</span><br/><b>④停火谈判</b><br/><span class=\"section-news\">1. 媒体称美伊下一轮会谈可能在6月5日举行。</span><br/><span class=\"section-news\">2. 伊媒驳斥纽约时报：以色列未被排除在协议义务之外。</span><br/><span class=\"section-news\">3. 伊朗消息人士谈美伊潜在协议：“负面氛围已开始浮现”。</span><br/><span class=\"section-news\">4. 美国官员称协议中伊朗同意放弃高浓缩铀；伊朗高级消息人士否认此消息。</span><br/><span class=\"section-news\">5. 以媒：特朗普重申除非伊朗核计划彻底瓦解，否则不会同意任何最终协议。</span><br/><span class=\"section-news\">6. 美国国务卿鲁比奥：伊朗核计划细节仍待谈判，72小时内无法解决核问题。</span><br/><span class=\"section-news\">7. 据福克斯新闻：美官员称伊朗已初步同意协议框架，已完成95%的谈判内容，正就具体措辞进行磋商。</span><br/><span class=\"section-news\">8. 特朗普：美伊协议“尚未完全谈妥”。已告知美方代表不必急于与伊朗达成协议，对伊朗的封锁将持续至协议签署。</span><br/><span class=\"section-news\">9. 美媒曝光美伊协议内容，包含海峡重开且不收通行费、涉核问题等。伊媒驳斥称此报道仅代表美方立场，伊方无法证实。</span><br/><span class=\"section-news\">10. 据AXIOS：美高级官员称白宫预计周日无法达成美伊协议，批准或需数日。美官员对近日签署表示乐观，但也承认协议未最终敲定，仍有破裂可能。</span><br/><span class=\"section-news\">11. 以色列总理内塔尼亚胡：美国总统特朗普和我一致认为，任何与伊朗的最终协议必须（包含）消除核威胁。这意味着拆除伊朗的核浓缩设施，并将浓缩核材料移出其领土。</span><br/><b>⑤其他情况</b><br/><span class=\"section-news\">1. 黎真主党：解除武装将导致黎巴嫩被逐步占领。</span><br/><span class=\"section-news\">2. 特朗普要求穆斯林领导人在伊朗战后加入《亚伯拉罕协议》。</span><br/><span class=\"section-news\">3. 据巴林国家通讯社：巴林法院判处九名被告终身监禁，罪名为“与伊朗革命卫队合作”。</span><br/><span class=\"section-news\">4. 欧盟委员会主席冯德莱恩：重申霍尔木兹海峡重开的重要性，并强调伊朗不得发展核武器。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-24T22:00:30.043Z"
     }
   ],
-  "lastUpdated": "2026-05-30T19:20:24.337Z"
+  "lastUpdated": "2026-05-30T20:20:23.565Z"
 }
