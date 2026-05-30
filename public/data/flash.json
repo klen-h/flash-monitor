@@ -1,6 +1,21 @@
 {
-  "date": "2026/5/30",
+  "date": "2026/5/31",
   "items": [
+    {
+      "id": "20260531000722608800",
+      "time": "2026-05-31 00:07:22",
+      "hot": "热",
+      "content": "<b>美国防长赫格塞思：霍尔木兹海峡将免费全面开放，各国船只均可通行，这也是该海峡应有的状态。</b>",
+      "source": "",
+      "source_link": "",
+      "important": 0,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-05-30T19:20:23.335Z"
+    },
     {
       "id": "20260530230413817800",
       "time": "2026-05-30 23:04:13",
@@ -4468,22 +4483,7 @@
         2
       ],
       "collectedAt": "2026-05-24T22:00:30.043Z"
-    },
-    {
-      "id": "20260525041510534800",
-      "time": "2026-05-25 04:15:10",
-      "hot": "热",
-      "content": "【伊朗官员：霍尔木兹海峡的管理不会恢复到战前状态】金十数据5月25日讯，当地时间5月24日，伊朗议会国家安全与外交政策委员会发言人雷扎伊表示，霍尔木兹海峡的管理不会恢复到战前状态。他还表示，该海峡目前由伊朗控制，在战争状态结束后，伊朗可以为船舶通行提供便利。雷扎伊还说，伊朗并未就其浓缩铀库存问题与美国进行谈判，伊朗绝不会从现有立场上后退，美国除了接受伊朗的条件别无他法。",
-      "source": "央视新闻",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=14493784478944418660&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D14493784478944418660%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
-      "important": 1,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-05-24T21:00:28.686Z"
     }
   ],
-  "lastUpdated": "2026-05-30T15:50:25.059Z"
+  "lastUpdated": "2026-05-30T19:20:24.337Z"
 }
