@@ -2,6 +2,37 @@
   "date": "2026/5/31",
   "items": [
     {
+      "id": "20260531172555462800",
+      "time": "2026-05-31 17:25:55",
+      "hot": "热",
+      "content": "【伊朗议会议长：在确认伊朗人民权利得到保障前 不会批准任何协议】金十数据5月31日讯，伊朗议会议长卡利巴夫在第十二届议会第三年第一次会议的开场讲话中表示，外交领域的战士们对敌人的言论和承诺绝无半分信任。伊朗唯一的衡量标准是必须获得的客观实体成果，在此基础上，伊朗才会履行相应的承诺。在确保伊朗人民的合法权益得到完全保障之前，伊朗绝不会批准任何协议。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=883561539461970108&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D883561539461970108%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 0,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-05-31T10:40:21.881Z"
+    },
+    {
+      "id": "20260531182342976800",
+      "time": "2026-05-31 18:23:42",
+      "hot": "热",
+      "content": "【《关于进一步深化国资国企改革的方案（2026—2029年）》已经下发】金十数据5月31日讯，从多方确认，《关于进一步深化国资国企改革的方案（2026—2029年）》已经下发。公开信息显示，5月以来，山东省、河南省、湖北省等召开省委常委会会议，研究本省深化国资国企改革工作。云南省玉溪高新区、江苏省徐州市沛县、内蒙古鄂托克旗等相继传达学习《方案》。央企集团层面，中国电气装备集团于5月12日召开2026年深化改革暨建设一流工作会议。会议要求全集团把《方案》内容学深悟透，制定符合集团公司发展实际的改革方案和改革台账。各级子企业要根据集团公司统一部署，系统谋划好下一轮改革行动，全力以赴推动深化改革高质量高标准开局起步。",
+      "source": "证券时报",
+      "source_link": "https://www.stcn.com/article/detail/3935722.html",
+      "important": 1,
+      "channel": [
+        1,
+        4,
+        3,
+        2
+      ],
+      "collectedAt": "2026-05-31T10:40:21.881Z"
+    },
+    {
       "id": "20260531162716795800",
       "time": "2026-05-31 16:27:16",
       "hot": "热",
@@ -4469,34 +4500,7 @@
         1
       ],
       "collectedAt": "2026-05-25T01:30:23.198Z"
-    },
-    {
-      "id": "20260525090757762800",
-      "time": "2026-05-25 09:07:57",
-      "hot": "热",
-      "content": "【金十数据整理：A股盘前市场要闻速递（2026-05-25）】<b>重要新闻</b><br/><span class=\"section-news\">1. 整治非法跨境证券期货基金经营活动，八部门明确五项任务。</span><br/><span class=\"section-news\">2. 央行：5月25日将开展6000亿元MLF操作。</span><br/><span class=\"section-news\">3. 商务部召开医药行业外资企业圆桌会。</span><br/><span class=\"section-news\">4. 两部门：共同落实好更加积极的财政政策和适度宽松的货币政策。</span><br/><span class=\"section-news\">5. 国务院：全面取消在就业地参加职工社会保险的户籍限制。</span><br/><span class=\"section-news\">6. 促进全国算力资源优化配置，我国加快制定全国一体化算力网技术标准。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 闻泰科技声明：安世荷兰声称公司回避与其沟通完全与事实不符。</span><br/><span class=\"section-news\">2. 华天科技：子公司华天南京拟30亿元投资建设华天南京集成电路先进封测产业基地二期二阶段建设项目。</span><br/><span class=\"section-news\">3. 京东方A：公司与英伟达暂未开展业务合作，玻璃基封装载板业务、钙钛矿业务、光互连业务市场前景具有重大不确定性。</span><br/><span class=\"section-news\">4. *ST闻泰：公司起诉荷兰安世半导体案获受理，索赔金额暂计80亿元。</span><br/><span class=\"section-news\">5. 康斯特回应是否与SpaceX扩大合作，称单一用户影响有限。</span><br/><span class=\"section-news\">6. 首航新能：公司已与核心电芯供应商签署长期供货协议，提前锁定供货量。</span><br/><span class=\"section-news\">7. 紫光国微：拟19亿元购买瑞能半导100%股权，整合功率半导体产品矩阵。</span><br/><span class=\"section-news\">8. 大金重工：与荷兰船东签署约10.69亿元船舶建造合同。</span><br/><span class=\"section-news\">9. 长电科技：没有应披露而未披露的事项。</span><br/><span class=\"section-news\">10. 澜起科技：第五大股东上海融迎拟询价转让1%公司股份。</span><br/><span class=\"section-news\">11. 华天科技：控股子公司拟投资30亿元建设集成电路先进封测项目。</span><br/><span class=\"section-news\">12. 南玻A：目前没有玻璃基板业务，不存在相关业务及收入。</span><br/><span class=\"section-news\">13. *ST华嵘：上交所决定终止公司股票上市，6月1日进入退市整理期。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-05-25T01:20:21.871Z"
-    },
-    {
-      "id": "20260525090003769800",
-      "time": "2026-05-25 09:00:03",
-      "hot": "热",
-      "content": "焦煤期货主力合约触及涨停，涨幅7.97%，报1266.5元/吨。焦炭期货主力合约触及涨停，涨幅7.99%，报1879元/吨。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2
-      ],
-      "collectedAt": "2026-05-25T01:10:22.379Z"
     }
   ],
-  "lastUpdated": "2026-05-31T09:00:30.258Z"
+  "lastUpdated": "2026-05-31T10:40:23.366Z"
 }
