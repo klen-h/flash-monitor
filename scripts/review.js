@@ -35,7 +35,20 @@ import {
   getActiveSignals
 } from './tracker.js';
 import { loadMacroHistory, appendMacroHistory } from './macro-history.js';
-import { getCoreSkill, getPremarketSkill, getMidmarketSkill, getPostmarketSkill, getTrendContext } from './const/prompt.js';
+import { getCoreSkill, getPremarketSkill, getMidmarketSkill, getPostmarketSkill, getIntradaySkill, getTrendContext } from './const/prompt.js';
+import { HOLDINGS_MAP } from './const/index.js';
+import { 
+  fetchAllETFCapitalFlows, 
+  fetchNorthBoundOverview 
+} from './capital-flow.js';
+import { 
+  calculateMainForceScore, 
+  detectMarketTheme, 
+  detectDivergence,
+  formatCapitalFlowForPrompt 
+} from './signal-engine.js';
+import { recordDailyVolume, getAvgVolume } from './volume-history.js';
+import { enrichETFData } from './enrich.js';
 
 // ==================== 时间工具 ====================
 function formatTime() {
@@ -55,11 +68,13 @@ function getBeijingTime() {
 // ==================== 模式判断 ====================
 function getReviewType() {
   const mode = process.argv[2] || 'auto';
-  if (['premarket', 'lunchbreak', 'postmarket'].includes(mode)) return mode;
+  if (['premarket', 'lunchbreak', 'postmarket', 'intraday'].includes(mode)) return mode;
   
   const { totalMinutes } = getBeijingTime();
   if (totalMinutes >= 480 && totalMinutes < 570) return 'premarket';
+  if (totalMinutes >= 570 && totalMinutes < 690) return 'intraday'; // 上午交易时段 9:30-11:30
   if (totalMinutes >= 690 && totalMinutes < 780) return 'lunchbreak';
+  if (totalMinutes >= 780 && totalMinutes < 900) return 'intraday'; // 下午交易时段 13:00-15:00
   if (totalMinutes >= 900 && totalMinutes < 960) return 'postmarket';
   return 'premarket';
 }
@@ -373,7 +388,7 @@ async function pushWechatReview(title, content, webhookOverride = null) {
 }
 
 // ==================== 盘前/午盘/盘后 Prompt 构建（集成趋势数据） ====================
-function buildPremarketPrompt(clusters, macro, etfHoldings, contentMap, history) {
+function buildPremarketPrompt(clusters, macro, etfHoldings, contentMap, history, capitalText = '') {
   const clusterText = formatClusterList(clusters, contentMap);
   const macroText = formatMacroSnapshot(macro, history);
   const etfListText = formatETFList(etfHoldings);
@@ -403,13 +418,15 @@ ${etfHistoryText}
 
 ${etfListText}
 
+${capitalText} 
+
 ${skillCore}
 ${skillPremarket}
 
 请用简练的Markdown输出，包含 emoji 增强可读性。`;
 }
 
-function buildLunchbreakPrompt(clusters, macro, etfHoldings, contentMap, history) {
+function buildLunchbreakPrompt(clusters, macro, etfHoldings, contentMap, history, capitalText = '') {
   const clusterText = formatClusterList(clusters, contentMap);
   const macroText = formatMacroSnapshot(macro, history);
   const etfText = formatETFPerformance(etfHoldings);
@@ -434,13 +451,66 @@ ${etfHistoryText}
 
 ${etfListText}
 
+${capitalText} 
+
 ${skillCore}
 ${skillMidmarket}
 
 请用简练的Markdown输出，包含 emoji 增强可读性。`;
 }
 
-function buildPostmarketPrompt(clusters, macro, etfHoldings, contentMap, history) {
+function buildIntradayPrompt(clusters, macro, etfHoldings, contentMap, history, activeSignals = [], capitalText = '') {
+  const clusterText = formatClusterList(clusters, contentMap);
+  const macroText = formatMacroSnapshot(macro, history);
+  const etfText = formatETFPerformance(etfHoldings);
+  const etfListText = formatETFList(etfHoldings);
+  const etfHistoryText = formatETFHistory(7);
+  const skillCore = getCoreSkill();
+  const skillIntraday = getIntradaySkill();
+
+  let activeSignalsText = '';
+  if (activeSignals && activeSignals.length > 0) {
+    activeSignalsText = '## 当前活跃交易信号\n';
+    activeSignals.forEach(signal => {
+      const statusEmoji = signal.status === 'active' ? '🟢' : '⏳';
+      activeSignalsText += `${statusEmoji} **${signal.etfName}** (${signal.direction === 'long' ? '做多' : '做空'})\n`;
+      activeSignalsText += `   状态：${signal.status === 'active' ? '已入场' : '等待入场'}\n`;
+      if (signal.entryPrice) activeSignalsText += `   入场价：${signal.entryPrice}\n`;
+      if (signal.support) activeSignalsText += `   支撑位：${signal.support}\n`;
+      if (signal.resistance) activeSignalsText += `   阻力位：${signal.resistance}\n`;
+      if (signal.stopLoss) activeSignalsText += `   止损：${signal.stopLoss}\n`;
+      if (signal.takeProfit) activeSignalsText += `   止盈：${signal.takeProfit}\n`;
+      activeSignalsText += '\n';
+    });
+  }
+
+  return `【角色定义】
+你是宏观交易策略实时校验与修正专家。当前时间为北京时间${formatTime()}，A股正在交易中。
+
+## 最新事件簇（最近1小时）
+${clusterText}
+
+## 当前全球宏观锚定物
+${macroText}
+
+## 当前ETF实时表现
+${etfText}
+
+${etfHistoryText}
+
+${etfListText}
+
+${capitalText} 
+
+${activeSignalsText}
+
+${skillCore}
+${skillIntraday}
+
+请用简练的Markdown输出，重点关注实时校验和策略修正。`;
+}
+
+function buildPostmarketPrompt(clusters, macro, etfHoldings, contentMap, history, capitalText = '') {
   const clusterText = formatClusterList(clusters, contentMap);
   const macroText = formatMacroSnapshot(macro, history);
   const etfText = formatETFPerformance(etfHoldings);
@@ -465,6 +535,8 @@ ${etfHistoryText}
 
 ${etfListText}
 
+${capitalText} 
+
 ${skillCore}
 ${skillPostmarket}
 
@@ -477,10 +549,12 @@ async function main() {
   const isPremarket = reviewType === 'premarket';
   const isLunchbreak = reviewType === 'lunchbreak';
   const isPostmarket = reviewType === 'postmarket';
+  const isIntraday = reviewType === 'intraday';
   
   let title;
   if (isPremarket) title = '📅 A股盘前策略';
   else if (isLunchbreak) title = '☀️ A股午盘策略';
+  else if (isIntraday) title = '⚡ A股盘中校验与修正';
   else title = '📊 A股盘后复盘';
 
   console.log(`\n[${formatTime()}] 🚀 ${title}启动`);
@@ -492,12 +566,12 @@ async function main() {
   const macroHistory = loadMacroHistory(); // 加载全部宏观历史（用于趋势计算）
 
   // 2. 拉取已推送事件簇
-  const hours = isPremarket ? 24 : (isLunchbreak ? 6 : 12);
+  const hours = isPremarket ? 24 : (isLunchbreak ? 6 : (isIntraday ? 1 : 12));
   const clusters = getRecentPushedClusters(hours);
   console.log(`📋 获取到 ${clusters.length} 个事件簇`);
   const contentMap = getClusterContents(clusters);
 
-  // 3. ETF数据（所有时段都获取）
+// ===== 3. ETF数据（原有代码，稍作增强）=====
   let etfHoldings = [];
   try {
     console.log('📈 拉取ETF行情数据...');
@@ -505,45 +579,103 @@ async function main() {
     etfHoldings = marketData.holdings || [];
     console.log(`   获取到 ${etfHoldings.length} 个ETF行情`);
     
-    // 盘后保存收盘数据
+    // === 新增：数据增强（量比、价格位置）===
+    // 尝试加载本地保存的 52周高低点信息
+    let stockInfoMap = {};
+    try {
+      const infoPath = CONFIG.PATHS.ETF_INFO || './data/etf-info.json';
+      if (existsSync(infoPath)) {
+        stockInfoMap = JSON.parse(readFileSync(infoPath, 'utf-8'));
+      }
+    } catch (e) { /* 忽略 */ }
+    
+    etfHoldings = enrichETFData(etfHoldings, stockInfoMap);
+    
+    // 盘后保存成交量历史（用于次日计算量比）
     if (isPostmarket && etfHoldings.length > 0) {
-      // 校验1：当前北京时间是否在收盘窗口（15:00-17:00）
       const { hour, minute } = getBeijingTime();
       const totalMinutes = hour * 60 + minute;
-      const isCloseWindow = totalMinutes >= 900 && totalMinutes < 1020; // 15:00-17:00
-      
-      // 校验2：ETF数据不能全为零或异常
-      const validCount = etfHoldings.filter(h => h.price > 0 && h.changeStr !== undefined).length;
-      const isValidData = validCount > etfHoldings.length * 0.8; // 至少80%的ETF有有效数据
-
-      if (isCloseWindow && isValidData) {
-        saveETFClose(etfHoldings);
-      } else {
-        console.log(`⚠️ ETF收盘数据未保存：收盘窗口=${isCloseWindow}，数据有效率=${(validCount/etfHoldings.length*100).toFixed(0)}%`);
+      const isCloseWindow = totalMinutes >= 900 && totalMinutes < 1020;
+      const validCount = etfHoldings.filter(h => h.price > 0).length;
+      if (isCloseWindow && validCount > etfHoldings.length * 0.8) {
+        recordDailyVolume(etfHoldings);
+        console.log('   💾 已保存今日成交量历史');
       }
     }
   } catch (e) {
     console.log('⚠️ ETF数据获取失败');
   }
 
-  // 4. 构建 Prompt（传入 macroHistory 和 ETF 数据）
+  // ===== 新增 3.5：资金层 =====
+  let capitalFlows = {};
+  let northBound = null;
+  let mainForceScores = {};
+  let marketTheme = null;
+  let divergence = { signal: 'neutral', label: '震荡', desc: '方向不明' };
+
+  try {
+    console.log('💰 拉取ETF资金流向...');
+    capitalFlows = await fetchAllETFCapitalFlows(HOLDINGS_MAP);
+    const validCount = Object.keys(capitalFlows).filter(function(k) { return capitalFlows[k]; }).length;
+    console.log('   成功获取 ' + validCount + ' 只ETF资金');
+    
+    try {
+      console.log('💰 拉取北向资金...');
+      northBound = await fetchNorthBoundOverview();
+    } catch (e) {
+      northBound = null;
+    }
+    
+    for (const h of etfHoldings) {
+      mainForceScores[h.name] = calculateMainForceScore(
+        h.name, h, capitalFlows[h.name]
+      );
+    }
+    
+    marketTheme = detectMarketTheme(etfHoldings, capitalFlows, mainForceScores);
+    divergence = detectDivergence(etfHoldings, mainForceScores);
+    
+    console.log('   市场风格: ' + divergence.label);
+    if (marketTheme) {
+      console.log('   主线检测: ' + marketTheme.theme + '(' + marketTheme.type + ') 强度' + marketTheme.score);
+    }
+  } catch (e) {
+    console.error('⚠️ 资金数据部分获取失败:', e.message);
+    capitalFlows = {};
+    northBound = null;
+    mainForceScores = {};
+    marketTheme = null;
+    divergence = { signal: 'neutral', label: '震荡', desc: '方向不明' };
+  }
+
+  // ===== 新增 3.6：格式化资金文本 =====
+  const capitalText = formatCapitalFlowForPrompt(
+    etfHoldings, capitalFlows, mainForceScores, marketTheme, divergence, northBound
+  );
+
+  // ... 第4步：获取活跃信号（原有代码不变）...
+  const activeSignals = isIntraday ? getActiveSignals() : [];
+
+  // ===== 5. 构建 Prompt（修改：传入 capitalText）=====
   let prompt;
   if (isPremarket) {
-    prompt = buildPremarketPrompt(clusters, macro, etfHoldings, contentMap, macroHistory);
+    prompt = buildPremarketPrompt(clusters, macro, etfHoldings, contentMap, macroHistory, capitalText);
   } else if (isLunchbreak) {
-    prompt = buildLunchbreakPrompt(clusters, macro, etfHoldings, contentMap, macroHistory);
+    prompt = buildLunchbreakPrompt(clusters, macro, etfHoldings, contentMap, macroHistory, capitalText);
+  } else if (isIntraday) {
+    prompt = buildIntradayPrompt(clusters, macro, etfHoldings, contentMap, macroHistory, activeSignals, capitalText);
   } else {
-    prompt = buildPostmarketPrompt(clusters, macro, etfHoldings, contentMap, macroHistory);
+    prompt = buildPostmarketPrompt(clusters, macro, etfHoldings, contentMap, macroHistory, capitalText);
   }
   // console.log(prompt);
   // return;
-  // 5. 主模型分析
+  // 6. 主模型分析
   const model = CONFIG.LLM.MODEL;
   console.log(`🤖 模型 [${model}] 分析中...`);
   const analysis = await callLLM(prompt);
   await pushWechatReview(title, `### 模型 [${model.split('/').pop()}]\n${analysis}`);
 
-  // 6. 解析交易信号并保存
+  // 7. 解析交易信号并保存
   console.log('🔍 解析交易信号...');
   const marketData = await getMarketData(true);
   const signals = parseSignalsFromAnalysis(analysis, reviewType);
@@ -560,7 +692,7 @@ async function main() {
     }
   }
 
-  // 7. 更新现有信号状态
+  // 8. 更新现有信号状态
   console.log('📈 更新信号状态...');
   const result = updateSignals(marketData);
   const { alerts } = result;
@@ -577,9 +709,9 @@ async function main() {
 
   // 9. 生成并推送报告
   console.log('📊 生成专业交易报告...');
-  const activeSignals = getActiveSignals();
+  const currentActiveSignals = getActiveSignals();
   const history = getHistory();
-  let proReport = generateProTraderReport(activeSignals, history);
+  let proReport = generateProTraderReport(currentActiveSignals, history);
   
   if (alerts.entries.length > 0 || alerts.exits.length > 0) {
     let alertSection = '## 🎯 交易信号提醒\n\n';

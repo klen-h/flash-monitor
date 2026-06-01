@@ -16,7 +16,12 @@
     "test-review": "node scripts/review.js",
     "accuracy-report": "node scripts/test/accuracy-report.js",
     "test-track-signals": "node scripts/track-signals.js",
-    "test-tracker": "node scripts/test-tracker.js"
+    "test-tracker": "node scripts/test-tracker.js",
+    "test-local": "node scripts/test-local.js",
+    "test-simple": "node scripts/test-simple.js",
+    "test-quick": "node scripts/quick-test.js",
+    "test-quick-2": "node scripts/quick-test-2.js",
+    "test-quick-3": "node scripts/quick-test-3.js"
   },
   "dependencies": {
     "axios": "^1.6.0",

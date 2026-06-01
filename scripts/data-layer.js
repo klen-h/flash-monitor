@@ -79,6 +79,8 @@ async function getHoldingsFromTencent() {
         prevClose: prevClose.toFixed(3),
         change: parseFloat(change.toFixed(2)),
         changeStr: change > 0 ? `${change.toFixed(2)}` : `${change.toFixed(2)}`,
+        volume: parseInt(d[36]) || 0,        // 成交量（股）
+        turnover: parseFloat(d[37]) || 0,    // 成交额（元）
         isStale: false,  // A股数据是否过时
         source: 'tencent'
       });

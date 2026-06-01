@@ -1854,6 +1854,117 @@
   },
   "rejectedSignals": [
     {
+      "etfName": "军工ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "1.17",
+      "resistance": "3",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "1.17"
+      },
+      "stopLoss": "1.135",
+      "takeProfit": "3",
+      "reasoning": "3. **军工ETF**（现价 1.269 🔻-1.17%）",
+      "source": "premarket",
+      "id": "1780338166083",
+      "createdAt": "2026-06-01T18:22:46.083Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [
+          "价格历史数据不足，无法进行技术分析"
+        ],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 90,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 42857,
+        "positionValue": 50142.689999999995,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "黄金ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "0.56",
+      "resistance": "9.344",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "0.56"
+      },
+      "stopLoss": "0.543",
+      "takeProfit": "9.344",
+      "reasoning": "2. **黄金ETF**（现价 9.344 🔻-0.56%）",
+      "source": "premarket",
+      "id": "1780338166073",
+      "createdAt": "2026-06-01T18:22:46.073Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [
+          "价格历史数据不足，无法进行技术分析"
+        ],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 90,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 88235,
+        "positionValue": 49411.600000000006,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "纳斯达克ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "1",
+      "resistance": "4.05",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "1"
+      },
+      "stopLoss": "0.970",
+      "takeProfit": "4.05",
+      "reasoning": "1. **纳斯达克ETF**（现价 2.365 🔺4.05%）",
+      "source": "premarket",
+      "id": "1780338166061",
+      "createdAt": "2026-06-01T18:22:46.061Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [
+          "价格历史数据不足，无法进行技术分析"
+        ],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 90,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 49999,
+        "positionValue": 49999,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
       "etfName": "纳斯达克ETF",
       "direction": "long",
       "trend": "neutral",

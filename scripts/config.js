@@ -18,5 +18,7 @@ export const CONFIG = {
     MACRO_HISTORY: path.resolve('public/data/macro_history.json'),
     ETF_CLOSE: path.resolve('public/data/etf_close.json'),
     TRACKING: path.resolve('public/data/tracking.json'),
+    VOLUME_HISTORY: path.resolve('public/data/volume-history.json'),
+    ETF_INFO: path.resolve('public/data/etf-info.json'),
   }
 };
