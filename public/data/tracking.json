@@ -137,6 +137,39 @@
         "riskAmount": 1500,
         "riskPercent": "1.50"
       }
+    },
+    {
+      "etfName": "科创50ETF",
+      "direction": "long",
+      "trend": "up",
+      "support": "1.82",
+      "resistance": "50",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "1.82"
+      },
+      "stopLoss": "1.765",
+      "takeProfit": "50",
+      "reasoning": "| 科创50ETF     | 1.820     | 1.880     | 轻仓做多       | 半导体涨价 + 纳指上涨传导，估值未极端    |",
+      "source": "premarket",
+      "id": "1780276378509",
+      "createdAt": "2026-06-01T01:12:58.509Z",
+      "status": "waiting",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": true,
+        "warnings": [],
+        "reasons": []
+      },
+      "techScore": 100,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 27272,
+        "positionValue": 49635.04,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
     }
   ],
   "history": [
@@ -1708,5 +1741,81 @@
     "wins": 0,
     "losses": 2,
     "winRate": "0.0"
-  }
+  },
+  "rejectedSignals": [
+    {
+      "etfName": "纳斯达克ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "2.25",
+      "resistance": "2.3",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "2.25"
+      },
+      "stopLoss": "2.183",
+      "takeProfit": "2.3",
+      "reasoning": "| 纳斯达克ETF   | 2.250     | 2.300     | 持有（非加仓） | 纳指期货连涨但接近阻力，防利率回撤       |",
+      "source": "premarket",
+      "id": "1780276378512",
+      "createdAt": "2026-06-01T01:12:58.512Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [
+          "价格历史数据不足，无法进行技术分析"
+        ],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 90,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 22388,
+        "positionValue": 50373,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "军工ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "1.26",
+      "resistance": "1.31",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "1.26"
+      },
+      "stopLoss": "1.222",
+      "takeProfit": "1.31",
+      "reasoning": "| 军工ETF       | 1.260     | 1.310     | 做多           | 中东事件升级推升避险需求，价格处低位     |",
+      "source": "premarket",
+      "id": "1780276378511",
+      "createdAt": "2026-06-01T01:12:58.511Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [
+          "价格历史数据不足，无法进行技术分析"
+        ],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 90,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 39473,
+        "positionValue": 49735.98,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    }
+  ]
 }
