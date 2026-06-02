@@ -1854,6 +1854,117 @@
   },
   "rejectedSignals": [
     {
+      "etfName": "军工ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "1.25",
+      "resistance": "35",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "1.25"
+      },
+      "stopLoss": "1.212",
+      "takeProfit": "35",
+      "reasoning": "| **军工ETF**  | 1.250    | 1.300    | 回踩支撑做多           | 地缘尾部风险对冲（伊朗局势更新35次），停火脆弱性支撑需求。          |",
+      "source": "premarket",
+      "id": "1780362738958",
+      "createdAt": "2026-06-02T01:12:18.958Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [
+          "价格历史数据不足，无法进行技术分析"
+        ],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 90,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 39473,
+        "positionValue": 49341.25,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "纳斯达克ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "0.63",
+      "resistance": "2.4",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "0.63"
+      },
+      "stopLoss": "0.611",
+      "takeProfit": "2.4",
+      "reasoning": "| **纳斯达克ETF** | 2.300    | 2.400    | 观望，突破阻力做多      | 纳指期货跌0.63%压制情绪，但原油跌缓解科技成本压力。                 |",
+      "source": "premarket",
+      "id": "1780362738956",
+      "createdAt": "2026-06-02T01:12:18.956Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [
+          "价格历史数据不足，无法进行技术分析"
+        ],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 90,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 78947,
+        "positionValue": 49736.61,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "黄金ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "1.4",
+      "resistance": "9.4",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "1.4"
+      },
+      "stopLoss": "1.358",
+      "takeProfit": "9.4",
+      "reasoning": "| **黄金ETF**  | 9.300    | 9.400    | 观望，若回踩支撑轻仓做多 | D状态避险强化 + 美债收益率↓，但GLD跌1.40%警示短期波动。             |",
+      "source": "premarket",
+      "id": "1780362738954",
+      "createdAt": "2026-06-02T01:12:18.954Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [
+          "价格历史数据不足，无法进行技术分析"
+        ],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 90,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 35714,
+        "positionValue": 49999.6,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
       "etfName": "纳斯达克ETF",
       "direction": "long",
       "trend": "neutral",
