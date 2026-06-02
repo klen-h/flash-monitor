@@ -1,5 +1,5 @@
 {
-  "lastId": "20260602200111026800",
+  "lastId": "20260602203338424800",
   "pushedClusters": [
     {
       "cluster": "原油能源",
@@ -16,8 +16,8 @@
       "cluster": "伊朗局势",
       "firstId": "20260506224557340800",
       "firstTime": "2026-05-06T17:17:35.708Z",
-      "lastUpdateId": "20260602152716606800",
-      "lastUpdateTime": "2026-06-02T08:20:29.559Z",
+      "lastUpdateId": "20260602203338424800",
+      "lastUpdateTime": "2026-06-02T12:50:31.286Z",
       "pushCount": 35,
       "hotMax": "沸",
       "hadUrgent": true,
@@ -60,8 +60,8 @@
       "cluster": "美联储利率",
       "firstId": "20260508203423336800",
       "firstTime": "2026-05-08T12:52:53.297Z",
-      "lastUpdateId": "20260529012715250800",
-      "lastUpdateTime": "2026-05-28T17:50:24.864Z",
+      "lastUpdateId": "20260602203039749800",
+      "lastUpdateTime": "2026-06-02T12:50:31.286Z",
       "pushCount": 4,
       "hotMax": "沸",
       "hadUrgent": true,
