@@ -2,6 +2,21 @@
   "date": "2026/6/2",
   "items": [
     {
+      "id": "20260602213615849800",
+      "time": "2026-06-02 21:36:15",
+      "hot": "热",
+      "content": "据英国金融时报：阿布扎比国家石油公司计划建设一条绕过霍尔木兹海峡的石油产品管道。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-06-02T14:00:43.723Z"
+    },
+    {
       "id": "20260602213041592800",
       "time": "2026-06-02 21:30:41",
       "hot": "热",
@@ -4464,22 +4479,7 @@
         1
       ],
       "collectedAt": "2026-05-26T22:50:20.535Z"
-    },
-    {
-      "id": "20260527061428496800",
-      "time": "2026-05-27 06:14:28",
-      "hot": "热",
-      "content": "【伊朗官员：美国处于“请求”与伊朗达成协议的地位】金十数据5月27日讯，伊朗伊斯兰革命卫队海军副司令穆罕默德·阿克巴尔扎德当地时间26日晚间表示，<b>美国和欧洲经济高度依赖能源价格，并容易受到地区局势变化影响，这种压力杠杆使美国在与伊朗达成协议问题上处于“请求”的地位</b>。阿克巴尔扎德还表示，美国霸权正在衰落，西方的战略判断也遭遇失败，地区国家和全球大国已经认识到，美国已无力为其盟友提供安全保障。",
-      "source": "央视",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=12408455598294151023&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D12408455598294151023%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
-      "important": 0,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-05-26T22:40:21.659Z"
     }
   ],
-  "lastUpdated": "2026-06-02T13:50:30.279Z"
+  "lastUpdated": "2026-06-02T14:00:44.766Z"
 }
