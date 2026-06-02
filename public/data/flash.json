@@ -2,6 +2,35 @@
   "date": "2026/6/2",
   "items": [
     {
+      "id": "20260602215342286800",
+      "time": "2026-06-02 21:53:42",
+      "hot": "热",
+      "content": "纳斯达克100指数转涨，迈威尔科技(MRVL.O)上涨22%，博通(AVGO.O)上涨5.3%，英伟达(NVDA.O)上涨3.1%。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-06-02T14:10:36.374Z"
+    },
+    {
+      "id": "20260602215641577800",
+      "time": "2026-06-02 21:56:41",
+      "hot": "热",
+      "content": "以色列总理内塔尼亚胡：伊朗政权注定要消亡，我们将帮助结束它。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-06-02T14:10:36.374Z"
+    },
+    {
       "id": "20260602213615849800",
       "time": "2026-06-02 21:36:15",
       "hot": "热",
@@ -4453,33 +4482,7 @@
         3
       ],
       "collectedAt": "2026-05-26T23:50:21.716Z"
-    },
-    {
-      "id": "20260527065509668800",
-      "time": "2026-05-27 06:55:09",
-      "hot": "热",
-      "content": "【金十数据整理：每日科技要闻速递（2026-05-27）】<b>人工智能：</b><br/><span class=\"section-news\">1. 昆仑万维天工AI发布SkyClaw-v1.0：面向真实工作流的百万上下文Agent模型。</span><br/><span class=\"section-news\">2. 面壁智能开源MiniCPM5-1B：在AA-Index上超越所有2B参数以下模型，能跑在手机、浏览器上。</span><br/><span class=\"section-news\">3. Code Arena昨日更新榜单，阿里旗舰模型Qwen3.7-Max得分1541分，仅次于Claude系列，在大模型厂商中排名全球第二。</span><br/><b>集成电路（芯片）：</b><br/><span class=\"section-news\">1. 香农芯创：预计2026年来自阿里、腾讯、字节跳动等客户收入有较大增长。</span><br/><span class=\"section-news\">2. 思特威与紫光展锐宣布达成战略合作，双方将联合布局MicroLED高速光互连领域，围绕光互连芯片设计与系统解决方案落地展开深度协同。</span><br/><b>新能源汽车：</b><br/><span class=\"section-news\">1. 鸿蒙智行问界M6汽车上市首月交付量突破2万台。</span><br/><span class=\"section-news\">2. 小米集团：2026年第一季度，我们的新车交付量达到80856辆，同比增长6.6%。</span><br/><b>其他：</b><br/><span class=\"section-news\">1. 我国成功发射通信技术试验卫星二十四号。</span><br/><span class=\"section-news\">2. 日本云服务商樱花互联网2026财年计划资本开支或增近6倍。</span><br/><span class=\"section-news\">3. 据CNBC：马斯克与同事讨论了将特斯拉与SpaceX合并的可能性。</span><br/><span class=\"section-news\">4. 星河动力智神星系列火箭发射工位（一期）正式竣工，目标今年首飞。</span><br/><span class=\"section-news\">5. 海尔发布全球最轻AI运动外骨骼机器人：仅重1.75kg，单腿最大助力16N·m。</span><br/><span class=\"section-news\">6. SpaceX已获得美国空军价值22.9亿美元的合同，用于建设太空数据网络。</span><br/><span class=\"section-news\">7. 美国航空航天局（NASA）：已向“蓝色起源”公司授予18.8亿美元合同，用于执行两项向月球南极区域运送探测器的任务。</span><br/><span class=\"section-news\">8. 美国国家航空航天局（NASA）公布月球基地建设三阶段路线图，进一步细化未来在月球南极地区建设长期驻留设施的发展目标和实施路径。</span><br/><span class=\"section-news\">9. 富时罗素：根据富时罗素的快速纳入规则，SpaceX似乎有资格被纳入富时美国股票指数系列及富时全球股票指数系列。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-05-26T23:20:22.803Z"
-    },
-    {
-      "id": "20260527063009193800",
-      "time": "2026-05-27 06:30:09",
-      "hot": "热",
-      "content": "【金十数据整理：昨日今晨重要新闻汇总（2026-05-27）】<b>国内新闻：</b><br/><span class=\"section-news\">1. 中国海警依法驱离日非法进入我钓鱼岛领海船只。</span><br/><span class=\"section-news\">2. 福建海警组织舰艇编队位金门附近海域开展执法巡查。</span><br/><span class=\"section-news\">3. 国家新闻出版署公布2026年5月份国产网络游戏审批信息，共154款游戏获批。</span><br/><span class=\"section-news\">4. 外交部：希望伊朗核问题有关各方抓住机会，通过谈判达成兼顾各方合理关切的解决方案。</span><br/><span class=\"section-news\">5. 伊朗军方称美方在谈判进行中发动了一轮打击，外交部回应：敦促相关方履行停火承诺，坚持以和平方式化解争端。</span><br/><span class=\"section-news\">6. 中国信通院数据显示，2026年4月，国内市场手机出货量2573.3万部，同比增长2.8%，其中，5G手机2473.6万部。</span><br/><b>国际新闻：</b><br/><span class=\"section-news\">1. 乌兹别克斯坦于4月份全面恢复了黄金出口。</span><br/><span class=\"section-news\">2. 马来西亚据悉对部分金条进口征收10%关税。</span><br/><span class=\"section-news\">3. 据韩联社：韩国法院驳回了暂停三星主要工会谈判的禁令请求。</span><br/><span class=\"section-news\">4. 据CNBC：马斯克与同事讨论了将特斯拉与SpaceX合并的可能性。</span><br/><span class=\"section-news\">5. 美光科技(MU.O)收涨19%，再次刷新历史新高，总市值达1万亿美元。今年以来，美光科技累计涨幅达210%。</span><br/><span class=\"section-news\">6. 伊朗战争——</span><br/><span class=\"section-news\">①<b>伊朗</b>——①伊朗称若战争重启将猛烈回击，并将阻止地区石油出口。②伊外交部：美国公然违反停火协议，伊朗将作出回应。③伊朗革命卫队：伊朗有权对美国任何违反停火协议的行为作出回应。锁定并击落了一架美军MQ9无人机。④伊朗媒体否认伊美达成谅解备忘录的说法。⑤伊朗总统：已准备好达成“有尊严的”框架协议。</span><br/><span class=\"section-news\">②<b>美国</b>——①美国中央司令部称在伊朗南部进行自卫性打击，美官员：并不意味停火结束。②美国总统特朗普与以色列总理内塔尼亚胡通电话。③美国中央司令部：美国并未恢复“自由计划”，有关该计划重新启动的报道是不准确的。④鲁比奥：（关于伊朗）与伊朗协议相关的措辞谈判可能“还需要几天时间”。</span><br/><span class=\"section-news\">③<b>其他</b>——①内塔尼亚胡：以军正占领黎巴嫩“战略要地”。在加沙对哈马斯的新武装分支负责人发动了袭击。②消息人士：解冻伊朗海外资金成伊美谈判主要分歧。③卡塔尔外交部：有关卡塔尔出资120亿美元促成协议的报道纯属虚假。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-05-26T22:50:20.535Z"
     }
   ],
-  "lastUpdated": "2026-06-02T14:00:44.766Z"
+  "lastUpdated": "2026-06-02T14:10:37.162Z"
 }
