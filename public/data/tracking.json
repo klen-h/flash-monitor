@@ -34,7 +34,7 @@
         "riskAmount": 1500,
         "riskPercent": "1.50"
       },
-      "lastCheckedPrice": 2.343
+      "lastCheckedPrice": 2.342
     },
     {
       "etfName": "科创50ETF",
@@ -103,7 +103,7 @@
         "riskAmount": 1500,
         "riskPercent": "1.50"
       },
-      "lastCheckedPrice": 9.372
+      "lastCheckedPrice": 9.374
     },
     {
       "etfName": "科创50ETF",
@@ -1853,6 +1853,187 @@
     "winRate": "0.0"
   },
   "rejectedSignals": [
+    {
+      "etfName": "科技ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "0.639",
+      "resistance": "3.4",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "0.639"
+      },
+      "stopLoss": "0.620",
+      "takeProfit": "3.4",
+      "reasoning": "- **策略审慎**：恒生科技ETF单日涨+3.40%，避免追涨；关注回调支撑位（e.g., 恒生科技ETF现价0.639，阻力0.65）。",
+      "source": "postmarket",
+      "id": "1780377507644",
+      "createdAt": "2026-06-02T05:18:27.644Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 100,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 78947,
+        "positionValue": 50447.133,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "半导体ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "2.74",
+      "resistance": "2.98",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "2.74"
+      },
+      "stopLoss": "2.658",
+      "takeProfit": "2.98",
+      "reasoning": "- **异动信号**：有色ETF领涨+2.98% 与 半导体ETF领涨+2.74%，无法直接用今日事件解释（事件簇无工业金属或芯片相关更新）。",
+      "source": "postmarket",
+      "id": "1780377507643",
+      "createdAt": "2026-06-02T05:18:27.643Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [
+          "价格历史数据不足，无法进行技术分析"
+        ],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 90,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 18292,
+        "positionValue": 50120.08,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "黄金ETF",
+      "direction": "short",
+      "trend": "neutral",
+      "support": "0.32",
+      "resistance": "3.3",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "3.3"
+      },
+      "stopLoss": "3.399",
+      "takeProfit": "0.32",
+      "reasoning": "- **策略一致性**：D状态规则激活（禁止做空黄金/抄底油气，允许科技/黄金ETF） → 今日科技ETF领涨（e.g., 人工智能+3.30%），黄金ETF涨，军工ETF跌-0.32%（因地缘缓和），逻辑自洽。",
+      "source": "postmarket",
+      "id": "1780377507641",
+      "createdAt": "2026-06-02T05:18:27.641Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [
+          "价格历史数据不足，无法进行技术分析"
+        ],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 90,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 15151,
+        "positionValue": 49998.299999999996,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "科技ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "3.4",
+      "resistance": "4.01",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "3.4"
+      },
+      "stopLoss": "3.298",
+      "takeProfit": "4.01",
+      "reasoning": "- **实质性影响**：恒生科技指数涨+4.01%，直接传导至恒生科技ETF领涨+3.40%。",
+      "source": "postmarket",
+      "id": "1780377507639",
+      "createdAt": "2026-06-02T05:18:27.639Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 100,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 14705,
+        "positionValue": 49997,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "黄金ETF",
+      "direction": "long",
+      "trend": "up",
+      "support": "0.3",
+      "resistance": "0.94",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "0.3"
+      },
+      "stopLoss": "0.291",
+      "takeProfit": "0.94",
+      "reasoning": "- **实质性影响**：黄金价格上涨（COMEX黄金+0.94%），传导至黄金ETF涨+0.30%。",
+      "source": "postmarket",
+      "id": "1780377507638",
+      "createdAt": "2026-06-02T05:18:27.638Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [
+          "价格历史数据不足，无法进行技术分析"
+        ],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 90,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 166666,
+        "positionValue": 49999.799999999996,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
     {
       "etfName": "军工ETF",
       "direction": "long",
