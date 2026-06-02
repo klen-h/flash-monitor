@@ -2,6 +2,21 @@
   "date": "2026/6/2",
   "items": [
     {
+      "id": "20260602231100190800",
+      "time": "2026-06-02 23:11:00",
+      "hot": "热",
+      "content": "美国国务卿鲁比奥：从伊朗方面获得回应可能需要长达6天时间。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-06-02T15:40:32.236Z"
+    },
+    {
       "id": "20260602223614791800",
       "time": "2026-06-02 22:36:14",
       "hot": "热",
@@ -4474,20 +4489,7 @@
         3
       ],
       "collectedAt": "2026-05-27T01:40:22.147Z"
-    },
-    {
-      "id": "20260527090648134800",
-      "time": "2026-05-27 09:06:48",
-      "hot": "热",
-      "content": "【金十数据整理：A股盘前市场要闻速递（2026-05-27）】<b>重要新闻</b><br/><span class=\"section-news\">1. 工信部：重点围绕驾驶自动化、汽车数据、“车路云一体化”等领域加速标准研制与迭代。</span><br/><span class=\"section-news\">2. 内地资金绕道香港豪赌场外期权，高收益背后暗藏风险。</span><br/><span class=\"section-news\">3. 信通院：4月国内市场手机出货量2573.3万部，同比增长2.8%。</span><br/><span class=\"section-news\">4. 几内亚将限制铝土矿出口，外交部回应。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 兆易创新：公司持有长鑫科技股份仅占其当前总股本的1.8%，持股比例较小。</span><br/><span class=\"section-news\">2. 天赐材料：开展年产16万吨高压实磷酸铁锂项目前期工作，预计投资不超21亿元。</span><br/><span class=\"section-news\">3. 沪电股份：随着PCB行业整体产能持续释放，未来市场竞争预计将会加剧。</span><br/><span class=\"section-news\">4. 莲花控股：拟对阶跃星辰增资不超过3亿元。</span><br/><span class=\"section-news\">5. 深科技：子公司拟扩大高端存储芯片封测产能，投资14.7亿元。</span><br/><span class=\"section-news\">6. 嘉戎技术：拟作价约13.5亿元购买杭州蓝然100%股权。</span><br/><span class=\"section-news\">7. 甬矽电子：2.5D封装产品线目前正在与客户送样验证中，尚未实现量产。</span><br/><span class=\"section-news\">8. 仕佳光子：终止购买福可喜玛通讯公司事项。</span><br/><span class=\"section-news\">9. 盛视科技：全资子公司签署60亿元算力产业合作协议。</span><br/><span class=\"section-news\">10. 林州重机：因涉嫌信息披露违法违规，证监会决定对公司立案调查。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-05-27T01:20:22.769Z"
     }
   ],
-  "lastUpdated": "2026-06-02T15:10:34.857Z"
+  "lastUpdated": "2026-06-02T15:40:33.750Z"
 }
