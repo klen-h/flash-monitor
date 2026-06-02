@@ -2,6 +2,21 @@
   "date": "2026/6/2",
   "items": [
     {
+      "id": "20260602212156843800",
+      "time": "2026-06-02 21:21:56",
+      "hot": "热",
+      "content": "据以色列i24News：以色列和黎巴嫩官员正在美国华盛顿特区举行第四轮会谈。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-06-02T13:40:29.556Z"
+    },
+    {
       "id": "20260602211725214800",
       "time": "2026-06-02 21:17:25",
       "hot": "热",
@@ -4465,22 +4480,7 @@
         2
       ],
       "collectedAt": "2026-05-26T22:00:31.088Z"
-    },
-    {
-      "id": "20260527023626399800",
-      "time": "2026-05-27 02:36:26",
-      "hot": "热",
-      "content": "【伊朗伊斯兰革命卫队：过去24小时25艘船只获准通过霍尔木兹海峡】金十数据5月27日讯，当地时间26日晚间，伊朗伊斯兰革命卫队海军公共关系部发布消息称，过去24小时内，包括油轮、集装箱船和其他商船在内的25艘船只在获得许可后，在伊朗伊斯兰革命卫队海军的协调和安全保障下通过了霍尔木兹海峡。同时，伊朗伊斯兰革命卫队海军还表示，正在对霍尔木兹海峡进行“有效且权威”的控制，任何侵略行为都将遭到严厉回击。",
-      "source": "央视新闻",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=18445110814897427992&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D18445110814897427992%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-26T21:50:22.894Z"
     }
   ],
-  "lastUpdated": "2026-06-02T13:30:35.806Z"
+  "lastUpdated": "2026-06-02T13:40:30.409Z"
 }
