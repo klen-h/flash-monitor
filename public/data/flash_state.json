@@ -1,5 +1,5 @@
 {
-  "lastId": "20260603164716727800",
+  "lastId": "20260603165632334800",
   "pushedClusters": [
     {
       "cluster": "原油能源",
@@ -60,9 +60,9 @@
       "cluster": "美联储利率",
       "firstId": "20260508203423336800",
       "firstTime": "2026-05-08T12:52:53.297Z",
-      "lastUpdateId": "20260602203039749800",
-      "lastUpdateTime": "2026-06-02T12:50:31.286Z",
-      "pushCount": 4,
+      "lastUpdateId": "20260603165632334800",
+      "lastUpdateTime": "2026-06-03T09:33:13.333Z",
+      "pushCount": 5,
       "hotMax": "沸",
       "hadUrgent": true,
       "hasMilitary": false
