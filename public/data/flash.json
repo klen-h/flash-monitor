@@ -2,6 +2,35 @@
   "date": "2026/6/3",
   "items": [
     {
+      "id": "20260603212650221800",
+      "time": "2026-06-03 21:26:50",
+      "hot": "热",
+      "content": "【俄副外长：若领土完整遭侵犯 俄保留以核武器回击可能性】金十数据6月3日讯，当地时间3日，俄罗斯外交部副部长里亚布科夫表示，若出现侵害俄领土完整的行为，俄方保留以核手段进行回应的可能性。里亚布科夫在圣彼得堡国际经济论坛上向媒体表示，关于俄罗斯可能使用核武器的极端情势在军事学说和核威慑国家基本政策中已做详细描述。<b>如果俄罗斯的领土完整遭到侵略者的蓄意侵犯，即便对方并不拥有核武器，在最坏情况下俄方可以使用核武器进行回击</b>。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=10233903808090985067&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D10233903808090985067%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-06-03T13:50:28.790Z"
+    },
+    {
+      "id": "20260603213206616800",
+      "time": "2026-06-03 21:32:06",
+      "hot": "热",
+      "content": "Alphabet(GOOG.O)宣布将股权融资规模从800亿美元增至847.5亿美元。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-06-03T13:50:28.790Z"
+    },
+    {
       "id": "20260603212126341800",
       "time": "2026-06-03 21:21:26",
       "hot": "热",
@@ -4450,35 +4479,7 @@
         3
       ],
       "collectedAt": "2026-05-28T01:20:23.458Z"
-    },
-    {
-      "id": "20260528090315081800",
-      "time": "2026-05-28 09:03:15",
-      "hot": "沸",
-      "content": "【金十数据整理：A股盘前市场要闻速递（2026-05-28）】<b>重要新闻</b><br/><span class=\"section-news\">1. 李强：积极探索期货现货联动经营，增强大宗商品价格形成机制的国际影响力。</span><br/><span class=\"section-news\">2. 上交所：长鑫科技集团股份有限公司IPO审核状态变更为提交注册。</span><br/><span class=\"section-news\">3. 香港金管局：就内地投资者投资账户新增三项监管措施，开户核查倒查至2023年1月。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 未依法事先申报实施经营者集中，市场监管总局对立讯精密处以90万元罚款的行政处罚。</span><br/><span class=\"section-news\">2. 龙芯中科：拟定增募资不超23亿元，用于基于Xnm工艺的信息化芯片研发及产业化项目等。</span><br/><span class=\"section-news\">3. 宁德时代旗下公司与张雪机车高层正式开始接洽合作。</span><br/><span class=\"section-news\">4. 雄韬股份：韬（τ）定律相关概念与公司主营业务不存在关联关系。</span><br/><span class=\"section-news\">5. 云南锗业：近期磷化铟晶片价格有所上涨。</span><br/><span class=\"section-news\">6. 长信科技：子公司拟不超30亿元采购算力服务器。</span><br/><span class=\"section-news\">7. 贵州茅台：股份回购完成 耗资30亿元回购218.86万股。</span><br/><span class=\"section-news\">8. 德福科技：拟投资31亿元建设年产5万吨高端AI电子电路铜箔项目。</span><br/><span class=\"section-news\">9. 有研新材：控股子公司有研亿金是长江存储和长鑫存储的靶材供应商。</span><br/><span class=\"section-news\">10. 香农芯创：预计2026年海普存储的收入会有显著增长。</span><br/><span class=\"section-news\">11. 3天2板华电辽能：绿氢市场仍处于培育阶段，下游需求和产品价格存在不确定性。</span><br/><span class=\"section-news\">12. 皖维高新：已成功开发多款电子陶瓷MLCC用PVB树脂并获客户测试合格。</span><br/><span class=\"section-news\">13. 康龙化成：拟投资30亿元建设年产200吨医药中间体及API项目。</span><br/><span class=\"section-news\">14. 恩捷股份：拟收购江苏爱思开100%股权，基础购买价款为4亿元。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-05-28T01:20:23.458Z"
-    },
-    {
-      "id": "20260528085521118800",
-      "time": "2026-05-28 08:55:21",
-      "hot": "沸",
-      "content": "【伊媒证实美军开火 此前革命卫队与美国油轮对峙】金十数据5月28日讯，据伊朗塔斯尼姆通讯社援引一名军事消息人士称，美国军队在伊朗霍尔木兹海峡附近的霍尔木兹港地区开火，此前伊朗革命卫队与一艘试图通过霍尔木兹海峡的美国油轮发生对峙。目前暂无人员伤亡或损失报告。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-28T01:10:24.095Z"
     }
   ],
-  "lastUpdated": "2026-06-03T13:40:27.847Z"
+  "lastUpdated": "2026-06-03T13:50:29.733Z"
 }
