@@ -2,6 +2,19 @@
   "date": "2026/6/3",
   "items": [
     {
+      "id": "20260603090135380800",
+      "time": "2026-06-03 09:01:35",
+      "hot": "热",
+      "content": "【金十数据整理：A股盘前市场要闻速递（2026-06-03）】<b>重要新闻</b><br/><span class=\"section-news\">1. 5月A股新开户276.53万户，同比增长77.76%。</span><br/><span class=\"section-news\">2. 北京经开区召开太空算力企业座谈会，研究部署太空算力创新中心建设工作。</span><br/><span class=\"section-news\">3. 国务院印发《加快农业农村现代化“十五五”规划》。</span><br/><span class=\"section-news\">4. 宇树科技股份有限公司IPO审核状态变更为提交注册。</span><br/><span class=\"section-news\">5. 宇树回应与英伟达合作机器人：下半年新产品亮相。</span><br/><span class=\"section-news\">6. 多家民营银行中长期定存利率跌至“1字头”。</span><br/><span class=\"section-news\">7. 老虎国际：6月12日起，暂停存量投资者账户在中国境内所有品种的新开仓、加仓交易。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 再升科技：关注到相关市场主体未经事实核查编造虚假内容、误导资本市场，已固定全部涉案证据必要时将向监管部门、公安机关报案处理。</span><br/><span class=\"section-news\">2. 火炬电子：自产MLCC业务收入占比约17%，算力方向收入占比极低。</span><br/><span class=\"section-news\">3. 3连板春秋电子：公司不生产AIPC终端产品，也不生产AIPC芯片等相关主件。</span><br/><span class=\"section-news\">4. 2连板金房能源：公司未涉及液冷、电力供应相关业务。</span><br/><span class=\"section-news\">5. 美迪凯：2025年半导体用玻璃基板相关产品销售收入占总营收比重2%左右，占比较低。</span><br/><span class=\"section-news\">6. 呈和科技：全资子公司拟投资不超13亿元建设高频高速电子材料及高端助剂项目。</span><br/><span class=\"section-news\">7. 佰维存储：股东于5月18日至5月29日期间合计减持1%公司股份。</span><br/><span class=\"section-news\">8. 中远海能：间接全资子公司投资64.45亿元建造4艘LNG船舶。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-06-03T01:20:23.057Z"
+    },
+    {
       "id": "20260603084809623800",
       "time": "2026-06-03 08:48:09",
       "hot": "热",
@@ -4455,22 +4468,7 @@
         2
       ],
       "collectedAt": "2026-05-27T13:20:24.575Z"
-    },
-    {
-      "id": "20260527205021807800",
-      "time": "2026-05-27 20:50:21",
-      "hot": "爆",
-      "content": "【美国锁定伊朗新目标 为恢复打击做准备】金十数据5月27日讯，美国官员27日向媒体透露，美国国防部已拟定一份伊朗境内打击目标清单，以备总统特朗普可能恢复对伊军事行动。但消息人士分析说，美国如果发动新打击，难度比先前更大。据美国全国广播公司报道，五角大楼考虑将可能重启的军事行动命名为“大锤”，目标包括去年6月已遭美军空袭的一些核设施，包括纳坦兹和伊斯法罕核设施。美军还可能打击伊朗在哈尔克岛的战略石油设施，以及发电厂以及军事指挥中心和通信设施。按知情人士的说法，伊朗境内许多已遭打击的目标被认为是“唾手可得的果实”，因为那些目标“要么固定不动，要么没有深埋在掩体里”。但导弹发射器、无人机等目标如今变得更隐蔽和难以接近，对它们进行定位和精准打击的难度大于先前。",
-      "source": "央视新闻",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=1043149597526382114&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D1043149597526382114%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-27T13:00:41.665Z"
     }
   ],
-  "lastUpdated": "2026-06-03T01:10:24.487Z"
+  "lastUpdated": "2026-06-03T01:20:24.666Z"
 }
