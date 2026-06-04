@@ -1,5 +1,5 @@
 {
-  "lastId": "20260605000000001800",
+  "lastId": "20260605025734076800",
   "pushedClusters": [
     {
       "cluster": "原油能源",
@@ -16,8 +16,8 @@
       "cluster": "伊朗局势",
       "firstId": "20260506224557340800",
       "firstTime": "2026-05-06T17:17:35.708Z",
-      "lastUpdateId": "20260604230525188800",
-      "lastUpdateTime": "2026-06-04T15:20:29.530Z",
+      "lastUpdateId": "20260605025734076800",
+      "lastUpdateTime": "2026-06-04T21:10:26.397Z",
       "pushCount": 36,
       "hotMax": "沸",
       "hadUrgent": true,
