@@ -2074,6 +2074,41 @@
   },
   "rejectedSignals": [
     {
+      "etfName": "科创50ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "3",
+      "resistance": "50",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "3"
+      },
+      "stopLoss": "2.910",
+      "takeProfit": "50",
+      "reasoning": "3. **科创50ETF**",
+      "source": "premarket",
+      "id": "1780535535620",
+      "createdAt": "2026-06-04T01:12:15.620Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 100,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 16666,
+        "positionValue": 49998,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
       "etfName": "科技ETF",
       "direction": "long",
       "trend": "neutral",
