@@ -2,6 +2,49 @@
   "date": "2026/6/4",
   "items": [
     {
+      "id": "20260604194138990800",
+      "time": "2026-06-04 19:41:38",
+      "hot": "热",
+      "content": "据黎巴嫩Al Jadeed电视台：以色列部队已从黎巴嫩南部城镇撤出。",
+      "source": "",
+      "source_link": "",
+      "important": 0,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-06-04T12:10:27.319Z"
+    },
+    {
+      "id": "20260604194820471800",
+      "time": "2026-06-04 19:48:20",
+      "hot": "热",
+      "content": "【现货黄金站上4500美元】金十数据6月4日讯，现货黄金站上4500美元/盎司，日内涨1.49%。现货白银日内涨超2%，现报74.17美元/盎司。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2
+      ],
+      "collectedAt": "2026-06-04T12:10:27.319Z"
+    },
+    {
+      "id": "20260604200237497800",
+      "time": "2026-06-04 20:02:37",
+      "hot": "沸",
+      "content": "市场消息：黑石集团旗下私募信贷基金将投资者赎回额度上限设为5%。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-06-04T12:10:27.319Z"
+    },
+    {
       "id": "20260604193530315800",
       "time": "2026-06-04 19:35:30",
       "hot": "热",
@@ -4431,52 +4474,7 @@
         2
       ],
       "collectedAt": "2026-05-28T21:20:26.765Z"
-    },
-    {
-      "id": "20260529025215241800",
-      "time": "2026-05-29 02:52:15",
-      "hot": "热",
-      "content": "【贝森特：放松制裁取决于伊朗在核问题让步程度】金十数据5月29日讯，当被问及美国是否对伊朗解除部分制裁或解冻资产时，贝森特称这将取决于伊朗是否满足特朗普政府提出的核心条件。他说，美伊谈判是一项“多层面的协议”，在伊朗明确作出相关承诺前，“任何事情都不会真正摆上桌面”。贝森特表示，任何制裁的放松都将与伊朗在核问题上的让步程度相对应，包括是否移交高浓缩铀。但他未直接回应美国是否会向伊朗解冻资金或提供现金支持。贝森特还表示，特朗普政府正继续加强对伊朗航空体系的限制措施。他强调，伊朗航空公司“已经成为非法实体”，美国不会允许其继续正常运营。",
-      "source": "央视新闻",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=12680709857216180727&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D12680709857216180727%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-28T21:10:22.778Z"
-    },
-    {
-      "id": "20260529025050231800",
-      "time": "2026-05-29 02:50:50",
-      "hot": "热",
-      "content": "【美财长称特朗普不会接受“糟糕的伊朗协议”】金十数据5月29日讯，当地时间5月28日，美国财政部长贝森特在简报会上表示，美国与伊朗谈判团队仍在持续磋商，但美国总统特朗普已明确划定多项“红线”，不会接受一项“糟糕协议”。贝森特表示，美国总统特朗普始终更倾向于达成和平协议，目前美国所有行动都属于“防御性质”，但若特朗普认为无法达成和平协议，美方也将作出相应决定。他说，特朗普要求伊朗必须移交高浓缩铀、不得发展核武器，同时霍尔木兹海峡必须恢复自由开放航行。贝森特还透露，他当天已与阿曼驻美国大使通话，对方保证阿曼无意对霍尔木兹海峡征收通行费。他警告称，若相关国家试图限制航行自由，可能面临美国制裁。",
-      "source": "央视新闻",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=12680709857216180727&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D12680709857216180727%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-28T19:20:23.929Z"
-    },
-    {
-      "id": "20260529022920185800",
-      "time": "2026-05-29 02:29:20",
-      "hot": "热",
-      "content": "【知情人士称伊朗方面尚未同意任何谅解备忘录】金十数据5月29日讯，当地时间5月28日，伊朗谈判代表团媒体团队成员赛义德·阿加卢表示，截至目前，伊朗方面尚未同意任何谅解备忘录，也未向巴基斯坦方面的调解人确认已批准该备忘录。此外，他明确表示，在与美国的谈判过程中，伊朗并未在核问题上作出任何承诺。",
-      "source": "央视新闻",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=11049959921679639942&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D11049959921679639942%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-28T19:00:39.310Z"
     }
   ],
-  "lastUpdated": "2026-06-04T11:50:27.508Z"
+  "lastUpdated": "2026-06-04T12:10:32.146Z"
 }
