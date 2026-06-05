@@ -2,6 +2,36 @@
   "date": "2026/6/5",
   "items": [
     {
+      "id": "20260605205838744800",
+      "time": "2026-06-05 20:58:38",
+      "hot": "热",
+      "content": "现货黄金在非农公布后持续下跌，短线再跌40美元，现报4409.73美元/盎司。美元指数DXY短线上涨14点，报99.56，为4月以来新高。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-06-05T13:10:25.097Z"
+    },
+    {
+      "id": "20260605210057185800",
+      "time": "2026-06-05 21:00:57",
+      "hot": "热",
+      "content": "【现货黄金跌破4400美元】金十数据6月5日讯，现货黄金跌破4400美元/盎司，日内跌1.69%。现货白银日内大跌4.00%，现报70.90美元/盎司。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-06-05T13:10:25.097Z"
+    },
+    {
       "id": "20260605204453957800",
       "time": "2026-06-05 20:44:53",
       "hot": "热",
@@ -4437,35 +4467,7 @@
         2
       ],
       "collectedAt": "2026-05-30T04:10:21.545Z"
-    },
-    {
-      "id": "20260530092512763800",
-      "time": "2026-05-30 09:25:12",
-      "hot": "热",
-      "content": "【金十数据整理：中东局势跟踪（5月30日）】<br/><b>①霍尔木兹海峡</b><br/><span class=\"section-news\">1. 伊朗总统：伊朗致力于外交途径。</span><br/><span class=\"section-news\">2. 伊朗议会委员会主席：伊朗已经永久地控制了霍尔木兹海峡的航运活动，并不是临时性的控制。</span><br/><span class=\"section-news\">3. 美军称将在霍尔木兹海峡附近开展军事行动。</span><br/><span class=\"section-news\">4. 受伊朗战事波及的大型油轮中，已有四分之一成功驶出海峡。</span><br/><b>②停火谈判</b><br/><span class=\"section-news\">1. 特朗普再称所有牌尽在其手。</span><br/><span class=\"section-news\">2. 伊朗：我们已经永久控制了海峡。</span><br/><span class=\"section-news\">3. 万斯：美伊接近达成初步意向，仍有细节待敲定。</span><br/><span class=\"section-news\">4. 伊朗外交部：伊美交流仍在继续 尚未达成最终共识。</span><br/><span class=\"section-news\">5. 美媒：特朗普推迟就伊朗相关协议作最终决定。</span><br/><span class=\"section-news\">6. 美媒：卡塔尔代管资金是美伊和平协议的最终症结之一；目前尚不清楚美伊究竟何时能最终签署谅解备忘录，但这是双方距离达成协议最近的一次了。</span><br/><b>③其他情况</b><br/><span class=\"section-news\">1. 欧盟制裁以色列定居者和哈马斯。</span><br/><span class=\"section-news\">2. 伊朗官员称无意将浓缩铀运出伊朗。</span><br/><span class=\"section-news\">3. 伊朗外交部谴责美国对阿曼的威胁。</span><br/><span class=\"section-news\">4. 以军称过去两周打死多名黎真主党指挥官。</span><br/><span class=\"section-news\">5. 世界经济论坛报告：中东战事拖累世界经济增长。</span><br/><span class=\"section-news\">6. 伊朗军方在格什姆岛附近击落敌对小型无人机。</span><br/><span class=\"section-news\">7. 美国中央司令部否认伊方“击落一美军飞机”的说法。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-30T02:10:21.839Z"
-    },
-    {
-      "id": "20260530084852380800",
-      "time": "2026-05-30 08:48:52",
-      "hot": "热",
-      "content": "【金十数据整理：昨日今晨重要新闻汇总（2026-05-30）】<b>国内新闻：</b><br/><span class=\"section-news\">1. MiniMax启动A股上市辅导。</span><br/><span class=\"section-news\">2. 神舟二十一号载人飞行任务取得圆满成功。</span><br/><span class=\"section-news\">3. 丁向群任国家金融监督管理总局党委书记。</span><br/><span class=\"section-news\">4. 市场监管总局部署开展打击劣质低价专项行动。</span><br/><span class=\"section-news\">5. 玉渊谭天：欧盟若执意推动“产能过剩工具”，中方必将反制。</span><br/><span class=\"section-news\">6. 香港拟批准双柜台证券人民币柜台交易的印花税以人民币计算和缴付。</span><br/><span class=\"section-news\">7. 据媒体报道，香港地区部分银行正收紧投资账户开户，暂对储蓄账户无影响。</span><br/><span class=\"section-news\">8. 国家网信办等五部门联合公布《互联网信息内容多渠道分发服务管理规定》。</span><br/><span class=\"section-news\">9. 中央网信办等四部门印发《2026年提升全民数字素养与技能工作要点》。</span><br/><span class=\"section-news\">10. 财政部：1-4月，国有企业营业总收入262700.9亿元，同比下降0.5%，国有企业利润总额13741.7亿元，同比增长1.9%。</span><br/><b>国际新闻：</b><br/><span class=\"section-news\">1. 日韩股市高开高收，双双刷新历史新高。</span><br/><span class=\"section-news\">2. 俄罗斯乌拉尔联邦区首次发布导弹预警。</span><br/><span class=\"section-news\">3. 加拿大自2020年以来首次陷入“技术性衰退”。</span><br/><span class=\"section-news\">4. 报道称SpaceX IPO目标估值调降至至少1.8万亿美元。</span><br/><span class=\"section-news\">5. 特朗普提议修改美墨加协定，旨在提高汽车中的“美国制造”含量。</span><br/><span class=\"section-news\">6. 日本财务省：在4月28日至5月27日期间的汇市干预规模为11.7万亿日元。</span><br/><span class=\"section-news\">7. 丹麦养老基金将SpaceX列入黑名单：治理状况堪忧 估值严重过高。马斯克否认SpaceX下调IPO估值目标。</span><br/><span class=\"section-news\">8. 美联储——①卡什卡利：在4月PCE通胀数据出炉后，就断言我们需要立即加息还为时过早。②鲍曼：判断战争对通胀的影响尚为时过早，可暂时忽略价格冲击。③施密德：可能需要考虑如何使货币政策更加紧缩。必须明确传达遏制通胀的决心。④美联储保尔森：目前的通胀过高，甚至在战争开始之前就已经过高。</span><br/><span class=\"section-news\">9. 伊朗战争——<br/>①美媒：特朗普推迟就伊朗相关协议作最终决定。<br/>②伊朗外交部：伊美交流仍在继续，尚未达成最终共识。<br/>③美军称将在霍尔木兹海峡附近开展军事行动。<br/>④伊朗官员称无意将浓缩铀运出伊朗。<br/>⑤哈萨克斯坦据悉愿意接收伊朗浓缩铀，前提是美伊达成协议。<br/>⑥特朗普说美伊就核问题和霍尔木兹海峡以外次要事项达成一致。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-05-30T01:40:20.247Z"
     }
   ],
-  "lastUpdated": "2026-06-05T13:00:43.579Z"
+  "lastUpdated": "2026-06-05T13:10:26.413Z"
 }
