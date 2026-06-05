@@ -2,6 +2,19 @@
   "date": "2026/6/5",
   "items": [
     {
+      "id": "20260605090526663800",
+      "time": "2026-06-05 09:05:26",
+      "hot": "热",
+      "content": "【金十数据整理：A股盘前市场要闻速递（2026-06-05）】<b>重要新闻</b><br/><span class=\"section-news\">1. 上交所向券商下发通知，强化交易业务单元管理。</span><br/><span class=\"section-news\">2. 央行：6月5日将开展5000亿元买断式逆回购操作，期限为3个月。</span><br/><span class=\"section-news\">3. 深圳：要在新型基础设施规划建设上谋项目强投资，加快算力网、新一代通信网等建设。</span><br/><span class=\"section-news\">4. 商务部：反对美以强迫劳动为由对华贸易限制。</span><br/><span class=\"section-news\">5. 高端光纤预制棒价格涨幅近550%，业内人士：短期内光棒供给紧缺的情况仍会阶段性固化。</span><br/><span class=\"section-news\">6. 工信部组织开展6G创新发展部省协同试点专项行动。</span><br/><span class=\"section-news\">7. 富途：6月12日起，暂停存量账户在中国境内买入(开仓)交易。</span><br/><span class=\"section-news\">8. 欧盟中国商会关于欧盟委员会提出“欧洲技术主权一揽子计划”答记者问。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 深交所向唯特偶下发关注函：要求说明公司目前主营产品分别应用在光模块生产三大环节的具体情况。</span><br/><span class=\"section-news\">2. 博杰股份：拟定增募资不超过15.03亿元，用于服务器检测设备及散热模组零部件产能建设等项目。</span><br/><span class=\"section-news\">3. 国泰海通：拟向国泰海通金融控股有限公司增资90亿元人民币。</span><br/><span class=\"section-news\">4. 怡亚通正式成为英特尔2026解决方案聚合商。</span><br/><span class=\"section-news\">5. 格力电器：珠海明骏通过大宗交易方式减持公司股份4279.31万股。</span><br/><span class=\"section-news\">6. 沪电股份回应海外订单传闻：若有大额订单会及时披露，目前没有需披露信息。</span><br/><span class=\"section-news\">7. 东山精密：受多重因素影响索尔思光电后续经营业绩存在不确定性。</span><br/><span class=\"section-news\">8. 中际旭创：第三期限制性股票激励计划预留部分第一个归属期归属股份6月8日上市流通，归属价格35.16元/股。</span><br/><span class=\"section-news\">9. 致尚科技：持续收到美国某光纤连接解决方案提供商的采购订单，累积订单金额约4.6亿元。</span><br/><span class=\"section-news\">10. 江海股份：没有片式多层陶瓷电容器（MLCC）业务。</span><br/><span class=\"section-news\">11. 万通发展：目前PCIe6.0switch芯片处于在研阶段，尚未投片。</span><br/><span class=\"section-news\">12. 通鼎互联：年产600吨光棒及2000万芯公里光纤项目公司及运营公司完成工商登记。</span><br/><span class=\"section-news\">13. 华特气体：目前氦气相关产品销售价格距高位已经有明显下降的趋势。</span><br/><span class=\"section-news\">14. 4连板天洋新材：在电子胶产品中涉及半导体业务的光模块透镜固定用胶为新开发产品，目前该产品月营收占集团月营收不足1%。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-06-05T01:40:25.082Z"
+    },
+    {
       "id": "20260605085536397800",
       "time": "2026-06-05 08:55:36",
       "hot": "热",
@@ -4444,21 +4457,7 @@
         2
       ],
       "collectedAt": "2026-05-29T13:50:26.305Z"
-    },
-    {
-      "id": "20260529213023522800",
-      "time": "2026-05-29 21:30:23",
-      "hot": "热",
-      "content": "【美股三大股指小幅高开 戴尔涨超30%】金十数据5月29日讯，美股开盘，三大股指小幅高开，道指涨0.18%，标普500指数涨0.09%，纳指涨0.16%。戴尔(DELL.N)涨超30%，第一财季业绩远超预期。AI服务器制造商相关股走高，超微电脑(SMCI.O)涨超7%，惠普(HPQ.N)涨超6%。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-05-29T13:50:26.305Z"
     }
   ],
-  "lastUpdated": "2026-06-05T01:20:25.343Z"
+  "lastUpdated": "2026-06-05T01:40:25.985Z"
 }
