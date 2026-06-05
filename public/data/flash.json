@@ -2,6 +2,20 @@
   "date": "2026/6/5",
   "items": [
     {
+      "id": "20260605215016866800",
+      "time": "2026-06-05 21:50:16",
+      "hot": "热",
+      "content": "美股三大股指延续跌势，标普500指数跌幅扩大至1%，纳指跌1.6%，纳斯达克100指数跌幅扩大至2%，道指跌0.3%。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-06-05T14:10:28.198Z"
+    },
+    {
       "id": "20260605213858579800",
       "time": "2026-06-05 21:38:58",
       "hot": "热",
@@ -4449,22 +4463,7 @@
         2
       ],
       "collectedAt": "2026-05-30T12:50:21.311Z"
-    },
-    {
-      "id": "20260530170907314800",
-      "time": "2026-05-30 17:09:07",
-      "hot": "热",
-      "content": "【消息人士：伊朗对科威特美军基地的袭击致数名美国人轻伤】金十数据5月30日讯，据美国方面30日消息，一匿名消息人士透露，伊朗近日向美军位于科威特的空军基地发动弹道导弹袭击，造成数名美国人轻伤。这名消息人士称，科威特防空部队当时拦截了“征服者-110”型导弹，但碎片坠落在美军位于科威特的阿里·萨利姆空军基地，致多人受轻伤，同时造成一架MQ-9“死神”无人机损毁、另一架“死神”严重受损。美军中央司令部暂未对上述信息予以回应。美军中央司令部28日发表声明，指责伊朗向科威特发射导弹。伊朗回应称，作为对美军袭击阿巴斯港的回应，伊朗对发动袭击的美军基地进行了打击。",
-      "source": "央视新闻",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=8958941369482032488&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D8958941369482032488%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-30T10:20:21.766Z"
     }
   ],
-  "lastUpdated": "2026-06-05T14:00:39.508Z"
+  "lastUpdated": "2026-06-05T14:10:29.212Z"
 }
