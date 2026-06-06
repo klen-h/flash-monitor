@@ -2,6 +2,36 @@
   "date": "2026/6/6",
   "items": [
     {
+      "id": "20260606081603205800",
+      "time": "2026-06-06 08:16:03",
+      "hot": "热",
+      "content": "【特朗普称将迅速结束伊朗战事】金十数据6月6日讯，美国总统特朗普5日在威斯康星州的一场助选活动上表示，将迅速结束对伊朗的战事，从而消除导致物价高企的一个重要因素。随着中期选举临近，美国舆论普遍认为，美伊战事导致油价上涨、生活成本增加，给共和党选情造成压力。",
+      "source": "央视",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=4921957094941874574&t=1780704920014&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D4921957094941874574%2526t%253D1780704920014%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
+      "important": 0,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-06-06T00:50:23.492Z"
+    },
+    {
+      "id": "20260606083048602800",
+      "time": "2026-06-06 08:30:48",
+      "hot": "热",
+      "content": "【金十数据整理：中东局势跟踪（6月6日）】<br/><b>①伊朗</b><br/><span class=\"section-news\">1. 伊朗否认已同意将部分浓缩铀转移至第三国。</span><br/><span class=\"section-news\">2. 伊朗媒体：伊朗将两艘美军驱逐舰驱离阿曼湾。</span><br/><b>②美国</b><br/><span class=\"section-news\">1. 美军否认伊朗向美军舰进行警告射击。</span><br/><span class=\"section-news\">2. 美国中央司令部：如果伊朗攻击美国船只，将违反停火协议。</span><br/><span class=\"section-news\">3. 美国中央司令部：已在霍尔木兹海峡重新引导了129艘商船，并使6艘船只丧失航行能力。</span><br/><span class=\"section-news\">4. 报道称美国拟在IAEA会议上推动谴责伊朗的决议。</span><br/><span class=\"section-news\">5. 美国财政部发布新的与伊朗相关制裁。</span><br/><span class=\"section-news\">6. 美国总统特朗普：伊朗保有21%至22%的导弹。</span><br/><span class=\"section-news\">7. 据福克斯新闻：美国能源部长赖特称，在伊朗冲突结束后，美国将向战略石油储备补充4000万桶原油。</span><br/><b>③以色列</b><br/><span class=\"section-news\">1. 以军空袭黎巴嫩南部致至少13人死亡。</span><br/><span class=\"section-news\">2. 以色列密建中东秘密基地网，阿塞拜疆成监视伊朗重要制高点。</span><br/><span class=\"section-news\">3. 以军称打死黎真主党工程部队负责人。</span><br/><b>④霍尔木兹海峡</b><br/><span class=\"section-news\">1. 伊朗最高领袖顾问重申：伊朗和阿曼对霍尔木兹海峡拥有主权。</span><br/><span class=\"section-news\">2. 市场消息：伊拉克国家安全顾问称，关于伊拉克将支付霍尔木兹海峡过境费的说法完全是虚假且毫无根据的。</span><br/><b>⑤停火谈判</b><br/><span class=\"section-news\">1. 据CNN：美国与伊朗潜在的协议取决于美国是否同意释放240亿美元被冻结的伊朗资产。</span><br/><span class=\"section-news\">2. 据CNN：伊朗最高领袖顾问否认穆杰塔巴与特朗普会晤的可能性。</span><br/><span class=\"section-news\">3. 据Axios：美国总统特使威特科夫和库什纳于周四前往田纳西州的国家实验室，与核专家团队举行会议，该团队可能在与伊朗的核谈判中发挥作用。</span><br/><span class=\"section-news\">4. 据AXIOS：消息人士称，特朗普在铀浓缩处理时间及冻结资金问题上与伊朗存在分歧。</span><br/><b>⑥其他情况</b><br/><span class=\"section-news\">1. 阿曼港口因遇袭而短暂中断运营。</span><br/><span class=\"section-news\">2. 哈马斯代表团抵达埃及，与斡旋方讨论落实加沙停火。</span><br/><span class=\"section-news\">3. 真主党：于2026年6月5日星期五15时25分，使用炮弹打击了位于希基夫古堡附近集结的以色列军队士兵。</span><br/><span class=\"section-news\">4. 据阿拉伯消息人士称，伊拉克政府向美国否认曾为油轮通过霍尔木兹海峡向伊朗支付任何费用。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-06-06T00:50:23.492Z"
+    },
+    {
       "id": "20260606060734761800",
       "time": "2026-06-06 06:07:34",
       "hot": "热",
@@ -4421,35 +4451,7 @@
         3
       ],
       "collectedAt": "2026-05-31T15:20:23.584Z"
-    },
-    {
-      "id": "20260531215927555800",
-      "time": "2026-05-31 21:59:27",
-      "hot": "热",
-      "content": "【伊朗议员：核问题不在谈判议程中 聚焦彻底结束战争】金十数据5月31日讯，据伊朗学生通讯社：伊朗国家安全与外交政策委员会成员科萨里表示，当前谈判的重点是彻底结束战争。核问题已被排除在谈判桌之外。谈判仍在进行中，但目前尚未达成最终协议。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-05-31T14:10:23.794Z"
-    },
-    {
-      "id": "20260531210955496800",
-      "time": "2026-05-31 21:09:55",
-      "hot": "热",
-      "content": "【下周重要事件与数据预告——美国非农、SpaceX路演、欧佩克+产量会议】<span class=\"section-news\">1. <b>周一：</b>①数据：中国5月RatingDog制造业PMI、英国5月Nationwide房价指数月率、美英法德和欧元区5月制造业PMI、欧元区4月失业率；②<b>财报：美团</b>；③新西兰证券交易所因英国王寿辰休市一日；④美联储理事鲍威尔在约翰·F·肯尼迪勇气奖颁奖典礼上发表得奖感言；⑤具身智能领域首个行业标准正式实施；⑥网络餐饮服务经营者相关监管新规正式实施；⑦<b>宇树科技科创板IPO上会</b>；⑧<b>英伟达GTC Taipei 2026大会开幕，黄仁勋发表主题演讲</b>；⑨华为nova 16系列及全场景新品发布会。 </span><br/><span class=\"section-news\">2. <b>周二：</b>①数据： 欧元区5月CPI初值、<b>美国4月JOLTs职位空缺</b>；②财报：老虎证券；③美联储官员卡什卡利和哈玛克发表讲话；④英国央行行长贝利出席上议院听证会；⑤韩媒举行高级别安全会谈；⑥<b>ComputeX大会</b>。 </span><br/><span class=\"section-news\">3. <b>周三：</b>①数据：<b>美国API和EIA原油库存</b>、中国5月RatingDog服务业PMI、美英法德和欧元区5月服务业PMI、<b>美国5月ADP就业人数</b>；②财报：博通、知乎；③日本央行行长植田和男发表讲话；④第十九届SNEC-上海光伏展举行；⑤韩国股市因地方选举日休市；⑥<b>美国财长贝森特向参议院委员会就财政预算作证词</b>；⑦日本政府向国会提交补充预算案。 </span><br/><span class=\"section-news\">4. <b>周四：</b>①数据：欧元区4月零售销售月率、<b>美国5月挑战者企业裁员人数、初请失业金人数和EIA天然气库存</b>；②<b>美联储公布经济状况褐皮书</b>；③国内成品油将开启新一轮调价窗口；④欧洲央行行长拉加德发表讲话；⑤英国央行行长贝利在投资协会会议上发表讲话；⑥<b>SpaceX最快6月4日启动IPO路演</b>。 </span><br/><span class=\"section-news\">5. <b>周五：</b>①数据：法国4月贸易帐、欧元区第一季度GDP年率修正值、加拿大5月就业人数、<b>美国5月季调后非农就业人口和失业率、美国5月平均每小时工资</b>；②<b>沙特阿美在每月5日左右公布官方原油售价</b>；③美联储官员戴利发表讲话；④国内航线燃油附加费下调。 </span><br/><span class=\"section-news\">6. <b>周六：</b>①美国至6月5日当周石油钻井总数；②CFTC公布周度持仓报告；③英国央行行长贝利发表讲话。 </span><br/><span class=\"section-news\">7. <b>周日：</b>①<b>中国5月外汇储备</b>；②<b>欧佩克与非欧佩克产油国部长级监督委员会举行会议</b>。   </span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-05-31T13:30:26.818Z"
     }
   ],
-  "lastUpdated": "2026-06-05T23:20:25.670Z"
+  "lastUpdated": "2026-06-06T00:50:24.741Z"
 }
