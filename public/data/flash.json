@@ -2,6 +2,38 @@
   "date": "2026/6/8",
   "items": [
     {
+      "id": "20260608143505307800",
+      "time": "2026-06-08 14:35:05",
+      "hot": "热",
+      "content": "【伊朗又一波导弹射向以色列】金十数据6月8日讯，当地时间今天（6月8日）上午，以色列军方证实，再度监测到从伊朗向以色列发射的一波导弹。以军称，相关防御系统已启动，以拦截来袭威胁。",
+      "source": "CCTV国际时讯",
+      "source_link": "https://m.weibo.cn/detail/5307543522904600",
+      "important": 0,
+      "channel": [
+        4,
+        5,
+        3,
+        1
+      ],
+      "collectedAt": "2026-06-08T07:00:35.765Z"
+    },
+    {
+      "id": "20260608144621634800",
+      "time": "2026-06-08 14:46:21",
+      "hot": "沸",
+      "content": "【伊拉克民兵武装称将参与针对以色列的军事行动】金十数据6月8日讯，当地时间8日，伊拉克民兵武装“伊斯兰抵抗组织”宣布将参与针对以色列的军事行动。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=11538365387401859894&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D11538365387401859894%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        4,
+        5,
+        3,
+        1
+      ],
+      "collectedAt": "2026-06-08T07:00:35.765Z"
+    },
+    {
       "id": "20260608143123180800",
       "time": "2026-06-08 14:31:23",
       "hot": "热",
@@ -4408,37 +4440,7 @@
         2
       ],
       "collectedAt": "2026-06-02T13:30:34.782Z"
-    },
-    {
-      "id": "20260602211252708800",
-      "time": "2026-06-02 21:12:52",
-      "hot": "热",
-      "content": "据伊朗媒体Fars News援引知情人士消息，伊朗与美国之间就初步谅解备忘录进行的信息交换已至少中断数日。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-06-02T13:20:29.127Z"
-    },
-    {
-      "id": "20260602205611606800",
-      "time": "2026-06-02 20:56:11",
-      "hot": "沸",
-      "content": "【伊媒：霍尔木兹海峡通行许可已开放申请】金十数据6月2日讯，伊朗媒体2日报道称，霍尔木兹海峡船舶通行许可申请系统已全面开放，全球船东和船长可在全天24小时任何时段提交通行申请。据报道，船方可通过管理机构设立的电子系统提交霍尔木兹海峡通航申请。审核通过后，船舶将获得通行许可。",
-      "source": "新华社",
-      "source_link": "https://h.xinhuaxmt.com/vh512/share/13132793?docid=13132793&newstype=1001&d=13526fa",
-      "important": 1,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-06-02T13:10:33.144Z"
     }
   ],
-  "lastUpdated": "2026-06-08T06:50:26.199Z"
+  "lastUpdated": "2026-06-08T07:00:37.362Z"
 }
