@@ -34,7 +34,7 @@
         "riskAmount": 1500,
         "riskPercent": "1.50"
       },
-      "lastCheckedPrice": 2.1
+      "lastCheckedPrice": 2.119
     },
     {
       "etfName": "科创50ETF",
@@ -85,8 +85,14 @@
       "source": "premarket",
       "id": "1780017130364",
       "createdAt": "2026-05-29T01:12:10.364Z",
-      "status": "waiting",
-      "entries": [],
+      "status": "active",
+      "entries": [
+        {
+          "price": 8.993,
+          "time": "2026-06-08T01:30:28.295Z",
+          "reason": "触发入场价格"
+        }
+      ],
       "exits": [],
       "validation": {
         "passed": true,
@@ -103,7 +109,9 @@
         "riskAmount": 1500,
         "riskPercent": "1.50"
       },
-      "lastCheckedPrice": 9.1
+      "lastCheckedPrice": 8.993,
+      "entryPrice": 8.993,
+      "entryTime": "2026-06-08T01:30:28.295Z"
     },
     {
       "etfName": "科创50ETF",
