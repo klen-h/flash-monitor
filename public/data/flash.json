@@ -2,6 +2,34 @@
   "date": "2026/6/8",
   "items": [
     {
+      "id": "20260608080257072800",
+      "time": "2026-06-08 08:02:57",
+      "hot": "爆",
+      "content": "韩国KOSPI指数盘初跌幅扩大至8.4%，三星与SK海力士均跌10%。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-06-08T00:10:23.185Z"
+    },
+    {
+      "id": "20260608080405370800",
+      "time": "2026-06-08 08:04:05",
+      "hot": "爆",
+      "content": "【韩国股指跌超8% 交易暂停20分钟】金十数据6月8日讯，韩国交易所因KOSPI指数下跌8%触发熔断机制，交易暂停20分钟。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-06-08T00:10:23.185Z"
+    },
+    {
       "id": "20260608070137821800",
       "time": "2026-06-08 07:01:37",
       "hot": "热",
@@ -4424,36 +4452,7 @@
         2
       ],
       "collectedAt": "2026-06-01T22:10:29.288Z"
-    },
-    {
-      "id": "20260602052321345800",
-      "time": "2026-06-02 05:23:21",
-      "hot": "热",
-      "content": "【金十数据整理：中东局势跟踪（6月2日）】<br/><b>①伊朗</b><br/><span class=\"section-news\">1. 伊朗革命卫队：打击美空军基地并“摧毁预定目标”。</span><br/><span class=\"section-news\">2. 伊朗外交部：美对以色列违反黎以停火协议负有直接责任。</span><br/><span class=\"section-news\">3. 伊朗革命卫队宣布采取报复行动，使用巡航导弹击中了属于美以势力的“萨里斯卡”（Sariska）号船只。</span><br/><b>②美国</b><br/><span class=\"section-news\">1. 美军：周末对伊朗无人机指挥点进行自卫性打击。</span><br/><span class=\"section-news\">2. 美军称拦截两枚伊朗向驻科威特美军基地发射的导弹。</span><br/><span class=\"section-news\">3. 据《今日以色列报》报道称，以色列扩大在黎巴嫩的军事行动是与美国协调进行的。</span><br/><b>③以色列</b><br/><span class=\"section-news\">1. 以色列国防部长：如果以色列北部没有平静，贝鲁特也不会有平静。</span><br/><span class=\"section-news\">2. 以色列总理内塔尼亚胡：位于贝鲁特的真主党总部不享有免遭打击的豁免权。</span><br/><span class=\"section-news\">3. 以军称拦截多枚黎巴嫩真主党发射的火箭弹。</span><br/><span class=\"section-news\">4. 消息人士称以色列应美国要求推迟空袭黎巴嫩贝鲁特。</span><br/><span class=\"section-news\">5. 内塔尼亚胡：今晚与特朗普总统通了电话，并告诉他，如果真主党不停止袭击我们的城市和公民，以色列将对贝鲁特的目标发动打击。我们的立场依然坚定不变。与此同时，以色列国防军将继续按计划在黎巴嫩南部开展行动。</span><br/><span class=\"section-news\">6. 据以色列时报：以色列边境社区梅图拉响起警报，疑似黎巴嫩真主党火箭弹袭击。</span><br/><b>④霍尔木兹海峡</b><br/><span class=\"section-news\">1. 伊朗副外长：只有伊朗和阿曼有权在霍尔木兹海峡“行使主权”。</span><br/><span class=\"section-news\">2. 伊朗称过去24小时有15艘船只经协调通过霍尔木兹海峡。</span><br/><span class=\"section-news\">3. 伊朗总统：将确保日本船只通过霍尔木兹海峡更加顺畅。</span><br/><span class=\"section-news\">4. 伊朗计划彻底封锁霍尔木兹海峡并启动曼德海峡“战线”。</span><br/><span class=\"section-news\">5. 美国中央司令部：截至6月1日，部队已指示121艘商船改道，并对5艘船只实施了停运措施，以确保相关行动的顺利进行。</span><br/><span class=\"section-news\">6. 据伊朗塔斯尼姆通讯社：已有超过300艘非伊朗籍船只提交信息，申请获取安全通过霍尔木兹海峡的通行许可，其中绝大多数为油轮。</span><br/><span class=\"section-news\">7. 伊朗决定暂停与美谈判并彻底封锁海峡。</span><br/><b>⑤停火谈判</b><br/><span class=\"section-news\">1. 伊朗暂停通过中间人同美国的对话。</span><br/><span class=\"section-news\">2. 伊朗外交部发言人：与美国谈判的一大难题在于对方立场频繁变化。</span><br/><span class=\"section-news\">3. 特朗普：伊朗确实想达成协议。</span><br/><span class=\"section-news\">4. 伊朗：美若再战，就是一条道走到黑。</span><br/><span class=\"section-news\">5. 伊朗方面称，美国提出的协议草案中并未涉及铀材料的“转移”或“处置”内容。</span><br/><span class=\"section-news\">6. 伊朗国家电视台：如果对黎巴嫩的攻击不停止，伊朗与美国之间停火协议破裂的可能性很高。</span><br/><span class=\"section-news\">7. 黎巴嫩议会议长：真主党已准备好和以色列达成停火协议。</span><br/><span class=\"section-news\">8. 特朗普：尚未收到伊朗关于暂停谈判的消息，将继续在霍尔木兹海峡维持封锁。</span><br/><span class=\"section-news\">9. 据沙特阿拉伯阿拉比亚电视台：巴基斯坦外交部表示，伊朗方面要求继续进行调解，以缓和当前局势并支持停火。</span><br/><span class=\"section-news\">10. 特朗普：以色列和黎真主党的所有交火行动将立即停止；与伊朗的谈判正“快速推进”。</span><br/><span class=\"section-news\">11. 黎巴嫩总统办公室：真主党已承诺停止打击以色列。</span><br/><b>⑥其他情况</b><br/><span class=\"section-news\">1. 据沙特阿拉伯阿拉比亚电视台：消息人士称，一艘悬挂巴拿马国旗的大型油轮在伊拉克领海作业期间发生爆炸。</span><br/><span class=\"section-news\">2. 阿曼海域疑似发现水雷 当局敦促船只保持警惕。</span><br/><span class=\"section-news\">3. 以军称打死1名黎真主党军事指挥官。</span><br/><span class=\"section-news\">4. 伊拉克安全官员：在伊拉克乌姆卡斯尔东南约40海里处，一艘货船发生第二次爆炸，导致起火；目前没有人员伤亡报告。初步评估显示，第二次爆炸是由于无人机袭击所致。</span><br/><span class=\"section-news\">5. 美国石油战储或降至1983年以来的最低水平。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-06-01T21:50:23.275Z"
-    },
-    {
-      "id": "20260602044259333800",
-      "time": "2026-06-02 04:42:59",
-      "hot": "热",
-      "content": "市场消息：Alphabet(GOOG.O)拟进行800亿美元的股权融资，伯克希尔·哈撒韦将向Alphabet投资100亿美元。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-06-01T21:00:36.144Z"
     }
   ],
-  "lastUpdated": "2026-06-08T00:02:39.016Z"
+  "lastUpdated": "2026-06-08T00:10:24.456Z"
 }
