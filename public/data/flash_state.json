@@ -1,5 +1,5 @@
 {
-  "lastId": "20260608093030068800",
+  "lastId": "20260608093929311800",
   "pushedClusters": [
     {
       "cluster": "原油能源",
@@ -16,9 +16,9 @@
       "cluster": "伊朗局势",
       "firstId": "20260506224557340800",
       "firstTime": "2026-05-06T17:17:35.708Z",
-      "lastUpdateId": "20260608093030068800",
-      "lastUpdateTime": "2026-06-08T01:40:23.741Z",
-      "pushCount": 41,
+      "lastUpdateId": "20260608093929311800",
+      "lastUpdateTime": "2026-06-08T01:52:55.928Z",
+      "pushCount": 42,
       "hotMax": "沸",
       "hadUrgent": true,
       "hasMilitary": true
@@ -49,8 +49,8 @@
       "cluster": "黄金贵金属",
       "firstId": "20260507160133372800",
       "firstTime": "2026-05-07T08:11:31.912Z",
-      "lastUpdateId": "20260607100117805800",
-      "lastUpdateTime": "2026-06-07T02:10:27.415Z",
+      "lastUpdateId": "20260608093149113800",
+      "lastUpdateTime": "2026-06-08T01:52:55.928Z",
       "pushCount": 2,
       "hotMax": "爆",
       "hadUrgent": true,
