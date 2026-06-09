@@ -2,6 +2,35 @@
   "date": "2026/6/10",
   "items": [
     {
+      "id": "20260610004203152800",
+      "time": "2026-06-10 00:42:03",
+      "hot": "热",
+      "content": "美股三大股指短线下挫，纳指跌幅扩大至3.5%。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-06-09T17:10:27.132Z"
+    },
+    {
+      "id": "20260610004854210800",
+      "time": "2026-06-10 00:48:54",
+      "hot": "热",
+      "content": "【以军总参谋长称袭击伊朗是为更大打击做准备】金十数据6月10日讯，以色列国防军总参谋长扎米尔9日说，此前对伊朗的袭击是为“更大规模、更有力的打击”做准备，同时以军将继续加大对黎巴嫩真主党的打击力度。扎米尔当天在以色列北部观摩一场演习时说，以军始终保持并将继续保持“随时恢复对伊朗作战”的战备状态，以军已对伊朗进行“迅速而有力的打击”，这是为“更大规模、更有力的”打击做准备。扎米尔说，以军正继续在黎巴嫩南部“前沿防线”一带展开军事行动，摧毁黎真主党武装人员的基础设施。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=2447626312514905955&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D2447626312514905955%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
+      "important": 0,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-06-09T17:10:27.132Z"
+    },
+    {
       "id": "20260610004004491800",
       "time": "2026-06-10 00:40:04",
       "hot": "爆",
@@ -4402,37 +4431,7 @@
         1
       ],
       "collectedAt": "2026-06-04T04:50:23.261Z"
-    },
-    {
-      "id": "20260604101006575800",
-      "time": "2026-06-04 10:10:06",
-      "hot": "热",
-      "content": "【今夏国家电网最大用电负荷将超13亿千瓦 同比增约6%】金十数据6月4日讯，今天从国家电网了解到，据测算，今夏国家电网经营区最大用电负荷将超过13亿千瓦，比去年同期增长约6%。为全力保障电网安全运行和电力可靠供应，国家电网加快保供能力建设，持续完善电力市场化交易，促进清洁能源高效利用，目前，168项迎峰度夏重点工程正在加快建设。",
-      "source": "央视新闻",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=2932394938118561622&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D2932394938118561622%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
-      "important": 1,
-      "channel": [
-        4,
-        5,
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-06-04T02:20:23.495Z"
-    },
-    {
-      "id": "20260604090058972800",
-      "time": "2026-06-04 09:00:58",
-      "hot": "热",
-      "content": "【金十数据整理：A股盘前市场要闻速递（2026-06-04）】<b>重要新闻</b><br/><span class=\"section-news\">1. 富时中国A50指数纳入兆易创新、澜起科技等个股。</span><br/><span class=\"section-news\">2. 长桥证券：6月12日起中国大陆境内交易服务将暂停股票等所有品种的新开仓、加仓交易 仅支持卖出、平仓操作。</span><br/><span class=\"section-news\">3. 外交部：关税战、贸易战不符合任何一方的利益。</span><br/><span class=\"section-news\">4. OECD报告称中国大规模补贴扭曲全球市场，外交部：中企的竞争力不是补出来的。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 比亚迪入局人形机器人。</span><br/><span class=\"section-news\">2. 京东方A：玻璃基封装载板试验线良率尚未达到量产水平。</span><br/><span class=\"section-news\">3. 裕太微：目前无面向数据中心的DSP电芯片产品。</span><br/><span class=\"section-news\">4. 东山精密：高端光模块产品订单充足 整体出货规模有望实现稳步增长。</span><br/><span class=\"section-news\">5. 银之杰澄清：公司“被立案调查”传闻不属实。</span><br/><span class=\"section-news\">6. 数据港：拟采购不超过8亿元的科学计算设备的算力服务。</span><br/><span class=\"section-news\">7. 湖南裕能：第三大股东宁德时代拟减持不超3%股份。</span><br/><span class=\"section-news\">8. 兖矿能源：拟164.15亿元收购控股股东旗下新能源集团及山能售电100%股权。</span><br/><span class=\"section-news\">9. 永冠新材：拟定增募资不超过9.27亿元，用于年产2000吨电子级玻璃纤维布建设等项目。</span><br/><span class=\"section-news\">10. 大全能源：拟投资60亿元建设智慧能源系统制造基地项目，从事包括固态变压器、固态电池等产品研发制造。</span><br/><span class=\"section-news\">11. 博威合金：关于下一代Rubin架构的液冷板，公司提供了铜金刚石、3D打印、微通道等多种方案。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-06-04T01:20:22.392Z"
     }
   ],
-  "lastUpdated": "2026-06-09T16:50:31.100Z"
+  "lastUpdated": "2026-06-09T17:10:28.521Z"
 }
