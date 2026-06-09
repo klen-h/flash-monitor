@@ -2,6 +2,51 @@
   "date": "2026/6/10",
   "items": [
     {
+      "id": "20260610055910259800",
+      "time": "2026-06-10 05:59:10",
+      "hot": "热",
+      "content": "【美国官员：此次对伊打击是警告 不会妨碍谈判】金十数据6月10日讯，据CNN报道，一名美国官员表示，美军新一轮打击旨在向伊朗发出警告信号，美方认为这些打击不会妨碍旨在结束战争的谈判。美国中央司令部在声明中将其描述为“对伊朗无端侵略行为的对等回应”。一位熟悉事件的消息人士称，一架伊朗无人机于此前击中了美军直升机。而一名美国官员表示，目前美方也尚不清楚该无人机是有意瞄准这架阿帕奇直升机，还是无意中将其击落。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-06-09T22:40:27.626Z"
+    },
+    {
+      "id": "20260610060319000800",
+      "time": "2026-06-10 06:03:19",
+      "hot": "热",
+      "content": "【美国官员：美军打击了霍尔木兹海峡周边伊朗防空和雷达系统】金十数据6月10日讯，当地时间6月9日获悉，据美国官员的消息，美军已对霍尔木兹海峡周边多套伊朗防空系统和雷达系统发动打击。稍早前，美国中央司令部表示，在总统特朗普指示下，美军于美国东部时间17时开始对伊朗发动“自卫性”打击，以回应前一天美军“阿帕奇”直升机被击落事件。",
+      "source": "央视",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=1110385762977568342&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D1110385762977568342%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 0,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-06-09T22:40:27.626Z"
+    },
+    {
+      "id": "20260610062107148800",
+      "time": "2026-06-10 06:21:07",
+      "hot": "热",
+      "content": "【消息称伊朗无人机飞越伊拉克领空 对美目标发动袭击】金十数据6月10日讯，当地时间10日凌晨，伊拉克民兵武装下属机构发布消息称，伊朗无人机飞越伊拉克领空，针对美方目标发动袭击。",
+      "source": "央视",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=474576707206649871&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D474576707206649871%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-06-09T22:40:27.626Z"
+    },
+    {
       "id": "20260610055427957800",
       "time": "2026-06-10 05:54:27",
       "hot": "热",
@@ -4377,53 +4422,7 @@
         1
       ],
       "collectedAt": "2026-06-04T11:30:31.478Z"
-    },
-    {
-      "id": "20260604191540995800",
-      "time": "2026-06-04 19:15:40",
-      "hot": "爆",
-      "content": "美国总统特朗普：美国正在进行最后谈判以结束伊朗战争。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-06-04T11:30:31.478Z"
-    },
-    {
-      "id": "20260604190546818800",
-      "time": "2026-06-04 19:05:46",
-      "hot": "爆",
-      "content": "SpaceX：已启动首次公开募股（IPO）路演，拟向公众发行555,555,555股A类普通股。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-06-04T11:20:26.599Z"
-    },
-    {
-      "id": "20260604185830128800",
-      "time": "2026-06-04 18:58:30",
-      "hot": "热",
-      "content": "【以军开始从黎南部德宾镇撤军】金十数据6月4日讯，黎巴嫩安全部门消息人士和当地目击者4日证实，以色列军队已开始从黎南部迈尔季欧云地区的德宾镇逐步撤出。",
-      "source": "新华社",
-      "source_link": "https://h.xinhuaxmt.com/vh512/share/13135740?docid=13135740&newstype=1001&d=13526fc",
-      "important": 1,
-      "channel": [
-        4,
-        5,
-        3,
-        1,
-        2
-      ],
-      "collectedAt": "2026-06-04T11:10:26.198Z"
     }
   ],
-  "lastUpdated": "2026-06-09T22:22:56.025Z"
+  "lastUpdated": "2026-06-09T22:40:28.694Z"
 }
