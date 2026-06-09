@@ -34,7 +34,7 @@
         "riskAmount": 1500,
         "riskPercent": "1.50"
       },
-      "lastCheckedPrice": 2.153
+      "lastCheckedPrice": 2.157
     },
     {
       "etfName": "科创50ETF",
@@ -109,7 +109,7 @@
         "riskAmount": 1500,
         "riskPercent": "1.50"
       },
-      "lastCheckedPrice": 9.022,
+      "lastCheckedPrice": 9.03,
       "entryPrice": 8.993,
       "entryTime": "2026-06-08T01:30:28.295Z"
     },
