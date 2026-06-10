@@ -34,7 +34,7 @@
         "riskAmount": 1500,
         "riskPercent": "1.50"
       },
-      "lastCheckedPrice": 2.2
+      "lastCheckedPrice": 2.145
     },
     {
       "etfName": "科创50ETF",
@@ -68,50 +68,6 @@
         "riskAmount": 1500,
         "riskPercent": "1.50"
       }
-    },
-    {
-      "etfName": "黄金ETF",
-      "direction": "long",
-      "trend": "neutral",
-      "support": "9",
-      "resistance": "9.3",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "9"
-      },
-      "stopLoss": "8.730",
-      "takeProfit": "9.3",
-      "reasoning": "| **黄金ETF**  | 9.000  | 9.300  | 现价附近做多   | D状态避险逻辑 + 伊朗事件催化，目标 GLB 溢价。 |",
-      "source": "premarket",
-      "id": "1780017130364",
-      "createdAt": "2026-05-29T01:12:10.364Z",
-      "status": "active",
-      "entries": [
-        {
-          "price": 8.993,
-          "time": "2026-06-08T01:30:28.295Z",
-          "reason": "触发入场价格"
-        }
-      ],
-      "exits": [],
-      "validation": {
-        "passed": true,
-        "warnings": [
-          "价格历史数据不足，无法进行技术分析"
-        ],
-        "reasons": []
-      },
-      "techScore": 90,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 5555,
-        "positionValue": 49995,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      },
-      "lastCheckedPrice": 9.005,
-      "entryPrice": 8.993,
-      "entryTime": "2026-06-08T01:30:28.295Z"
     },
     {
       "etfName": "科创50ETF",
@@ -181,6 +137,61 @@
     }
   ],
   "history": [
+    {
+      "etfName": "黄金ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "9",
+      "resistance": "9.3",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "9"
+      },
+      "stopLoss": "8.730",
+      "takeProfit": "9.3",
+      "reasoning": "| **黄金ETF**  | 9.000  | 9.300  | 现价附近做多   | D状态避险逻辑 + 伊朗事件催化，目标 GLB 溢价。 |",
+      "source": "premarket",
+      "id": "1780017130364",
+      "createdAt": "2026-05-29T01:12:10.364Z",
+      "status": "closed",
+      "entries": [
+        {
+          "price": 8.993,
+          "time": "2026-06-08T01:30:28.295Z",
+          "reason": "触发入场价格"
+        }
+      ],
+      "exits": [
+        {
+          "price": 8.7,
+          "time": "2026-06-10T01:15:23.624Z",
+          "reason": "触发止损"
+        }
+      ],
+      "validation": {
+        "passed": true,
+        "warnings": [
+          "价格历史数据不足，无法进行技术分析"
+        ],
+        "reasons": []
+      },
+      "techScore": 90,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 5555,
+        "positionValue": 49995,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      },
+      "lastCheckedPrice": 8.7,
+      "entryPrice": 8.993,
+      "entryTime": "2026-06-08T01:30:28.295Z",
+      "lastStatus": "closed",
+      "exitPrice": 8.7,
+      "exitTime": "2026-06-10T01:15:23.624Z",
+      "profit": -3.258089625264106,
+      "isWin": false
+    },
     {
       "etfName": "军工ETF",
       "direction": "long",
@@ -2735,9 +2746,9 @@
     ]
   },
   "performance": {
-    "total": 2,
+    "total": 3,
     "wins": 0,
-    "losses": 2,
+    "losses": 3,
     "winRate": "0.0"
   },
   "rejectedSignals": [
