@@ -2,6 +2,21 @@
   "date": "2026/6/11",
   "items": [
     {
+      "id": "20260611055843418800",
+      "time": "2026-06-11 05:58:43",
+      "hot": "热",
+      "content": "据伊朗迈赫尔通讯社：伊朗与美国军队在海上发生冲突。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-06-10T22:30:29.211Z"
+    },
+    {
       "id": "20260611054244484800",
       "time": "2026-06-11 05:42:44",
       "hot": "热",
@@ -4417,22 +4432,7 @@
         3
       ],
       "collectedAt": "2026-06-06T11:00:32.654Z"
-    },
-    {
-      "id": "20260606182007809800",
-      "time": "2026-06-06 18:20:07",
-      "hot": "热",
-      "content": "【知情人士：美国政府考虑入股人工智能企业】金十数据6月6日讯，据美国方面6月6日消息，三名知情人士透露，美国政府高级官员已与美国大型人工智能企业进行了初步讨论，探讨政府入股这些企业的可能性。知情人士表示，自美国总统特朗普第二个任期开始，美国开放人工智能研究中心首席执行官奥尔特曼就定期与政府高级官员讨论这一构想。奥尔特曼在2025年初首次向特朗普提出相关概念，并在最近几周再次与政府高级官员进行讨论，将其视为一种向公众更广泛地分配人工智能相关经济效益的方式。据悉，讨论的重点在于让这些企业“自愿将股份转让给政府”，投资回报随后可用于公共用途。不过，相关计划仍在筹备中，且具体细节尚未确定。",
-      "source": "央视新闻",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=6003211534534883843&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D6003211534534883843%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
-      "important": 1,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-06-06T11:00:32.654Z"
     }
   ],
-  "lastUpdated": "2026-06-10T22:00:36.745Z"
+  "lastUpdated": "2026-06-10T22:30:30.628Z"
 }
