@@ -2,6 +2,20 @@
   "date": "2026/6/10",
   "items": [
     {
+      "id": "20260610233750062800",
+      "time": "2026-06-10 23:37:50",
+      "hot": "热",
+      "content": "据The Information：OpenAI创始人奥尔特曼预计OpenAI将在明年内上市。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-06-10T15:50:28.407Z"
+    },
+    {
       "id": "20260610232653190800",
       "time": "2026-06-10 23:26:53",
       "hot": "热",
@@ -4422,22 +4436,7 @@
         2
       ],
       "collectedAt": "2026-06-06T00:50:23.492Z"
-    },
-    {
-      "id": "20260606083048602800",
-      "time": "2026-06-06 08:30:48",
-      "hot": "热",
-      "content": "【金十数据整理：中东局势跟踪（6月6日）】<br/><b>①伊朗</b><br/><span class=\"section-news\">1. 伊朗否认已同意将部分浓缩铀转移至第三国。</span><br/><span class=\"section-news\">2. 伊朗媒体：伊朗将两艘美军驱逐舰驱离阿曼湾。</span><br/><b>②美国</b><br/><span class=\"section-news\">1. 美军否认伊朗向美军舰进行警告射击。</span><br/><span class=\"section-news\">2. 美国中央司令部：如果伊朗攻击美国船只，将违反停火协议。</span><br/><span class=\"section-news\">3. 美国中央司令部：已在霍尔木兹海峡重新引导了129艘商船，并使6艘船只丧失航行能力。</span><br/><span class=\"section-news\">4. 报道称美国拟在IAEA会议上推动谴责伊朗的决议。</span><br/><span class=\"section-news\">5. 美国财政部发布新的与伊朗相关制裁。</span><br/><span class=\"section-news\">6. 美国总统特朗普：伊朗保有21%至22%的导弹。</span><br/><span class=\"section-news\">7. 据福克斯新闻：美国能源部长赖特称，在伊朗冲突结束后，美国将向战略石油储备补充4000万桶原油。</span><br/><b>③以色列</b><br/><span class=\"section-news\">1. 以军空袭黎巴嫩南部致至少13人死亡。</span><br/><span class=\"section-news\">2. 以色列密建中东秘密基地网，阿塞拜疆成监视伊朗重要制高点。</span><br/><span class=\"section-news\">3. 以军称打死黎真主党工程部队负责人。</span><br/><b>④霍尔木兹海峡</b><br/><span class=\"section-news\">1. 伊朗最高领袖顾问重申：伊朗和阿曼对霍尔木兹海峡拥有主权。</span><br/><span class=\"section-news\">2. 市场消息：伊拉克国家安全顾问称，关于伊拉克将支付霍尔木兹海峡过境费的说法完全是虚假且毫无根据的。</span><br/><b>⑤停火谈判</b><br/><span class=\"section-news\">1. 据CNN：美国与伊朗潜在的协议取决于美国是否同意释放240亿美元被冻结的伊朗资产。</span><br/><span class=\"section-news\">2. 据CNN：伊朗最高领袖顾问否认穆杰塔巴与特朗普会晤的可能性。</span><br/><span class=\"section-news\">3. 据Axios：美国总统特使威特科夫和库什纳于周四前往田纳西州的国家实验室，与核专家团队举行会议，该团队可能在与伊朗的核谈判中发挥作用。</span><br/><span class=\"section-news\">4. 据AXIOS：消息人士称，特朗普在铀浓缩处理时间及冻结资金问题上与伊朗存在分歧。</span><br/><b>⑥其他情况</b><br/><span class=\"section-news\">1. 阿曼港口因遇袭而短暂中断运营。</span><br/><span class=\"section-news\">2. 哈马斯代表团抵达埃及，与斡旋方讨论落实加沙停火。</span><br/><span class=\"section-news\">3. 真主党：于2026年6月5日星期五15时25分，使用炮弹打击了位于希基夫古堡附近集结的以色列军队士兵。</span><br/><span class=\"section-news\">4. 据阿拉伯消息人士称，伊拉克政府向美国否认曾为油轮通过霍尔木兹海峡向伊朗支付任何费用。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-06-06T00:50:23.492Z"
     }
   ],
-  "lastUpdated": "2026-06-10T15:40:31.821Z"
+  "lastUpdated": "2026-06-10T15:50:29.866Z"
 }
