@@ -2,6 +2,21 @@
   "date": "2026/6/12",
   "items": [
     {
+      "id": "20260612023259183800",
+      "time": "2026-06-12 02:32:59",
+      "hot": "热",
+      "content": "【以官员：以方未收到关于美伊协议已最终敲定的任何通知】金十数据6月12日讯，据以色列方面当地时间11日消息，一名以色列高级官员称，以色列方面未收到关于美伊协议已经最终敲定的任何通知。这一表态与美国总统特朗普稍早前发布的声明截然相反。当天早些时候，特朗普在其社交平台“真实社交”上发文称，与伊朗的相关讨论及最终条款已获得包括以色列在内的各相关方的批准。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=2461042223249463353&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D2461042223249463353%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-06-11T18:50:28.984Z"
+    },
+    {
       "id": "20260612022449053800",
       "time": "2026-06-12 02:24:49",
       "hot": "沸",
@@ -4438,23 +4453,7 @@
         2
       ],
       "collectedAt": "2026-06-08T09:20:26.292Z"
-    },
-    {
-      "id": "20260608162805734800",
-      "time": "2026-06-08 16:28:05",
-      "hot": "热",
-      "content": "【微信发布关于开发者接入微信AI生态的指引】金十数据6月8日讯，为给用户提供更智能的交互体验，微信开放平台在充分尊重开发者权益和自主选择的基础上，面向开发者提供了便捷接入微信AI生态的能力。开发者需在“小程序管理后台-AI能力”主动授权接入微信AI。同时平台提供了两种选项，以满足不同规模团队的开发需求：自动模式：授权平台提审时读取小程序源码，无需投入额外开发。同时，平台将分析你的小程序页面，让微信AI能直接操作。开发模式：开发者可基于小程序业务特性，自主个性化开发。通过平台评测与审核后，可被微信Al调用。两种模式不互斥，可同时开启。",
-      "source": "微信公开课",
-      "source_link": "https://mp.weixin.qq.com/s/bmHbK5kdwibnhn_rCXPlyg",
-      "important": 1,
-      "channel": [
-        5,
-        4,
-        1,
-        3
-      ],
-      "collectedAt": "2026-06-08T08:50:25.318Z"
     }
   ],
-  "lastUpdated": "2026-06-11T18:40:31.071Z"
+  "lastUpdated": "2026-06-11T18:50:30.227Z"
 }
