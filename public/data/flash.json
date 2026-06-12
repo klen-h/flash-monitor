@@ -2,6 +2,33 @@
   "date": "2026/6/12",
   "items": [
     {
+      "id": "20260612085418922800",
+      "time": "2026-06-12 08:54:18",
+      "hot": "热",
+      "content": "【韩美半导体将斥资500亿韩元购买SpaceX股份】金十数据6月12日讯，据公司6月12日声明，韩美半导体将斥资500亿韩元（约合3290万美元）购买SpaceX股份。这项投资是一项提前布局的战略举措，其驱动力是SpaceX的增长和Terafab项目。",
+      "source": "",
+      "source_link": "",
+      "important": 0,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-06-12T01:20:24.970Z"
+    },
+    {
+      "id": "20260612090708656800",
+      "time": "2026-06-12 09:07:08",
+      "hot": "热",
+      "content": "【金十数据整理：A股盘前市场要闻速递（2026-06-12）】<b>重要新闻</b><br/><span class=\"section-news\">1. 两部门约谈提醒涉嫌非理性竞争汽车生产企业。</span><br/><span class=\"section-news\">2. 消息人士称《晶体硅光伏组件和逆变器能效限定值及能效等级》预计不久后将正式发布。</span><br/><span class=\"section-news\">3. 国家数据局：深入推进数据要素市场化配置改革，进一步释放数据要素价值。</span><br/><span class=\"section-news\">4. 我国成功发射通信技术试验卫星二十五号。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 贵州茅台董事长陈华：公司暂无拆股计划。</span><br/><span class=\"section-news\">2. 六氟化钨概念火爆，多家上市公司回应相关问题。</span><br/><span class=\"section-news\">3. 埃夫特：决定对旗下喷涂机器人全系列产品等实施价格调整，整体价格上调5%—8%。</span><br/><span class=\"section-news\">4. 芯联集成：拟设立合资公司实施芯联12英寸车规级数模混合芯片制造项目，项目计划总投资约200亿元。</span><br/><span class=\"section-news\">5. 京东方A回应被美国国防部列入中国军事企业清单：列入该名单并无正当理由，目前公司生产经营情况正常。</span><br/><span class=\"section-news\">6. 2连板雅克科技：目前没有六氟化钨相关业务。</span><br/><span class=\"section-news\">7. 三安光电：控股股东三安电子被申请破产重整。</span><br/><span class=\"section-news\">8. 鼎龙股份：ArF与KrF光刻胶产品获近千加仑新增订单，其是逻辑、存储芯片制造的核心刚需耗材。</span><br/><span class=\"section-news\">9. 银河微电：筹划购买功率半导体公司恒泰柯100%股权，股票12日停牌。</span><br/><span class=\"section-news\">10. 2连板昊华科技：2025年度公司六氟化钨产品收入占公司2025年度营业收入的比重为0.13%。</span><br/><span class=\"section-news\">11. 同宇新材：公司相关产品与媒体报道的PPE产品无直接业务关联。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-06-12T01:20:24.970Z"
+    },
+    {
       "id": "20260612082336001800",
       "time": "2026-06-12 08:23:36",
       "hot": "热",
@@ -4419,37 +4446,7 @@
         3
       ],
       "collectedAt": "2026-06-08T15:30:38.506Z"
-    },
-    {
-      "id": "20260608231837952800",
-      "time": "2026-06-08 23:18:37",
-      "hot": "热",
-      "content": "以色列总理内塔尼亚胡：我们对黎巴嫩真主党的军事行动尚未结束。如果伊朗再犯错，我们将以压倒性力量作出回应。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-06-08T15:30:38.506Z"
-    },
-    {
-      "id": "20260608225449927800",
-      "time": "2026-06-08 22:54:49",
-      "hot": "热",
-      "content": "花旗将3个月内黄金目标价下调至4000美元/盎司，之前为4300美元/盎司。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-06-08T15:10:29.254Z"
     }
   ],
-  "lastUpdated": "2026-06-12T00:40:25.690Z"
+  "lastUpdated": "2026-06-12T01:20:26.138Z"
 }
