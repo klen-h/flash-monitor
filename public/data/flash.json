@@ -2,6 +2,33 @@
   "date": "2026/6/12",
   "items": [
     {
+      "id": "20260612211904759800",
+      "time": "2026-06-12 21:19:04",
+      "hot": "热",
+      "content": "【金十数据整理：每日美股市场要闻速递（2026-06-12）】<b>重要新闻</b><br/><span class=\"section-news\">1. SpaceX IPO将于东部时间上午9:50（北京时间21:50）开始报价，正式交易前衍生品价格暗示首日或上涨30%至50%。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 土耳其竞争委员会6月12日宣布，针对奈飞(NFLX.O)、迪士尼(DIS.N)、亚马逊(AMZN.O)、BluTV、Exxen和Gain六家流媒体巨头涉嫌垄断一案，各方已达成和解并正式结案。</span><br/><span class=\"section-news\">2. AMD(AMD.O)苏姿丰重申AI局限性：技术无法替代人类判断与责任。</span><br/><span class=\"section-news\">3. Sharon AI(SHAZ.O)宣布与英伟达(NVDA.O)达成六年战略算力合作。</span><br/><span class=\"section-news\">4. IBM(IBM.N)与ServiceNow扩大合作协议，以释放企业数据用于AI。</span><br/><span class=\"section-news\">5. Meta Platforms(META.O)：将向美国每一位盲人退伍军人捐赠雷朋Meta智能眼镜。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-06-12T13:40:25.477Z"
+    },
+    {
+      "id": "20260612213035691800",
+      "time": "2026-06-12 21:30:35",
+      "hot": "热",
+      "content": "美股开盘，道指涨0.59%，标普500指数涨0.2%，纳指接近平盘。SpaceX(SPCX.O)今日挂牌，Rocket Lab(RKLB.O)涨1.5%，维珍银河(SPCE.N)跌14%。大型科技股开盘较为平稳。Sharon AI(SHAZ.O)跌3.9%，公司与英伟达(NVDA.O)签署六年算力合作协议。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-06-12T13:40:25.477Z"
+    },
+    {
       "id": "20260612205319242800",
       "time": "2026-06-12 20:53:19",
       "hot": "热",
@@ -4437,36 +4464,7 @@
         3
       ],
       "collectedAt": "2026-06-09T15:10:30.822Z"
-    },
-    {
-      "id": "20260609224122286800",
-      "time": "2026-06-09 22:41:22",
-      "hot": "热",
-      "content": "【美能源部长：通过霍尔木兹海峡的船舶流量正“显著增加”】金十数据6月9日讯，美国能源部长赖特周二表示，随着与伊朗的冲突持续，穿越霍尔木兹海峡的船舶流量正“显著增加”。他在大西洋理事会的一次会议上发表了上述言论，他还补充说，战争结束后，能源供应要恢复到正常水平还需要数月时间。",
-      "source": "",
-      "source_link": "",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-06-09T15:10:30.822Z"
-    },
-    {
-      "id": "20260609224405250800",
-      "time": "2026-06-09 22:44:05",
-      "hot": "沸",
-      "content": "现货黄金向下触及4300美元/盎司，日内跌0.69%。现货白银跌3.5%。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2
-      ],
-      "collectedAt": "2026-06-09T15:10:30.822Z"
     }
   ],
-  "lastUpdated": "2026-06-12T13:20:27.078Z"
+  "lastUpdated": "2026-06-12T13:40:26.956Z"
 }
