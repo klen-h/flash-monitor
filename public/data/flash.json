@@ -2,6 +2,21 @@
   "date": "2026/6/13",
   "items": [
     {
+      "id": "20260613133209546800",
+      "time": "2026-06-13 13:32:09",
+      "hot": "热",
+      "content": "【南极半岛出现超过正常水平20多摄氏度异常高温】金十数据6月13日讯，阿根廷观测数据显示，南极半岛6月初已出现15.4摄氏度的异常气温，比正常水平高出20多摄氏度，创下历史同期新高，冰层也出现异常融化。阿根廷埃斯佩兰萨南极科考站的6日观测数据显示，南极半岛当日气温达到15.4摄氏度，超过历史上6月的单日最高气温纪录，即1998年录得的13.3摄氏度。阿根廷国家气象局专家何塞·路易斯·斯特拉11日在接受采访时表示，虽然今年6月初距南极半岛较近的阿根廷各地气温普遍偏高，但南极半岛的气温“比正常水平高出20多摄氏度，这是不寻常的现象”。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=5346940230774497002&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D5346940230774497002%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 0,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-06-13T06:20:30.514Z"
+    },
+    {
       "id": "20260613131547818800",
       "time": "2026-06-13 13:15:47",
       "hot": "热",
@@ -4444,21 +4459,7 @@
         3
       ],
       "collectedAt": "2026-06-10T05:10:24.531Z"
-    },
-    {
-      "id": "20260610122210723800",
-      "time": "2026-06-10 12:22:10",
-      "hot": "沸",
-      "content": "韩国交易所启动熔断机制，暂停KOSPI程序化交易。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-06-10T04:30:28.214Z"
     }
   ],
-  "lastUpdated": "2026-06-13T06:00:36.146Z"
+  "lastUpdated": "2026-06-13T06:20:31.888Z"
 }
