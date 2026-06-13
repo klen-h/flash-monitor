@@ -2,6 +2,33 @@
   "date": "2026/6/13",
   "items": [
     {
+      "id": "20260613083435064800",
+      "time": "2026-06-13 08:34:35",
+      "hot": "热",
+      "content": "【金十数据整理：昨日今晨重要新闻汇总（2026-06-13）】<b>国内新闻：</b><br/><span class=\"section-news\">1. 多家险资机构获批参与债券通“南向通”。</span><br/><span class=\"section-news\">2. 证监会同意长鑫科技科创板IPO注册申请。</span><br/><span class=\"section-news\">3. 中国人民银行就《大额存单管理办法》公开征求意见。</span><br/><span class=\"section-news\">4. 周小全：将出台实施《充分发挥直接融资功能 进一步加强科技金融服务的若干措施》。</span><br/><span class=\"section-news\">5. 2026陆家嘴论坛6月17日至18日召开，将举办一系列重大项目签约和政策发布活动。</span><br/><span class=\"section-news\">6. 广州：拟支持香港赛马会从化马场、广州国际赛马发展中心建设，支持开展常规赛事计划。</span><br/><span class=\"section-news\">7. 央行发布2026年5月金融统计数据报告：M2持平M1上升，前5个月社融规模增量达17.48万亿。</span><br/><span class=\"section-news\">8. 市场监管总局发布《广告引证内容执法指南》：对广告中使用“最高级”“最佳”等用语的豁免情形做出规定。</span><br/><span class=\"section-news\">9. 中国人民银行：6月15日，中国人民银行将以固定数量、利率招标、多重价位中标方式开展6000亿元买断式逆回购操作。</span><br/><span class=\"section-news\">10. 中基协发布《公开募集证券投资基金主题投资风格管理指引》：规定基金管理人每个自然年度的主动更新风格库次数不高于十二次。</span><br/><b>国际新闻：</b><br/><span class=\"section-news\">1. 消息人士透露，SK海力士寻求在纳斯达克上市。</span><br/><span class=\"section-news\">2. 据华尔街日报：美国多州总检察长联合对OpenAI展开调查。</span><br/><span class=\"section-news\">3. SpaceX正式开盘定价150美元。马斯克跃升全球首位万亿富翁。</span><br/><span class=\"section-news\">4. 美国能源部长赖特：每天有700万桶石油离开波斯湾。如果达成协议，对伊朗的制裁可能会部分解除。</span><br/><span class=\"section-news\">5. 中东局势——<br/>①伊媒公布伊美谅解备忘录新细节，称仍需相关部门最终确认。特朗普称，伊朗泄露给假新闻的条款与书面达成的条款毫无关系。<br/>②据阿拉伯电视台：伊朗要求在一个欧洲国家与美国签署协议，以赋予该协议国际性。<br/>③G7官员：美国与伊朗的谅解备忘录可能最早于周日签署，地点在日内瓦；伊朗随后否认该消息。<br/>④伊媒：根据与美国的谅解备忘录，伊朗对霍尔木兹海峡管理权的转让没有作出任何承诺。当前备忘录中未就核问题达成任何协议。核谈判将在协议签署后60天内进行。<br/>⑤据CNN援引消息人士称，以色列正施压阻止在停火协议中解冻伊朗资产的部分。<br/>⑥伊朗外长：伊美从未如此接近达成谅解备忘录，伊美谅解备忘录可能在几天内签署。<br/>⑦美国官员：美伊接近达成协议，将在未来几天签署。根据协议，美方将取得伊朗浓缩核材料。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-06-13T01:00:40.295Z"
+    },
+    {
+      "id": "20260613085422876800",
+      "time": "2026-06-13 08:54:22",
+      "hot": "爆",
+      "content": "Anthropic：美国政府发布出口管制指令，暂停所有外国国籍人士对人工智能模型FABLE 5和Mythos 5的访问。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-06-13T01:00:40.295Z"
+    },
+    {
       "id": "20260613041905027800",
       "time": "2026-06-13 04:19:05",
       "hot": "热",
@@ -4428,35 +4455,7 @@
         2
       ],
       "collectedAt": "2026-06-10T01:50:24.269Z"
-    },
-    {
-      "id": "20260610090503006800",
-      "time": "2026-06-10 09:05:03",
-      "hot": "沸",
-      "content": "【金十数据整理：A股盘前市场要闻速递（2026-06-10）】<b>重要新闻</b><br/><span class=\"section-news\">1. 美军对伊朗发动“自卫性”打击。</span><br/><span class=\"section-news\">2. 我国在全球LNG船市场占有率突破30%，国产LNG船订单排到2030年后。</span><br/><span class=\"section-news\">3. 美方将阿里巴巴、比亚迪等列入“涉军”清单，外交部：敦促美方停止无理打压中企。</span><br/><span class=\"section-news\">4. 美方请求中方恢复对日稀土出口，外交部回应。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 佰维存储：公司与某存储原厂签订合同，总承诺采购金额为18.61亿美元。</span><br/><span class=\"section-news\">2. 比亚迪：被列入中国军工企业名单不会影响本集团正常开展业务。</span><br/><span class=\"section-news\">3. 上交所向宿迁联盛下发问询函，要求说明在10个月内建成年产12万片4-6英寸磷化铟衬底产线是否具备可行性。</span><br/><span class=\"section-news\">4. 菲利华：拟设立合资公司投资建设光纤配套用高纯精密石英材料项目。</span><br/><span class=\"section-news\">5. 京东方A：钙钛矿中试线全线贯通，计划下半年开展极致条件实证测试。</span><br/><span class=\"section-news\">6. 澜起科技成功送样9200 MT/s DDR5 RCD芯片。</span><br/><span class=\"section-news\">7. 中贝通信：中标7.4亿元智能算力枢纽中心项目。</span><br/><span class=\"section-news\">8. 中船特气：47L钢瓶6N级六氟化钨市场实时报价约为2000-2500元/kg。</span><br/><span class=\"section-news\">9. 宏和科技：第二和第三大股东拟合计减持不超3%公司股份。</span><br/><span class=\"section-news\">10. 中化国际：高模型对位芳纶产品已实现光纤光缆领域全球TOP5客户稳定供货。</span><br/><span class=\"section-news\">11. 南新制药：2023年年报虚增利润总额1195.22万元，6月11日起股票简称变更为“ST南新”。</span><br/><span class=\"section-news\">12. 圣泉集团：PPE树脂与电子级PPO树脂分属不同产品体系，公司先进电子材料产品价格稳定不存在大幅涨价的情况。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-06-10T01:20:25.197Z"
-    },
-    {
-      "id": "20260610085053619800",
-      "time": "2026-06-10 08:50:53",
-      "hot": "热",
-      "content": "伊朗革命卫队：冲突仍在持续，如果美国继续敌对行动，将作出“更严厉的回应”。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-06-10T01:10:23.477Z"
     }
   ],
-  "lastUpdated": "2026-06-12T22:10:33.986Z"
+  "lastUpdated": "2026-06-13T01:00:41.862Z"
 }
