@@ -2,6 +2,23 @@
   "date": "2026/6/15",
   "items": [
     {
+      "id": "20260615194059187800",
+      "time": "2026-06-15 19:40:59",
+      "hot": "沸",
+      "content": "【伊朗方面称霍尔木兹海峡进出通道仍保持关闭】金十数据6月15日讯，当地时间15日自伊朗方面获悉，在过去超过96小时内，伊朗伊斯兰革命卫队海军尚未签发任何通行许可。在另行通知之前，霍尔木兹海峡的进出通道对所有船只关闭。此前，据国际航运信息平台“海上交通网站”显示的船舶追踪数据，液化天然气运输船“迪沙”号15日通过霍尔木兹海峡进入阿曼湾。截至目前，“迪沙”号也是15日唯一一艘通过霍尔木兹海峡的大型能源运输船。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=455434006463250134&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D455434006463250134%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        4,
+        5,
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-06-15T11:50:28.233Z"
+    },
+    {
       "id": "20260615183609676800",
       "time": "2026-06-15 18:36:09",
       "hot": "热",
@@ -4459,22 +4476,7 @@
         2
       ],
       "collectedAt": "2026-06-11T13:30:35.002Z"
-    },
-    {
-      "id": "20260611205106814800",
-      "time": "2026-06-11 20:51:06",
-      "hot": "热",
-      "content": "美国总统特朗普：（关于伊朗）他们正在与我们谈判以达成协议，但他们很骄傲。",
-      "source": "",
-      "source_link": "",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-06-11T13:10:26.503Z"
     }
   ],
-  "lastUpdated": "2026-06-15T11:00:43.535Z"
+  "lastUpdated": "2026-06-15T11:50:29.606Z"
 }
