@@ -2,6 +2,20 @@
   "date": "2026/6/16",
   "items": [
     {
+      "id": "20260616063011364800",
+      "time": "2026-06-16 06:30:11",
+      "hot": "热",
+      "content": "【金十数据整理：昨日今晨重要新闻汇总（2026-06-16）】<b>国内新闻：</b><br/><span class=\"section-news\">1. 针对多发食品安全问题，市场监管总局约谈山姆总部。</span><br/><span class=\"section-news\">2. 发改委等部门发布开展重点行业节能降碳改造攻坚三年行动的通知。</span><br/><span class=\"section-news\">3. 外汇局：5月外资企业分红派息支出季节性增加，外资总体净买入境内股票和债券。</span><br/><span class=\"section-news\">4. 我国攻克硅基量子芯片关键材料，首次成功实现丰度超过99.99%的硅-28同位素自主量产。</span><br/><b>国际新闻：</b><br/><span class=\"section-news\">1. 美国战略石油储备降至43年来低位。</span><br/><span class=\"section-news\">2. 特朗普抵达欧洲参加七国集团峰会。</span><br/><span class=\"section-news\">3. 纳指大涨3%，SpaceX市值超2.5万亿美元。</span><br/><span class=\"section-news\">4. 美军一架B-52战略轰炸机在加州坠毁。</span><br/><span class=\"section-news\">5. 加州州长纽森称，特朗普已指示司法部对其进行调查。</span><br/><span class=\"section-news\">6. 承销商行使“绿鞋”超额配售权，SpaceX IPO融资总额升至857亿美元。</span><br/><span class=\"section-news\">7. 新加坡副总理：新加坡交易所将建立场外黄金清算系统，10月前推出央行金库托管服务。</span><br/><span class=\"section-news\">8. 中东局势—<br/>①特朗普：将允许伊朗进行低水平铀浓缩。可能会也可能不会参加19日的协议签署。海峡将于周五完全开放。重要的是油价大幅下跌而股市正在上涨。<br/>②伊朗：将对霍尔木兹海峡相关航运服务收费。<br/>③伊朗方面称霍尔木兹海峡进出通道仍保持关闭。<br/>④伊朗总统：伊朗与美国将于19日签署谅解备忘录。<br/>⑤据法新社：美国和伊朗将在签署协议前于多哈举行筹备性会谈。<br/>⑥内塔尼亚胡称以色列不受涉黎条款约束，以防长称已告知特朗普绝不撤军。<br/>⑦美国官员：谅解备忘录包含一项潜在价值3000亿美元的伊朗重建基金，详情将于24至48小时内公布。<br/>⑧伊媒：美国已开始解除海上封锁，多艘伊朗船只顺利通过美方海上封锁区。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-06-15T23:00:37.391Z"
+    },
+    {
       "id": "20260616060407954800",
       "time": "2026-06-16 06:04:07",
       "hot": "热",
@@ -4464,22 +4478,7 @@
         3
       ],
       "collectedAt": "2026-06-11T19:00:40.632Z"
-    },
-    {
-      "id": "20260612023259183800",
-      "time": "2026-06-12 02:32:59",
-      "hot": "热",
-      "content": "【以官员：以方未收到关于美伊协议已最终敲定的任何通知】金十数据6月12日讯，据以色列方面当地时间11日消息，一名以色列高级官员称，以色列方面未收到关于美伊协议已经最终敲定的任何通知。这一表态与美国总统特朗普稍早前发布的声明截然相反。当天早些时候，特朗普在其社交平台“真实社交”上发文称，与伊朗的相关讨论及最终条款已获得包括以色列在内的各相关方的批准。",
-      "source": "央视新闻",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=2461042223249463353&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D2461042223249463353%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
-      "important": 1,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-06-11T18:50:28.984Z"
     }
   ],
-  "lastUpdated": "2026-06-15T22:50:35.642Z"
+  "lastUpdated": "2026-06-15T23:00:38.547Z"
 }
