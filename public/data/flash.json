@@ -2,6 +2,22 @@
   "date": "2026/6/16",
   "items": [
     {
+      "id": "20260616163722339800",
+      "time": "2026-06-16 16:37:22",
+      "hot": "热",
+      "content": "【支撑人工智能等高质量发展 算力网开启万亿级投资周期】金十数据6月16日讯，当前，人工智能的爆发式增长对算力的需求正呈现出指数级攀升。算力是国家综合国力的重要体现，我国算力总规模已跃居全球第二。国家数据局数字科技和基础设施建设司副司长李建国表示，近期随着超算互联网、国产智算集群等的接入，有力推动整个算力产业形成自主发展、良性循环的生态；下一步，我们将激发全社会算力需求“入网”，鼓励更多调度服务主体“入驻”，切实发挥平台作用，推动算力真正赋能千行百业。包括信息设备和土木建筑工程等在内，算力网直接投资将达到万亿量级。算电协同，也就是算力和电力协同布局，将成为新的投资增长极。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=18379506711416140911&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D18379506711416140911%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        4,
+        5,
+        1,
+        2
+      ],
+      "collectedAt": "2026-06-16T09:10:36.667Z"
+    },
+    {
       "id": "20260616160821307800",
       "time": "2026-06-16 16:08:21",
       "hot": "热",
@@ -4466,20 +4482,7 @@
         3
       ],
       "collectedAt": "2026-06-12T01:20:24.970Z"
-    },
-    {
-      "id": "20260612090708656800",
-      "time": "2026-06-12 09:07:08",
-      "hot": "热",
-      "content": "【金十数据整理：A股盘前市场要闻速递（2026-06-12）】<b>重要新闻</b><br/><span class=\"section-news\">1. 两部门约谈提醒涉嫌非理性竞争汽车生产企业。</span><br/><span class=\"section-news\">2. 消息人士称《晶体硅光伏组件和逆变器能效限定值及能效等级》预计不久后将正式发布。</span><br/><span class=\"section-news\">3. 国家数据局：深入推进数据要素市场化配置改革，进一步释放数据要素价值。</span><br/><span class=\"section-news\">4. 我国成功发射通信技术试验卫星二十五号。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 贵州茅台董事长陈华：公司暂无拆股计划。</span><br/><span class=\"section-news\">2. 六氟化钨概念火爆，多家上市公司回应相关问题。</span><br/><span class=\"section-news\">3. 埃夫特：决定对旗下喷涂机器人全系列产品等实施价格调整，整体价格上调5%—8%。</span><br/><span class=\"section-news\">4. 芯联集成：拟设立合资公司实施芯联12英寸车规级数模混合芯片制造项目，项目计划总投资约200亿元。</span><br/><span class=\"section-news\">5. 京东方A回应被美国国防部列入中国军事企业清单：列入该名单并无正当理由，目前公司生产经营情况正常。</span><br/><span class=\"section-news\">6. 2连板雅克科技：目前没有六氟化钨相关业务。</span><br/><span class=\"section-news\">7. 三安光电：控股股东三安电子被申请破产重整。</span><br/><span class=\"section-news\">8. 鼎龙股份：ArF与KrF光刻胶产品获近千加仑新增订单，其是逻辑、存储芯片制造的核心刚需耗材。</span><br/><span class=\"section-news\">9. 银河微电：筹划购买功率半导体公司恒泰柯100%股权，股票12日停牌。</span><br/><span class=\"section-news\">10. 2连板昊华科技：2025年度公司六氟化钨产品收入占公司2025年度营业收入的比重为0.13%。</span><br/><span class=\"section-news\">11. 同宇新材：公司相关产品与媒体报道的PPE产品无直接业务关联。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-06-12T01:20:24.970Z"
     }
   ],
-  "lastUpdated": "2026-06-16T08:20:40.061Z"
+  "lastUpdated": "2026-06-16T09:10:37.844Z"
 }
