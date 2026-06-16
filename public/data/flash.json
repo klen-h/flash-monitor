@@ -2,6 +2,23 @@
   "date": "2026/6/16",
   "items": [
     {
+      "id": "20260616093059570800",
+      "time": "2026-06-16 09:30:59",
+      "hot": "热",
+      "content": "【国家统计局：5月份一二三线城市商品住宅销售价格同比降幅总体收窄】金十数据6月16日讯，国家统计局城市司高级统计师杨彩芳解读2026年5月份商品住宅销售价格变动情况统计数据，2026年5月份，70个大中城市中，一线城市商品住宅销售价格环比上涨，二三线城市环比下降，一二三线城市同比降幅总体收窄。新建商品住宅销售价格环比上涨城市个数比上月增加。",
+      "source": "国家统计局",
+      "source_link": "https://www.stats.gov.cn/sj/zxfbhjd/202606/t20260616_1963945.html",
+      "important": 1,
+      "channel": [
+        4,
+        5,
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-06-16T02:10:31.095Z"
+    },
+    {
       "id": "20260616090817246800",
       "time": "2026-06-16 09:08:17",
       "hot": "热",
@@ -4458,22 +4475,7 @@
         2
       ],
       "collectedAt": "2026-06-11T21:20:27.815Z"
-    },
-    {
-      "id": "20260612042328842800",
-      "time": "2026-06-12 04:23:28",
-      "hot": "热",
-      "content": "【特朗普称伊朗各方均已批准美伊协议】金十数据6月12日讯，当地时间6月11日，美国总统特朗普谈及美伊协议称，据他了解，伊朗最高领袖已同意该协议，伊朗各方均已批准该协议。他还表示，这是一份非常有力、非常详尽的谅解备忘录。特朗普还称，伊朗将不会拥有核武器。特朗普表示，一旦签署谅解备忘录，霍尔木兹海峡将立即开放。他还称，哈尔克岛行动不在考虑之列。",
-      "source": "央视",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=5629756779836050487&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D5629756779836050487%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-06-11T21:00:42.783Z"
     }
   ],
-  "lastUpdated": "2026-06-16T01:30:34.672Z"
+  "lastUpdated": "2026-06-16T02:10:32.287Z"
 }
