@@ -2,6 +2,19 @@
   "date": "2026/6/17",
   "items": [
     {
+      "id": "20260617090706322800",
+      "time": "2026-06-17 09:07:06",
+      "hot": "热",
+      "content": "【金十数据整理：A股盘前市场要闻速递（2026-06-17）】<b>重要新闻</b><br/><span class=\"section-news\">1. 2026陆家嘴论坛今日将开幕，丁向群、潘功胜、吴清、朱鹤新将发声。</span><br/><span class=\"section-news\">2. 国家发改委：规范地方招商引资行为，推进基础设施竞争性领域向经营主体公平开放。</span><br/><span class=\"section-news\">3. 郑栅洁主任主持召开民营企业座谈会，围绕系统推进“六张网”建设听取意见建议。</span><br/><span class=\"section-news\">4. 我国成功研制出大面积全钙钛矿叠层光伏组件，光电转换效率刷新世界纪录达26.2%。</span><br/><span class=\"section-news\">5. A股年内已有13家PCB制造企业宣布扩产，整体规划投资总额近590亿元。</span><br/><span class=\"section-news\">6. 中央结算公司：拟将做市商通过做市成交的现券交易结算服务费由8折进一步降低至7.5折。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 紫光国微：收购瑞能半导体100%股权申请获深交所受理。</span><br/><span class=\"section-news\">2. 东山精密：子公司索尔思光电拟投资12亿美元实施光芯片及光模块扩建项目。</span><br/><span class=\"section-news\">3. 天合光能钙钛矿/晶体硅叠层组件产品获全球高端分布式客户首单签约。</span><br/><span class=\"section-news\">4. 沪电股份：数据通讯领域PCB高端材料供应偏紧，已搭建CoWoP等前沿技术与mSAP等先进工艺孵化平台。</span><br/><span class=\"section-news\">5. 优刻得乌兰察布智算中心D楼封顶，将构建“Token工厂”。</span><br/><span class=\"section-news\">6. 白银有色：2025年由盈转亏，净利润亏损7.55亿元。</span><br/><span class=\"section-news\">7. 华工科技：1.6T光模块产品在海外集成商、渠道商批量交付。</span><br/><span class=\"section-news\">8. 高乐股份：签署35.57亿元算力服务合同。</span><br/><span class=\"section-news\">9. 鸿蒙智行全面引入电池二供，国轩高科将上车问界。</span><br/><span class=\"section-news\">10. 瑞丰新材：被欧盟列入制裁名单，公司未向俄军用领域供货。</span><br/><span class=\"section-news\">11. 一博科技：光模块PCBA业务已进入量产阶段。</span><br/><span class=\"section-news\">12. 长盈通：5月6日至6月16日累计涨幅249%，17日起停牌核查。</span><br/><span class=\"section-news\">13. 罗博特科：全资子公司FSG作为英伟达合作方之一，新一代产品和技术尚未形成商业化落地。</span><br/><span class=\"section-news\">14. 行云科技：全资子公司签订5年算力服务合同，总金额10.14亿元。</span><br/><span class=\"section-news\">15. 和远气体：乾图私募减持至5%以下，拟继续减持不超总股本1%。</span><br/><span class=\"section-news\">16. 尤洛卡：拟定增募资不超10亿元用于火箭发动机核心零部件精密制造及产业化项目。</span><br/><span class=\"section-news\">17. 信维通信：参股公司信维电科的高端MLCC业务进展顺利，部分关键高容料号已通过重点客户验证并实现批量交付。</span><br/><span class=\"section-news\">18. 斯迪克：全资子公司拟投资5.65亿元建设年产12亿平方米高端MLCC离型膜项目。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-06-17T01:20:28.114Z"
+    },
+    {
       "id": "20260617075749936800",
       "time": "2026-06-17 07:57:49",
       "hot": "热",
@@ -4446,23 +4459,7 @@
         3
       ],
       "collectedAt": "2026-06-12T13:40:25.477Z"
-    },
-    {
-      "id": "20260612205319242800",
-      "time": "2026-06-12 20:53:19",
-      "hot": "热",
-      "content": "【胜宏科技：拟增加不超过180亿元闲置自有资金进行现金管理】金十数据6月12日讯，胜宏科技公告，公司于2026年6月12日召开第五届董事会第十六次会议，审议通过了《关于增加使用闲置自有资金进行现金管理的议案》。同意公司在不影响正常运营及确保资金安全并有效控制风险的前提下，增加不超过180亿元（或等值外币）用于进行现金管理。本次增加后，公司使用闲置自有资金进行现金管理的额度由不超过人民币20亿元调整为不超过人民币200亿元，其中拟新增不超过180亿元人民币（或等值外币），期限自公司股东会审议通过之日起12个月内有效，在前述额度和有效期内，资金可循环滚动使用。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        4,
-        5,
-        3,
-        1
-      ],
-      "collectedAt": "2026-06-12T13:20:26.172Z"
     }
   ],
-  "lastUpdated": "2026-06-17T01:10:30.037Z"
+  "lastUpdated": "2026-06-17T01:20:29.130Z"
 }
