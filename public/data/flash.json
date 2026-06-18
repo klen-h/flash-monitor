@@ -2,6 +2,19 @@
   "date": "2026/6/18",
   "items": [
     {
+      "id": "20260618090840978800",
+      "time": "2026-06-18 09:08:40",
+      "hot": "热",
+      "content": "【金十数据整理：A股盘前市场要闻速递（2026-06-18）】<span class=\"section-news\">1. 国务院印发《实施就业优先战略“十五五”规划》。</span><br/><span class=\"section-news\">2. 市监总局：不得以长期、大额补贴扰乱市场秩序，外卖平台新规公开征求意见。</span><br/><span class=\"section-news\">3. 上交所：人工智能大模型企业适用科创板第五套上市标准。</span><br/><span class=\"section-news\">4. 上交所邱勇：加强风险监测和预警预判，全力做好稳市工作；着力打造“宽基+科创+红利”的指数体系。</span><br/><span class=\"section-news\">5. 工信部：深入实施“人工智能+制造”专项行动，深入整治“内卷式”竞争。</span><br/><span class=\"section-news\">6. 金融监管总局：支持商业银行在依法合规、风险可控的前提下，参与浦东新区自贸离岸债业务。</span><br/><span class=\"section-news\">7. 巴基斯坦总理：美伊两国总统已签署备忘录，海峡将开放、封锁将解除</span><br/><span class=\"section-news\">8. 我国养老资金投资运营再迎重要突破，社保基金首例期货账户完成开立。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 风华高科澄清：英伟达未对公司开展任何产品认证。</span><br/><span class=\"section-news\">2. 通鼎互联：公司与英伟达不存在任何业务关系。</span><br/><span class=\"section-news\">3. 中国巨石：低介电等特种电子布产品未形成订单及收入。</span><br/><span class=\"section-news\">4. 美迪凯：目前公司向客户供应的半导体用玻璃基板为未打孔基板。</span><br/><span class=\"section-news\">5. 汇成股份：拟设合资公司并收购郑隆芯创100%股权，设立后将作为公司HITS先进封装工艺研发及量产平台。</span><br/><span class=\"section-news\">6. 诚邦股份：拟募资不超1亿元用于嵌入式存储芯片扩产等项目。</span><br/><span class=\"section-news\">7. 兴森科技：玻璃基板研发项目处于技术储备阶段并已成功研制出样品，目前未有量产订单。</span><br/><span class=\"section-news\">8. 双星新材：MLCC离型膜项目仍在培植建设阶段，2025年该项目营收占公司整体营收比例约为0.3%。</span><br/><span class=\"section-news\">9. 凌玮科技：覆铜板成品基材相关产品未通过下游客户认证，也未获得任何订单。</span><br/><span class=\"section-news\">10. 国瓷材料：多层陶瓷基板产品尚在与客户联合研发过程中，尚未产生批量订单。</span><br/><span class=\"section-news\">11. 7天4板中材科技：2025年度泰山玻纤销售特种纤维布产品实现销售收入占公司2025年营业收入总体占比较小。</span><br/><span class=\"section-news\">12. 宏和科技：子公司产线扩建最终实施落地需要时间，产能投放节奏以及最终是否可以实施落地仍存在较大不确定性。</span><br/><span class=\"section-news\">13. 20CM涨停瑞华泰：公司产品距离终端应用层级较远，存储芯片、PCB等领域的需求波动对公司经营业绩的拉动作用有限。</span><br/><span class=\"section-news\">14. 20CM涨停世名科技：年产5000吨LCD显示光刻胶专用纳米颜料分散液项目存在研发量产、客户批量导入不及预期风险。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-06-18T01:20:30.384Z"
+    },
+    {
       "id": "20260618081244588800",
       "time": "2026-06-18 08:12:44",
       "hot": "热",
@@ -4483,22 +4496,7 @@
         2
       ],
       "collectedAt": "2026-06-14T21:30:34.852Z"
-    },
-    {
-      "id": "20260615051713972800",
-      "time": "2026-06-15 05:17:13",
-      "hot": "爆",
-      "content": "【巴基斯坦总理：美伊协议已达成】金十数据6月15日讯，巴基斯坦总理：经过密集的谈判，美国与伊朗的和平协议已达成。双方已宣布在所有战线上，包括黎巴嫩，立即和永久终止军事行动。正式签字仪式将于6月19日星期五在瑞士举行。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-06-14T21:30:34.851Z"
     }
   ],
-  "lastUpdated": "2026-06-18T00:40:35.405Z"
+  "lastUpdated": "2026-06-18T01:20:31.924Z"
 }
