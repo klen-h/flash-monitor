@@ -2,6 +2,20 @@
   "date": "2026/6/19",
   "items": [
     {
+      "id": "20260619002537453800",
+      "time": "2026-06-19 00:25:37",
+      "hot": "热",
+      "content": "SpaceX(SPCX.O)投行团队正筹备至少200亿美元的债券发行。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-06-18T16:30:43.880Z"
+    },
+    {
       "id": "20260618235747449800",
       "time": "2026-06-18 23:57:47",
       "hot": "热",
@@ -4492,20 +4506,7 @@
         3
       ],
       "collectedAt": "2026-06-15T01:50:30.776Z"
-    },
-    {
-      "id": "20260615090744740800",
-      "time": "2026-06-15 09:07:44",
-      "hot": "热",
-      "content": "【金十数据整理：A股盘前市场要闻速递（2026-06-15）】<b>重要新闻</b><br/><span class=\"section-news\">1. 美伊谅解备忘录文本已最终敲定，并将于本周五（6月19日）在瑞士正式签署。</span><br/><span class=\"section-news\">2. 央行：6月15日将开展6000亿元买断式逆回购操作。</span><br/><span class=\"section-news\">3. 中国人民银行：2026年5月广义货币增长8.6%。</span><br/><span class=\"section-news\">4. 中国人民银行：2026年前五个月人民币存款增加15.77万亿元，币贷款增加9.11万亿元。</span><br/><span class=\"section-news\">5. 赵国富：证监会将全面推进实施新一轮资本市场改革开放，进一步发挥科创板改革“试验田”作用。</span><br/><span class=\"section-news\">6. 周小全：将出台实施《充分发挥直接融资功能，进一步加强科技金融服务的若干措施》。</span><br/><span class=\"section-news\">7. 商务部新闻发言人就美国防部将部分中国企业列入“中国军事企业清单”事答记者问。</span><br/><span class=\"section-news\">8. 中基协发布《公开募集证券投资基金可持续投资策略应用指引（试行）》。</span><br/><span class=\"section-news\">9. 市场监管总局：进一步遏制“大字吸睛、小字免责”等违法广告。</span><br/><span class=\"section-news\">10. 中国人民银行：将个人投资人认购大额存单起点金额降至不低于20万元人民币。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 蓝思科技：收购同昇光电 加速布局光通信。</span><br/><span class=\"section-news\">2. 胜宏科技：拟增加不超过180亿元闲置自有资金进行现金管理。</span><br/><span class=\"section-news\">3. 万科A：深铁集团向公司提供不超过11.4亿元借款。</span><br/><span class=\"section-news\">4. 阳谷华泰：事故阳谷工厂已暂时停产，预计对2026年度经营业绩产生一定影响。</span><br/><span class=\"section-news\">5. 京东方A：2025年完成大尺寸高层数（9-2-9，20层）玻璃基载板样品开发和送样。</span><br/><span class=\"section-news\">6. 洁美科技：全资子公司拟7亿元投建高端电子元器件封装新型材料项目。</span><br/><span class=\"section-news\">7. 云南铜业：今年以来硫酸销售价格持续处于高位。</span><br/><span class=\"section-news\">8. 美格智能：存储芯片价格上涨成本在合理、有序向下游客户传导。</span><br/><span class=\"section-news\">9. 美瑞新材：目前PPDA产品已成功产出合格产品 正处于下游客户开发及产品验证阶段。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-06-15T01:20:34.190Z"
     }
   ],
-  "lastUpdated": "2026-06-18T16:10:36.116Z"
+  "lastUpdated": "2026-06-18T16:30:45.391Z"
 }
