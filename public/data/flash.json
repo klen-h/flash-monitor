@@ -2,6 +2,20 @@
   "date": "2026/6/19",
   "items": [
     {
+      "id": "20260619115913736800",
+      "time": "2026-06-19 11:59:13",
+      "hot": "热",
+      "content": "【现货金银跌势不止】金十数据6月19日讯，现货黄金失守4150美元/盎司，日内跌幅1.49%。现货白银向下触及64美元/盎司，日内跌2.55%。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2
+      ],
+      "collectedAt": "2026-06-19T04:10:29.324Z"
+    },
+    {
       "id": "20260619111655983800",
       "time": "2026-06-19 11:16:55",
       "hot": "热",
@@ -4475,23 +4489,7 @@
         2
       ],
       "collectedAt": "2026-06-15T08:00:40.213Z"
-    },
-    {
-      "id": "20260615152419013800",
-      "time": "2026-06-15 15:24:19",
-      "hot": "热",
-      "content": "【外交部回应美伊达成第一阶段谅解备忘录】金十数据6月15日讯，美国、伊朗以及美伊谈判斡旋方巴基斯坦北京时间6月15日确认，美伊双方达成谅解备忘录，定于19日在瑞士日内瓦签署。外交部发言人林剑15日在例行记者会上就此答问时说，中方对美国和伊朗就第一阶段谅解备忘录内容达成一致表示欢迎，对巴基斯坦所做的斡旋努力表示赞赏。“中方希望美伊如期签署第一阶段谅解备忘录，希望相关各方坚持和平选择，通过对话谈判解决问题。”林剑表示，中方愿同国际社会一道，为早日恢复中东海湾地区和平安宁继续发挥积极作用。",
-      "source": "央视新闻",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=16008899084847502494&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D16008899084847502494%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
-      "important": 1,
-      "channel": [
-        4,
-        5,
-        3,
-        1
-      ],
-      "collectedAt": "2026-06-15T07:40:28.457Z"
     }
   ],
-  "lastUpdated": "2026-06-19T03:53:15.153Z"
+  "lastUpdated": "2026-06-19T04:10:30.545Z"
 }
