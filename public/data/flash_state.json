@@ -1,5 +1,5 @@
 {
-  "lastId": "20260619174407694800",
+  "lastId": "20260619180335174800",
   "pushedClusters": [
     {
       "cluster": "原油能源",
@@ -115,9 +115,9 @@
       "cluster": "中东战争",
       "firstId": "20260526224049207800",
       "firstTime": "2026-05-26T14:53:06.101Z",
-      "lastUpdateId": "20260619151540715800",
-      "lastUpdateTime": "2026-06-19T07:30:35.801Z",
-      "pushCount": 3,
+      "lastUpdateId": "20260619180335174800",
+      "lastUpdateTime": "2026-06-19T10:32:53.001Z",
+      "pushCount": 4,
       "hotMax": "沸",
       "hadUrgent": true,
       "hasMilitary": true
