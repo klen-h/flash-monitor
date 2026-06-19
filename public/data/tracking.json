@@ -3776,6 +3776,111 @@
   },
   "rejectedSignals": [
     {
+      "etfName": "沪深300ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "0.52",
+      "resistance": "300",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "0.52"
+      },
+      "stopLoss": "0.504",
+      "takeProfit": "300",
+      "reasoning": "| **沪深300ETF**| 4.950  | 5.020  | **观望**       | 宽基防御属性，但昨日涨0.52%后短期高位，等待回调。 |",
+      "source": "premarket",
+      "id": "1781831568381",
+      "createdAt": "2026-06-19T01:12:48.381Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 135,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 93749,
+        "positionValue": 48749.48,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "军工ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "0.08",
+      "resistance": "1.32",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "0.08"
+      },
+      "stopLoss": "0.078",
+      "takeProfit": "1.32",
+      "reasoning": "| **军工ETF**   | 1.270  | 1.320  | **观望/轻仓试多** | 中东地缘风险（伊朗局势）提供对冲支撑，但单日涨幅小（+0.08%），需确认突破阻力。 |",
+      "source": "premarket",
+      "id": "1781831568378",
+      "createdAt": "2026-06-19T01:12:48.378Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 135,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 749999,
+        "positionValue": 59999.92,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "黄金ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "8.85",
+      "resistance": "9.05",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "8.85"
+      },
+      "stopLoss": "8.585",
+      "takeProfit": "9.05",
+      "reasoning": "| **黄金ETF**   | 8.85   | 9.05   | **逢低做多**   | GLD持仓大增 + 衰退避险逻辑强化，现价8.908接近支撑。 |",
+      "source": "premarket",
+      "id": "1781831568375",
+      "createdAt": "2026-06-19T01:12:48.375Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 115,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 5660,
+        "positionValue": 50091,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
       "etfName": "黄金ETF",
       "direction": "long",
       "trend": "neutral",
