@@ -3776,6 +3776,76 @@
   },
   "rejectedSignals": [
     {
+      "etfName": "黄金ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "0.55",
+      "resistance": "2.68",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "0.55"
+      },
+      "stopLoss": "0.533",
+      "takeProfit": "2.68",
+      "reasoning": "- 中东冲突事件（以色列轰黎巴嫩）未推高避险资产 → 黄金ETF跌（-0.55%）/白银跌（-2.68%），因美元走强压制。",
+      "source": "lunchbreak",
+      "id": "1781839992245",
+      "createdAt": "2026-06-19T03:33:12.245Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 115,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 88235,
+        "positionValue": 48529.25000000001,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "半导体ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "3.94",
+      "resistance": "4.96",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "3.94"
+      },
+      "stopLoss": "3.822",
+      "takeProfit": "4.96",
+      "reasoning": "- 原油跌 → 降低科技板块成本 → 人工智能ETF（+4.96%）/半导体ETF（+3.94%）领涨（成本下降逻辑）。",
+      "source": "lunchbreak",
+      "id": "1781839992242",
+      "createdAt": "2026-06-19T03:33:12.242Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 135,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 12711,
+        "positionValue": 50081.34,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
       "etfName": "沪深300ETF",
       "direction": "long",
       "trend": "neutral",
