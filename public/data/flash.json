@@ -2,6 +2,21 @@
   "date": "2026/6/20",
   "items": [
     {
+      "id": "20260620224749069800",
+      "time": "2026-06-20 22:47:49",
+      "hot": "热",
+      "content": "【伊朗谈判代表已启程前往瑞士】金十数据6月20日讯，据伊朗方面20日消息，伊朗谈判代表已启程前往瑞士，就谅解备忘录与美方进行讨论。6月20日，巴基斯坦外交部称，根据美伊谅解备忘录的后续安排，技术层级会谈将于2026年6月21日在瑞士举行。巴基斯坦及卡塔尔将作为调解人参加该会议。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=3660559003432966339&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D3660559003432966339%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
+      "important": 0,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-06-20T15:10:29.241Z"
+    },
+    {
       "id": "20260620221832413800",
       "time": "2026-06-20 22:18:32",
       "hot": "热",
@@ -4477,22 +4492,7 @@
         2
       ],
       "collectedAt": "2026-06-16T10:00:42.938Z"
-    },
-    {
-      "id": "20260616173939520800",
-      "time": "2026-06-16 17:39:39",
-      "hot": "热",
-      "content": "美国总统特朗普：伊朗协议进入第二阶段。我们认为这是一项公平的协议。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-06-16T09:50:27.775Z"
     }
   ],
-  "lastUpdated": "2026-06-20T14:50:28.595Z"
+  "lastUpdated": "2026-06-20T15:10:30.360Z"
 }
