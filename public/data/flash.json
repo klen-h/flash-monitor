@@ -2,6 +2,21 @@
   "date": "2026/6/21",
   "items": [
     {
+      "id": "20260621013628725800",
+      "time": "2026-06-21 01:36:28",
+      "hot": "热",
+      "content": "【以军称收到在黎停火指示 但“安全区”内行动将继续】金十数据6月21日讯，当地时间20日，以色列国防军表示，以军正继续在黎巴嫩南部“安全区”内展开军事行动，目前的重点是打击一处有数十名武装人员藏身的大型真主党地道系统。与此同时，以军已在黎巴嫩其他地区“停止射击”。以军称，军方已收到政治高层的指示，要求实施停火。然而以军强调，以军部队仍将继续致力于摧毁位于其“安全区”内的真主党武装基础设施，并将对“安全区”之外的“紧迫威胁”实施打击。",
+      "source": "新华社",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=12677921362608375350&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D12677921362608375350%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-06-20T18:00:38.476Z"
+    },
+    {
       "id": "20260621005933971800",
       "time": "2026-06-21 00:59:33",
       "hot": "热",
@@ -4470,22 +4485,7 @@
         2
       ],
       "collectedAt": "2026-06-16T12:40:32.815Z"
-    },
-    {
-      "id": "20260616202827697800",
-      "time": "2026-06-16 20:28:27",
-      "hot": "沸",
-      "content": "美国总统特朗普：霍尔木兹海峡将在周五前完全开放。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-06-16T12:40:32.815Z"
     }
   ],
-  "lastUpdated": "2026-06-20T17:30:37.173Z"
+  "lastUpdated": "2026-06-20T18:00:39.505Z"
 }
