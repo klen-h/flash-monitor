@@ -2,6 +2,21 @@
   "date": "2026/6/21",
   "items": [
     {
+      "id": "20260621020712696800",
+      "time": "2026-06-21 02:07:12",
+      "hot": "热",
+      "content": "【消息人士：伊拉克国民议会议长住所遭无人机袭击】金十数据6月21日讯，当地时间20日，伊拉克安全部门消息人士称，伊拉克国民议会议长海巴特·哈勒布西的住所遭不明无人机袭击。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=9880960895543013502&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D9880960895543013502%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-06-20T19:50:26.899Z"
+    },
+    {
       "id": "20260621013628725800",
       "time": "2026-06-21 01:36:28",
       "hot": "热",
@@ -4470,22 +4485,7 @@
         2
       ],
       "collectedAt": "2026-06-16T12:40:32.815Z"
-    },
-    {
-      "id": "20260616202810388800",
-      "time": "2026-06-16 20:28:10",
-      "hot": "沸",
-      "content": "美国总统特朗普：物价开始下跌。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-06-16T12:40:32.815Z"
     }
   ],
-  "lastUpdated": "2026-06-20T18:00:39.505Z"
+  "lastUpdated": "2026-06-20T19:50:27.959Z"
 }
