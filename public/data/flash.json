@@ -2,6 +2,21 @@
   "date": "2026/6/21",
   "items": [
     {
+      "id": "20260621080841624800",
+      "time": "2026-06-21 08:08:41",
+      "hot": "沸",
+      "content": "<b>【金十数据整理：中东局势跟踪（6月21日）】</b><br/><b>①伊朗</b><br/><span class=\"section-news\">1. 伊朗最高领袖顾问：如果协议仍停留在纸面上，中东地区的能源流动将继续处于中断状态。</span><br/><span class=\"section-news\">2. 伊朗革命卫队海军：鉴于以色列在黎巴嫩的行动以及美国违反相关承诺，霍尔木兹海峡现已关闭航行。所有船只被命令远离该海域，以确保自身安全。</span><br/><b>②美国</b><br/><span class=\"section-news\">1. 美中央司令部：伊朗并不控制霍尔木兹海峡。</span><br/><span class=\"section-news\">2. 特朗普自夸对伊战争成果：伊朗被“完全击败”，美国不再软弱。</span><br/><b>③以色列</b><br/><span class=\"section-news\">1. 以媒：以军已在黎巴嫩停火 但未撤出黎南。</span><br/><span class=\"section-news\">2. 以军称收到在黎停火指示 但“安全区”内行动将继续。</span><br/><span class=\"section-news\">3. 以军空袭加沙城致5人死亡。以军在黎南部地区空袭造成至少16人死亡。</span><br/><span class=\"section-news\">4. 以色列军方：以色列军方仍然致力于停火协议，并将继续对任何对以色列或其军队的威胁采取行动。</span><br/><b>④停火谈判</b><br/><span class=\"section-news\">1. 伊朗外长会见巴基斯坦内政部长。</span><br/><span class=\"section-news\">2. 消息人士：巴基斯坦总理与陆军参谋长将前往瑞士。</span><br/><span class=\"section-news\">3. 万斯启程赴瑞士出席美伊谈判，称美伊谈判重点为核问题与黎巴嫩停火。</span><br/><span class=\"section-news\">4. 伊朗谈判代表团已抵达瑞士，伊朗外长与巴基斯坦内政部长一同前往。</span><br/><b>⑤其他情况</b><br/><span class=\"section-news\">1. 黎政府军谴责以军野蛮袭击。</span><br/><span class=\"section-news\">2. 黎真主党称以色列应对违反停火负“全部责任”。</span><br/><span class=\"section-news\">3. 埃及、沙特、土耳其外长和美国高级官员举行会谈。</span><br/><span class=\"section-news\">4. 消息人士：伊拉克国民议会议长住所遭无人机袭击。</span><br/><span class=\"section-news\">5. 黎巴嫩军方：以色列对黎巴嫩的持续攻击旨在阻碍恢复国家稳定的努力。</span><br/><span class=\"section-news\">6. 据路透社：一名高级黎巴嫩真主党官员表示，不会允许以色列在其所称的被占领黎巴嫩领土上“自由行动”。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-06-21T00:30:34.598Z"
+    },
+    {
       "id": "20260621053253183800",
       "time": "2026-06-21 05:32:53",
       "hot": "热",
@@ -4468,21 +4483,7 @@
         3
       ],
       "collectedAt": "2026-06-16T14:10:34.714Z"
-    },
-    {
-      "id": "20260616212008154800",
-      "time": "2026-06-16 21:20:08",
-      "hot": "热",
-      "content": "据知情人士透露，卡塔尔能源公司已准备好迅速恢复拉斯拉凡的液化天然气生产，并可在一个月内达到满负荷生产。但主要问题在于航运，即卡塔尔能源公司调配船舶的速度有多快。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2
-      ],
-      "collectedAt": "2026-06-16T13:40:32.296Z"
     }
   ],
-  "lastUpdated": "2026-06-20T23:00:39.708Z"
+  "lastUpdated": "2026-06-21T00:32:59.870Z"
 }
