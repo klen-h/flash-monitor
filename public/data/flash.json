@@ -2,6 +2,21 @@
   "date": "2026/6/22",
   "items": [
     {
+      "id": "20260622012111729800",
+      "time": "2026-06-22 01:21:11",
+      "hot": "热",
+      "content": "据沙特阿拉伯阿拉比亚电视台援引消息人士称：伊朗代表团已离开谈判会场，返回其在瑞士的驻地，但与美国的谈判仍在通过中间方继续进行。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-06-21T18:40:26.920Z"
+    },
+    {
       "id": "20260622010520748800",
       "time": "2026-06-22 01:05:20",
       "hot": "热",
@@ -4463,20 +4478,7 @@
         3
       ],
       "collectedAt": "2026-06-17T08:20:41.200Z"
-    },
-    {
-      "id": "20260617151436911800",
-      "time": "2026-06-17 15:14:36",
-      "hot": "热",
-      "content": "【金十数据整理：A股每日市场要闻回顾（2026-06-17）】<b>重要新闻</b><br/><span class=\"section-news\">1. 央行行长潘功胜：推动中长期资金对股市、债市的投资力度；完善短端利率调控机制。</span><br/><span class=\"section-news\">2. 央行行长潘功胜：在上海自贸区开展离岸人民币外汇交易试点；研究设立特定情景非银流动性支持宏观审慎工具。</span><br/><span class=\"section-news\">3. 中国人民银行优化公开市场临时隔夜正、逆回购操作机制；创设境外央行类机构回购工具。</span><br/><span class=\"section-news\">4. 朱鹤新：近期将新增推出“一揽子”增量政策。</span><br/><span class=\"section-news\">5. 证监会主席吴清：新“国九条”以来，社保、保险等净买入A股1.3万亿元。</span><br/><span class=\"section-news\">6. 证监会主席吴清：A股科技板块市值占比超过3成，市值超千亿的科技企业占比达到45%。</span><br/><span class=\"section-news\">7. 证监会主席吴清：科创板第五套标准扩大至人工智能大模型行业。</span><br/><span class=\"section-news\">8. 中国首条第8.6代AMOLED生产线在成都量产，设计产能为每月3.2万片玻璃基板。</span><br/><span class=\"section-news\">9. 中国正在加紧筹建世界人工智能合作组织。</span><br/><span class=\"section-news\">10. 网传财通基金被突击检查，知情人士：纯属谣言。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 主力资金流向数据显示，京东方A主力资金净流入33.92亿元居首位，兆易创新、TCL科技、香农芯创、鹏鼎控股获主力资金净流入居前；生益科技主力资金净流出18.93亿元居首位，工业富联、厦门钨业、阳光电源、DR嘉元科主力资金净流出居前。</span><br/><span class=\"section-news\">2. 孚能科技与德国能源技术公司WLF Energy签署战略合作协议。</span><br/><span class=\"section-news\">3. 航宇科技与Baker Hughes签署长期SSA战略供货协议。</span><br/><span class=\"section-news\">4. 联创电子：公司微棱镜等光模块光学器件正在送样评测阶段。</span><br/><span class=\"section-news\">5. 迈威生物旗下迈威视与维眸生物达成战略合作。</span><br/><span class=\"section-news\">6. 高伟达与国光量子、纬德信息签署三方战略合作协议。</span><br/><span class=\"section-news\">7. 中亦科技：公司为蚂蚁集团OceanBase铂金经销商、金牌技术服务伙伴。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-06-17T08:10:29.220Z"
     }
   ],
-  "lastUpdated": "2026-06-21T17:20:28.390Z"
+  "lastUpdated": "2026-06-21T18:40:28.073Z"
 }
