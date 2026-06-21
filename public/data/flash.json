@@ -2,6 +2,21 @@
   "date": "2026/6/21",
   "items": [
     {
+      "id": "20260621082154529800",
+      "time": "2026-06-21 08:21:54",
+      "hot": "热",
+      "content": "【金十数据整理：昨日今晨重要新闻汇总（2026-06-21）】<b>国内新闻：</b><br/><span class=\"section-news\">1. 2026端午档票房破3亿。</span><br/><span class=\"section-news\">2. 上交所拟推股票期权组合策略业务？暂不实施。</span><br/><span class=\"section-news\">3. 国新办将于周一（22日）下午3时举行新闻发布会。</span><br/><span class=\"section-news\">4. 新疆维吾尔自治区政府原党组成员、副主席朱昌杰被查。</span><br/><span class=\"section-news\">5. 中国驻曼德勒总领事馆：提醒中国公民切勿非法进入缅北有关地区。</span><br/><b>国际新闻：</b><br/><span class=\"section-news\">1. 俄罗斯将对部分钻石征收8%出口税。</span><br/><span class=\"section-news\">2. 英国火车相撞事故受伤人数升至99人。</span><br/><span class=\"section-news\">3. 刚果（金）埃博拉确诊病例增至933例，病死率约26%。</span><br/><span class=\"section-news\">4. 英媒称斯塔默或下周一宣布辞职时间表 消息人士称其仍专注于执政工作。</span><br/><span class=\"section-news\">5. 中东局势——</span><br/><span class=\"section-news\">①伊朗革命卫队称关闭海峡，美军称未观察到此行为。<br/></span><span class=\"section-news\">②以军称收到在黎停火指示 但“安全区”内行动将继续。<br/></span><span class=\"section-news\">③伊朗外交部：美国未能约束以色列，违反谅解备忘录。<br/></span><span class=\"section-news\">④消息人士：伊拉克国民议会议长住所遭无人机袭击。<br/></span><span class=\"section-news\">⑤特朗普：若与伊朗不能达成协议，美或收取海峡通行费。<br/></span><span class=\"section-news\">⑥伊朗谈判代表团抵达瑞士，万斯已启程将出席美伊谈判。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-06-21T01:00:39.698Z"
+    },
+    {
       "id": "20260621081414787800",
       "time": "2026-06-21 08:14:14",
       "hot": "热",
@@ -4468,22 +4483,7 @@
         2
       ],
       "collectedAt": "2026-06-16T14:30:49.738Z"
-    },
-    {
-      "id": "20260616215040623800",
-      "time": "2026-06-16 21:50:40",
-      "hot": "热",
-      "content": "瑞士方面表示，美伊之间一份谅解备忘录的潜在签署仪式目前定于6月19日（周五）在瑞士中部的‌布尔根施托克（Bürgenstock）举行。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-06-16T14:10:34.714Z"
     }
   ],
-  "lastUpdated": "2026-06-21T00:50:28.069Z"
+  "lastUpdated": "2026-06-21T01:00:40.721Z"
 }
