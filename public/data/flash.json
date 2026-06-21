@@ -2,6 +2,21 @@
   "date": "2026/6/21",
   "items": [
     {
+      "id": "20260621194820506800",
+      "time": "2026-06-21 19:48:20",
+      "hot": "热",
+      "content": "【消息人士称伊朗无意与国际原子能机构总干事谈判】金十数据6月21日讯，当地时间21日，一名正在瑞士、接近伊朗谈判团队的消息人士称，伊朗并没有与国际原子能机构总干事格罗西进行任何谈判的计划，他现身瑞士并不意味着将参与跟伊朗的谈判。该人士强调，美方曾要求格罗西参与相关谈判，但这一提议遭到伊朗的反对。这名消息人士表示，伊朗谈判团队的目标仅限于落实备忘录第13条，并重点关注第1条内容，以及推动伊朗资产解冻与解除石油制裁等议题。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=5376974330166635363&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D5376974330166635363%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 0,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-06-21T12:10:26.855Z"
+    },
+    {
       "id": "20260621193549078800",
       "time": "2026-06-21 19:35:49",
       "hot": "热",
@@ -4475,21 +4490,7 @@
         3
       ],
       "collectedAt": "2026-06-17T01:10:29.058Z"
-    },
-    {
-      "id": "20260617074409839800",
-      "time": "2026-06-17 07:44:09",
-      "hot": "热",
-      "content": "【金十数据整理：每日科技要闻速递（6月17日）】<br/><b>人工智能：</b><br/><span class=\"section-news\">1. 支撑人工智能等高质量发展 算力网开启万亿级投资周期。</span><br/><span class=\"section-news\">2. 据知情人士确认的经审计财务数据显示，去年，OpenAI支出达340亿美元。</span><br/><span class=\"section-news\">3. DeepSeek首轮融资或落地 梁文锋个人出资约200亿元。</span><br/><span class=\"section-news\">4. SpaceX 600亿美元收购Cursor开发商Anysphere。</span><br/><span class=\"section-news\">5. 出于安全担忧，微软放弃了一笔30亿美元的甲骨文云计算容量租赁交易。</span><br/><b>集成电路（芯片）：</b><br/><span class=\"section-news\">1. 传SK海力士“拟推百万亿韩元股东回报计划”，官方回应：从未探讨过该具体规模。</span><br/><span class=\"section-news\">2. 市场消息称，英特尔英伟达首款联合芯片2028年Q1正式落地</span><br/><span class=\"section-news\">3. 机构：上半年合约价涨幅皆破100%，下半年结构性缺货将带动NOR Flash、SLC NAND价格持续上涨。</span><br/><b>其他：</b><br/><span class=\"section-news\">1. 美货运“龙”飞船脱离空间站返回地球。</span><br/><span class=\"section-news\">2. 鸿蒙智行全面引入电池二供，国轩高科将上车问界。</span><br/><span class=\"section-news\">3. 消息称台积电向供应链发布玻璃基板开发计划 首次公开技术进度。</span><br/><span class=\"section-news\">4. 韩国ENF Technology已向SK海力士交付首批半导体级氢氟酸。</span><br/><span class=\"section-news\">5. 我国成功发射实践三十一号卫星。</span><br/><span class=\"section-news\">6. 亚马逊或因涉嫌误导广告商而遭FTC起诉。</span><br/><span class=\"section-news\">7. 深圳市场监管局约谈美团、淘宝闪购和京东外卖平台。 </span>",
-      "source": "",
-      "source_link": "",
-      "important": 0,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-06-17T00:50:32.753Z"
     }
   ],
-  "lastUpdated": "2026-06-21T11:50:28.837Z"
+  "lastUpdated": "2026-06-21T12:10:28.458Z"
 }
