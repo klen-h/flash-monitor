@@ -4216,6 +4216,76 @@
   },
   "rejectedSignals": [
     {
+      "etfName": "银行ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "1.2",
+      "resistance": "1.3",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "1.2"
+      },
+      "stopLoss": "1.164",
+      "takeProfit": "1.3",
+      "reasoning": "- 🔵 **防御板块避险**：银行ETF（+1.30%）和医药ETF（+1.20%）领涨，符合衰退情景下资金流入低估值/稳定现金流资产。",
+      "source": "lunchbreak",
+      "id": "1782185570928",
+      "createdAt": "2026-06-23T03:32:50.928Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 100,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 41666,
+        "positionValue": 49999.2,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "科技ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "0.46",
+      "resistance": "5",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "0.46"
+      },
+      "stopLoss": "0.446",
+      "takeProfit": "5",
+      "reasoning": "- 🔵 **衰退担忧强化**：原油跌（-0.46%）+黄金跌（-1.11%）+铜跌（-1.25%）→ 正相关衰退逻辑成立（供给冲击扼杀需求）。韩国KOSPI重挫5%和恒生科技ETF领跌（-2.80%）验证全球风险资产抛售。",
+      "source": "lunchbreak",
+      "id": "1782185570925",
+      "createdAt": "2026-06-23T03:32:50.925Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 100,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 107142,
+        "positionValue": 49285.32,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
       "etfName": "军工ETF",
       "direction": "long",
       "trend": "neutral",
