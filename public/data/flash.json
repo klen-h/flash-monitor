@@ -2,6 +2,19 @@
   "date": "2026/6/23",
   "items": [
     {
+      "id": "20260623090533526800",
+      "time": "2026-06-23 09:05:33",
+      "hot": "热",
+      "content": "【金十数据整理：A股盘前市场要闻速递（2026-06-23）】<b>重要新闻</b><br/><span class=\"section-news\">1. 财政部：1—5月，证券交易印花税1262亿元，同比增长88.8%。</span><br/><span class=\"section-news\">2. 农业农村部、国家发展改革委召开强化生猪产能综合调控座谈会。</span><br/><span class=\"section-news\">3. 李强在辽宁大连调研：要大力发展高端装备制造业，加快建设现代化产业体系。</span><br/><span class=\"section-news\">4. 金融监管总局联合央行、证监会召开会议：进一步深化金融消费者和投资者保护工作协调机制。</span><br/><span class=\"section-news\">5. 央行：上海黄金交易所黄金成交5521.8吨，同比增加2.8%。</span><br/><span class=\"section-news\">6. 国家能源集团发电装机超4亿千瓦,约占全国1/10。</span><br/><span class=\"section-news\">7. 多家银行收紧黄金白银杠杆交易，金银杠杆交易保证金飙至140%。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 宁德时代：今年9月开始交付首批钠离子电池解决方案 2026年底实现GWh级出货量。</span><br/><span class=\"section-news\">2. 中天科技发布17280芯超大芯数高密度光缆。</span><br/><span class=\"section-news\">3. 鼎阳科技回应股价大跌：受多重因素影响，和英伟达关系不大。</span><br/><span class=\"section-news\">4. 中船特气：股价累计涨幅388.77%，6月23日起停牌核查。</span><br/><span class=\"section-news\">5. 立讯精密：拟使用不超400亿元闲置自有资金购买低风险银行产品。</span><br/><span class=\"section-news\">6. 光启技术：全资子公司近期累计签订合计6.12亿元超材料产品批产合同以及研制合同。</span><br/><span class=\"section-news\">7. 广合科技：拟投资60亿元建设东莞智造总部项目，进一步提升高端印制电路板产能。</span><br/><span class=\"section-news\">8. 卫星化学：预计上半年净利润同比增长119%-155%。</span><br/><span class=\"section-news\">9. 长川科技：预计2026年上半年净利润同比增长110.76%至134.18%。</span><br/><span class=\"section-news\">10. 北京君正：一季度计算芯片增长将近50%，目前看二季度会保持继续增长。</span><br/><span class=\"section-news\">11. 天华新能：拟以金子峰矿作价26.92亿元增资花桥矿业，为后续碳酸锂产销量提升奠定原材料基础。</span><br/><span class=\"section-news\">12. 2连板博云新材澄清：2026年至今未向中钨高新子公司供应高端钻针母材，未向日本佑能出口产品。</span><br/><span class=\"section-news\">13. 兴业科技：拟收购磷化铟业务预计2026年收入占2025年收入比例极小，对当期营收和净利润影响极小。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-06-23T01:20:29.287Z"
+    },
+    {
       "id": "20260623082535160800",
       "time": "2026-06-23 08:25:35",
       "hot": "热",
@@ -4453,22 +4466,7 @@
         2
       ],
       "collectedAt": "2026-06-17T18:50:33.402Z"
-    },
-    {
-      "id": "20260618023958448800",
-      "time": "2026-06-18 02:39:58",
-      "hot": "热",
-      "content": "美联储主席沃什：2%的通胀率是美联储长期以来的目标。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-06-17T18:50:33.402Z"
     }
   ],
-  "lastUpdated": "2026-06-23T00:40:29.175Z"
+  "lastUpdated": "2026-06-23T01:20:30.315Z"
 }
