@@ -4216,6 +4216,78 @@
   },
   "rejectedSignals": [
     {
+      "etfName": "军工ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "1.29",
+      "resistance": "1.31",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "1.29"
+      },
+      "stopLoss": "1.251",
+      "takeProfit": "1.31",
+      "reasoning": "| **军工ETF**   | 1.290  | 1.310  | **观望（若破支撑则回避）** | 伊朗地缘风险对冲，但价格已处高位（单日无涨跌），需事件催化确认方向。 |",
+      "source": "premarket",
+      "id": "1782177163614",
+      "createdAt": "2026-06-23T01:12:43.614Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 135,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 38461,
+        "positionValue": 49614.69,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "黄金ETF",
+      "direction": "long",
+      "trend": "up",
+      "support": "8.7",
+      "resistance": "8.8",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "8.7"
+      },
+      "stopLoss": "8.439",
+      "takeProfit": "8.8",
+      "reasoning": "| **黄金ETF**   | 8.700  | 8.800  | **轻仓做多**           | 滞胀强化 + COMEX黄金微涨，独立于原油上涨（正相关），GLD价格回调提供支撑。 |",
+      "source": "premarket",
+      "id": "1782177163610",
+      "createdAt": "2026-06-23T01:12:43.610Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [
+          "趋势向下，逆势做多"
+        ],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 85,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 5747,
+        "positionValue": 49998.899999999994,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
       "etfName": "黄金ETF",
       "direction": "long",
       "trend": "neutral",
