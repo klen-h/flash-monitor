@@ -2,6 +2,36 @@
   "date": "2026/6/24",
   "items": [
     {
+      "id": "20260624051500086800",
+      "time": "2026-06-24 05:15:00",
+      "hot": "热",
+      "content": "【阿曼与国际海事组织协调开辟霍尔木兹海峡临时航道】金十数据6月24日讯，当地时间24日凌晨，阿曼方面发布声明表示，鉴于该国对霍尔木兹海峡的责任以及该海峡对全球经济的重要作用，在遵守国际法和《联合国海洋法公约》、保障海峡自由通行且不收取通行费用的基础上，并结合美国与伊朗相关谈判和斡旋努力所取得的成果，阿曼已与国际海事组织协调，为所有船舶开辟一条临时海上航道。根据安排，相关航道将按照国际海事组织及阿曼主管部门公布的航行坐标运行，计划使用该航道的船舶需提前与国际海事组织进行协调。",
+      "source": "央视",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=9406375773343392268&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D9406375773343392268%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
+      "important": 0,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-06-23T22:30:35.978Z"
+    },
+    {
+      "id": "20260624055927912800",
+      "time": "2026-06-24 05:59:27",
+      "hot": "热",
+      "content": "【金十数据整理：中东局势跟踪（6月24日）】<br/><b>①伊朗</b><br/><span class=\"section-news\">1. 伊朗国家媒体：伊朗西部空域现已开放。</span><br/><span class=\"section-news\">2. 伊朗副外长披露伊美谈判后续技术层面磋商机制。</span><br/><span class=\"section-news\">3. 伊朗外交部发言人巴加埃：伊朗的导弹计划从未是谈判的一部分。</span><br/><b>②美国</b><br/><span class=\"section-news\">1. 白宫发言人：伊朗永远不会拥有核武器。</span><br/><span class=\"section-news\">2. 美国国会两院通过战争权力决议，象征性地谴责特朗普。</span><br/><span class=\"section-news\">3. 美国中央司令部：两艘航空母舰仍在中东地区执行任务。</span><br/><span class=\"section-news\">4. 特朗普称若伊朗不遵守协议将采取必要行动。</span><br/><span class=\"section-news\">5. 特朗普：伊朗已完全同意接受长期核检查，这是进一步谈判的前提。 </span><br/><b>③以色列</b><br/><span class=\"section-news\">1. 以色列国家安全部长威胁将贝鲁特变成加沙。</span><br/><span class=\"section-news\">2. 以色列资产暴跌，数年战争红利随和谈预期烟消云散。</span><br/><b>④停火谈判</b><br/><span class=\"section-news\">1. 伊朗总统：伊美谅解备忘录不涉及导弹问题。</span><br/><span class=\"section-news\">2. 巴基斯坦总理：谅解备忘录中未提及伊朗弹道导弹能力问题。</span><br/><span class=\"section-news\">3. 特朗普称国际原子能机构核查人员将适时访问伊朗。伊外交部发言人早些时候称暂无核查人员访问计划。</span><br/><b>⑤霍尔木兹海峡</b><br/><span class=\"section-news\">1. 伊朗和阿曼成立霍尔木兹海峡委员会。</span><br/><span class=\"section-news\">2. 特朗普：6月22日有1900万桶石油经由霍尔木兹海峡运输。</span><br/><span class=\"section-news\">3. 阿曼和伊朗发布联合声明：强调领海主权，将共同制定航行管理协议。</span><br/><span class=\"section-news\">4. 伊朗驻日内瓦大使：霍尔木兹海峡对商船完全开放，近日已有大量石油通过该水道运输。</span><br/><span class=\"section-news\">5. 阿曼重申将保障霍尔木兹海峡免费安全通行；称已与国际海事组织协调开辟霍尔木兹海峡临时航道。</span><br/><span class=\"section-news\">6. 伊朗军方消息人士称，霍尔木兹海峡每天仅允许一定数量的船只通过，具体数量将根据每日实际情况进行调整。</span><br/><b>⑥其他情况</b><br/><span class=\"section-news\">1. 约旦外长：应立即制止以色列各种非法行径。</span><br/><span class=\"section-news\">2. 黎巴嫩真主党：以色列在黎巴嫩南部的攻击违反了停火协议。</span><br/><span class=\"section-news\">3. 黎巴嫩总统：除非结束“以色列对黎巴嫩南部的占领”，否则绝不接受任何妥协。 </span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-06-23T22:30:35.977Z"
+    },
+    {
       "id": "20260624040129835800",
       "time": "2026-06-24 04:01:29",
       "hot": "热",
@@ -4419,36 +4449,7 @@
         3
       ],
       "collectedAt": "2026-06-18T00:20:30.468Z"
-    },
-    {
-      "id": "20260618081132596800",
-      "time": "2026-06-18 08:11:32",
-      "hot": "热",
-      "content": "日经225指数首次突破71000点，再创新高。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-06-18T00:20:30.468Z"
-    },
-    {
-      "id": "20260618071942377800",
-      "time": "2026-06-18 07:19:42",
-      "hot": "热",
-      "content": "【我国养老资金投资运营再迎重要突破 社保基金首例期货账户完成开立】金十数据6月18日讯，6月15日，中国期货市场监控中心发布《社保基金拓展投资业务范围助力养老资产保值增值》一文称，近期，用于补充社保基金的国有股权及现金收益类专项养老资产完成首例期货账户开立，可依规开展套期保值业务。此次社保基金首例期货账户由银河期货完成开立。这意味着，在严格风险管理框架下，养老资金正式引入期货市场套期保值工具，进一步丰富了社保基金风险管理手段，为养老资产长期保值增值增添新的制度保障。",
-      "source": "证券时报",
-      "source_link": "https://www.stcn.com/article/detail/3967614.html",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-06-18T00:00:44.727Z"
     }
   ],
-  "lastUpdated": "2026-06-23T21:42:26.246Z"
+  "lastUpdated": "2026-06-23T22:30:37.298Z"
 }
