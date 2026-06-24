@@ -2,6 +2,21 @@
   "date": "2026/6/25",
   "items": [
     {
+      "id": "20260625022323219800",
+      "time": "2026-06-25 02:23:23",
+      "hot": "热",
+      "content": "美国总统特朗普：伊朗正同意我想要的一切，而且他们别无选择。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-06-24T18:50:29.239Z"
+    },
+    {
       "id": "20260625003021214800",
       "time": "2026-06-25 00:30:21",
       "hot": "热",
@@ -4423,22 +4438,7 @@
         1
       ],
       "collectedAt": "2026-06-18T23:30:31.905Z"
-    },
-    {
-      "id": "20260619061500755800",
-      "time": "2026-06-19 06:15:00",
-      "hot": "热",
-      "content": "【欧盟首次将对俄经济制裁延长12个月】金十数据6月19日讯，当地时间6月18日，欧洲理事会主席的一位发言人表示，欧盟领导人同意将针对俄罗斯的经济制裁措施延长12个月。据了解，这是欧盟首次决定将对俄经济制裁延期12个月，而非沿用此前每次延长6个月的惯例。这些制裁包括对贸易、金融、能源、工业、运输和奢侈品等方面的限制。2025年12月22日，欧盟理事会发表声明说，将针对俄罗斯的经济制裁措施延长至2026年7月31日。俄罗斯方面对此尚无回应。",
-      "source": "央视新闻",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=823496065831107529&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D823496065831107529%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-06-18T23:30:31.905Z"
     }
   ],
-  "lastUpdated": "2026-06-24T17:00:42.328Z"
+  "lastUpdated": "2026-06-24T18:50:30.661Z"
 }
