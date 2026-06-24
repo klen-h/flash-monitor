@@ -2,6 +2,20 @@
   "date": "2026/6/25",
   "items": [
     {
+      "id": "20260625040156822800",
+      "time": "2026-06-25 04:01:56",
+      "hot": "沸",
+      "content": "美光科技(MU.O)2026财年Q3营收414.56亿美元，市场预期354.23亿美元，上年同期93.01亿美元。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-06-24T20:10:31.726Z"
+    },
+    {
       "id": "20260625022323219800",
       "time": "2026-06-25 02:23:23",
       "hot": "热",
@@ -4425,20 +4439,7 @@
         2
       ],
       "collectedAt": "2026-06-19T00:20:26.948Z"
-    },
-    {
-      "id": "20260619060806038800",
-      "time": "2026-06-19 06:08:06",
-      "hot": "热",
-      "content": "【以色列驻美大使称以方仍致力于执行与黎停火协议】金十数据6月19日讯，以色列当地时间19日凌晨，以色列驻美国大使耶希尔·莱特表示，以色列将继续致力于执行此前与黎巴嫩达成的停火协议，但前提是黎巴嫩真主党不违反该协议。莱特表示，以色列仍将致力于执行以色列、黎巴嫩和美国三方达成的停火协议。他强调，“在任何情况下，以色列都保留对针对其袭击作出回应的权利，并保留清除对其领土、公民和士兵威胁的权利”。",
-      "source": "央视",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=9675421348210527688&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D9675421348210527688%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
-      "important": 0,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-06-18T23:30:31.905Z"
     }
   ],
-  "lastUpdated": "2026-06-24T18:50:30.661Z"
+  "lastUpdated": "2026-06-24T20:10:32.648Z"
 }
