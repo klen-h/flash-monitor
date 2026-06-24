@@ -4326,6 +4326,111 @@
   },
   "rejectedSignals": [
     {
+      "etfName": "军工ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "1.24",
+      "resistance": "2",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "1.24"
+      },
+      "stopLoss": "1.203",
+      "takeProfit": "2",
+      "reasoning": "| **军工ETF**    | 1.240  | 1.270  | **做多**       | 中东地缘风险升级（黎巴嫩冲突）+ 衰退期防御属性，现价1.252距支撑近，上行空间>2%。 |",
+      "source": "premarket",
+      "id": "1782263551712",
+      "createdAt": "2026-06-24T01:12:31.712Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 115,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 40540,
+        "positionValue": 50269.6,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "科创50ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "2",
+      "resistance": "50",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "2"
+      },
+      "stopLoss": "1.940",
+      "takeProfit": "50",
+      "reasoning": "| **科创50ETF**  | 2.000  | 2.050  | **支撑位做多** | A股科技成本红利（原油跌）+ 科创板50ETF昨日涨4.02%，回调至2.000可布局。           |",
+      "source": "premarket",
+      "id": "1782263551709",
+      "createdAt": "2026-06-24T01:12:31.709Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 100,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 24999,
+        "positionValue": 49998,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "纳斯达克ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "2.15",
+      "resistance": "500",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "2.15"
+      },
+      "stopLoss": "2.085",
+      "takeProfit": "500",
+      "reasoning": "| **纳斯达克ETF** | 2.150  | 2.200  | **观望**       | 纳指期货反弹但隔夜芯片股大跌，需确认$29,500支撑；突破阻力前不宜追多。             |",
+      "source": "premarket",
+      "id": "1782263551706",
+      "createdAt": "2026-06-24T01:12:31.706Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 100,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 23076,
+        "positionValue": 49613.4,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
       "etfName": "银行ETF",
       "direction": "long",
       "trend": "neutral",
