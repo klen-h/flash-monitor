@@ -34,7 +34,7 @@
         "riskAmount": 1500,
         "riskPercent": "1.50"
       },
-      "lastCheckedPrice": 2.203
+      "lastCheckedPrice": 2.204
     },
     {
       "etfName": "科创50ETF",
@@ -4436,6 +4436,113 @@
   },
   "rejectedSignals": [
     {
+      "etfName": "科技ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "3.96",
+      "resistance": "50",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "3.96"
+      },
+      "stopLoss": "3.841",
+      "takeProfit": "50",
+      "reasoning": "- **科技ETF**（半导体/科创50）：传导链：美光目标价上调 → 半导体需求预期 → 板块资金流入（上午+3.96%）。",
+      "source": "lunchbreak",
+      "id": "1782365011357",
+      "createdAt": "2026-06-25T05:23:31.357Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 100,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 12605,
+        "positionValue": 49915.8,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "黄金ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "1",
+      "resistance": "3",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "1"
+      },
+      "stopLoss": "0.970",
+      "takeProfit": "3",
+      "reasoning": "- 伊朗避险：地缘事件（事件1/3）未推高黄金（黄金ETF-2.35%），因VIX中性+纳指涨压制避险需求（传导断裂）。",
+      "source": "lunchbreak",
+      "id": "1782365011354",
+      "createdAt": "2026-06-25T05:23:31.354Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [
+          "趋势向下，逆势做多"
+        ],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 85,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 49999,
+        "positionValue": 49999,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "半导体ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "3.96",
+      "resistance": "4",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "3.96"
+      },
+      "stopLoss": "3.841",
+      "takeProfit": "4",
+      "reasoning": "- 科技驱动：美光目标价上调（事件4） → 半导体ETF领涨+3.96% → 科创/AI ETF跟涨（传导：工业需求预期）。",
+      "source": "lunchbreak",
+      "id": "1782365011351",
+      "createdAt": "2026-06-25T05:23:31.351Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 135,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 12605,
+        "positionValue": 49915.8,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
       "etfName": "半导体ETF",
       "direction": "long",
       "trend": "neutral",
@@ -6100,115 +6207,6 @@
       "positionSize": {
         "shares": 5415,
         "positionValue": 50088.75,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "军工ETF",
-      "direction": "long",
-      "trend": "neutral",
-      "support": "0.63",
-      "resistance": "2.33",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "0.63"
-      },
-      "stopLoss": "0.611",
-      "takeProfit": "2.33",
-      "reasoning": "- 地缘不确定性 → 军工ETF领涨（+0.63%） + 半导体ETF领涨（+2.33%，科技对冲风险）。",
-      "source": "lunchbreak",
-      "id": "1780539221435",
-      "createdAt": "2026-06-04T02:13:41.435Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [
-          "价格历史数据不足，无法进行技术分析"
-        ],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 90,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 78947,
-        "positionValue": 49736.61,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "黄金ETF",
-      "direction": "long",
-      "trend": "up",
-      "support": "0.4",
-      "resistance": "1.2",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "0.4"
-      },
-      "stopLoss": "0.388",
-      "takeProfit": "1.2",
-      "reasoning": "- 中东停火事件 → 原油风险溢价消退（布油 -1.20%） → 避险情绪升温（黄金 +0.40%） → 黄金ETF微跌但COMEX金价上涨（GLD -0.99% vs. COMEX金 +0.40%，短期避险脉冲）。",
-      "source": "lunchbreak",
-      "id": "1780539221434",
-      "createdAt": "2026-06-04T02:13:41.434Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [
-          "价格历史数据不足，无法进行技术分析"
-        ],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 90,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 124999,
-        "positionValue": 49999.600000000006,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "科创50ETF",
-      "direction": "long",
-      "trend": "neutral",
-      "support": "3",
-      "resistance": "50",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "3"
-      },
-      "stopLoss": "2.910",
-      "takeProfit": "50",
-      "reasoning": "3. **科创50ETF**",
-      "source": "premarket",
-      "id": "1780535535620",
-      "createdAt": "2026-06-04T01:12:15.620Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 100,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 16666,
-        "positionValue": 49998,
         "riskAmount": 1500,
         "riskPercent": "1.50"
       }
