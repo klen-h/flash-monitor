@@ -2,6 +2,23 @@
   "date": "2026/6/26",
   "items": [
     {
+      "id": "20260626151301153800",
+      "time": "2026-06-26 15:13:01",
+      "hot": "热",
+      "content": "【“国补”继续！第三批625亿元资金已下达】金十数据6月26日讯，从国家发展改革委了解到，今年第三批625亿元超长期特别国债支持消费品以旧换新资金已于近日下达。据介绍，今年以来，国家发展改革委会同财政部等部门，按季度分批次下达超长期特别国债支持消费品以旧换新资金，推动消费品以旧换新工作节奏更加平稳，资金使用均衡有序，政策效应持续显现。截至6月20日，2026年消费品以旧换新惠及1.36亿人次，带动销售额超1万亿元，补贴资金撬动比由2025年的1∶7.8提升至1∶10.3，意味着补贴资金每投入1元钱，即带动10.3元的居民消费。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=7594945468310773224&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D7594945468310773224%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        4,
+        5,
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-06-26T07:30:35.008Z"
+    },
+    {
       "id": "20260626145038139800",
       "time": "2026-06-26 14:50:38",
       "hot": "热",
@@ -4406,22 +4423,7 @@
         2
       ],
       "collectedAt": "2026-06-20T14:50:27.257Z"
-    },
-    {
-      "id": "20260620220116164800",
-      "time": "2026-06-20 22:01:16",
-      "hot": "热",
-      "content": "伊朗革命卫队海军：以色列在黎巴嫩的行动以及美国违反停火承诺是霍尔木兹海峡关闭的原因。",
-      "source": "",
-      "source_link": "",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-06-20T14:20:26.746Z"
     }
   ],
-  "lastUpdated": "2026-06-26T07:20:28.959Z"
+  "lastUpdated": "2026-06-26T07:30:36.256Z"
 }
