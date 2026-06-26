@@ -2,6 +2,21 @@
   "date": "2026/6/26",
   "items": [
     {
+      "id": "20260626210031871800",
+      "time": "2026-06-26 21:00:31",
+      "hot": "热",
+      "content": "据阿拉伯电视台（AlArabiya）：美伊下一轮谈判将于6月28日和29日举行。据悉，美伊即将进行的谈判将是技术性的，由专家层面进行，并有调解人在场。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-06-26T13:20:28.467Z"
+    },
+    {
       "id": "20260626204558602800",
       "time": "2026-06-26 20:45:58",
       "hot": "热",
@@ -4422,22 +4437,7 @@
         2
       ],
       "collectedAt": "2026-06-20T20:20:27.704Z"
-    },
-    {
-      "id": "20260621020712696800",
-      "time": "2026-06-21 02:07:12",
-      "hot": "热",
-      "content": "【消息人士：伊拉克国民议会议长住所遭无人机袭击】金十数据6月21日讯，当地时间20日，伊拉克安全部门消息人士称，伊拉克国民议会议长海巴特·哈勒布西的住所遭不明无人机袭击。",
-      "source": "央视新闻",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=9880960895543013502&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D9880960895543013502%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
-      "important": 1,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-06-20T19:50:26.899Z"
     }
   ],
-  "lastUpdated": "2026-06-26T13:00:38.075Z"
+  "lastUpdated": "2026-06-26T13:23:25.293Z"
 }
