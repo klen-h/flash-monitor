@@ -2,6 +2,23 @@
   "date": "2026/6/26",
   "items": [
     {
+      "id": "20260626170318187800",
+      "time": "2026-06-26 17:03:18",
+      "hot": "热",
+      "content": "【《人工智能 智能体互联》系列7项国家标准发布】金十数据6月26日讯，从市场监管总局召开的新闻发布会上了解到，《人工智能智能体互联》系列国家标准正式发布。此次发布的《人工智能智能体互联》系列7项国家标准，全面覆盖总体架构、身份码、身份管理、智能体描述、智能体发现、智能体交互、智能体工具调用等核心环节，系统性搭建起“身份标识—能力描述—供需发现—协同交互—工具调用”全覆盖、闭环式标准规范体系，有效补齐该领域标准空白。通过该系列标准统一架构与交互规则后，企业可复用标准组件，减少定制开发，压缩产品上市周期；同步建立统一身份认证、全程追溯机制，夯实跨域可信、安全交互的制度基础。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=586719448901817755&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D586719448901817755%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        4,
+        5,
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-06-26T09:20:28.244Z"
+    },
+    {
       "id": "20260626170133407800",
       "time": "2026-06-26 17:01:33",
       "hot": "沸",
@@ -4408,22 +4425,7 @@
         2
       ],
       "collectedAt": "2026-06-20T15:20:28.264Z"
-    },
-    {
-      "id": "20260620224749069800",
-      "time": "2026-06-20 22:47:49",
-      "hot": "热",
-      "content": "【伊朗谈判代表已启程前往瑞士】金十数据6月20日讯，据伊朗方面20日消息，伊朗谈判代表已启程前往瑞士，就谅解备忘录与美方进行讨论。6月20日，巴基斯坦外交部称，根据美伊谅解备忘录的后续安排，技术层级会谈将于2026年6月21日在瑞士举行。巴基斯坦及卡塔尔将作为调解人参加该会议。",
-      "source": "央视新闻",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=3660559003432966339&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D3660559003432966339%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-06-20T15:10:29.241Z"
     }
   ],
-  "lastUpdated": "2026-06-26T09:10:28.656Z"
+  "lastUpdated": "2026-06-26T09:20:29.165Z"
 }
