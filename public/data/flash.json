@@ -2,6 +2,21 @@
   "date": "2026/6/27",
   "items": [
     {
+      "id": "20260627045710710800",
+      "time": "2026-06-27 04:57:10",
+      "hot": "热",
+      "content": "【消息人士称伊朗南部港口城市码头传出爆炸声】金十数据6月27日讯，当地时间26日，一名伊朗军事消息人士透露，当晚23时15分左右，伊朗南部港口城市锡里克的码头传出爆炸声，爆炸原因是有弹体击中了码头区域。该军事消息人士称，大约5小时前，锡里克地区曾向霍尔木兹海峡内的违规船只进行警告射击。",
+      "source": "央视",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=13334501358846698083&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D13334501358846698083%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
+      "important": 0,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-06-26T21:50:27.997Z"
+    },
+    {
       "id": "20260627044443759800",
       "time": "2026-06-27 04:44:43",
       "hot": "热",
@@ -4425,22 +4440,7 @@
         2
       ],
       "collectedAt": "2026-06-21T05:00:38.182Z"
-    },
-    {
-      "id": "20260621121227027800",
-      "time": "2026-06-21 12:12:27",
-      "hot": "沸",
-      "content": "【万斯抵达瑞士】金十数据6月21日讯，据美联社：美国副总统万斯已抵达瑞士，牵头美方与德黑兰就其核计划进行的谈判。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-06-21T04:30:34.873Z"
     }
   ],
-  "lastUpdated": "2026-06-26T21:10:28.772Z"
+  "lastUpdated": "2026-06-26T21:50:29.130Z"
 }
