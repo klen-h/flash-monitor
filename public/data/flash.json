@@ -2,6 +2,20 @@
   "date": "2026/6/29",
   "items": [
     {
+      "id": "20260629063158242800",
+      "time": "2026-06-29 06:31:58",
+      "hot": "热",
+      "content": "【金十数据整理：昨日今晨重要新闻汇总（2026-06-29）】<b>国内新闻：</b><br/><span class=\"section-news\">1. 欧洲热浪向东蔓延，多国频创高温纪录，中国避暑产品在欧洲热销。</span><br/><span class=\"section-news\">2. 潘功胜出席国际清算银行行长例会及年度股东大会。</span><br/><span class=\"section-news\">3. 多只热门题材股发布股票交易异动或风险提示公告。</span><br/><span class=\"section-news\">4. Momenta在港上市拟发行1993万股，发行价为295.6港元/股。</span><br/><b>国际新闻：</b><br/><span class=\"section-news\">1. 普京：俄建议乌俄双方均停止打击对方领土纵深目标。</span><br/><span class=\"section-news\">2. 因算力供不应求，谷歌限制Meta对Gemini AI模型的使用。</span><br/><span class=\"section-news\">3. 普京承认俄罗斯国内燃油供应出现短缺，考虑全面禁止柴油出口。</span><br/><span class=\"section-news\">4. 巴基斯坦称其在阿富汗边境地区实施了地面行动和打击，造成29名武装分子死亡。</span><br/><span class=\"section-news\">5. 中东局势—<br/>①美媒：美伊同意停止互袭，本周二将在卡塔尔会晤，聚焦海峡争端问题。<br/>②伊美在周末互袭，伊方缺席28日的美伊技术性谈判。美媒：美伊技术谈判仍计划在未来几天内进。<br/>③伊朗外长：未来30天内海峡将完全由伊朗控制，任何干预将导致海峡延迟重新开放。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-06-28T23:00:36.077Z"
+    },
+    {
       "id": "20260629055348536800",
       "time": "2026-06-29 05:53:48",
       "hot": "热",
@@ -4419,22 +4433,7 @@
         2
       ],
       "collectedAt": "2026-06-21T23:30:35.989Z"
-    },
-    {
-      "id": "20260622070134362800",
-      "time": "2026-06-22 07:01:34",
-      "hot": "热",
-      "content": "【今天15点，将举行重要发布会】金十数据6月22日讯，国务院新闻办公室将于2026年6月22日（星期一）下午3时举行新闻发布会，请商务部副部长兼国际贸易谈判副代表凌激和国家发展改革委、财政部有关负责人介绍利用外资固稳促优有关政策措施。",
-      "source": "央视",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=8224033503748391401&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D8224033503748391401%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-06-21T23:30:35.989Z"
     }
   ],
-  "lastUpdated": "2026-06-28T22:40:28.390Z"
+  "lastUpdated": "2026-06-28T23:00:37.679Z"
 }
