@@ -2,6 +2,21 @@
   "date": "2026/6/28",
   "items": [
     {
+      "id": "20260628133655032800",
+      "time": "2026-06-28 13:36:55",
+      "hot": "热",
+      "content": "【因算力供不应求，谷歌限制Meta对Gemini AI模型的使用】金十数据6月28日讯，据英国金融时报报道，谷歌已对Meta使用其Gemini AI模型设限，Meta的算力超出了谷歌所能提供的范围。报道称，谷歌在3月左右告知Meta，无法满足其寻求购买的全部Gemini算力，并补充说，这一缺口打乱并推迟了Meta部分内部AI项目。报道还指出，谷歌的其他几家客户也受到了影响，但程度较轻。《金融时报》称，Meta受影响尤为严重，因其对谷歌模型的需求异常之高。",
+      "source": "",
+      "source_link": "",
+      "important": 0,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-06-28T06:30:31.782Z"
+    },
+    {
       "id": "20260628125508699800",
       "time": "2026-06-28 12:55:08",
       "hot": "热",
@@ -4425,22 +4440,7 @@
         3
       ],
       "collectedAt": "2026-06-21T17:00:38.818Z"
-    },
-    {
-      "id": "20260622004746632800",
-      "time": "2026-06-22 00:47:46",
-      "hot": "沸",
-      "content": "【抗议特朗普威胁言论 伊朗代表团离开谈判地点】金十数据6月22日讯，当地时间21日，伊朗方面发布消息称，一名接近谈判团队的消息人士透露，伊朗谈判代表团因抗议特朗普的威胁言论，已离开谈判地点。另据知情人士消息，美国总统特朗普最新对伊朗发出的威胁言论导致美伊在瑞士的会谈暂停，并使谈判能否继续进行蒙上阴影。此前，特朗普在社交平台“真实社交”上发文称，伊朗必须立即停止其在黎巴嫩的“代理人”行动，否则美国将对伊朗发动打击。",
-      "source": "央视新闻",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=6735572508957104637&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D6735572508957104637%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-06-21T17:00:38.818Z"
     }
   ],
-  "lastUpdated": "2026-06-28T06:00:36.584Z"
+  "lastUpdated": "2026-06-28T06:30:33.315Z"
 }
