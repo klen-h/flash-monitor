@@ -2,6 +2,21 @@
   "date": "2026/6/29",
   "items": [
     {
+      "id": "20260629175238491800",
+      "time": "2026-06-29 17:52:38",
+      "hot": "热",
+      "content": "【伊朗：本周未安排技术会议】金十数据6月29日讯，据伊朗塔斯尼姆通讯社：伊朗副外长加里巴巴迪表示，本周未安排技术工作组会议。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-06-29T10:20:28.362Z"
+    },
+    {
       "id": "20260629175224777800",
       "time": "2026-06-29 17:52:24",
       "hot": "热",
@@ -4420,20 +4435,7 @@
         2
       ],
       "collectedAt": "2026-06-22T01:20:27.725Z"
-    },
-    {
-      "id": "20260622090828413800",
-      "time": "2026-06-22 09:08:28",
-      "hot": "热",
-      "content": "【金十数据整理：A股盘前市场要闻速递（2026-06-22）】<b>重要新闻</b><br/><span class=\"section-news\">1. 上交所拟完善股票期权组合策略业务，推出单边平仓功能。</span><br/><span class=\"section-news\">2. 商务部等八部门发布17项举措推进“人工智能+消费”发展。</span><br/><span class=\"section-news\">3. 金融监管总局：加强人工智能安全开发应用治理。</span><br/><span class=\"section-news\">4. 国家能源局：2026年5月份全社会用电量同比增长6.9%。</span><br/><span class=\"section-news\">5. 枧下窝锂矿用地预审有新进展，市场人士：离正式审批还有一定距离。</span><br/><span class=\"section-news\">6. 七部门：引导平台企业加强通用大模型、行业大模型和智能体等人工智能领域创新布局。</span><br/><span class=\"section-news\">7. 广东：争取打造万亿级世界一流互联网企业。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 宁德时代枧下窝锂矿重获项目用地意见书。</span><br/><span class=\"section-news\">2. 澜起科技：近日成功送样DDR5第六子代RCD芯片。</span><br/><span class=\"section-news\">3. 贵州茅台：2025年度每股派发现金红利28.02元，股权登记日为2026年6月25日。</span><br/><span class=\"section-news\">4. 立讯精密港股上市获中国证监会备案。</span><br/><span class=\"section-news\">5. 中船特气：六氟化钨相关传闻请以公司披露为准。</span><br/><span class=\"section-news\">6. 沪电股份：拟吸并全资子公司普江仓储，对产能扩建工作统一规划。</span><br/><span class=\"section-news\">7. 沪硅产业：拟与股东国盛集团共同对子公司上海新昇合计增资114.48亿元，满足300mm半导体硅片建设资金需求。</span><br/><span class=\"section-news\">8. 博瑞医药：实际控制人袁建栋因涉嫌操纵证券市场被取保候审。</span><br/><span class=\"section-news\">9. 合力泰：2017年至2021年年报存在虚假记载，公司股票将被实施其他风险警示。</span><br/><span class=\"section-news\">10. 中工国际：全资子公司签署11.27亿元储能电站工程总承包合同。</span><br/><span class=\"section-news\">11. 兴业科技：拟5500万元收购磷化铟衬底相关业务。</span><br/><span class=\"section-news\">12. 京东方A：未来公司资本开支金额将逐渐降低。</span><br/><span class=\"section-news\">13. 汤臣倍健：拟5000万元投资原粒半导体，后者基于Chiplet技术创新打造AI推理芯片。</span><br/><span class=\"section-news\">14. 博云新材：2026年至今博云东方暂未向中钨高新子公司金洲精工供应高端钻针母材产品 也未确认销售收入。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-06-22T01:20:27.725Z"
     }
   ],
-  "lastUpdated": "2026-06-29T10:00:39.970Z"
+  "lastUpdated": "2026-06-29T10:20:29.516Z"
 }
