@@ -2,6 +2,19 @@
   "date": "2026/6/29",
   "items": [
     {
+      "id": "20260629111250413800",
+      "time": "2026-06-29 11:12:50",
+      "hot": "热",
+      "content": "【金十数据整理：每日存储市场要闻速递（2026-06-29）】<span class=\"section-news\">1. 韩媒：三星和SK集团预计将宣布高达2000万亿韩元的投资计划。</span><br/><span class=\"section-news\">2. 华为：OceanStor A800存储斩获IO500榜单第一。</span><br/><span class=\"section-news\">3. 花旗：苹果对长鑫存储的认可将提升其全球地位。</span><br/><span class=\"section-news\">4. 三星电机MLCC或斩获大单，并将加码玻璃基板。</span><br/><span class=\"section-news\">5. 三星电子：HCB技术有望成为未来提升HBM4E量产竞争力的重要技术基础。</span><br/><span class=\"section-news\">6. 机构：预估DDR2第二季合约价涨幅将达约55-60%，第三季预估将进一步上涨35-40%。</span><br/><span class=\"section-news\">7. SK海力士拟以166美元登陆美股，机构预计有20%上涨空间。</span><br/><span class=\"section-news\">8. 多家机构集体上调美光目标价，AI存储需求前景获持续看好。</span><br/><span class=\"section-news\">9. 美银证券：AI内存供给短缺至少会持续到明年底。</span><br/><span class=\"section-news\">10. 内存、硬盘以及CPU、显卡等核心配件价格普遍走高，多个电脑热门机型售价大幅上调。</span><br/><span class=\"section-news\">11. 多氟多：半导体级氢氟酸市场价涨约20%-30%批量供应台积电、长鑫存储等，规划六氟化钨等高端电子特气产线。</span><br/><span class=\"section-news\">12. 宏川智算：与长兴半导体打通算力存储供应链，DDR5内存条送达某头部GPU设计厂商。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-06-29T04:30:32.937Z"
+    },
+    {
       "id": "20260629100032328800",
       "time": "2026-06-29 10:00:32",
       "hot": "热",
@@ -4421,22 +4434,7 @@
         2
       ],
       "collectedAt": "2026-06-22T01:10:27.772Z"
-    },
-    {
-      "id": "20260622090152489800",
-      "time": "2026-06-22 09:01:52",
-      "hot": "热",
-      "content": "<b>伊朗外交部发言人：在瑞士举行的会谈在落实对方承诺方面取得了良好进展。</b>",
-      "source": "",
-      "source_link": "",
-      "important": 0,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-06-22T01:10:27.772Z"
     }
   ],
-  "lastUpdated": "2026-06-29T02:13:41.459Z"
+  "lastUpdated": "2026-06-29T04:30:34.074Z"
 }
