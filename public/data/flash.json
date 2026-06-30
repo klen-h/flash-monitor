@@ -2,6 +2,20 @@
   "date": "2026/6/30",
   "items": [
     {
+      "id": "20260630185322912800",
+      "time": "2026-06-30 18:53:22",
+      "hot": "爆",
+      "content": "市场消息：SK海力士已提交在纳斯达克上市申请。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-06-30T11:00:39.105Z"
+    },
+    {
       "id": "20260630151426883800",
       "time": "2026-06-30 15:14:26",
       "hot": "热",
@@ -4398,22 +4412,7 @@
         3
       ],
       "collectedAt": "2026-06-22T22:40:28.776Z"
-    },
-    {
-      "id": "20260623052354173800",
-      "time": "2026-06-23 05:23:54",
-      "hot": "热",
-      "content": "【金十数据整理：中东局势跟踪（6月23日）】<br/><b>①伊朗</b><br/><span class=\"section-news\">1. 伊朗议长：伊美应共同保障黎巴嫩领土完整。</span><br/><span class=\"section-news\">2. 伊外交部发言人：德黑兰与国际原子能机构的互动将需获得伊朗议会的批准以及最高国家安全委员会的决策。</span><br/><span class=\"section-news\">3. 伊代理防长：武装部队处于最高戒备状态；侵略者若有任何新的挑衅或误判，都将招致比以往更强有力的回击。</span><br/><b>②美国</b><br/><span class=\"section-news\">1. 万斯：已设立一个黎巴嫩冲突降级机制。</span><br/><span class=\"section-news\">2. 万斯称伊朗已同意邀请国际原子能机构检查员回访，遭伊方反驳。</span><br/><span class=\"section-news\">3. 特朗普称伊朗将同意接受武器核查，以确保其在未来长期保持“核诚信”。</span><br/><span class=\"section-news\">4. 美官员称美方已针对黎巴嫩局势建立“监测机制”。</span><br/><span class=\"section-news\">5. 特朗普：如果伊朗不遵守协议，我将采取必要措施。</span><br/><b>③以色列</b><br/><span class=\"section-news\">1. 以色列称将继续采取行动摧毁黎南部军事设施。</span><br/><span class=\"section-news\">2. 以色列总理：以色列国防军可在黎巴嫩南部自由行动以应对威胁。</span><br/><b>④停火谈判</b><br/><span class=\"section-news\">1. 卡塔尔与巴基斯坦联合声明：美伊首轮高级别会谈结束，各方敲定60天路线图。</span><br/><span class=\"section-news\">2. 伊朗外交部：伊美技术性会谈已在瑞士启动。</span><br/><span class=\"section-news\">3. 伊朗首席谈判代表：关于解冻120亿美元伊朗资产的协议签署事宜已敲定。</span><br/><span class=\"section-news\">4. 万斯称瑞士谈判富有成效，但警告“不能相信任何人的话”。</span><br/><span class=\"section-news\">5. 伊总统：伊朗绝不会屈服于过分的要求。</span><br/><b>⑤霍尔木兹海峡</b><br/><span class=\"section-news\">1. 英媒：伊美磋商期间逾400艘船在霍尔木兹海峡等待。</span><br/><span class=\"section-news\">2. 伊朗议长：霍尔木兹海峡将按伊方制定的机制进行管理。</span><br/><span class=\"section-news\">3. 联合海事信息中心JMIC：霍尔木兹海峡海上安全威胁等级下调至“中等”。</span><br/><span class=\"section-news\">4. 伊朗首席谈判代表：已同意建立关于霍尔木兹海峡船只通行的沟通渠道。</span><br/><b>⑥其他情况</b><br/><span class=\"section-news\">1. 伊朗总统将于周二访问巴基斯坦。</span><br/><span class=\"section-news\">2. 美国财政部发布一项为期60天的临时通用许可证，授权伊朗销售石油。</span><br/><span class=\"section-news\">3. 据悉美国豁免制裁前一周，伊朗出口了3000万桶原油。</span><br/><span class=\"section-news\">4. 黎真主党领导人：将对以色列的任何侵犯行为作出回应。 </span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-06-22T21:50:40.737Z"
     }
   ],
-  "lastUpdated": "2026-06-30T10:00:39.320Z"
+  "lastUpdated": "2026-06-30T11:00:40.096Z"
 }
