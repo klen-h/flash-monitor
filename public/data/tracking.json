@@ -4986,6 +4986,113 @@
   },
   "rejectedSignals": [
     {
+      "etfName": "军工ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "1.22",
+      "resistance": "1.25",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "1.22"
+      },
+      "stopLoss": "1.183",
+      "takeProfit": "1.25",
+      "reasoning": "| **军工ETF**   | 1.220      | 1.250      | 观望             | 地缘风险（伊朗局势）提供对冲，但现价1.234接近阻力；需确认事件升级。       |",
+      "source": "premarket",
+      "id": "1782781960442",
+      "createdAt": "2026-06-30T01:12:40.442Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [
+          "趋势向下，逆势做多"
+        ],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 85,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 40540,
+        "positionValue": 49458.799999999996,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "半导体ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "2.652",
+      "resistance": "24",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "2.652"
+      },
+      "stopLoss": "2.572",
+      "takeProfit": "24",
+      "reasoning": "| **半导体ETF** | 2.850      | 2.950      | 在2.850附近做多   | 原油跌降低生产成本 + 纳指隔夜涨（事件5）；阻力位参考6/24高点2.652 + 近期动能。 |",
+      "source": "premarket",
+      "id": "1782781960439",
+      "createdAt": "2026-06-30T01:12:40.439Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 135,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 18749,
+        "positionValue": 49722.348000000005,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "黄金ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "1.35",
+      "resistance": "3978.99",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "1.35"
+      },
+      "stopLoss": "1.310",
+      "takeProfit": "3978.99",
+      "reasoning": "| **黄金ETF**   | 8.400      | 8.500      | 观望（若跌近支撑可轻仓做多） | 衰退避险逻辑强化，但GLD跌-1.35%显示短期承压；支撑位基于COMEX黄金近5日低点$3978.99换算。 |",
+      "source": "premarket",
+      "id": "1782781960436",
+      "createdAt": "2026-06-30T01:12:40.436Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 115,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 37499,
+        "positionValue": 50623.65,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
       "etfName": "科技ETF",
       "direction": "long",
       "trend": "neutral",
@@ -6646,117 +6753,6 @@
       "positionSize": {
         "shares": 39473,
         "positionValue": 49341.25,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "半导体ETF",
-      "direction": "long",
-      "trend": "neutral",
-      "support": "2.18",
-      "resistance": "2.33",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "2.18"
-      },
-      "stopLoss": "2.115",
-      "takeProfit": "2.33",
-      "reasoning": "| **半导体ETF** | 2.18   | 2.25   | 观望     | 上午领涨+2.33%，但涨幅已近阻力位，需待纳指企稳确认需求韧性。 |",
-      "source": "lunchbreak",
-      "id": "1780539221439",
-      "createdAt": "2026-06-04T02:13:41.439Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [
-          "价格历史数据不足，无法进行技术分析"
-        ],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 90,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 23076,
-        "positionValue": 50305.68,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "军工ETF",
-      "direction": "long",
-      "trend": "neutral",
-      "support": "1.27",
-      "resistance": "1.3",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "1.27"
-      },
-      "stopLoss": "1.232",
-      "takeProfit": "1.3",
-      "reasoning": "| **军工ETF**   | 1.27   | 1.30   | 做多     | 中东停火条件苛刻（真主党撤军），地缘尾部风险未消，对冲衰退+冲突升级。 |",
-      "source": "lunchbreak",
-      "id": "1780539221438",
-      "createdAt": "2026-06-04T02:13:41.438Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [
-          "价格历史数据不足，无法进行技术分析"
-        ],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 90,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 39473,
-        "positionValue": 50130.71,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "黄金ETF",
-      "direction": "long",
-      "trend": "up",
-      "support": "9.25",
-      "resistance": "9.3",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "9.25"
-      },
-      "stopLoss": "8.973",
-      "takeProfit": "9.3",
-      "reasoning": "| **黄金ETF**   | 9.25   | 9.30   | 做多     | D状态避险强化（原油跌+黄金涨），GLD持仓减少但金价上涨，短期脉冲可博弈。 |",
-      "source": "lunchbreak",
-      "id": "1780539221437",
-      "createdAt": "2026-06-04T02:13:41.437Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [
-          "价格历史数据不足，无法进行技术分析"
-        ],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 90,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 5415,
-        "positionValue": 50088.75,
         "riskAmount": 1500,
         "riskPercent": "1.50"
       }
