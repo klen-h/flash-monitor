@@ -2,6 +2,21 @@
   "date": "2026/7/2",
   "items": [
     {
+      "id": "20260702053026741800",
+      "time": "2026-07-02 05:30:26",
+      "hot": "热",
+      "content": "【金十数据整理：中东局势跟踪（7月2日）】<b>美伊谈判</b><br/><span class=\"section-news\">1. 据沙特阿拉比亚电视台：一位高级政府官员表示，美国谈判代表库什纳和威特科夫与卡塔尔地区领导人进行了积极的讨论，与伊朗的技术谈判也在推进中。</span><br/><span class=\"section-news\">2. 据外媒7月1日援引消息人士的话报道，美国和伊朗官员当天将在卡塔尔首都多哈举行间接会谈。</span><br/><span class=\"section-news\">3. 据以色列第12频道援引沙特媒体报道：多哈谈判方已达成一项初步协议，将向伊朗释放30亿美元资金。</span><br/><span class=\"section-news\">4. 美国总统特朗普：伊朗谈判进展顺利。伊朗去核化进展顺利。</span><br/><span class=\"section-news\">5. 伊朗称将适时启动伊美最终协议谈判。</span><br/><span class=\"section-news\">6. 据AXIOS网站：美国在多哈谈判中试图劝说伊朗放弃霍尔木兹海峡“通行收费”机制。</span><br/><span class=\"section-news\">7. 据伊朗伊斯兰共和国通讯社（IRNA）：伊朗副外长表示，伊朗代表团在多哈的会谈已结束。</span><br/><span class=\"section-news\">8. 消息人士：伊朗要求分阶段执行美伊谅解备忘录，重点推动资产解冻。</span><br/><span class=\"section-news\">9. 伊朗议会议长卡利巴夫：关于检查员进入被轰炸地点的说法是错误的。</span><br/><span class=\"section-news\">10. 美国副总统万斯：技术谈判代表正在就伊朗问题展开讨论。</span><br/><span class=\"section-news\">11. 伊朗称美方违反谅解备忘录承诺，将建立监督机制审查违规行为。</span><br/><span class=\"section-news\">12. 伊朗消息人士称，伊朗坚持保留对霍尔木兹海峡的控制权。</span><br/><span class=\"section-news\">13. 美国副总统万斯：在过去三天里商业航运实现了自由通行。</span><br/><span class=\"section-news\">14. 卡塔尔：各方同意推进讨论，下次会晤将在前伊朗最高领袖葬礼后举行。</span><br/><b>其他情况</b><br/><span class=\"section-news\">1. 以色列媒体援引高级安全官员表示，加沙地区已接近沸点，重返冲突已不再是“是否”的问题，而是“何时”的问题。</span><br/><span class=\"section-news\">2. 美国官员：美将在黎以驻军监督停火。</span><br/><span class=\"section-news\">3. 据沙特阿拉伯阿拉比亚电视台：以色列对黎巴嫩南部的纳布提亚上方进行空袭。</span><br/><span class=\"section-news\">4. 伊朗航空公司恢复德黑兰孟买航线。</span><br/><span class=\"section-news\">5. 泰国确认其大多数船只已安全驶离霍尔木兹海峡。</span><br/><span class=\"section-news\">6. 英媒：海湾国家被曝欲独自与伊朗达成地区安全协议。</span><br/><span class=\"section-news\">7. 霍尔木兹海峡发生船只搁浅事故，受损程度尚不明确。</span><br/><span class=\"section-news\">8. 据伊朗国家媒体：一艘外国集装箱船在霍尔木兹海峡搁浅，原因是未按伊朗指定航线行驶。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-07-01T22:20:30.968Z"
+    },
+    {
       "id": "20260702040235507800",
       "time": "2026-07-02 04:02:35",
       "hot": "热",
@@ -4409,22 +4424,7 @@
         2
       ],
       "collectedAt": "2026-06-24T17:00:41.573Z"
-    },
-    {
-      "id": "20260624224406064800",
-      "time": "2026-06-24 22:44:06",
-      "hot": "热",
-      "content": "美国能源信息署（EIA）：包括战略石油储备（SPR）在内的美国原油库存上周降至1984年10月以来的最低水平。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-06-24T15:00:42.991Z"
     }
   ],
-  "lastUpdated": "2026-07-01T22:00:43.358Z"
+  "lastUpdated": "2026-07-01T22:20:32.133Z"
 }
