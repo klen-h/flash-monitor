@@ -2,6 +2,34 @@
   "date": "2026/7/1",
   "items": [
     {
+      "id": "20260701152104370800",
+      "time": "2026-07-01 15:21:04",
+      "hot": "热",
+      "content": "【金十数据整理：A股每日市场要闻回顾（2026-07-01）】<b>重要新闻</b><br/><span class=\"section-news\">1. RatingDog：6月中国制造业PMl录得51.7，连续第七个月处于扩张区间。</span><br/><span class=\"section-news\">2. 代理商回应MLCC龙头国巨涨价：属实。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 主力资金流向数据显示，东方财富主力资金净流入21.45亿元居首位，C惠科、大唐发电、润泽科技、中信证券获主力资金净流入居前；兆易创新主力资金净流出55.12亿元居首位，京东方A、中天科技、天孚通信、东山精密主力资金净流出居前。</span><br/><span class=\"section-news\">2. 宁德时代10万吨碳酸锂产能复产。</span><br/><span class=\"section-news\">3. 阳光电源股价一度接近跌停，公司称生产经营未现异常。</span><br/><span class=\"section-news\">4. 子公司被村田暂停供货？深圳华强：相关传闻不属实。</span><br/><span class=\"section-news\">5. 通富微电回应公司将新增30亿光模块收入传闻：不属实。</span><br/><span class=\"section-news\">6. 兆易创新推出首款GD24CL系列I²C EEPROM。</span><br/><span class=\"section-news\">7. 芯联集成三季度将价格调整，涨价幅度15%-25%。</span><br/><span class=\"section-news\">8. 泰晶科技全系列晶振产品上涨10%-30%。</span><br/><span class=\"section-news\">9. 均胜电子将推出机器人灵巧手和半固态电池方案。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-07-01T08:50:29.592Z"
+    },
+    {
+      "id": "20260701152838431800",
+      "time": "2026-07-01 15:28:38",
+      "hot": "热",
+      "content": "【美伊官员将在多哈举行间接会谈】金十数据7月1日讯，据外媒7月1日援引消息人士的话报道，美国和伊朗官员当天将在卡塔尔首都多哈举行间接会谈。",
+      "source": "新华社",
+      "source_link": "https://h.xinhuaxmt.com/vh512/share/13176818?docid=13176818&newstype=1001&d=135275d",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-07-01T08:50:29.592Z"
+    },
+    {
       "id": "20260701141620503800",
       "time": "2026-07-01 14:16:20",
       "hot": "热",
@@ -4394,37 +4422,7 @@
         3
       ],
       "collectedAt": "2026-06-23T13:40:32.568Z"
-    },
-    {
-      "id": "20260623201502401800",
-      "time": "2026-06-23 20:15:02",
-      "hot": "热",
-      "content": "<b>美国至6月6日当周ADP就业人数周度变动 3.075万人，前值2.55万人。</b>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-06-23T13:00:42.091Z"
-    },
-    {
-      "id": "20260623203634503800",
-      "time": "2026-06-23 20:36:34",
-      "hot": "热",
-      "content": "美国股指期货延续跌势，道指期货跌0.53%，标普500指数期货跌1.48%，纳指期货跌3%。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-06-23T13:00:42.091Z"
     }
   ],
-  "lastUpdated": "2026-07-01T07:40:33.159Z"
+  "lastUpdated": "2026-07-01T08:50:30.882Z"
 }
