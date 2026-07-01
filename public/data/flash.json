@@ -2,6 +2,48 @@
   "date": "2026/7/1",
   "items": [
     {
+      "id": "20260701203418027800",
+      "time": "2026-07-01 20:34:18",
+      "hot": "热",
+      "content": "市场消息：Meta Platforms(META.O)正构建云业务，以出售其富余的人工智能算力资源。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-07-01T12:50:33.882Z"
+    },
+    {
+      "id": "20260701203524937800",
+      "time": "2026-07-01 20:35:24",
+      "hot": "沸",
+      "content": "Meta Platforms(META.O)盘前迅速拉升，现涨超5%，消息称其正在出售富余的人工智能算力资源。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-07-01T12:50:33.882Z"
+    },
+    {
+      "id": "20260701203648511800",
+      "time": "2026-07-01 20:36:48",
+      "hot": "爆",
+      "content": "美国总统特朗普：股市上涨，人人都在获利。我也在获利。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-07-01T12:50:33.882Z"
+    },
+    {
       "id": "20260701203330167800",
       "time": "2026-07-01 20:33:30",
       "hot": "沸",
@@ -4382,51 +4424,7 @@
         1
       ],
       "collectedAt": "2026-06-23T23:30:33.976Z"
-    },
-    {
-      "id": "20260624063053864800",
-      "time": "2026-06-24 06:30:53",
-      "hot": "热",
-      "content": "【金十数据整理：昨日今晨重要新闻汇总（2026-06-24）】<b>国内新闻：</b><br/><span class=\"section-news\">1. 李强在大连会见来华出席夏季达沃斯论坛的韩国总理金民锡。</span><br/><span class=\"section-news\">2. 时隔九年，我国超算再次排名全球第一。</span><br/><span class=\"section-news\">3. 中国人民银行法修订草案已提请首次审议。</span><br/><span class=\"section-news\">4. 两部门：国产小客车能“当天买车，当天上牌”。</span><br/><span class=\"section-news\">5. 相关部门酝酿推出支持数字文化出口专项政策。</span><br/><span class=\"section-news\">6. 商务部等部门发布两项通知 加力推动全链条扩大汽车消费。</span><br/><span class=\"section-news\">7. 火山引擎：Seed 2.1、Seedance 2.5发布，图像、语音模型同步上新。</span><br/><span class=\"section-news\">8. 刘国中在江苏调研时强调，打造生物医药新兴支柱产业，培育发展脑机接口未来产业。</span><br/><b>国际新闻：</b><br/><span class=\"section-news\">1. 道琼斯工业指数将纳入谷歌A。</span><br/><span class=\"section-news\">2. 普京：俄方愿基于伊斯坦布尔协议等与乌谈判。</span><br/><span class=\"section-news\">3. 美国将提供175亿美元贷款支持大型核反应堆建设。</span><br/><span class=\"section-news\">4. 意大利总理梅洛尼考虑最早于明年4月提前举行大选。</span><br/><span class=\"section-news\">5. 俄副总理：考虑禁止柴油出口，正在使用燃料储备。</span><br/><span class=\"section-news\">6. 特朗普将出席世界杯决赛，并为冠军颁发奖杯。</span><br/><span class=\"section-news\">7. 美国6月制造业活动超预期增长，但工厂就业跌至六年低点。</span><br/><span class=\"section-news\">8. 英国财政大臣称国防计划将于7月北约峰会前公布，试图消解外界误会。</span><br/><span class=\"section-news\">9. 芝加哥期权交易所推出CBOE Predicts预测平台，将上线首批产品。</span><br/><span class=\"section-news\">10. 隔夜行情—纳指跌超2%，芯片股重挫，英伟达市值下破5万亿美元、现货黄金跌2%，白银跌超5%。</span><br/><span class=\"section-news\">11. 中东局势——<br/>①特朗普：伊朗已完全同意接受长期核检查 这是进一步谈判的前提。<br/>②阿曼与国际海事组织协调开辟霍尔木兹海峡临时航道。<br/>③黎巴嫩真主党称以色列对黎南部的攻击违反了停火协议。<br/>④阿曼和伊朗发布联合声明：强调领海主权 将共同制定航行管理协议。<br/>⑤美军称继续在中东地区驻留并保持警惕，两艘航空母舰仍在该地区执行任务。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-06-23T23:00:40.699Z"
-    },
-    {
-      "id": "20260624060144345800",
-      "time": "2026-06-24 06:01:44",
-      "hot": "热",
-      "content": "【美联储7月维持利率不变的概率为62.6%】金十数据6月24日讯，据CME“美联储观察”：美联储7月维持利率不变的概率为62.6%，累计加息25个基点的概率为37.4%。 美联储到9月维持利率不变的概率为29.8%，累计加息25个基点的概率为50.6%，累计加息50个基点的概率为19.6%。",
-      "source": "",
-      "source_link": "",
-      "important": 0,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-06-23T22:40:27.401Z"
-    },
-    {
-      "id": "20260624051500086800",
-      "time": "2026-06-24 05:15:00",
-      "hot": "热",
-      "content": "【阿曼与国际海事组织协调开辟霍尔木兹海峡临时航道】金十数据6月24日讯，当地时间24日凌晨，阿曼方面发布声明表示，鉴于该国对霍尔木兹海峡的责任以及该海峡对全球经济的重要作用，在遵守国际法和《联合国海洋法公约》、保障海峡自由通行且不收取通行费用的基础上，并结合美国与伊朗相关谈判和斡旋努力所取得的成果，阿曼已与国际海事组织协调，为所有船舶开辟一条临时海上航道。根据安排，相关航道将按照国际海事组织及阿曼主管部门公布的航行坐标运行，计划使用该航道的船舶需提前与国际海事组织进行协调。",
-      "source": "央视",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=9406375773343392268&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D9406375773343392268%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-06-23T22:30:35.978Z"
     }
   ],
-  "lastUpdated": "2026-07-01T12:40:32.010Z"
+  "lastUpdated": "2026-07-01T12:50:34.496Z"
 }
