@@ -2,6 +2,23 @@
   "date": "2026/7/1",
   "items": [
     {
+      "id": "20260701091429240800",
+      "time": "2026-07-01 09:14:29",
+      "hot": "热",
+      "content": "【宁德时代10万吨碳酸锂产能复产】金十数据7月1日讯，一则重磅消息搅动锂电产业链。有市场消息称，宁德时代新能源科技股份有限公司已于6月29日获批枧下窝锂矿安全生产许可证。6月30日媒体从权威渠道证实了上述消息，并进一步获悉，枧下窝锂矿已于29日晚间正式复产。业内人士表示：“枧下窝锂矿碳酸锂年产能约10万吨，此次复产将对锂电产业链上游原料稳定供应产生积极作用。”",
+      "source": "大河财立方",
+      "source_link": "https://www.dahecube.com/article.html?artid=278851?recid=1",
+      "important": 1,
+      "channel": [
+        4,
+        5,
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-07-01T01:30:36.114Z"
+    },
+    {
       "id": "20260701085258793800",
       "time": "2026-07-01 08:52:58",
       "hot": "热",
@@ -4409,20 +4426,7 @@
         3
       ],
       "collectedAt": "2026-06-23T09:50:29.723Z"
-    },
-    {
-      "id": "20260623160933770800",
-      "time": "2026-06-23 16:09:33",
-      "hot": "热",
-      "content": "【金十数据整理：每日投行/机构观点梳理（2026-06-23）】<b>国外</b><br/><span class=\"section-news\">1. 美银：预计美联储今年将加息三次。</span><br/><span class=\"section-news\">2. 大摩：流动性紧缩才是美股近期面临的威胁。</span><br/><span class=\"section-news\">3. 大摩：ETF需求是推动黄金达到5200美元的关键变量。</span><br/><span class=\"section-news\">4. 德银：预计第三季度黄金价格将达到4300美元/盎司，第四季度将达4800美元/盎司。</span><br/><span class=\"section-news\">5. 高盛：将美国12个月内经济衰退风险预估下调至15%，此前预测为25%。</span><br/><span class=\"section-news\">6. 巴克莱：上调2026年标普500指数目标位至7800点。</span><br/><span class=\"section-news\">7. 城堡证券：美联储新政策体系或将稳定长期国债收益率。</span><br/><span class=\"section-news\">8. Kpler：预计亚洲地区6月原油进口恢复至2218万桶/日。</span><br/><span class=\"section-news\">9. 丹斯克银行：预计2026年剩余时间内布伦特原油均价将为每桶80美元。</span><br/><b>国内</b><br/><span class=\"section-news\">1. 中信建投：非银有望迎来多重催化。</span><br/><span class=\"section-news\">2. 中信证券：核问题在60天内实现有效成果的难度极高。</span><br/><span class=\"section-news\">3. 中信证券：PCIe协议将成为AI时代的慢通胀环节。</span><br/><span class=\"section-news\">4. 中信证券：关注景气度蔓延扩散至的新方向。</span><br/><span class=\"section-news\">5. 中信建投：2026年有望成为人形机器人垂类应用大年。</span><br/><span class=\"section-news\">6. 中信建投：硫磺价格回落，关注化肥企业中期配置价值。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-06-23T09:00:41.487Z"
     }
   ],
-  "lastUpdated": "2026-07-01T01:20:33.755Z"
+  "lastUpdated": "2026-07-01T01:30:37.596Z"
 }
