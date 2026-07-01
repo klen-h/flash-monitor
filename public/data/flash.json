@@ -2,6 +2,20 @@
   "date": "2026/7/1",
   "items": [
     {
+      "id": "20260701072533908800",
+      "time": "2026-07-01 07:25:33",
+      "hot": "热",
+      "content": "【金十数据整理：每日科技要闻速递（7月1日）】<br/><b>人工智能：</b><br/><span class=\"section-news\">1. 美国商务部即将解除对Anthropic AI模型Fable的出口管制。</span><br/><span class=\"section-news\">2. OpenAI找到优化方案，可将AI推理成本减半。</span><br/><span class=\"section-news\">3. 中国信通院启动“算力词元（Token）出海生态计划”。</span><br/><span class=\"section-news\">4. 美团正式发布新一代万亿参数大模型 LongCat-2.0，并将对外开源。</span><br/><span class=\"section-news\">5. 据悉Kimi估值升至315亿美元，ARR突破3亿美元，收入曲线现Anthropic早期特征。</span><br/><span class=\"section-news\">6. 日本斥资3873亿日元扶持软银牵头开发国产AI模型。</span><br/><span class=\"section-news\">7. Anthropic推出Claude Science助力科研自动化。</span><br/><span class=\"section-news\">8. Anthropic推出Claude Sonnet 5，代理能力大幅提升。</span><br/><span class=\"section-news\">9. 优必选全尺寸超仿生人形机器人售价超11万元。</span><br/><span class=\"section-news\">10. 英媒：苹果CEO与欧盟技术主管就“Siri AI”举行建设性会谈。</span><br/><b>集成电路（芯片）：</b><br/><span class=\"section-news\">1. 应用材料发布系列用于AI芯片的3D制造设备，瞄准HBM堆叠工艺。</span><br/><span class=\"section-news\">2. SEMI：2026年全球300mm存储器晶圆厂设备投资首超500亿美元。</span><br/><span class=\"section-news\">3. 消息称三星电子加速1.4nm先进制程研发，深化与应材、泛林合作。</span><br/><span class=\"section-news\">4. 据Counterpoint Research：一季度全球晶圆代工2.0市场营收同比增长23%。</span><br/><span class=\"section-news\">5. 三星、海力士及美光被指操纵价格面临集体诉讼。</span><br/><span class=\"section-news\">6. 集邦咨询：AI零部件产能排挤、大厂减产加剧，预估晶圆代工成熟制程涨价效应延伸至2027年。</span><br/><span class=\"section-news\">7. 德国经济部：德国将与加拿大加强合作，建设高性能和具备韧性的半导体生态系统。</span><br/><span class=\"section-news\">8. SK海力士已提交纳斯达克上市申请。</span><br/><b>其他：</b><br/><span class=\"section-news\">1. 据悉微软计划新一轮裁员，数千岗位受影响。</span><br/><span class=\"section-news\">2. 东芝推出采用最新一代工艺的80V N沟道功率MOSFET。</span><br/><span class=\"section-news\">3. 国家航天局：我国将建立近地小行星天地协同监测体系。</span><br/><span class=\"section-news\">4. 2026年6月网络游戏审批信息公布，共163款国产、8款进口游戏获批。</span><br/><span class=\"section-news\">5. 苹果：推出Apple Creator Studio更新。 </span>",
+      "source": "",
+      "source_link": "",
+      "important": 0,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-07-01T00:20:33.569Z"
+    },
+    {
       "id": "20260701065000000800",
       "time": "2026-07-01 06:50:00",
       "hot": "热",
@@ -4409,21 +4423,7 @@
         1
       ],
       "collectedAt": "2026-06-23T07:40:30.319Z"
-    },
-    {
-      "id": "20260623145544902800",
-      "time": "2026-06-23 14:55:44",
-      "hot": "热",
-      "content": "【美股期货暴跌，大型科技股再度领跌】金十数据6月23日讯，由于大型科技股遭遇抛售并传导至亚洲人工智能相关股票，美股期货周二下跌，同时投资者正等待美伊谈判的进一步进展。周二亚洲科技股子板块遭遇重创，终结了八日连涨势头，日韩股市集体回调，韩股暴跌近10%。当前超大型科技股普遍呈现同步波动的特征，Alphabet表现疲弱，SpaceX也因IPO热潮消退而下挫，市场情绪逐渐向其他龙头科技股扩散，并对科技板块重新转向谨慎态度。这一变化与去年形成鲜明对比，当时几乎所有与人工智能相关的公司都被视为“金矿”，任何提及AI的企业都受到市场追捧。但如今，市场正逐步进入“拿出业绩”的验证期，投资者要求AI基础设施的大规模投入必须带来实际回报。这一点在类似SpaceX这类现金流为负、却仍从IPO中融资750亿美元的公司上尤为突出。这种转变使市场情绪保持紧张，本周市场焦点将转向美光科技的财报电话会议。“许多投资者手中持有AI类股票，获得了可观的收益，任何波动都可能促使他们减仓锁定利润，”Gam投资管理公司的基金经理Jian Shi Cortesi表示，“目前科技股对利率前景以及美联储潜在的加息也尤为敏感。”",
-      "source": "",
-      "source_link": "",
-      "important": 0,
-      "channel": [
-        1,
-        2
-      ],
-      "collectedAt": "2026-06-23T07:20:29.243Z"
     }
   ],
-  "lastUpdated": "2026-07-01T00:10:31.741Z"
+  "lastUpdated": "2026-07-01T00:20:34.696Z"
 }
