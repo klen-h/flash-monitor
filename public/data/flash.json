@@ -2,6 +2,35 @@
   "date": "2026/7/3",
   "items": [
     {
+      "id": "20260703141417018800",
+      "time": "2026-07-03 14:14:17",
+      "hot": "热",
+      "content": "【“大空头”伯里再度发声：已做空美光】金十数据7月3日讯，“大空头”投资者迈克尔·伯里当地时间周四表示，他以1051.87美元的价格做空了美光科技的股票，并表示与AI相关的芯片股将面临30%的回调。他指出，这家存储芯片制造商的涨势已达到历史极端水平，并表示美光的估值、技术形态以及长期行业周期规律都指向其股价存在显著下行风险。",
+      "source": "",
+      "source_link": "",
+      "important": 0,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-07-03T06:40:29.534Z"
+    },
+    {
+      "id": "20260703142118860800",
+      "time": "2026-07-03 14:21:18",
+      "hot": "爆",
+      "content": "【因存在植入后门风险 阿里内部全面禁用Claude Code】金十数据7月3日讯，从阿里内部人士处获悉，因近期Claude Code被曝存在植入后门的安全风险，阿里经综合评估后已将其列入高风险软件名单。自7月10日起，阿里将全面禁止内部员工在办公环境下使用Claude Code，并推荐使用Qoder作为替代方案。",
+      "source": "一财",
+      "source_link": "https://m.yicai.com/brief/103259330.html",
+      "important": 1,
+      "channel": [
+        5,
+        4,
+        3,
+        1
+      ],
+      "collectedAt": "2026-07-03T06:40:29.534Z"
+    },
+    {
       "id": "20260703132413580800",
       "time": "2026-07-03 13:24:13",
       "hot": "热",
@@ -4389,33 +4418,7 @@
         3
       ],
       "collectedAt": "2026-06-26T02:20:25.915Z"
-    },
-    {
-      "id": "20260626090718394800",
-      "time": "2026-06-26 09:07:18",
-      "hot": "热",
-      "content": "【金十数据整理：A股盘前市场要闻速递（2026-06-26）】<b>重要新闻</b><br/><span class=\"section-news\">1. 商务部回应中美经贸磋商最新进展。</span><br/><span class=\"section-news\">2. 《新型能源体系建设“十五五”规划》印发。</span><br/><span class=\"section-news\">3. 市场监管总局召开2026年第二次企业公平竞争座谈会。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 上交所半年报预约披露时间出炉 中船特气拔得头筹。</span><br/><span class=\"section-news\">2. 轻纺城：副总经理高晓辰被立案调查并实施留置。</span><br/><span class=\"section-news\">3. 中船特气：股票交易停牌核查已完成 今起开市起复牌。</span><br/><span class=\"section-news\">4. 通富微电：第二大股东国家大基金持股比例降至5%以下。</span><br/><span class=\"section-news\">5. 苹果提高Mac、iPad等多种产品价格，iPhone不在调价之列。</span><br/><span class=\"section-news\">6. *ST中基：撤销退市风险警示 6月26日起股票简称变更为“中基健康”。</span><br/><span class=\"section-news\">7. ST洲际：涉嫌严重违纪违法 副总经理张可接受纪律审查和监察调查。</span><br/><span class=\"section-news\">8. 恒逸石化：预计上半年净利55亿元-60亿元 同比增长2326%-2547%。</span><br/><span class=\"section-news\">9. 昀冢科技：5月7日至6月25日股价累计上涨277.95% 26日起停牌核查。</span><br/><span class=\"section-news\">10. 天壕能源：筹划购买天壕新能源股份有限公司100%股权 股票停牌。</span><br/><span class=\"section-news\">11. 通化金马：获得琥珀酸安维吖啶片药品注册证书 填补国产阿尔茨海默病创新药的空白。</span><br/><span class=\"section-news\">12. 龙磁科技：高端芯片电感多款产品在国际知名半导体电源厂商测试验证 部分料号已取得客户认证。</span><br/><span class=\"section-news\">13. 中航光电：已与多家头部客户在硅光模块、Elsfp、NPO、CPO等应用领域展开深度合作 具备批量交付能力。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-06-26T01:30:36.312Z"
-    },
-    {
-      "id": "20260626082658886800",
-      "time": "2026-06-26 08:26:58",
-      "hot": "热",
-      "content": "韩国KOSPI指数日内大跌3.00%，现报8661.89点。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-06-26T00:40:27.010Z"
     }
   ],
-  "lastUpdated": "2026-07-03T06:00:43.607Z"
+  "lastUpdated": "2026-07-03T06:40:31.050Z"
 }
