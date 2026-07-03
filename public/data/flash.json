@@ -2,6 +2,19 @@
   "date": "2026/7/3",
   "items": [
     {
+      "id": "20260703082338374800",
+      "time": "2026-07-03 08:23:38",
+      "hot": "热",
+      "content": "韩国KOSPI指数日内跌幅达1.00%，盘初一度涨超1%。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-07-03T00:40:30.450Z"
+    },
+    {
       "id": "20260703074119975800",
       "time": "2026-07-03 07:41:19",
       "hot": "热",
@@ -4400,22 +4413,7 @@
         2
       ],
       "collectedAt": "2026-06-25T22:30:32.980Z"
-    },
-    {
-      "id": "20260626061311395800",
-      "time": "2026-06-26 06:13:11",
-      "hot": "热",
-      "content": "【金十数据整理：中东局势跟踪（6月26日）】<br/><b>①伊朗</b><br/><span class=\"section-news\">1. 消息人士：以军撤离黎巴嫩是伊朗谈判的重要“红线”。</span><br/><span class=\"section-news\">2. 伊朗“圣城军”司令：如果以色列今天不自愿撤出黎巴嫩南部，明天将被迫败逃。</span><br/><span class=\"section-news\">3. 伊朗议长否认被解冻资产将用于购买美国农产品。</span><br/><b>②美国</b><br/><span class=\"section-news\">1. 美国国务卿鲁比奥：即将促成以黎达成意向承诺。</span><br/><span class=\"section-news\">2. 美国能源部长赖特：预计伊朗每日原油出口量最高将达到200万桶。</span><br/><b>③以色列</b><br/><span class=\"section-news\">1. 以高级官员否认已从黎巴嫩南部缓冲区部分地区撤军。</span><br/><span class=\"section-news\">2. 以防长：军方将在黎巴嫩、叙利亚和加沙的“安全区”内维持驻军；不会撤出“安全区”。</span><br/><b>④霍尔木兹海峡</b><br/><span class=\"section-news\">1. 美官员：伊朗革命卫队周四在霍尔木兹海峡袭击了一艘货船。</span><br/><span class=\"section-news\">2. 伊朗：驶离指定航线的船舶将不享有安全保障。</span><br/><span class=\"section-news\">3. 国际海事组织暂停霍尔木兹海峡的船只撤离行动。</span><br/><span class=\"section-news\">4. 市场消息：五艘韩国船只已通过霍尔木兹海峡。</span><br/><span class=\"section-news\">5. 马士基巴尔的摩号及期租船舶已驶离波斯湾。</span><br/><span class=\"section-news\">6. 阿曼外长：霍尔木兹海峡的未来安排不涉及过路费用。</span><br/><span class=\"section-news\">7. 美国国务卿鲁比奥安抚海湾国家，拒绝接受海峡通行费。</span><br/><span class=\"section-news\">8. 美媒：伊朗提议与海湾邻国在霍尔木兹海峡收取过路费，年收入或达400亿美元。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-06-25T22:30:32.980Z"
     }
   ],
-  "lastUpdated": "2026-07-03T00:30:39.517Z"
+  "lastUpdated": "2026-07-03T00:40:31.640Z"
 }
