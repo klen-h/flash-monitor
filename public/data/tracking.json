@@ -5316,6 +5316,113 @@
   },
   "rejectedSignals": [
     {
+      "etfName": "科创50ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "2.1",
+      "resistance": "50",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "2.1"
+      },
+      "stopLoss": "2.037",
+      "takeProfit": "50",
+      "reasoning": "| **科创50ETF** | 2.100  | 2.150  | 观望或回调做多 | 科技成本降逻辑，但纳指期货波动风险。 |",
+      "source": "premarket",
+      "id": "1783041142393",
+      "createdAt": "2026-07-03T01:12:22.393Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 100,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 23809,
+        "positionValue": 49998.9,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "军工ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "1.24",
+      "resistance": "1.28",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "1.24"
+      },
+      "stopLoss": "1.203",
+      "takeProfit": "1.28",
+      "reasoning": "| **军工ETF**   | 1.240  | 1.280  | 轻仓做多       | 伊朗地缘风险对冲 + 防御属性。 |",
+      "source": "premarket",
+      "id": "1783041142390",
+      "createdAt": "2026-07-03T01:12:22.390Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [
+          "趋势向下，逆势做多"
+        ],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 85,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 40540,
+        "positionValue": 50269.6,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "黄金ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "8.4",
+      "resistance": "8.55",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "8.4"
+      },
+      "stopLoss": "8.148",
+      "takeProfit": "8.55",
+      "reasoning": "| **黄金ETF**   | 8.400  | 8.550  | 逢低做多       | D状态避险强化 + COMEX黄金涨。 |",
+      "source": "premarket",
+      "id": "1783041142386",
+      "createdAt": "2026-07-03T01:12:22.386Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 115,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 5952,
+        "positionValue": 49996.8,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
       "etfName": "半导体ETF",
       "direction": "long",
       "trend": "neutral",
@@ -6968,111 +7075,6 @@
       "positionSize": {
         "shares": 5617,
         "positionValue": 49991.3,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "纳斯达克ETF",
-      "direction": "long",
-      "trend": "neutral",
-      "support": "2.23",
-      "resistance": "29500",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "2.23"
-      },
-      "stopLoss": "2.163",
-      "takeProfit": "29500",
-      "reasoning": "| **纳斯达克ETF** | 2.230      | 2.300      | 观望           | 纳指期货动能偏空但支撑$29500未破，若原油反弹或衰退证伪可转多，当前风险高。 |",
-      "source": "premarket",
-      "id": "1781572368676",
-      "createdAt": "2026-06-16T01:12:48.676Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 100,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 22388,
-        "positionValue": 49925.24,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "军工ETF",
-      "direction": "long",
-      "trend": "neutral",
-      "support": "1.25",
-      "resistance": "1.28",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "1.25"
-      },
-      "stopLoss": "1.212",
-      "takeProfit": "1.28",
-      "reasoning": "| **军工ETF**     | 1.250      | 1.280      | 轻仓做多       | 中东地缘风险持续（内塔尼亚胡拒撤军），对冲衰退尾部风险。                 |",
-      "source": "premarket",
-      "id": "1781572368673",
-      "createdAt": "2026-06-16T01:12:48.673Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 115,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 39473,
-        "positionValue": 49341.25,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "黄金ETF",
-      "direction": "long",
-      "trend": "up",
-      "support": "2.59",
-      "resistance": "4900",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "2.59"
-      },
-      "stopLoss": "2.512",
-      "takeProfit": "4900",
-      "reasoning": "| **黄金ETF**     | 8.800      | 9.000      | 逢低做多       | 衰退强化避险需求，巴克莱银行看多（目标$4900），GLD价格上涨（+2.59%）提供支撑。 |",
-      "source": "premarket",
-      "id": "1781572368670",
-      "createdAt": "2026-06-16T01:12:48.670Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 115,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 19230,
-        "positionValue": 49805.7,
         "riskAmount": 1500,
         "riskPercent": "1.50"
       }
