@@ -2,6 +2,19 @@
   "date": "2026/7/5",
   "items": [
     {
+      "id": "20260705082131139800",
+      "time": "2026-07-05 08:21:31",
+      "hot": "热",
+      "content": "【金十数据整理：昨日今晨重要新闻汇总（7月5日）】<br/>国内新闻：<br/><span class=\"section-news\">1. 豆包、千问将下线智能体功能。</span><br/><span class=\"section-news\">2. 瑞典首相克里斯特松会见王毅。</span><br/><span class=\"section-news\">3. 我国成功发射千帆极轨13组卫星。</span><br/><span class=\"section-news\">4. 王毅同瑞典外交大臣斯蒂纳加德会谈。</span><br/><span class=\"section-news\">5. 中国海警位中国台湾岛以东海域开展常态化执法巡查。</span><br/><span class=\"section-news\">6. 首款神经动力学芯片问世，有助于脑机接口等技术发展。</span><br/><span class=\"section-news\">7. 华为何庭波发布V2版“韬定律”论文，补充工程细节和实测数据。</span><br/><span class=\"section-news\">8. 进一步明确平台经济各方权利义务，新版电子商务法公开征求意见。</span><br/>国际新闻：<br/><span class=\"section-news\">1. 俄乌大规模互袭，俄军称控制多个居民点。</span><br/><span class=\"section-news\">2. 美光斥资90亿美元扩建日本西部芯片工厂。</span><br/><span class=\"section-news\">3. 泽连斯基与特朗普通话，商定在北约峰会期间会谈。</span><br/><span class=\"section-news\">4. 美国新泽西州报告19起“疑似高温相关”死亡病例。</span><br/><span class=\"section-news\">5. 欧洲央行管委穆兰：上月加息后，通胀已随油价暴跌而回落，央行目前“处境有利”。</span><br/><span class=\"section-news\">6. 中东局势—①伊驻华大使：计划按国际通行标准对霍尔木兹海峡通航收服务费 ②内塔尼亚胡或将访白宫，特朗普：“他知道谁才是老大” ③特朗普：哈梅内伊葬礼结束前，美伊双方互不交火 ④据悉美伊下一轮谈判将于11日进行，将讨论被冻结资金与核问题。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-07-05T01:30:43.320Z"
+    },
+    {
       "id": "20260705054951202800",
       "time": "2026-07-05 05:49:51",
       "hot": "热",
@@ -4396,22 +4409,7 @@
         2
       ],
       "collectedAt": "2026-06-26T20:50:27.165Z"
-    },
-    {
-      "id": "20260627014300413800",
-      "time": "2026-06-27 01:43:00",
-      "hot": "热",
-      "content": "美国、以色列、黎巴嫩签署了三边框架协议。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-06-26T18:00:38.468Z"
     }
   ],
-  "lastUpdated": "2026-07-04T23:50:35.655Z"
+  "lastUpdated": "2026-07-05T01:30:44.392Z"
 }
