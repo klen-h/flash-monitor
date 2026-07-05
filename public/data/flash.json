@@ -2,6 +2,20 @@
   "date": "2026/7/6",
   "items": [
     {
+      "id": "20260706063107638800",
+      "time": "2026-07-06 06:31:07",
+      "hot": "热",
+      "content": "【金十数据整理：昨日今晨重要新闻汇总（2026-07-06）】<b>国内新闻：</b><br/><span class=\"section-news\">1. 2026暑期档电影票房破20亿。</span><br/><span class=\"section-news\">2. 鸿海：6月销售额8218亿元台币，同比增长52.1%。</span><br/><span class=\"section-news\">3. 张国清在新疆调研时强调，强化产业赋能，突出就业导向。</span><br/><span class=\"section-news\">4. 中俄两军将举行“海上联合-2026”联合演习和海上联合巡航。</span><br/><span class=\"section-news\">5. 中际旭创：“公司上游物料炫光片被封锁”的市场传言不符合事实。</span><br/><b>国际新闻：</b><br/><span class=\"section-news\">1. 韩国拟以芯片产业税收红利设立基金。</span><br/><span class=\"section-news\">2. 因税收收入不及预期，德国计划提高2027年借款规模。</span><br/><span class=\"section-news\">3. 7个“欧佩克+”主要产油国决定8月日均增产原油18.8万桶。</span><br/><span class=\"section-news\">4. 特朗普据悉计划8日在土耳其会见泽连斯基后与普京通话。</span><br/><span class=\"section-news\">5. 美媒：特朗普施压国际足联 美国队头号射手红牌处罚被暂缓执行。</span><br/><span class=\"section-news\">6. 韩国拟以芯片产业税收红利设立未来基金，用于投资经济增长引擎与支持年轻一代。</span><br/><span class=\"section-news\">7. 中东局势—①伊朗已故最高领袖哈梅内伊三个儿子现身其公众告别仪式，现任最高领袖穆杰塔巴未现身。②伊朗议会议长卡利巴夫：尽管存在困难，但与美国达成共识是可能的。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-07-05T23:00:48.973Z"
+    },
+    {
       "id": "20260706060649455800",
       "time": "2026-07-06 06:06:49",
       "hot": "热",
@@ -4397,21 +4411,7 @@
         2
       ],
       "collectedAt": "2026-06-27T07:50:27.130Z"
-    },
-    {
-      "id": "20260627120140213800",
-      "time": "2026-06-27 12:01:40",
-      "hot": "热",
-      "content": "【两周不到重回70美元，油价新一轮危险正在降临！】油价回到70美元之后，继续做空的风险收益比已经悄悄翻转！“海峡复常”的真问题不是“出湾量”，而是在另一个容易忽视的地方！学会四个信号追踪油市交易的剩余空间<font class=\"important-text\"></font>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        5,
-        1
-      ],
-      "collectedAt": "2026-06-27T06:40:30.345Z"
     }
   ],
-  "lastUpdated": "2026-07-05T22:40:39.754Z"
+  "lastUpdated": "2026-07-05T23:00:50.115Z"
 }
