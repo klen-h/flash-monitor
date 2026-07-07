@@ -2,6 +2,21 @@
   "date": "2026/7/8",
   "items": [
     {
+      "id": "20260708070715689800",
+      "time": "2026-07-08 07:07:15",
+      "hot": "热",
+      "content": "【伊朗总统因美军袭击提前回国】金十数据7月8日讯，据伊朗国家电视台今天（7月8日）报道，美军对伊朗南部锡里克的袭击已造成多人受伤。几个小时前刚刚抵达伊拉克什叶派圣城纳杰夫的伊朗总统佩泽希齐扬已离开伊拉克，提前回国。佩泽希齐扬原定于今天出席伊拉克为已故伊朗最高领袖阿里·哈梅内伊举行的送葬仪式。",
+      "source": "CCTV国际时讯",
+      "source_link": "https://m.weibo.cn/detail/5318302429872668",
+      "important": 0,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-07-07T23:40:48.165Z"
+    },
+    {
       "id": "20260708063322585800",
       "time": "2026-07-08 06:33:22",
       "hot": "热",
@@ -4408,20 +4423,7 @@
         1
       ],
       "collectedAt": "2026-06-30T03:10:26.384Z"
-    },
-    {
-      "id": "20260630090242885800",
-      "time": "2026-06-30 09:02:42",
-      "hot": "沸",
-      "content": "【金十数据整理：A股盘前市场要闻速递（2026-06-30）】<b>重要新闻</b><br/><span class=\"section-news\">1. 蓝箭航天IPO审核状态恢复为“已问询”。</span><br/><span class=\"section-news\">2. 国家能源局：1-5月全国电力市场交易电量同比增长24.8%。</span><br/><span class=\"section-news\">3. 7月1日起集中调价，近20家半导体企业开启新一轮涨价潮。</span><br/><span class=\"section-news\">4. 市场监管总局公开征求意见：实施价格监督员制度暂行规定。</span><br/><span class=\"section-news\">5. 国务院：推进人工智能全学段教育，提升学生人工智能素养。</span><br/><span class=\"section-news\">6. 李强主持召开国务院常务会议，审议通过《“十五五”碳达峰行动方案》和《国民健康“十五五”规划》。</span><br/><span class=\"section-news\">7. 中欧双方确认正式成立中欧贸易投资磋商机制。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 宁德时代枧下窝矿已获批安全生产许可证。</span><br/><span class=\"section-news\">2. 兆易创新：后续伴随利基存储市场产能边际增加，价格将出现相当幅度的回落。</span><br/><span class=\"section-news\">3. 胜宏科技：公司已有部分ASIC相关PCB产品进行批量生产。</span><br/><span class=\"section-news\">4. 盛达资源：预计上半年净利润同比增长399%-471%。</span><br/><span class=\"section-news\">5. 南亚新材：拟投资7.9亿元建设年产1400万平方米高端覆铜板研发及产业化项目。</span><br/><span class=\"section-news\">6. 海川智能：拟1.3亿元收购南京集溢半导体15.30%股权。</span><br/><span class=\"section-news\">7. 五方光电：目前公司TGV技术未形成批量订单，且未向CPO及光模块厂商送样或供货。</span><br/><span class=\"section-news\">8. 中航光电：二季度黄金价格下跌一定程度上有利于公司成本下降。</span><br/><span class=\"section-news\">9. 东方钽业：原材料价格及产品销售价格变化直接影响公司的利润水平。</span><br/><span class=\"section-news\">10. 广钢气体：氦气小分子深地存储项目尚处于早期建设阶段。</span><br/><span class=\"section-news\">11. 风华高科：英伟达未对公司开展任何产品认证，公司高端项目尚处建设阶段。</span><br/><span class=\"section-news\">12. 宏微科技：布局AIDC、人形机器人等新兴领域相关业务尚处于前期拓展阶段，相关业务营收占公司整体营业收入比重较小。</span><br/><span class=\"section-news\">13. 锐科激光：子公司拟投资5316万元建设高功率掺杂特种光纤数字化生产线二期项目。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-06-30T01:20:29.908Z"
     }
   ],
-  "lastUpdated": "2026-07-07T23:20:49.323Z"
+  "lastUpdated": "2026-07-07T23:40:49.117Z"
 }
