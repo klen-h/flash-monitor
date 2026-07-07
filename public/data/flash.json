@@ -2,6 +2,35 @@
   "date": "2026/7/7",
   "items": [
     {
+      "id": "20260707102902108800",
+      "time": "2026-07-07 10:29:02",
+      "hot": "热",
+      "content": "【中国人民银行行长潘功胜：国家外汇储备将继续提高在香港的资产配置比例 为香港资本市场发展注入动能】金十数据7月7日讯，中国人民银行行长潘功胜7月7日在“香港固定收益及货币峰会暨债券通论坛”上表示，未来国家外汇储备将继续提高在香港的资产配置比例，为香港资本市场发展注入更多动能。他提到，近一年多来，国家外汇储备持续在香港开展资产配置和投资交易。",
+      "source": "上证报",
+      "source_link": "https://www.cnstock.com/commonDetail/739601",
+      "important": 1,
+      "channel": [
+        4,
+        5,
+        3,
+        1
+      ],
+      "collectedAt": "2026-07-07T02:40:39.862Z"
+    },
+    {
+      "id": "20260707103301022800",
+      "time": "2026-07-07 10:33:01",
+      "hot": "热",
+      "content": "【韩国KOSPI指数大跌6% 三星电子跌8%】韩国KOSPI指数日内跌幅达6.00%，现报7565.84点，三星电子大跌8%，SK海力士跌超7%。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-07-07T02:40:39.862Z"
+    },
+    {
       "id": "20260707095221872800",
       "time": "2026-07-07 09:52:21",
       "hot": "热",
@@ -4381,36 +4410,7 @@
         3
       ],
       "collectedAt": "2026-06-29T00:40:30.622Z"
-    },
-    {
-      "id": "20260629072756659800",
-      "time": "2026-06-29 07:27:56",
-      "hot": "热",
-      "content": "【世界海拔最低超深特稠油油田累计产量突破千万吨】金十数据6月29日讯，今天（29日）从中国石油了解到，位于新疆吐鲁番火焰山下，世界海拔最低超深特稠油油田——鲁克沁油田累计产油量突破1000万吨。超深特稠油，是指埋藏在地下数千米、黏度高达常规原油百倍以上、常温下状如黑泥几乎无流动性的极端难采石油资源。",
-      "source": "央视",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=12285584678372574012&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D12285584678372574012%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-06-29T00:00:39.912Z"
-    },
-    {
-      "id": "20260629071902581800",
-      "time": "2026-06-29 07:19:02",
-      "hot": "热",
-      "content": "纳指期货早盘涨幅扩大至1%，标普500指数期货涨0.6%，道指期货涨0.38%。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-06-28T23:40:27.232Z"
     }
   ],
-  "lastUpdated": "2026-07-07T02:00:52.502Z"
+  "lastUpdated": "2026-07-07T02:40:41.328Z"
 }
