@@ -2,6 +2,22 @@
   "date": "2026/7/7",
   "items": [
     {
+      "id": "20260707112930626800",
+      "time": "2026-07-07 11:29:30",
+      "hot": "热",
+      "content": "南方两倍做多三星电子(07747)跌超20%，南方两倍做多海力士(07709)跌超19%。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        4,
+        5,
+        3,
+        1
+      ],
+      "collectedAt": "2026-07-07T04:00:54.223Z"
+    },
+    {
       "id": "20260707112756606800",
       "time": "2026-07-07 11:27:56",
       "hot": "沸",
@@ -4396,20 +4412,7 @@
         3
       ],
       "collectedAt": "2026-06-29T01:30:32.384Z"
-    },
-    {
-      "id": "20260629090835564800",
-      "time": "2026-06-29 09:08:35",
-      "hot": "热",
-      "content": "【金十数据整理：A股盘前市场要闻速递（2026-06-29）】<b>重要新闻</b><br/><span class=\"section-news\">1. 我国核聚变堆超导磁体研发取得重要突破。</span><br/><span class=\"section-news\">2. 国家统计局：2026年1—5月份全国规模以上工业企业利润增长18.8%，其中电子行业利润增长103.9%，对规上工业企业利润增长的贡献率达43.1%。</span><br/><span class=\"section-news\">3. 中央结算公司：决定将做市商对手方通过真实做市成交的现券交易结算服务费由8折进一步降低至7.5折。</span><br/><span class=\"section-news\">4. 中国证监会严肃查处私募基金玖瀛资产、腾创投资违法违规案件。</span><br/><span class=\"section-news\">5. 《人工智能 智能体互联》系列7项国家标准发布。</span><br/><span class=\"section-news\">6. 央行等两部门：以个人携带、寄递合理自用数量为限进出境的免予办理黄金进出口准许证。</span><br/><span class=\"section-news\">7. 本周A股解禁市值逾1000亿元，16股解禁比例逾10%。</span><br/><span class=\"section-news\">8. 央行等两部门：延长《黄金进出口准许证》“一批一证”有效期至3个月。</span><br/><span class=\"section-news\">9. 中欧正密集举行贸易磋商 欧盟缺乏诚意或引发中欧经贸摩擦急剧上升。</span><br/><span class=\"section-news\">10. 兴业银行：上调代理上海黄金交易所个人贵金属买卖业务延期合约保证金比例。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 天孚通信：预计未来几年将持续增加资本性开支，下半年开始个别物料供应紧缺矛盾将逐步缓解。</span><br/><span class=\"section-news\">2. 多氟多：半导体级氢氟酸市场价涨约20%-30%批量供应台积电、长鑫存储等，规划六氟化钨等高端电子特气产线。</span><br/><span class=\"section-news\">3. 4连板宏柏新材：2万吨高纯级四氯化硅和5000吨电子级四乙氧基硅烷项目目前产能为零且项目尚未开工建设。</span><br/><span class=\"section-news\">4. 深天马A：目前公司在与产业链合作伙伴协同进行玻璃基封装基板样品开发中 处在技术预研阶段。</span><br/><span class=\"section-news\">5. 中京电子：未来PCB市场竞争预计将会加剧。</span><br/><span class=\"section-news\">6. 雅克科技：目前没有六氟化钨相关业务。</span><br/><span class=\"section-news\">7. 6连板兴业科技：目前所有产品均不涉及光模块客户。</span><br/><span class=\"section-news\">8. 2连板祥鑫科技：液冷散热产品不会对公司的经营业绩产生重大影响。</span><br/><span class=\"section-news\">9. 拓荆科技：拟发行股份及支付现金收购无锡尚积控股权，股票29日起停牌。</span><br/><span class=\"section-news\">10. 银河微电：拟收购恒泰柯100%股权，标的公司可替代英飞凌中压系列产品。</span><br/><span class=\"section-news\">11. 富信科技：网传公司销售周志奇演讲完整原文为杜撰文章。</span><br/><span class=\"section-news\">12. 中材科技：全资子公司泰山玻纤电子布产品、特种纤维布产品2025年营收占比分别为1.19%、2.08%。</span><br/><span class=\"section-news\">13. 9天6板超声电子：未生产M8、M9覆铜板，公司无产品供货给英伟达。</span><br/><span class=\"section-news\">14. 荃银高科：因2024年年报存在虚假记载被实施其他风险警示，6月30日起股票简称变更为ST荃银。</span><br/><span class=\"section-news\">15. 光智科技：拟3.01亿元增资收购先锐科技50.08%股权，标的公司年产40吨磷化铟建设项目已取得环评批复。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-06-29T01:20:27.857Z"
     }
   ],
-  "lastUpdated": "2026-07-07T03:40:43.474Z"
+  "lastUpdated": "2026-07-07T04:00:55.368Z"
 }
