@@ -2,6 +2,21 @@
   "date": "2026/7/8",
   "items": [
     {
+      "id": "20260708051627619800",
+      "time": "2026-07-08 05:16:27",
+      "hot": "热",
+      "content": "美国中央司令部：美军已开始对伊朗发动一系列强力打击。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-07-07T21:20:53.544Z"
+    },
+    {
       "id": "20260708032206907800",
       "time": "2026-07-08 03:22:06",
       "hot": "热",
@@ -4399,21 +4414,7 @@
         1
       ],
       "collectedAt": "2026-06-30T00:10:27.189Z"
-    },
-    {
-      "id": "20260630063027722800",
-      "time": "2026-06-30 06:30:27",
-      "hot": "热",
-      "content": "【金十数据整理：昨日今晨重要新闻汇总（2026-06-30）】<b>国内新闻：</b><br/><span class=\"section-news\">1. 中欧贸易投资磋商机制正式成立，下设四大板块。</span><br/><span class=\"section-news\">2. 李强主持召开国务院常务会议，听取人工智能发展情况汇报。</span><br/><span class=\"section-news\">3. 宁德时代枧下窝矿已获批安全生产许可证。</span><br/><span class=\"section-news\">4. 中国空调欧洲卖爆，美的销量翻倍，格力全面售罄。</span><br/><span class=\"section-news\">5. 国产“异算方舟”全栈计算平台正式发布，破解代码迁移难题。</span><br/><span class=\"section-news\">6. 国家能源局：1-5月全国电力市场交易电量同比增长24.8%。</span><br/><span class=\"section-news\">7. 7月1日起集中调价，近20家半导体企业开启新一轮涨价潮。</span><br/><span class=\"section-news\">8. 国家医保局：557个药品通过2026年基本医保药品目录初审。</span><br/><span class=\"section-news\">9. 商务部决定将防卫研究所等参与提升日本军事实力的20家日本实体列入出口管制管控名单。</span><br/><b>国际新闻：</b><br/><span class=\"section-news\">1. 藤森庆子赢得秘鲁总统选举。</span><br/><span class=\"section-news\">2. 墨西哥证券交易所出现数据传输故障。</span><br/><span class=\"section-news\">3. 英媒：斯塔默有意竞逐下任北约秘书长。</span><br/><span class=\"section-news\">4. 韩国计划到2035年建成18.4吉瓦的人工智能数据中心。</span><br/><span class=\"section-news\">5. 美国两大交易所将于下周首次在椭圆形办公室敲响开市钟。</span><br/><span class=\"section-news\">6. 隔夜行情—美元/日元逼近162关口、纳指涨2%，西数涨11%、黄金大跌逼近下破4000关口。</span><br/><span class=\"section-news\">7. 美国战略石油储备中的原油库存降至3.257亿桶，创下自1983年以来的最低水平。</span><br/><span class=\"section-news\">8. 美最高法院阻止特朗普解雇美联储理事库克。美最高法院允许特朗普解职联邦贸易委员会成员，特朗普称，这一裁决极大增加了其解职联邦机构官员的权力。</span><br/><span class=\"section-news\">9. 中东局势—<br/>①伊朗外交部：未来几天内没有与美方开展任何谈判的计划；当前重点是执行谅解备忘录；专家代表团将前往多哈跟进备忘录的执行情况，但这一访问与美方对卡塔尔的访问无关。<br/>②伊朗军方仅允许船只经拉腊克岛以南航道通过霍尔木兹海峡。<br/>③特朗普：伊朗已请求会晤。会晤将于周二在多哈举行，本次会晤可能重要也可能不重要。<br/>④阿曼外交大臣：不支持收取霍尔木兹海峡通行费。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-06-29T23:20:27.727Z"
     }
   ],
-  "lastUpdated": "2026-07-07T19:33:14.909Z"
+  "lastUpdated": "2026-07-07T21:20:54.655Z"
 }
