@@ -2,6 +2,21 @@
   "date": "2026/7/8",
   "items": [
     {
+      "id": "20260708054928427800",
+      "time": "2026-07-08 05:49:28",
+      "hot": "热",
+      "content": "据CNN：美国官员表示，此次对伊朗的打击行动是“惩罚性行动，而非对等回应”，并称行动“短时间内不会结束”。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-07-07T22:10:48.076Z"
+    },
+    {
       "id": "20260708052747085800",
       "time": "2026-07-08 05:27:47",
       "hot": "热",
@@ -4403,21 +4418,7 @@
         2
       ],
       "collectedAt": "2026-06-30T00:50:27.414Z"
-    },
-    {
-      "id": "20260630075140674800",
-      "time": "2026-06-30 07:51:40",
-      "hot": "热",
-      "content": "【金十数据整理：每日科技要闻速递（6月30日）】<br/><b>人工智能：</b><br/><span class=\"section-news\">1. DeepSeek V4正式版7月中旬上线，高峰时段API价格翻倍。</span><br/><span class=\"section-news\">2. 国务院印发《教育发展“十五五”规划》，提升学生人工智能素养。</span><br/><span class=\"section-news\">3. AI初创公司Firmus将与英伟达合作建设印尼数据中心。</span><br/><span class=\"section-news\">4. 据央视：李强主持召开国务院常务会议，听取人工智能发展情况汇报。</span><br/><span class=\"section-news\">5. 国产“异算方舟”全栈计算平台正式发布，破解代码迁移难题。</span><br/><span class=\"section-news\">6. 韩国计划到2035年建成18.4吉瓦的人工智能数据中心。</span><br/><span class=\"section-news\">7. 马斯克：SpaceX计划今年每月发布一个全新的人工智能模型。</span><br/><span class=\"section-news\">8. 内部文件显示Meta因担心模型蒸馏风险，对Claude和Codex使用施加限制。</span><br/><b>集成电路（芯片）：</b><br/><span class=\"section-news\">1. 7月1日起集中调价，近20家半导体企业开启新一轮涨价潮。</span><br/><span class=\"section-news\">2. 苹果考虑2028年旗舰手机SoC采用1.4nm工艺。</span><br/><span class=\"section-news\">3. 字节跳动考虑合作百度昆仑芯？接近人士回应：字节跳动目前没有和昆仑芯片合作的意向。</span><br/><span class=\"section-news\">4. 美媒：百度芯片部门昆仑芯计划以500亿美元的估值赴港上市，IPO投资者必须承诺购买相当于其认购额3至7倍的芯片。</span><br/><span class=\"section-news\">5. 韩国三星电子、SK集团公布了规模总计约4755万亿韩元的企业中长期国内投资计划。</span><br/><span class=\"section-news\">6. 韩国政府将在AI、半导体等尖端技术领域的投资总额将达1461万亿韩元。</span><br/><b>其他：</b><br/><span class=\"section-news\">1. Omdia：预计到2030年RGB LED电视将占全球电视市场收入的13%。</span><br/><span class=\"section-news\">2. 欧盟委员会代表团将赴美国，就未来数字对话机制举行会谈。</span><br/><span class=\"section-news\">3. 朱雀三号重复使用遥二运载火箭在东风商业航天创新试验区顺利完成静态点火试验。</span><br/><span class=\"section-news\">4. 蓝箭航天科创板IPO审核状态恢复为“已问询”。</span><br/><span class=\"section-news\">5. 据消息人士及相关文件显示，苹果供应商塔塔电子遭遇黑客攻击，涉及iPhone 18 Pro的未发布文件已被上传至暗网。</span><br/><span class=\"section-news\">6. 据悉SpaceX与美国政府讨论向“特朗普账户”捐赠股票事宜。 </span>",
-      "source": "",
-      "source_link": "",
-      "important": 0,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-06-30T00:50:27.414Z"
     }
   ],
-  "lastUpdated": "2026-07-07T22:01:01.258Z"
+  "lastUpdated": "2026-07-07T22:10:49.596Z"
 }
