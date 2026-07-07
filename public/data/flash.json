@@ -2,6 +2,20 @@
   "date": "2026/7/7",
   "items": [
     {
+      "id": "20260707184318452800",
+      "time": "2026-07-07 18:43:18",
+      "hot": "热",
+      "content": "【广期所调整多晶硅、碳酸锂期货相关合约交易手续费标准】金十期货7月7日讯，广期所公告，经研究决定，自2026年7月9日交易时起，<br/>1. 多晶硅期货PS2607、PS2608、PS2609、PS2610、PS2611、PS2612、PS2701、PS2702、PS2703、PS2704、PS2705、PS2706合约的交易手续费标准调整为成交金额的万分之一、日内平今仓交易手续费标准维持成交金额的万分之二点五；<br/>2. 碳酸锂期货LC2607、LC2608、LC2609、LC2610、LC2611、LC2612、LC2701、LC2702、LC2703、LC2704、LC2705、LC2706合约的交易手续费标准调整为成交金额的万分之一点六、日内平今仓交易手续费标准维持成交金额的万分之三点二。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2
+      ],
+      "collectedAt": "2026-07-07T11:00:59.647Z"
+    },
+    {
       "id": "20260707180138994800",
       "time": "2026-07-07 18:01:38",
       "hot": "热",
@@ -4397,21 +4411,7 @@
         3
       ],
       "collectedAt": "2026-06-29T14:10:28.128Z"
-    },
-    {
-      "id": "20260629205142733800",
-      "time": "2026-06-29 20:51:42",
-      "hot": "热",
-      "content": "【金十数据整理：每日美股市场要闻速递（2026-06-29）】<b>重要新闻</b><br/><span class=\"section-news\">1. 特朗普坚称美伊会谈“将于明日在多哈举行”。</span><br/><span class=\"section-news\">2. 美国养老金半年度再平衡窗口开启，300亿美元美股卖盘集中释放。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 马斯克表示，旗下最新一代大语言模型Grok 4.5已在SpaceX(SPCX.O)和特斯拉(TSLA.O)内部开启Beta测试，SpaceX计划今年每月发布一个全新AI模型。</span><br/><span class=\"section-news\">2. 康卡斯特(CMCSA.O)盘前大涨23%，公司宣布计划分拆媒体与科技业务。</span><br/><span class=\"section-news\">3. 纳斯达克交易所：SpaceX(SPCX.O)将于2026年7月7日加入纳斯达克100指数。</span><br/><span class=\"section-news\">4. 苹果(AAPL.O)正考虑最早于2028年在其旗舰智能手机SoC中采用1.4nm工艺技术。</span><br/><span class=\"section-news\">5. Strategy(MSTR.O)宣布一项股票回购计划，将回购最高10亿美元的A类普通股。</span><br/><span class=\"section-news\">6. Rocket Lab(RKLB.O)盘前上涨6.7%，公司将以80亿美元收购卫星通信公司Iridium。</span><br/><span class=\"section-news\">7. 谷歌(GOOG.O)已开始限制Meta对其AI大模型Gemini的使用，因Meta的算力需求超出了其现有的承载能力。</span><br/><span class=\"section-news\">8. 电池技术公司Solidion Technology(STI.O)盘前一度涨超26%，公司宣布将购买SpaceX股份作为战略储备资产。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-06-29T13:50:28.322Z"
     }
   ],
-  "lastUpdated": "2026-07-07T10:40:44.257Z"
+  "lastUpdated": "2026-07-07T11:01:01.236Z"
 }
