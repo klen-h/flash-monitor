@@ -2,6 +2,64 @@
   "date": "2026/7/8",
   "items": [
     {
+      "id": "20260708161725764800",
+      "time": "2026-07-08 16:17:25",
+      "hot": "爆",
+      "content": "美国总统特朗普：（关于与伊朗的谅解备忘录）我认为已经结束。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-07-08T08:30:59.917Z"
+    },
+    {
+      "id": "20260708161802785800",
+      "time": "2026-07-08 16:18:02",
+      "hot": "爆",
+      "content": "<b>美国总统特朗普：（关于伊朗）我不想和他们打交道，他们是一群\"病态的人\"。</b>",
+      "source": "",
+      "source_link": "",
+      "important": 0,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-07-08T08:30:59.917Z"
+    },
+    {
+      "id": "20260708161807116800",
+      "time": "2026-07-08 16:18:07",
+      "hot": "热",
+      "content": "美、布两油短线走高逾1美元，WTI原油突破73美元/桶，日内涨1.39%。布伦特原油突破77美元/桶，日内涨1.59%。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2
+      ],
+      "collectedAt": "2026-07-08T08:30:59.917Z"
+    },
+    {
+      "id": "20260708161926675800",
+      "time": "2026-07-08 16:19:26",
+      "hot": "热",
+      "content": "现货黄金短线下挫近40美元，最低至4080.88美元/盎司，日内跌幅0.43%。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2
+      ],
+      "collectedAt": "2026-07-08T08:30:59.916Z"
+    },
+    {
       "id": "20260708161019679800",
       "time": "2026-07-08 16:10:19",
       "hot": "沸",
@@ -4363,64 +4421,7 @@
         3
       ],
       "collectedAt": "2026-07-01T01:30:36.114Z"
-    },
-    {
-      "id": "20260701085258793800",
-      "time": "2026-07-01 08:52:58",
-      "hot": "热",
-      "content": "【中金：当前黄金或已过度定价加息预期】金十数据7月1日讯，中金公司最新研报指出，当前黄金或已过度定价加息预期。美联储加息仍非基准情形，黄金市场或已过度计入加息预期，年内或存回吐空间。中金宏观组认为就业消费压力和美国AI经济对融资需求的日益扩大或使美联储难以实质性转鹰，货币政策可能“名鹰实鸽”。基于黄金价格隐含的利率预期模型，<b>测算当前4000美元/盎司左右的黄金价格当中已充分定价了3-4次的加息空间</b>、高于利率期货市场对加息预期的计入。往前看，在油价下跌进一步反映在美国短期通胀数据后，黄金市场对加息预期的定价或有望修正，届时期货市场短期资金或存回补机会。",
-      "source": "",
-      "source_link": "",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-07-01T01:20:32.771Z"
-    },
-    {
-      "id": "20260701090421065800",
-      "time": "2026-07-01 09:04:21",
-      "hot": "爆",
-      "content": "【金十数据整理：A股盘前市场要闻速递（2026-07-01）】<b>重要新闻</b><br/><span class=\"section-news\">1. 工信部等八部门：到2030年建设5万张工业5G专网。</span><br/><span class=\"section-news\">2. 证监会：继续打击配合造假，加大处置力度，坚决破除造假生态圈。</span><br/><span class=\"section-news\">3. 财政部：1-5月全国国有及国有控股企业利润总额同比增长3.5%。</span><br/><span class=\"section-news\">4. 国家航天局：我国将建立近地小行星天地协同监测体系。</span><br/><span class=\"section-news\">5. 外交部：中欧是伙伴而不是对手，中欧经贸合作的本质是互利共赢。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 寒武纪：若未来上游原材料价格持续走高，将可能对公司经营业绩产生不利影响。</span><br/><span class=\"section-news\">2. 益生股份：预计2026年半年度净利润同比增长4287%-4774%，白羽肉鸡业务量价齐升。</span><br/><span class=\"section-news\">3. 永太科技：预计上半年净利同比增长351%-461%，六氟磷酸锂、VC及电解液等锂电材料核心产品量价齐升。</span><br/><span class=\"section-news\">4. 深科技：公司HBM技术尚处于研发阶段，预计短期内不会产生相关销售收入和利润。</span><br/><span class=\"section-news\">5. 京东方A：公司玻璃基载板已给部分国内客户送样，部分客户已通过概念认证并进入技术测试阶段。</span><br/><span class=\"section-news\">6. 太辰光：康宁GlassBridge与MPO功能互补，将重塑而非削弱MPO市场空间。</span><br/><span class=\"section-news\">7. 源杰科技：公司产品主要应用于光通信领域，其需求易受下游电信市场及数据中心市场发展态势的影响。</span><br/><span class=\"section-news\">8. 斯迪克：MLCC离型膜近期已通过村田供应商准入，后续将持续推进送样验证工作。</span><br/><span class=\"section-news\">9. 安洁科技：拟现金收购苏州志烽51%股权，收购标的主要产品包括光模块芯片基座等。</span><br/><span class=\"section-news\">10. 四方达：拟定增募资不超20亿元，用于金刚石钻针产业化项目等。</span><br/><span class=\"section-news\">11. 杰创智能：拟定增募资不超过19.65亿元，用于智算云服务中心建设项目等。</span><br/><span class=\"section-news\">12. 德龙激光：TGV相关产品已形成销售，但目前该设备在公司整体收入中占比较小。</span><br/><span class=\"section-news\">13. 金宏气体：高纯二氧化碳已通过海力士第三轮测试，进入正式供应阶段。</span><br/><span class=\"section-news\">14. 同有科技：拟定增募资不超10亿元，用于面向AI全场景的企业级存储系统和SSD研发中心建设项目等。</span><br/><span class=\"section-news\">15. 中矿资源：全资子公司江西中矿锂业临时停产检修。</span><br/><span class=\"section-news\">16. 财通福鑫定开混合：将于2026年7月1日全天停牌。</span><br/><span class=\"section-news\">17. 3天2板莱宝高科：玻璃基面板级载板产品目前仅处于预研阶段，尚未实现产品化。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-07-01T01:20:32.771Z"
-    },
-    {
-      "id": "20260701075510323800",
-      "time": "2026-07-01 07:55:10",
-      "hot": "热",
-      "content": "【美媒：特朗普听取恢复对伊动武选项 但其坚持外交手段】金十数据7月1日讯，据华尔街日报报道，有熟悉相关讨论的美国官员透露，美国总统特朗普曾权衡是否重返与伊朗的全面战争，近日与国防部长赫格塞思以及美军参谋长联席会议主席丹·凯恩就进一步的打击行动进行了多次会谈，但目前已决定暂不对伊朗采取军事行动，而是继续推进外交谈判。官员们表示，会谈主要围绕美国是否应放弃谈判、重新对伊朗发动全面打击，其中一些人将此举称为“完成任务”。尽管尚未做出最终决定，但特朗普已向助手们表示，他认为新一轮的全面打击可能破坏外交进程，并损害华盛顿最终瓦解伊朗核计划的希望。特朗普还告诉助手们，即便与德黑兰的谈判超出8月18日的核协议截止日期，他也能接受。与此同时，特朗普表示，目前他对在伊朗“违反谅解备忘录”时对其实施一次性打击感到满意。",
-      "source": "",
-      "source_link": "",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-07-01T01:00:40.387Z"
-    },
-    {
-      "id": "20260701072533908800",
-      "time": "2026-07-01 07:25:33",
-      "hot": "热",
-      "content": "【金十数据整理：每日科技要闻速递（7月1日）】<br/><b>人工智能：</b><br/><span class=\"section-news\">1. 美国商务部即将解除对Anthropic AI模型Fable的出口管制。</span><br/><span class=\"section-news\">2. OpenAI找到优化方案，可将AI推理成本减半。</span><br/><span class=\"section-news\">3. 中国信通院启动“算力词元（Token）出海生态计划”。</span><br/><span class=\"section-news\">4. 美团正式发布新一代万亿参数大模型 LongCat-2.0，并将对外开源。</span><br/><span class=\"section-news\">5. 据悉Kimi估值升至315亿美元，ARR突破3亿美元，收入曲线现Anthropic早期特征。</span><br/><span class=\"section-news\">6. 日本斥资3873亿日元扶持软银牵头开发国产AI模型。</span><br/><span class=\"section-news\">7. Anthropic推出Claude Science助力科研自动化。</span><br/><span class=\"section-news\">8. Anthropic推出Claude Sonnet 5，代理能力大幅提升。</span><br/><span class=\"section-news\">9. 优必选全尺寸超仿生人形机器人售价超11万元。</span><br/><span class=\"section-news\">10. 英媒：苹果CEO与欧盟技术主管就“Siri AI”举行建设性会谈。</span><br/><b>集成电路（芯片）：</b><br/><span class=\"section-news\">1. 应用材料发布系列用于AI芯片的3D制造设备，瞄准HBM堆叠工艺。</span><br/><span class=\"section-news\">2. SEMI：2026年全球300mm存储器晶圆厂设备投资首超500亿美元。</span><br/><span class=\"section-news\">3. 消息称三星电子加速1.4nm先进制程研发，深化与应材、泛林合作。</span><br/><span class=\"section-news\">4. 据Counterpoint Research：一季度全球晶圆代工2.0市场营收同比增长23%。</span><br/><span class=\"section-news\">5. 三星、海力士及美光被指操纵价格面临集体诉讼。</span><br/><span class=\"section-news\">6. 集邦咨询：AI零部件产能排挤、大厂减产加剧，预估晶圆代工成熟制程涨价效应延伸至2027年。</span><br/><span class=\"section-news\">7. 德国经济部：德国将与加拿大加强合作，建设高性能和具备韧性的半导体生态系统。</span><br/><span class=\"section-news\">8. SK海力士已提交纳斯达克上市申请。</span><br/><b>其他：</b><br/><span class=\"section-news\">1. 据悉微软计划新一轮裁员，数千岗位受影响。</span><br/><span class=\"section-news\">2. 东芝推出采用最新一代工艺的80V N沟道功率MOSFET。</span><br/><span class=\"section-news\">3. 国家航天局：我国将建立近地小行星天地协同监测体系。</span><br/><span class=\"section-news\">4. 2026年6月网络游戏审批信息公布，共163款国产、8款进口游戏获批。</span><br/><span class=\"section-news\">5. 苹果：推出Apple Creator Studio更新。 </span>",
-      "source": "",
-      "source_link": "",
-      "important": 0,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-07-01T00:20:33.569Z"
     }
   ],
-  "lastUpdated": "2026-07-08T08:20:51.684Z"
+  "lastUpdated": "2026-07-08T08:31:00.956Z"
 }
