@@ -2,6 +2,23 @@
   "date": "2026/7/9",
   "items": [
     {
+      "id": "20260709190446860800",
+      "time": "2026-07-09 19:04:46",
+      "hot": "沸",
+      "content": "【紫金矿业：预计2026年半年度净利润同比增长68%】金十数据7月9日讯，紫金矿业公告，预计2026年半年度归属于上市公司股东的净利润约391亿元，同比增长68%。业绩变动主要系主要矿产品产量稳步提升，产品销售价格同比大幅上升，稀贵金属等产品利润同比大幅增加。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        5,
+        4,
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-07-09T11:20:49.978Z"
+    },
+    {
       "id": "20260709184545855800",
       "time": "2026-07-09 18:45:45",
       "hot": "爆",
@@ -4459,24 +4476,7 @@
         3
       ],
       "collectedAt": "2026-07-03T03:40:31.824Z"
-    },
-    {
-      "id": "20260703100453114800",
-      "time": "2026-07-03 10:04:53",
-      "hot": "热",
-      "content": "【今年2000亿元“两新”设备更新资金已全部下达】金十数据7月3日讯，从国家发展改革委了解到，今年2000亿元超长期特别国债支持“两新”设备更新资金已全部下达。",
-      "source": "央视新闻",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=756048973218746612&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D756048973218746612%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
-      "important": 1,
-      "channel": [
-        5,
-        4,
-        3,
-        1,
-        2
-      ],
-      "collectedAt": "2026-07-03T02:30:37.387Z"
     }
   ],
-  "lastUpdated": "2026-07-09T11:01:07.360Z"
+  "lastUpdated": "2026-07-09T11:20:51.316Z"
 }
