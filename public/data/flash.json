@@ -2,6 +2,20 @@
   "date": "2026/7/10",
   "items": [
     {
+      "id": "20260710213029119800",
+      "time": "2026-07-10 21:30:29",
+      "hot": "热",
+      "content": "美股开盘，道指开涨0.26%，标普500指数开涨0.08%，纳指跌0.15%。美光科技(MU.O)跌3%，高通(QCOM.O)跌2%，闪迪(SNDK.O)跌4%，西部数据(WDC.O)跌1.9%，Meta Platforms(META.O)涨4.9%。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-07-10T13:50:44.463Z"
+    },
+    {
       "id": "20260710203808619800",
       "time": "2026-07-10 20:38:08",
       "hot": "热",
@@ -4475,20 +4489,7 @@
         3
       ],
       "collectedAt": "2026-07-05T01:40:34.234Z"
-    },
-    {
-      "id": "20260705082131139800",
-      "time": "2026-07-05 08:21:31",
-      "hot": "热",
-      "content": "【金十数据整理：昨日今晨重要新闻汇总（7月5日）】<br/>国内新闻：<br/><span class=\"section-news\">1. 豆包、千问将下线智能体功能。</span><br/><span class=\"section-news\">2. 瑞典首相克里斯特松会见王毅。</span><br/><span class=\"section-news\">3. 我国成功发射千帆极轨13组卫星。</span><br/><span class=\"section-news\">4. 王毅同瑞典外交大臣斯蒂纳加德会谈。</span><br/><span class=\"section-news\">5. 中国海警位中国台湾岛以东海域开展常态化执法巡查。</span><br/><span class=\"section-news\">6. 首款神经动力学芯片问世，有助于脑机接口等技术发展。</span><br/><span class=\"section-news\">7. 华为何庭波发布V2版“韬定律”论文，补充工程细节和实测数据。</span><br/><span class=\"section-news\">8. 进一步明确平台经济各方权利义务，新版电子商务法公开征求意见。</span><br/>国际新闻：<br/><span class=\"section-news\">1. 俄乌大规模互袭，俄军称控制多个居民点。</span><br/><span class=\"section-news\">2. 美光斥资90亿美元扩建日本西部芯片工厂。</span><br/><span class=\"section-news\">3. 泽连斯基与特朗普通话，商定在北约峰会期间会谈。</span><br/><span class=\"section-news\">4. 美国新泽西州报告19起“疑似高温相关”死亡病例。</span><br/><span class=\"section-news\">5. 欧洲央行管委穆兰：上月加息后，通胀已随油价暴跌而回落，央行目前“处境有利”。</span><br/><span class=\"section-news\">6. 中东局势—①伊驻华大使：计划按国际通行标准对霍尔木兹海峡通航收服务费 ②内塔尼亚胡或将访白宫，特朗普：“他知道谁才是老大” ③特朗普：哈梅内伊葬礼结束前，美伊双方互不交火 ④据悉美伊下一轮谈判将于11日进行，将讨论被冻结资金与核问题。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-07-05T01:30:43.320Z"
     }
   ],
-  "lastUpdated": "2026-07-10T12:50:44.334Z"
+  "lastUpdated": "2026-07-10T13:50:45.805Z"
 }
