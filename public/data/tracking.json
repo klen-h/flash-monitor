@@ -6088,6 +6088,253 @@
     {
       "etfName": "半导体ETF",
       "direction": "long",
+      "trend": "neutral",
+      "support": "3.06",
+      "resistance": "6.93",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "3.06"
+      },
+      "stopLoss": "2.968",
+      "takeProfit": "6.93",
+      "reasoning": "**审慎提示**：半导体ETF单日跌6.93%，禁止明日开盘杀跌；军工ETF涨3.06%，避免追涨（阻力位参考历史高点）。",
+      "source": "postmarket",
+      "id": "1783667037324",
+      "createdAt": "2026-07-10T07:03:57.324Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 115,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 16304,
+        "positionValue": 49890.24,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "半导体ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "1.369",
+      "resistance": "18",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "1.369"
+      },
+      "stopLoss": "1.328",
+      "takeProfit": "18",
+      "reasoning": "- 触发条件：半导体ETF开盘高于今日低点（1.369）+ VIX<18。",
+      "source": "postmarket",
+      "id": "1783667037321",
+      "createdAt": "2026-07-10T07:03:57.321Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 115,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 36585,
+        "positionValue": 50084.865,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "半导体ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "2",
+      "resistance": "6.93",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "2"
+      },
+      "stopLoss": "1.940",
+      "takeProfit": "6.93",
+      "reasoning": "- **半导体ETF暴跌（-6.93%）**：事件簇5提及“芯片股回调”，但跌幅远超指数（创业板指-2%），且无新增利空事件。可能反映：",
+      "source": "postmarket",
+      "id": "1783667037318",
+      "createdAt": "2026-07-10T07:03:57.318Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 115,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 24999,
+        "positionValue": 49998,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "科技ETF",
+      "direction": "long",
+      "trend": "down",
+      "support": "0.84",
+      "resistance": "4",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "0.84"
+      },
+      "stopLoss": "0.815",
+      "takeProfit": "4",
+      "reasoning": "- 港股/中概股（事件簇4）：恒生科技ETF涨0.84%，但未显著传导至A股（恒生科技指数与ETF表现一致，但A股独立下跌）。",
+      "source": "postmarket",
+      "id": "1783667037314",
+      "createdAt": "2026-07-10T07:03:57.314Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 100,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 59999,
+        "positionValue": 50399.159999999996,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "纳指ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "0.37",
+      "resistance": "1",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "0.37"
+      },
+      "stopLoss": "0.359",
+      "takeProfit": "1",
+      "reasoning": "- 美联储利率审查（事件簇1）：美债收益率降（-0.48%），但未驱动A股波动（纳指ETF仅微涨0.37%，A股核心指数跌）。",
+      "source": "postmarket",
+      "id": "1783667037311",
+      "createdAt": "2026-07-10T07:03:57.311Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 100,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 136363,
+        "positionValue": 50454.31,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "半导体ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "2",
+      "resistance": "50",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "2"
+      },
+      "stopLoss": "1.940",
+      "takeProfit": "50",
+      "reasoning": "- **影响**：科创板50ETF（-5.11%）、半导体ETF（-6.93%）领跌，创业板指跌超2%。",
+      "source": "postmarket",
+      "id": "1783667037307",
+      "createdAt": "2026-07-10T07:03:57.307Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 115,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 24999,
+        "positionValue": 49998,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "军工ETF",
+      "direction": "long",
+      "trend": "up",
+      "support": "3.06",
+      "resistance": "28",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "3.06"
+      },
+      "stopLoss": "2.968",
+      "takeProfit": "28",
+      "reasoning": "- **影响**：推高军工ETF（+3.06%），港股商业航天股集体上涨（如钧达股份+28%）。",
+      "source": "postmarket",
+      "id": "1783667037302",
+      "createdAt": "2026-07-10T07:03:57.302Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [
+          "趋势向下，逆势做多"
+        ],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 85,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 16304,
+        "positionValue": 49890.24,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "半导体ETF",
+      "direction": "long",
       "trend": "down",
       "support": "1.45",
       "resistance": "5.57",
@@ -7604,251 +7851,6 @@
       "positionSize": {
         "shares": 749999,
         "positionValue": 59999.92,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "黄金ETF",
-      "direction": "long",
-      "trend": "neutral",
-      "support": "8.85",
-      "resistance": "9.05",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "8.85"
-      },
-      "stopLoss": "8.585",
-      "takeProfit": "9.05",
-      "reasoning": "| **黄金ETF**   | 8.85   | 9.05   | **逢低做多**   | GLD持仓大增 + 衰退避险逻辑强化，现价8.908接近支撑。 |",
-      "source": "premarket",
-      "id": "1781831568375",
-      "createdAt": "2026-06-19T01:12:48.375Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 115,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 5660,
-        "positionValue": 50091,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "黄金ETF",
-      "direction": "long",
-      "trend": "neutral",
-      "support": "30",
-      "resistance": "4300",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "30"
-      },
-      "stopLoss": "29.100",
-      "takeProfit": "4300",
-      "reasoning": "- **中概率（30%）**：衰退信号强化（原油 + 黄金双跌） → 避险黄金ETF（支撑位$4300），回避周期板块（煤炭/电力ETF）。",
-      "source": "postmarket",
-      "id": "1781766220037",
-      "createdAt": "2026-06-18T07:03:40.037Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 115,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 1666,
-        "positionValue": 49980,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "科技ETF",
-      "direction": "long",
-      "trend": "neutral",
-      "support": "4",
-      "resistance": "60",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "4"
-      },
-      "stopLoss": "3.880",
-      "takeProfit": "60",
-      "reasoning": "- **高概率（60%）**：软着陆延续 → 科技ETF（人工智能/半导体）续涨，但审慎追高（单日涨幅 > 4%）。",
-      "source": "postmarket",
-      "id": "1781766220034",
-      "createdAt": "2026-06-18T07:03:40.034Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 100,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 12499,
-        "positionValue": 49996,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "沪深300ETF",
-      "direction": "long",
-      "trend": "neutral",
-      "support": "4",
-      "resistance": "300",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "4"
-      },
-      "stopLoss": "3.880",
-      "takeProfit": "300",
-      "reasoning": "4. **国内锚定**：沪深300ETF支撑位（4.90，基于日内低点），阻力位（5.05，前高）。",
-      "source": "postmarket",
-      "id": "1781766220032",
-      "createdAt": "2026-06-18T07:03:40.032Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 135,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 12499,
-        "positionValue": 49996,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "军工ETF",
-      "direction": "long",
-      "trend": "neutral",
-      "support": "50",
-      "resistance": "71",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "50"
-      },
-      "stopLoss": "48.500",
-      "takeProfit": "71",
-      "reasoning": "- ❌ 禁止推荐军工ETF（除非地缘事件更新率 > 50次/日，今日伊朗事件更新71次但未生效）。",
-      "source": "postmarket",
-      "id": "1781766220030",
-      "createdAt": "2026-06-18T07:03:40.030Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 135,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 1000,
-        "positionValue": 50000,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "科技ETF",
-      "direction": "long",
-      "trend": "up",
-      "support": "10",
-      "resistance": "60",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "10"
-      },
-      "stopLoss": "9.700",
-      "takeProfit": "60",
-      "reasoning": "- **修正点**：引入“分化因子”。当风险资产（纳指、科技ETF）逆势上涨时，框架需降级衰退概率（今日概率：60% → 40%），升级“软着陆”概率（30% → 50%），尾部风险“滞胀”概率（10%不变）。",
-      "source": "postmarket",
-      "id": "1781766220028",
-      "createdAt": "2026-06-18T07:03:40.028Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 100,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 4999,
-        "positionValue": 49990,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "科技ETF",
-      "direction": "long",
-      "trend": "neutral",
-      "support": "3.94",
-      "resistance": "4.96",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "3.94"
-      },
-      "stopLoss": "3.822",
-      "takeProfit": "4.96",
-      "reasoning": "- **A股科技ETF暴涨**：人工智能ETF（+4.96%）、半导体ETF（+3.94%）单日涨幅超4%，远超事件簇解释（美联储事件仅部分覆盖，无直接AI/半导体行业新闻）。",
-      "source": "postmarket",
-      "id": "1781766220025",
-      "createdAt": "2026-06-18T07:03:40.025Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 100,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 12711,
-        "positionValue": 50081.34,
         "riskAmount": 1500,
         "riskPercent": "1.50"
       }
