@@ -2,6 +2,20 @@
   "date": "2026/7/10",
   "items": [
     {
+      "id": "20260710215204806800",
+      "time": "2026-07-10 21:52:04",
+      "hot": "热",
+      "content": "SK海力士美国存托凭证预示开盘价或为180美元，发行价为149美元。",
+      "source": "",
+      "source_link": "",
+      "important": 0,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-07-10T14:20:44.004Z"
+    },
+    {
       "id": "20260710214317218800",
       "time": "2026-07-10 21:43:17",
       "hot": "沸",
@@ -4471,23 +4485,7 @@
         3
       ],
       "collectedAt": "2026-07-05T02:50:35.126Z"
-    },
-    {
-      "id": "20260705085433904800",
-      "time": "2026-07-05 08:54:33",
-      "hot": "热",
-      "content": "【金十数据整理：每日科技要闻速递（7月5日）】<br/><b>人工智能：</b><br/><span class=\"section-news\">1. 豆包、千问将下线智能体功能。</span><br/><span class=\"section-news\">2. 无界动力张玉峰：2025年全球人形机器人产量约2万台，商用落地仍接近空白。</span><br/><b>集成电路（芯片）：</b><br/><span class=\"section-news\">1. 美光斥资90亿美元扩建日本西部芯片工厂。</span><br/><span class=\"section-news\">2. 首款神经动力学芯片问世，有助于脑机接口等技术发展。</span><br/><span class=\"section-news\">3. 华为何庭波发布V2版“韬定律”论文，补充工程细节和实测数据。</span><br/><b>其他：</b><br/><span class=\"section-news\">1. 我国第一架综合航测飞机，首飞成功。</span><br/><span class=\"section-news\">2. 高盛：维持MiniMax买入，目标价860港元。</span><br/><span class=\"section-news\">3. 粤港澳大湾区首个“华龙一号”项目太平岭核电2号机组首次并网发电。</span><br/><span class=\"section-news\">4. 宇树科技陈立：关节电机核心技术全部自研 上游仅依赖铜线、磁铁等原材料。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 0,
-      "channel": [
-        4,
-        5,
-        1,
-        3
-      ],
-      "collectedAt": "2026-07-05T02:40:35.710Z"
     }
   ],
-  "lastUpdated": "2026-07-10T14:00:59.356Z"
+  "lastUpdated": "2026-07-10T14:20:45.046Z"
 }
