@@ -2,6 +2,22 @@
   "date": "2026/7/10",
   "items": [
     {
+      "id": "20260710190208561800",
+      "time": "2026-07-10 19:02:08",
+      "hot": "热",
+      "content": "【希音港股上市获中国证监会备案】金十数据7月10日讯，中国证监会国际合作司发布关于希音国际控股有限公司境外发行上市备案通知书，公司拟发行不超过341613000股境外上市普通股并在香港联合交易所上市。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        5,
+        4,
+        1,
+        3
+      ],
+      "collectedAt": "2026-07-10T11:20:41.540Z"
+    },
+    {
       "id": "20260710175907461800",
       "time": "2026-07-10 17:59:07",
       "hot": "热",
@@ -4466,20 +4482,7 @@
         1
       ],
       "collectedAt": "2026-07-04T20:30:39.790Z"
-    },
-    {
-      "id": "20260704230337391800",
-      "time": "2026-07-04 23:03:37",
-      "hot": "热",
-      "content": "【金十数据整理：周六重要消息汇总】<br/><b>国内新闻：</b><br/><span class=\"section-news\">1. 豆包、千问将下线智能体功能。</span><br/><span class=\"section-news\">2. 瑞典首相克里斯特松会见王毅。</span><br/><span class=\"section-news\">3. 我国成功发射千帆极轨13组卫星。</span><br/><span class=\"section-news\">4. 王毅同瑞典外交大臣斯蒂纳加德会谈。</span><br/><span class=\"section-news\">5. 中国海警位中国台湾岛以东海域开展常态化执法巡查。</span><br/><span class=\"section-news\">6. 首款神经动力学芯片问世，有助于脑机接口等技术发展。</span><br/><span class=\"section-news\">7. 华为何庭波发布V2版“韬定律”论文，补充工程细节和实测数据。</span><br/><span class=\"section-news\">8. 进一步明确平台经济各方权利义务，新版电子商务法公开征求意见。</span><br/><b>国际新闻：</b><br/><span class=\"section-news\">1. 美光斥资90亿美元扩建日本西部芯片工厂。</span><br/><span class=\"section-news\">2. 马里多地军方阵地遭袭，军方称击退多起袭击。</span><br/><span class=\"section-news\">3. 欧洲央行管委穆兰：在上月加息之后，数据显示通胀已随油价暴跌而回落，欧洲央行目前“处境有利”。</span><br/><span class=\"section-news\">4. 中东局势—<br/>①沙特媒体：美伊下一轮谈判将于11日进行，将讨论被冻结资金与核等问题。<br/>②美国总统特朗普：伊朗非常想达成协议；因举办哈梅内伊的葬礼，给伊朗放了一周假。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-07-04T15:50:33.270Z"
     }
   ],
-  "lastUpdated": "2026-07-10T10:20:46.031Z"
+  "lastUpdated": "2026-07-10T11:20:43.032Z"
 }
