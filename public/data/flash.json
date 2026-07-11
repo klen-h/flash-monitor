@@ -2,6 +2,21 @@
   "date": "2026/7/12",
   "items": [
     {
+      "id": "20260712041548582800",
+      "time": "2026-07-12 04:15:48",
+      "hot": "热",
+      "content": "【美官员称美国团队未前往阿曼参加与伊朗的谈判】金十数据7月12日讯，一名美国官员表示，美国谈判人员并未前往阿曼参加与伊朗的谈判。该官员称，美国技术团队不会在阿曼现场出席，但将随着事态发展，与阿曼和卡塔尔方面保持联系。据美方消息，一名美国高级官员曾于7月10日表示，谈判将在阿曼恢复，但未说明美方团队是否会亲自到场。另一名美国官员称，美方原本预计伊朗会在会谈后公开表示将停止袭击霍尔木兹海峡船只，但根据伊朗方面消息，伊朗并未作出此类承诺。伊朗方面消息表示，阿曼和伊朗官员讨论了“船只安全通行机制”，并强调阿曼主张“通过外交防止地区紧张局势升级”。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=9278413522244169970&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D9278413522244169970%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
+      "important": 0,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-07-11T22:40:46.218Z"
+    },
+    {
       "id": "20260712030241916800",
       "time": "2026-07-12 03:02:41",
       "hot": "热",
@@ -4471,23 +4486,7 @@
         3
       ],
       "collectedAt": "2026-07-06T10:50:35.573Z"
-    },
-    {
-      "id": "20260706175452532800",
-      "time": "2026-07-06 17:54:52",
-      "hot": "沸",
-      "content": "【宇树科技科创板IPO注册生效】金十数据7月6日讯，上交所：宇树科技股份有限公司科创板IPO审核状态变更为'注册生效'，保荐机构为中信证券。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        4,
-        5,
-        1,
-        3
-      ],
-      "collectedAt": "2026-07-06T10:10:38.672Z"
     }
   ],
-  "lastUpdated": "2026-07-11T21:10:47.527Z"
+  "lastUpdated": "2026-07-11T22:40:47.163Z"
 }
