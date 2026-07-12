@@ -1,6 +1,21 @@
 {
-  "date": "2026/7/12",
+  "date": "2026/7/13",
   "items": [
+    {
+      "id": "20260712235715186800",
+      "time": "2026-07-12 23:57:15",
+      "hot": "热",
+      "content": "【伊朗阿巴斯港和格什姆岛沿海地区传出爆炸声】金十数据7月12日讯，据伊朗媒体Fars News报道，伊朗阿巴斯港以东和格什姆岛沿海地区传出数起爆炸声，原因尚不清楚。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-07-12T16:20:40.252Z"
+    },
     {
       "id": "20260712224922649800",
       "time": "2026-07-12 22:49:22",
@@ -4478,20 +4493,7 @@
         2
       ],
       "collectedAt": "2026-07-07T01:20:39.514Z"
-    },
-    {
-      "id": "20260707090051996800",
-      "time": "2026-07-07 09:00:51",
-      "hot": "热",
-      "content": "【金十数据整理：A股盘前市场要闻速递（2026-07-07）】<b>重要新闻</b><br/><span class=\"section-news\">1. 宇树科技科创板IPO注册生效。</span><br/><span class=\"section-news\">2. 猪价反弹重回10元时代。</span><br/><span class=\"section-news\">3. 钨矿指数大跌近7%，多家上市公司回应：价格小幅回落，但下游需求变动不大。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 深交所：密切监控中公教育交易情况，对影响股票正常交易秩序的异常交易行为，依规对相关投资者采取了暂停交易等监管措施。</span><br/><span class=\"section-news\">2. 三花智控：液冷业务进展顺利，仿生机器人成第三增长曲线。</span><br/><span class=\"section-news\">3. 深圳华强：公司是华为计算部件（含昇腾、鲲鹏）总经销商。</span><br/><span class=\"section-news\">4. 德福科技：拟定增募资不超28亿元，用于高端电子电路AI铜箔项目。</span><br/><span class=\"section-news\">5. 中远海控：拟以7.7亿元-15.4亿元回购公司股份。</span><br/><span class=\"section-news\">6. 海南海药：初步统计半年度业绩亏损，预计会导致净资产为负。</span><br/><span class=\"section-news\">7. 博敏电子：拟定增募资不超3亿元用于800G及以上数连产品用印制电路板项目等。</span><br/><span class=\"section-news\">8. 雅化集团：预计上半年净利润为11亿元~13亿元，同比增长710.17%~857.48%。</span><br/><span class=\"section-news\">9. 航锦科技：上半年净利同比预增191%-308%，智算算力板块发展持续向好成为主要创利来源。</span><br/><span class=\"section-news\">10. 容百科技：Q2净利预计环比增长662%-834%，磷酸锰铁锂业务满产满销且钠电正极规模化出货。</span><br/><span class=\"section-news\">11. 万华化学：预计2026年上半年净利润为98亿元到104亿元，同比增长60.05%到69.85%。</span><br/><span class=\"section-news\">12. 视源股份：预计上半年净利润为14.5亿元-16.5亿元，同比增长264.62%-314.91%。</span><br/><span class=\"section-news\">13. 新凤鸣：预计上半年净利润同比增长94.59%到111.51%。</span><br/><span class=\"section-news\">14. 恒力石化：预计上半年净利润同比增长136.06%左右。</span><br/><span class=\"section-news\">15. 藏格矿业：预计上半年净利润35.5亿元~37.5亿元，同比增长97.2%~108.31%。</span><br/><span class=\"section-news\">16. 联泓新科：预计上半年净利润同比增长149%-168%，EVA、PO、PPG、锂电碳酸酯溶剂等产销量增加。</span><br/><span class=\"section-news\">17. 滨化股份：预计上半年净利润同比增长208%，主要产品环氧丙烷、氯丙烯、丙烯价格较上年同期涨幅较大。</span><br/><span class=\"section-news\">18. 宝地矿业：预计上半年净利润同比增长189%-210%，国际金价走强子公司新增金多金属矿粉销售。</span><br/><span class=\"section-news\">19. 沪电股份：43亿元人工智能芯片配套高端印制电路板扩产项目预期下半年试产并逐步提升产能。</span><br/><span class=\"section-news\">20. 中微公司：向特定对象发行股票募集配套资金新增股份515.68万股，发行价格为290.88元/股。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-07-07T01:10:39.444Z"
     }
   ],
-  "lastUpdated": "2026-07-12T15:30:49.617Z"
+  "lastUpdated": "2026-07-12T16:20:41.273Z"
 }
