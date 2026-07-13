@@ -2,6 +2,19 @@
   "date": "2026/7/13",
   "items": [
     {
+      "id": "20260713152140790800",
+      "time": "2026-07-13 15:21:40",
+      "hot": "热",
+      "content": "【金十数据整理：A股每日市场要闻回顾（2026-07-13）】<b>重要新闻</b><br/><span class=\"section-news\">1. 高盛：维持超配A股，建议布局港股优质互联网龙头。</span><br/><span class=\"section-news\">2. 大模型安全测评基准共建行动正式启动。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 主力资金流向数据显示，通富微电主力资金净流入13.49亿元居首位，拓荆科技、宁德时代、四川长虹、星网锐捷获主力资金净流入居前；兆易创新主力资金净流出47.13亿元居首位，华天科技、佰维存储、寒武纪、香农芯创主力资金净流出居前。</span><br/><span class=\"section-news\">2. 国轩高科：G垣固液混合电池已完成多项测试与验证，具备量产能力。</span><br/><span class=\"section-news\">3. 二季度业绩环比大幅下滑，多氟多回应：价格和出货量有季节性波动。</span><br/><span class=\"section-news\">4. 行云科技：公司披露的所有重大订单均真实有效。</span><br/><span class=\"section-news\">5. 芯朋微牵头筹建江苏省智能功率集成电路及模块重点实验室。</span><br/><span class=\"section-news\">6. 尚水智能：公司半干法、干法极片制造设备已实现小批量交付。</span><br/><span class=\"section-news\">7. 南威软件一字跌停，公司回应：未发现关联方资金输送。</span><br/><span class=\"section-news\">8. 深南电A：公司未参与“易储数智能源”相关项目。</span><br/><span class=\"section-news\">9. 顺网科技：截至一季度末已构建超330个节点机房高效协同的分布式算力网络。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-07-13T07:50:47.322Z"
+    },
+    {
       "id": "20260713150211969800",
       "time": "2026-07-13 15:02:11",
       "hot": "热",
@@ -4464,21 +4477,7 @@
         3
       ],
       "collectedAt": "2026-07-07T16:11:16.031Z"
-    },
-    {
-      "id": "20260707221359560800",
-      "time": "2026-07-07 22:13:59",
-      "hot": "热",
-      "content": "美股芯片股持续走低，闪迪(SNDK.O)跌超11%，西部数据(WDC.O)跌近10%，美光科技(MU.O)<br/>、希捷科技(STX.O)跌超7%， 英伟达(NVDA.O)跌1.3%。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-07-07T14:31:04.959Z"
     }
   ],
-  "lastUpdated": "2026-07-13T07:20:46.053Z"
+  "lastUpdated": "2026-07-13T07:50:48.446Z"
 }
