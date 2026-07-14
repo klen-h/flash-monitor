@@ -2,6 +2,21 @@
   "date": "2026/7/15",
   "items": [
     {
+      "id": "20260715053422059800",
+      "time": "2026-07-15 05:34:22",
+      "hot": "热",
+      "content": "【金十数据整理：中东局势跟踪（7月15日）】<b>冲突情况</b><br/><span class=\"section-news\">1. 伊朗革命卫队发起纳斯尔2行动。</span><br/><span class=\"section-news\">2. 伊朗称美进入正式战争状态。</span><br/><span class=\"section-news\">3. 伊朗方面称科威特一处美军基地发生爆炸。</span><br/><span class=\"section-news\">4. 伊朗革命卫队袭击巴林境内美军目标。</span><br/><span class=\"section-news\">5. 美军：完成新一轮对伊打击，5万名官兵部署在中东地区。</span><br/><span class=\"section-news\">6. 伊朗革命卫队称攻击并摧毁两艘违规船只。</span><br/><span class=\"section-news\">7. 伊朗媒体：伊朗袭击了美国海军第五舰队司令部。</span><br/><span class=\"section-news\">8. 约旦拦截并击落了四枚从伊朗领土进入约旦领空的导弹。</span><br/><span class=\"section-news\">9. 伊朗革命卫队称，使用弹道导弹袭击了位于约旦的美军空军基地。</span><br/><span class=\"section-news\">10. 伊朗革命卫队：摧毁了位于巴林的“爱国者”雷达、美国海军第五舰队的空中管制雷达以及C-RAM预警雷达系统。</span><br/><span class=\"section-news\">11. 据CNBC：美国官员称，美军周二对伊朗军事目标发动数次追加打击，旨在消除新出现的威胁。</span><br/><span class=\"section-news\">12. 伊朗阿巴斯港西部传出五声爆炸声；布什尔市四处地点遭敌方炮弹击中；布什尔核电站附近的防空系统启动；本普尔和恰巴哈尔传出多次爆炸声；亨格姆岛遭美方炮弹袭击。</span><br/><b>霍尔木兹海峡</b><br/><span class=\"section-news\">1. 法国国防部长称准备好在霍尔木兹海峡清除水雷。</span><br/><span class=\"section-news\">2. 伊朗趁封锁恢复前抢运原油，多艘油轮暗中穿越海峡。</span><br/><span class=\"section-news\">3. 伊朗军方：霍尔木兹海峡不会因“美国的侵略”和战争而开放。</span><br/><span class=\"section-news\">4. 英国海上贸易行动办公室：收到了一起发生在阿曼利马东南方13海里处的事故报告。一艘油轮报告在沿南部航线向外航行时遭导弹袭击。</span><br/><span class=\"section-news\">5. 白宫官员：特朗普对征收20%通行费计划“非常认真”。</span><br/><span class=\"section-news\">6. 阿曼重申将继续与各方合作，推动恢复霍尔木兹海峡航行自由。</span><br/><span class=\"section-news\">7. 特朗普：任何人都不应该对海峡收取费用。</span><br/><span class=\"section-news\">8. 伊朗革命卫队：只要美国继续行动，海峡的重新开放就将被推迟。。</span><br/><span class=\"section-news\">9. 美国能源部长赖特：海峡将不收取通行费。已不再考虑收取20%的费用。</span><br/> <b>其他情况</b><br/><span class=\"section-news\">1. 黎巴嫩和以色列正在意大利进行谈判，以落实结束冲突的协议。</span><br/><span class=\"section-news\">2. 消息人士：罗马谈判讨论确定试验区和以色列撤军的时间。</span><br/><span class=\"section-news\">3. 伊朗外交部谴责英国将革命卫队列为国家安全威胁。</span><br/><span class=\"section-news\">4. 以媒：美国暂停从以色列机场撤离军机。</span><br/><span class=\"section-news\">5. 伊朗副外长：目前伊朗在《伊斯兰堡谅解备忘录》框架下不存在任何承诺。 </span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-07-14T22:10:47.443Z"
+    },
+    {
       "id": "20260715051930421800",
       "time": "2026-07-15 05:19:30",
       "hot": "热",
@@ -4463,21 +4478,7 @@
         2
       ],
       "collectedAt": "2026-07-09T00:10:47.610Z"
-    },
-    {
-      "id": "20260709080139775800",
-      "time": "2026-07-09 08:01:39",
-      "hot": "沸",
-      "content": "【韩国股指开涨超3%】金十数据7月9日讯，韩国KOSPI指数7月9日（周四）开盘上涨241.33点，涨幅3.33%，报7488.12点。SK海力士涨7%，三星电子涨3%。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        5,
-        1
-      ],
-      "collectedAt": "2026-07-09T00:10:47.610Z"
     }
   ],
-  "lastUpdated": "2026-07-14T21:50:48.401Z"
+  "lastUpdated": "2026-07-14T22:10:48.552Z"
 }
