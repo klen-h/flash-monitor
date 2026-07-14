@@ -2,6 +2,22 @@
   "date": "2026/7/14",
   "items": [
     {
+      "id": "20260714211322370800",
+      "time": "2026-07-14 21:13:22",
+      "hot": "热",
+      "content": "【金十数据整理：每日美股市场要闻速递（2026-07-14）】<b>重要新闻</b><br/><span class=\"section-news\">1. 美联储主席沃什：美联储不会容忍通胀过高。</span><br/><span class=\"section-news\">2. 美国纽约州将暂时禁止建设新的大型数据中心。</span><br/><span class=\"section-news\">3. 美国6月未季调CPI年率录得3.5%（前值4.2%），市场预期为3.8%；美国6月季调后CPI月率录得-0.4%，为2020年4月以来最大降幅。</span><br/><span class=\"section-news\">4. 美国6月未季调核心CPI年率录得2.6%，市场预期为2.8%；美国6月未季调核心CPI月率录得0%，为2021年1月来最小增幅，市场预期为0.2%。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. SpaceX(SPCX.O)：成功部署27颗“星链”卫星。</span><br/><span class=\"section-news\">2. 据市场消息，英伟达(NVDA.O)将亚洲买家名单减半。</span><br/><span class=\"section-news\">3. 三星电子：目前未考虑发行美国存托凭证的可能性。</span><br/><span class=\"section-news\">4. IBM(IBM.N)盘前跌超20%，公司二季度初步营收不及预期。</span><br/><span class=\"section-news\">5. 花旗集团(C.N)二季度营收增长14%至248亿美元，超出市场预期。</span><br/><span class=\"section-news\">6. 英伟达(NVDA.O)将与三菱重工在AI数据中心技术领域展开合作。</span><br/><span class=\"section-news\">7. 名创优品(MNSO.N)原创IP“YOYO”全系列产品单月销售额破亿。</span><br/><span class=\"section-news\">8. 摩根大通(JPM.N)Q2净利润同比增长41.2%，达211.6亿美元。</span><br/><span class=\"section-news\">9. 美国银行(BAC.N)第二季度总营收316.00亿美元，同比增长15%。</span><br/><span class=\"section-news\">10. 高盛(GS.N)二季度净利润同比大涨近80%，达到66亿美元，创下该行五年来单季最佳业绩。</span><br/><span class=\"section-news\">11. Tower半导体(TSEM.US)在日本启动双线并行战略扩产：全面升级300mm硅光、硅锗工艺及先进封装产能。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        5,
+        4,
+        1,
+        3
+      ],
+      "collectedAt": "2026-07-14T13:30:56.414Z"
+    },
+    {
       "id": "20260714211202640800",
       "time": "2026-07-14 21:12:02",
       "hot": "爆",
@@ -4463,22 +4479,7 @@
         1
       ],
       "collectedAt": "2026-07-08T18:10:53.117Z"
-    },
-    {
-      "id": "20260709020033407800",
-      "time": "2026-07-09 02:00:33",
-      "hot": "爆",
-      "content": "美联储会议纪要：大多数与会者指出，由于与人工智能相关的需求、中东冲突或关税，通胀可能仍将保持高位。在这种情况下，几乎所有与会者都表示可能需要采取一些政策收紧措施。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-07-08T18:10:53.117Z"
     }
   ],
-  "lastUpdated": "2026-07-14T13:21:11.575Z"
+  "lastUpdated": "2026-07-14T13:30:57.755Z"
 }
