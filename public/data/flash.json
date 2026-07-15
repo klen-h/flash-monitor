@@ -2,6 +2,34 @@
   "date": "2026/7/15",
   "items": [
     {
+      "id": "20260715211350583800",
+      "time": "2026-07-15 21:13:50",
+      "hot": "热",
+      "content": "【金十数据整理：每日美股市场要闻速递（2026-07-15）】<b>重要新闻</b><br/><span class=\"section-news\">1. 美国6月PPI年率 5.5%，预期6.2%，前值由6.50%修正为6%。</span><br/><span class=\"section-news\">2. 美联储威廉姆斯：在通胀高企的情况下，必须将其持续恢复至2%的目标。当前货币政策立场非常适合实现这一目标。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 巴菲特：仍然看好伯克希尔对苹果(AAPL.O)的投资。</span><br/><span class=\"section-news\">2. 韩媒：三星秘密研究赴美上市可行性，公司此前否认相关计划。</span><br/><span class=\"section-news\">3. 摩根士丹利(MS.N)第二季度营收为213亿美元，市场预估为197亿美元。</span><br/><span class=\"section-news\">4. 国行苹果AI功能完成备案，合作方包括阿里巴巴(BABA.N)、百度(BIDU.O)。</span><br/><span class=\"section-news\">5. 英特尔(INTC.O)18A良率升至85%，据悉已获英伟达(NVDA.O)及OpenAI等多个公司大单。</span><br/><span class=\"section-news\">6. 消息人士称，Coreweave(CRWV.O)正在探索使用金融衍生品，以对冲未来存储芯片价格下跌的风险。</span><br/><span class=\"section-news\">7. 诺基亚(NOK.US)：公司与英伟达(NVDA.O)共同开发出全球首个商用人工智能驱动的无线接入网（RAN）平台。</span><br/><span class=\"section-news\">8. 支付公司Stripe与私募股权公司Advent国际已联合提出以每股60.50美元的价格收购Paypal(PYPL.O)，该交易将使这家支付公司的估值超过530亿美元。</span><br/><span class=\"section-news\">9. 阿斯麦(ASML.O)发布2026年第二季度财报：公司当季实现净销售额93亿欧元（上季度为88亿欧元），毛利率为54.0%，净利润达29亿欧元，每股基本收益（EPS）为7.59欧元。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-07-15T14:01:06.153Z"
+    },
+    {
+      "id": "20260715213026496800",
+      "time": "2026-07-15 21:30:26",
+      "hot": "热",
+      "content": "美股开盘，道指开涨0.18%，标普500指数涨0.41%，纳指涨0.63%。SK海力士ADR(SKHY.O)跌7%，阿里巴巴(BABA.N)涨超4%，消息面上，阿里千问将作为AI能力集成至苹果智能。微软(MSFT.O)、苹果(AAPL.O)、IBM(IBM.N)均涨超1%。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-07-15T14:01:06.153Z"
+    },
+    {
       "id": "20260715210317529800",
       "time": "2026-07-15 21:03:17",
       "hot": "热",
@@ -4448,37 +4476,7 @@
         1
       ],
       "collectedAt": "2026-07-10T01:40:42.322Z"
-    },
-    {
-      "id": "20260710080550313800",
-      "time": "2026-07-10 08:05:50",
-      "hot": "热",
-      "content": "【MINIMAX拟折价9.8%配股筹资逾95亿港元】金十数据7月10日讯，MINIMAX-W(00100.HK)在港交所公告，拟配售3560万股新A类股份，配售价为每股268.00港元（折价9.89%），预计配售所得款项约为95.408亿港元。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        5,
-        4,
-        3,
-        1
-      ],
-      "collectedAt": "2026-07-10T00:40:40.767Z"
-    },
-    {
-      "id": "20260710080241749800",
-      "time": "2026-07-10 08:02:41",
-      "hot": "热",
-      "content": "韩国KOSPI指数7月10日（周五）开盘上涨224.71点，涨幅3.08%，报7516.62点。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        5,
-        1
-      ],
-      "collectedAt": "2026-07-10T00:20:42.039Z"
     }
   ],
-  "lastUpdated": "2026-07-15T13:30:57.214Z"
+  "lastUpdated": "2026-07-15T14:01:07.870Z"
 }
