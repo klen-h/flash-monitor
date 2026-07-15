@@ -6636,6 +6636,80 @@
   },
   "rejectedSignals": [
     {
+      "etfName": "黄金ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "1.37",
+      "resistance": "8.5",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "1.37"
+      },
+      "stopLoss": "1.329",
+      "takeProfit": "8.5",
+      "reasoning": "| **黄金ETF**     | 8.300  | 8.500  | 观望（或8.30做多） | 地缘避险支撑但短期微跌，GLD涨+1.37%提供缓冲，待突破阻力确认。                 |",
+      "source": "premarket",
+      "id": "1784077968097",
+      "createdAt": "2026-07-15T01:12:48.097Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [
+          "趋势向下，逆势做多"
+        ],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 85,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 36585,
+        "positionValue": 50121.450000000004,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "军工ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "1.15",
+      "resistance": "1.2",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "1.15"
+      },
+      "stopLoss": "1.115",
+      "takeProfit": "1.2",
+      "reasoning": "| **军工ETF**     | 1.150  | 1.200  | 做多           | 中东局势紧张（美以撤军要求+伊朗威胁），地缘风险对冲需求强化。                  |",
+      "source": "premarket",
+      "id": "1784077968093",
+      "createdAt": "2026-07-15T01:12:48.093Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [
+          "趋势向下，逆势做多"
+        ],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 85,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 42857,
+        "positionValue": 49285.549999999996,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
       "etfName": "半导体ETF",
       "direction": "long",
       "trend": "neutral",
@@ -8331,76 +8405,6 @@
       "positionSize": {
         "shares": 12711,
         "positionValue": 50081.34,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "沪深300ETF",
-      "direction": "long",
-      "trend": "neutral",
-      "support": "0.52",
-      "resistance": "300",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "0.52"
-      },
-      "stopLoss": "0.504",
-      "takeProfit": "300",
-      "reasoning": "| **沪深300ETF**| 4.950  | 5.020  | **观望**       | 宽基防御属性，但昨日涨0.52%后短期高位，等待回调。 |",
-      "source": "premarket",
-      "id": "1781831568381",
-      "createdAt": "2026-06-19T01:12:48.381Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 135,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 93749,
-        "positionValue": 48749.48,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "军工ETF",
-      "direction": "long",
-      "trend": "neutral",
-      "support": "0.08",
-      "resistance": "1.32",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "0.08"
-      },
-      "stopLoss": "0.078",
-      "takeProfit": "1.32",
-      "reasoning": "| **军工ETF**   | 1.270  | 1.320  | **观望/轻仓试多** | 中东地缘风险（伊朗局势）提供对冲支撑，但单日涨幅小（+0.08%），需确认突破阻力。 |",
-      "source": "premarket",
-      "id": "1781831568378",
-      "createdAt": "2026-06-19T01:12:48.378Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 135,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 749999,
-        "positionValue": 59999.92,
         "riskAmount": 1500,
         "riskPercent": "1.50"
       }
