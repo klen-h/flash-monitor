@@ -2,6 +2,36 @@
   "date": "2026/7/15",
   "items": [
     {
+      "id": "20260715071353354800",
+      "time": "2026-07-15 07:13:53",
+      "hot": "热",
+      "content": "【金十数据整理：每日科技要闻速递（7月15日）】<br/><b>人工智能：</b><br/><span class=\"section-news\">1. 美国将成立人工智能与网络安全协调工作组。</span><br/><span class=\"section-news\">2. OpenAI回应苹果诉讼：目前未发现任何证据支持相关指控。</span><br/><span class=\"section-news\">3. 孙正义：15年内核聚变将成为AI数据中心主要能源。AI热潮将需要每年5万亿美元的投资。</span><br/><span class=\"section-news\">4. 阿里云：下调GLM-5.2 Fast mode模式价格。</span><br/><span class=\"section-news\">5. 美国纽约州将暂停新建耗电50兆瓦及以上的数据中心，禁令为期一年。</span><br/><span class=\"section-news\">6. 谷歌DeepMind负责人呼吁建立由美国主导的全球AI监管机构。</span><br/><span class=\"section-news\">7. 据英国金融时报：DeepSeek考虑新一轮融资，将使公司估值达到约710亿美元。</span><br/><span class=\"section-news\">8. 英伟达与三菱重工拟在AI数据中心冷却及电力领域展开合作。</span><br/><span class=\"section-news\">9. OpenAI计划推出AI智能音箱作为旗下首款硬件产品，定位为AI陪伴助手。</span><br/><b>集成电路（芯片）：</b><br/><span class=\"section-news\">1. 韩国拟放宽法律，助力SK海力士引入外资建设晶圆厂。</span><br/><span class=\"section-news\">2. 韩国政府拟对几家参与政府AI项目的企业发放英伟达GPU。</span><br/><span class=\"section-news\">3. 联电新加坡晶圆厂交付首批量产硅光子晶圆。</span><br/><span class=\"section-news\">4. 报道：SK海力士加速为英伟达量产HBM4。</span><br/><span class=\"section-news\">5. 三星电子：目前未考虑发行美国存托凭证的可能性。</span><br/><span class=\"section-news\">6. 欧洲委员会：批准6.59亿欧元德国国家援助，用于新建四座半导体工厂。</span><br/><span class=\"section-news\">7. 长江存储出售武汉新芯控股权获无条件通过。</span><br/><b>其他：</b><br/><span class=\"section-news\">1. Lucid被传破产后辟谣，股价仍跌16%。</span><br/><span class=\"section-news\">2. 《重复使用运载火箭科研项目指南（第三批）》已正式发布。 </span>",
+      "source": "",
+      "source_link": "",
+      "important": 0,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-07-15T00:01:01.282Z"
+    },
+    {
+      "id": "20260715072749160800",
+      "time": "2026-07-15 07:27:49",
+      "hot": "热",
+      "content": "【长鑫科技IPO定价出炉 专家呼吁理性看待企业创新成长价值】金十数据7月15日讯，7月14日晚间，长鑫科技披露IPO上市发行安排及初步询价公告，通过网下询价方式确定公司发行价为8.66元/股。结合公司上市后的总股本推算，长鑫科技的上市估值为5791.88亿元。对于这一发行定价，不少投资者难免疑惑：说好的市值冲击万亿，询价结果是不是低于预期？市场专家表示，长鑫科技的发行定价，是充分考虑了企业当下的实际情况，公司估值随着企业的成长逐步提升，才是真正的“长期主义”。",
+      "source": "上证报",
+      "source_link": "https://paper.cnstock.com/html/2026-07/15/content_2244930.htm",
+      "important": 0,
+      "channel": [
+        5,
+        4,
+        3,
+        1
+      ],
+      "collectedAt": "2026-07-15T00:01:01.282Z"
+    },
+    {
       "id": "20260715065000001800",
       "time": "2026-07-15 06:50:00",
       "hot": "热",
@@ -4450,35 +4480,7 @@
         2
       ],
       "collectedAt": "2026-07-09T02:40:50.527Z"
-    },
-    {
-      "id": "20260709100244337800",
-      "time": "2026-07-09 10:02:44",
-      "hot": "热",
-      "content": "【伊朗议长：美国敢打 伊朗就还击】金十数据7月9日讯，伊朗伊斯兰议会议长卡利巴夫9日在社交媒体发文说，美国仍未明白，霸凌和背信弃义已不再是“零成本”的事。霍尔木兹海峡只有在“伊朗的安排而非美国的威胁”下才能开放。他写道：“你敢打，我就还击。别再徒劳挥舞拳头，否则只会陷得更深。”",
-      "source": "新华社",
-      "source_link": "https://h.xinhuaxmt.com/vh512/share/13188038?docid=13188038&newstype=1001&d=1352765",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-07-09T02:30:56.053Z"
-    },
-    {
-      "id": "20260709090541776800",
-      "time": "2026-07-09 09:05:41",
-      "hot": "沸",
-      "content": "【金十数据整理：A股盘前市场要闻速递（2026-07-09）】<b>重要新闻</b><br/><span class=\"section-news\">1. 央行：继续实施适度宽松的货币政策，加大逆周期和跨周期调节力度。</span><br/><span class=\"section-news\">2. 央行：建议发挥增量政策和存量政策集成效应，增强政策前瞻性灵活性针对性。</span><br/><span class=\"section-news\">3. 商务部等9部门：推动消费券发放、结算等环节使用数字人民币。</span><br/><span class=\"section-news\">4. 长鑫科技7月16日开启新股申购。</span><br/><span class=\"section-news\">5. IMF下调世界经济增长预期，上调中国增长预期。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 京东方A：预计上半年净利润50亿元—55亿元，同比增长54%—69%。</span><br/><span class=\"section-news\">2. 特发信息：预计上半年净利润5500万元—7100万元，同比增长881.42%—1166.93%。</span><br/><span class=\"section-news\">3. 中金公司：预计上半年净利润同比增长78%—90%。</span><br/><span class=\"section-news\">4. 天风证券：预计上半年净利润同比增长429.03%—693.55%。</span><br/><span class=\"section-news\">5. 盛新锂能：预计上半年净利润10亿元—12亿元，同比增长218.90%—242.68%。</span><br/><span class=\"section-news\">6. 海思科：预计上半年净利润7.9亿元—8.7亿元，同比增长513.25%—575.35%。</span><br/><span class=\"section-news\">7. 中孚实业：上半年净利润为18亿元—19.5亿元，同比增加154.42%—175.62%。</span><br/><span class=\"section-news\">8. 东材科技：预计上半年净利同比增长63.93% 高速电子树脂核心产品市场渗透率稳步提升。</span><br/><span class=\"section-news\">9. 株冶集团：预计2026年上半年净利润同比增加173.29%—275.78%。</span><br/><span class=\"section-news\">10. 宝鼎科技：预计上半年净利润1.25亿元至1.45亿元，同比增长468.71%—559.71%。</span><br/><span class=\"section-news\">11. 江西铜业：预计上半年净利润同比增长80.86%—103.61%。</span><br/><span class=\"section-news\">12. 亚翔集成：预计上半年净利润4.56亿元—5.25亿元，同比增长183.41%—226.29%。</span><br/><span class=\"section-news\">13. 新乡化纤：预计上半年净利润为3亿元–4亿元，同比增长378.09%—537.45%。</span><br/><span class=\"section-news\">14. 高德红外：预计上半年净利润12.7亿元—14.5亿元，同比增长601.93%—701.41%。</span><br/><span class=\"section-news\">15. 天津普林：预计上半年净利润3600万元–5200万元，同比增长435.64%—673.71%。</span><br/><span class=\"section-news\">16. 雅创电子：预计上半年净利润为2.2亿元—2.7亿元，同比增长439%—561.49%。</span><br/><span class=\"section-news\">17. 巨星科技：预计上半年净利润12.09亿元—14.64亿元，同比下降5%—增长15%。</span><br/><span class=\"section-news\">18. 欧菲光新设微纳器件公司，业务涉及光模块及光互联相关器件。</span><br/><span class=\"section-news\">19. 湖南黄金：拟发行股份收购黄金天岳100%股权及中南冶炼100%股权，交易总价43.34亿元。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-07-09T01:20:49.261Z"
     }
   ],
-  "lastUpdated": "2026-07-14T23:20:51.032Z"
+  "lastUpdated": "2026-07-15T00:01:02.481Z"
 }
