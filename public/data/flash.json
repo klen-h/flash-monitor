@@ -2,6 +2,21 @@
   "date": "2026/7/15",
   "items": [
     {
+      "id": "20260715195019512800",
+      "time": "2026-07-15 19:50:19",
+      "hot": "热",
+      "content": "【美军：完成此次打击伊朗行动 耗时90分钟】金十数据7月15日讯，美国中央司令部：我们于美国东部时间7月15日上午7:30（北京时间19:30）完成了对伊朗击行动。在90分钟的攻击中，中央司令部对大通布岛上的海岸防御系统及巡航导弹储存和发射阵地发射了精确制导弹药。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-07-15T12:20:52.131Z"
+    },
+    {
       "id": "20260715183129195800",
       "time": "2026-07-15 18:31:29",
       "hot": "热",
@@ -4463,22 +4478,7 @@
         3
       ],
       "collectedAt": "2026-07-09T22:30:51.932Z"
-    },
-    {
-      "id": "20260710053016419800",
-      "time": "2026-07-10 05:30:16",
-      "hot": "热",
-      "content": "【金十数据整理：中东局势跟踪（7月10日）】<b>冲突情况</b><br/><span class=\"section-news\">1. 伊朗打击位于科威特和巴林的共四个美军基地，称这只是“第一阶段”。</span><br/><span class=\"section-news\">2. 美国中央司令部：美军完成新一轮对伊朗打击，对伊朗沿海约90个军事目标发动袭击。</span><br/><span class=\"section-news\">3. 伊朗革命卫队：如果美国再次发动攻击，我们的反应将扩展到地区的其他美国基地。</span><br/><span class=\"section-news\">4. 美军动用巡航导弹袭击伊朗北部两座铁路桥，为自美伊4月8日达成停火以来，美方首次对伊朗基础设施发动袭击。</span><br/><span class=\"section-news\">5. 据伊朗迈赫尔通讯社：伊朗南部布什尔地区传出爆炸声。</span><br/><span class=\"section-news\">6. 据伊朗国家媒体：伊朗布什尔核电站周边遭到美国炮弹袭击。</span><br/><span class=\"section-news\">7. 据伊朗塔斯尼姆通讯社：科威特境内的阿里·萨利姆空军基地及港口区域发生爆炸。</span><br/><span class=\"section-news\">8. 据伊朗迈赫尔通讯社：伊朗阿巴斯港传出爆炸声，可能源于波斯湾和霍尔木兹海峡某处的交火。</span><br/><span class=\"section-news\">9. 以色列国防军：已摧毁黎巴嫩南部迈吉达尔祖恩镇内的两条地下通道，总长约200米。</span><br/><span class=\"section-news\">10. 以媒：消息人士称，伊朗目前无意将以色列拖入冲突。</span><br/><span class=\"section-news\">11. 以色列国防部长：我们的军队处于高度戒备状态，准备恢复战斗。</span><br/><span class=\"section-news\">12. 以色列国防部长：我们不会从加沙、黎巴嫩和叙利亚的安全区撤出。</span><br/><span class=\"section-news\">13. 伊朗警告美国不要再采取军事“冒险主义”行动。</span><br/><span class=\"section-news\">14. 据伊朗媒体Fars News：军事消息人士称，卡塔尔、阿联酋、约旦和沙特阿拉伯正在为大量美国战斗机航班提供后勤支持。 </span><br/><span class=\"section-news\">15. 以色列国防部长卡茨：如有必要，以色列将准备对伊朗进行“第三次”攻击。</span><br/><span class=\"section-news\">16. 据伊朗国家电视台：近期在伊朗阿巴斯港、格什姆岛、西里克和贾斯克等地均未记录到任何爆炸事件。</span><br/><span class=\"section-news\">17. 伊朗官方通讯社援引地方官员消息称，位于科纳拉克的伊朗海军基地遭到“敌人”袭击。</span><br/><span class=\"section-news\">18. 据伊通社（IRNA）：伊朗布什尔省官员称，布什尔市爆炸声由防空系统响应引发，此前当地一处军事设施遭美以袭击。</span><br/><b>美伊谈判</b><br/><span class=\"section-news\">1. 据CNN：地区消息人士证实，巴基斯坦和卡塔尔正在努力促使美国和伊朗重返谈判桌。</span><br/><span class=\"section-news\">2. 美国官员：以色列-黎巴嫩首个试点区将在几天内启动。</span><br/><b>霍尔木兹海峡</b><br/><span class=\"section-news\">1. 据Axios：一位美国官员透露，目前的美伊局势升级可能会持续一两天、一周或一个月，这取决于伊朗是否继续袭击霍尔木兹海峡的商船。</span><br/><b>其他情况</b><br/><span class=\"section-news\">1. 伊拉克消息人士称，位于该国北部埃尔比勒省的美国“哈里尔”军事基地拉响警报。</span><br/><span class=\"section-news\">2. 沙特外交部：我们拒绝伊朗侵犯兄弟国家的主权，并继续威胁地区的安全与稳定。</span><br/><span class=\"section-news\">3. 据Axios：以色列总理办公室表示，特朗普周四与内塔尼亚胡通话，讨论伊朗局势。 </span><br/><span class=\"section-news\">4. 伊朗外长阿拉格齐和沙特外交大臣费萨尔通话讨论地区局势，磋商美国行动后的中东形势。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-07-09T22:00:52.179Z"
     }
   ],
-  "lastUpdated": "2026-07-15T11:30:59.650Z"
+  "lastUpdated": "2026-07-15T12:20:53.192Z"
 }
