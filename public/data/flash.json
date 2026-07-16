@@ -2,6 +2,21 @@
   "date": "2026/7/17",
   "items": [
     {
+      "id": "20260717071912481800",
+      "time": "2026-07-17 07:19:12",
+      "hot": "热",
+      "content": "【伊朗军方称对美在巴林军事设施发动无人机袭击】金十数据7月17日讯，当地时间17日凌晨，伊朗陆军公共关系部门发表声明称，伊朗军方在数小时前实施“闪电行动”第11阶段，对美军驻巴林的谢赫伊萨空军基地的相关军事设施发动无人机袭击。声明称，袭击目标包括美军直升机以及P-8侦察机的部署区域，行动使用了“阿拉什”自杀式无人机。伊方表示，此次行动是对美国近期袭击伊朗城市基础设施和造成平民伤亡的回应。",
+      "source": "央视",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=17398045177677785350&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D17398045177677785350%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
+      "important": 0,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-07-16T23:50:34.291Z"
+    },
+    {
       "id": "20260717070316761800",
       "time": "2026-07-17 07:03:16",
       "hot": "热",
@@ -4422,20 +4437,7 @@
         3
       ],
       "collectedAt": "2026-07-13T00:10:45.366Z"
-    },
-    {
-      "id": "20260713065000001800",
-      "time": "2026-07-13 06:50:00",
-      "hot": "热",
-      "content": "【今日重点关注的财经数据与事件：2026年7月13日 周一】<br/>① 待定 欧佩克公布月度原油报告<br/>② 次日00:30 美联储理事沃勒发表讲话",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-07-12T23:50:45.101Z"
     }
   ],
-  "lastUpdated": "2026-07-16T23:32:54.119Z"
+  "lastUpdated": "2026-07-16T23:50:35.619Z"
 }
