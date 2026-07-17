@@ -2,6 +2,20 @@
   "date": "2026/7/17",
   "items": [
     {
+      "id": "20260717073222961800",
+      "time": "2026-07-17 07:32:22",
+      "hot": "热",
+      "content": "【金十数据整理：每日科技要闻速递（7月17日）】<br/><b>人工智能：</b><br/><span class=\"section-news\">1. 月之暗面发布全球最大规模的开源模型Kimi K3，马斯克评：厉害。</span><br/><span class=\"section-news\">2. 努比亚官宣首款AI智能体手机NaviX Ultra。</span><br/><span class=\"section-news\">3. 韩国科学部长：今年将推出用于网络安全的主权AI。</span><br/><span class=\"section-news\">4. 英伟达与日本企业扩大机器人合作，加快物理AI布局。</span><br/><span class=\"section-news\">5. 小米发布机器人基座模型Xiaomi-Robotics-1。</span><br/><span class=\"section-news\">6. DeepMind提设国际AI模型审查机构 马斯克和奥尔特曼表支持。</span><br/><span class=\"section-news\">7. 有外媒渲染中国提供开源AI模型是“陷阱”，外交部：反对以意识形态划线。</span><br/><span class=\"section-news\">8. 阿里整合QoderWork、悟空、MuleRun 将推出新的生产力AI产品。</span><br/><span class=\"section-news\">9. 7月16日，世界人工智能合作组织协定签署仪式在上海举行。</span><br/><span class=\"section-news\">10. 谷歌Gemini 3.5 Pro交付进度落后计划数月，因技术能力未达预期目标。</span><br/><span class=\"section-news\">11. 微软正在准备类似于Mythos的人工智能漏洞检测工具。</span><br/><b>集成电路（芯片）：</b><br/><span class=\"section-news\">1. 韩美半导体拟在韩国新建工厂。</span><br/><span class=\"section-news\">2. 三星计划外包谷歌2nm TPU后端设计。</span><br/><span class=\"section-news\">3. 日本拟采购2.75万颗英伟达Rubin芯片，开发本土机器人AI模型。</span><br/><span class=\"section-news\">4. 澜起科技：将积极配合韩国检方调查，目前公司运行正常。</span><br/><span class=\"section-news\">5. 美国正式对DRAM设备及其下游产品和组件（II）启动337调查 三星电子、谷歌、英伟达等为列名被告。</span><br/><span class=\"section-news\">6. 台积电第二季净利润同比大增77%，超出市场预期并创下历史新高。预计全年营收增长将略高于40%（此前预测为高于30%）。将全年资本支出上调至600亿至640亿美元之间。将在美国亚利桑那州追加1000亿美元投资。</span><br/><b>其他：</b><br/><span class=\"section-news\">1. 宁德时代与欧洲公司Alfen签下5GWh钠电储能订单。</span><br/><span class=\"section-news\">2. 百度集团：寻求在港交所主板自愿转换为双重主要上市。</span><br/><span class=\"section-news\">3. 欧盟强制要求谷歌向AI及搜索引擎竞争对手开放服务。</span><br/><span class=\"section-news\">4. 中国科学院上海光机所在中红外连续激光光谱合束研究方面取得新进展。</span><br/><span class=\"section-news\">5. 苹果据悉最快今秋推出OLED版iPad mini，明年更新入门版及iPad Air。</span><br/><span class=\"section-news\">6. 小鹏MONAL03上市，售价12.38万元起。</span><br/><span class=\"section-news\">7. 理想汽车推出L6四轮驱动SUV，全国统一零售价24.98万元。</span><br/><span class=\"section-news\">8. SpaceX星舰第13次试飞活动因发动机点火问题被取消。下一次发射尝试预计在几天后进行。 </span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-07-17T00:00:53.799Z"
+    },
+    {
       "id": "20260717071912481800",
       "time": "2026-07-17 07:19:12",
       "hot": "热",
@@ -4422,22 +4436,7 @@
         1
       ],
       "collectedAt": "2026-07-13T00:30:52.581Z"
-    },
-    {
-      "id": "20260713075731132800",
-      "time": "2026-07-13 07:57:31",
-      "hot": "沸",
-      "content": "【中际旭创澄清二季度业绩严重不及预期和故意压制股价传言】金十数据7月13日讯，中际旭创7月12日称，近期市场针对公司及行业的小作文较多，主要澄清如下：1、关于二季度业绩严重不及预期的传言：该传言没有任何依据，给投资者带来恐慌。公司目前还没有发布业绩预告和半年报，但公司对2026年半年度经营情况和行业需求都非常有信心。2、关于公司故意压制股价的传言：公司不存在故意压制股价、收入延迟等情况，也不会刻意调整业绩。公司一贯注重资本市场形象和保护投资者利益，此类传言是对公司极大误解。",
-      "source": "证券时报",
-      "source_link": "https://egs.stcn.com/news/detail/2314027.html",
-      "important": 1,
-      "channel": [
-        1,
-        4,
-        3
-      ],
-      "collectedAt": "2026-07-13T00:10:45.366Z"
     }
   ],
-  "lastUpdated": "2026-07-16T23:50:35.619Z"
+  "lastUpdated": "2026-07-17T00:00:54.969Z"
 }
