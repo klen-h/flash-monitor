@@ -2,6 +2,21 @@
   "date": "2026/7/18",
   "items": [
     {
+      "id": "20260718040718978800",
+      "time": "2026-07-18 04:07:18",
+      "hot": "热",
+      "content": "【费城半导体指数进入熊市】金十数据7月18日讯，美股费城半导体指数较6月22日所创收盘历史最高位回撤超20%，进入熊市。费城半导体指数本周下跌10%，为2025年4月以来最大周跌幅。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-07-17T21:10:36.426Z"
+    },
+    {
       "id": "20260718031316514800",
       "time": "2026-07-18 03:13:16",
       "hot": "热",
@@ -4443,22 +4458,7 @@
         2
       ],
       "collectedAt": "2026-07-13T22:20:48.114Z"
-    },
-    {
-      "id": "20260714052143929800",
-      "time": "2026-07-14 05:21:43",
-      "hot": "热",
-      "content": "【金十数据整理：中东局势跟踪（7月14日）】<b>冲突情况</b><br/><span class=\"section-news\">1. 特朗普威胁打击伊朗“镐山”地下核设施。</span><br/><span class=\"section-news\">2. 美军宣布连续第三晚对伊朗进行打击。</span><br/><span class=\"section-news\">3. 美军在对伊朗的打击中首次动用无人艇。</span><br/><span class=\"section-news\">4. 卫星图像显示美军卡塔尔乌代德空军基地遭精准打击。</span><br/><span class=\"section-news\">5. 伊朗革命卫队：袭击了位于科威特的美国军事基地。</span><br/><span class=\"section-news\">6. 约旦称拦截并击落4枚自伊朗方向进入其领空的导弹。</span><br/><span class=\"section-news\">7. 伊朗革命卫队：打击了位于巴林的美国军事设施，并摧毁了位于阿曼的雷达系统。</span><br/><span class=\"section-news\">8. 美国中央司令部：美军未对伊朗哈尔克岛发动打击。</span><br/><span class=\"section-news\">9. 伊朗：在对地区美军目标的第四阶段报复打击中，摧毁两套“海马斯”火箭炮系统及弹药库。</span><br/><span class=\"section-news\">10. 伊朗陆军防空部队在阿巴斯港附近拦截并击落了一架美国“卢卡斯”无人机。</span><br/><span class=\"section-news\">11. 伊朗军方消息称，伊军已出动无人机打击位于科威特的美军军事设施和装备。伊朗用巡航导弹瞄准了一艘“敌对”的美国舰艇。</span><br/><span class=\"section-news\">12. 也门萨那国际机场遭到沙特多次空袭。沙特的攻击是在一架伊朗飞机进入也门空域后进行的。</span><br/><span class=\"section-news\">13. 也门政府：胡塞武装劫持一架红十字国际委员会飞机。</span><br/><span class=\"section-news\">14. 也门胡塞武装领导人：将把沙特的关键基础设施作为目标。</span><br/><b>美伊谈判</b><br/><span class=\"section-news\">1. 联合国秘书长敦促美伊恢复谈判。</span><br/><span class=\"section-news\">2. 伊朗外交部：与美国的谅解备忘录已进入“危机”阶段。只要美方不履行其承诺，伊朗就不会履行谅解备忘录中的承诺。</span><br/><span class=\"section-news\">3. 伊朗外交部：关于伊朗请求进行谈判的说法是美国进行的心理战的一部分。</span><br/><span class=\"section-news\">4. 伊朗外交部：我们近期与卡塔尔、阿曼和巴基斯坦保持联系，沟通将继续进行。</span><br/><b>霍尔木兹海峡</b><br/><span class=\"section-news\">1. 伊朗：霍尔木兹海峡仍然关闭。</span><br/><span class=\"section-news\">2. 伊朗方面表示，在霍尔木兹海峡，沿美方平行航线航行的船只将面临风险。</span><br/><span class=\"section-news\">3. 伊朗外长：将与阿曼继续磋商霍尔木兹海峡管理事宜。</span><br/><span class=\"section-news\">4. 伊朗海峡管理局：通行恢复需要等待局势稳定。</span><br/><span class=\"section-news\">5. 伊朗最高领袖顾问：我们绝不会在霍尔木兹海峡问题上退缩。</span><br/><span class=\"section-news\">6. 伊朗最高联合军事指挥部：伊朗不会允许美国干预霍尔木兹海峡的管理事务。</span><br/><span class=\"section-news\">7. 迪拜计划新建港口以绕开霍尔木兹海峡。</span><br/><span class=\"section-news\">8. 伊朗革命卫队：若有船只再次违规，将面临果断惩戒；若美国试图固化违规行为，将再次受到惩罚。</span><br/><span class=\"section-news\">9. 特朗普：即刻起恢复封锁伊朗，对货物运输收取20%费用。</span><br/><span class=\"section-news\">10. 伊朗外长：保障海峡通行该收费，但特朗普收20%就太高了。</span><br/><span class=\"section-news\">11. 美军将于北京时间7月15日04:00开始执行对所有伊朗港口及伊朗沿海地区的海上封锁。封锁适用于所有船舶。</span><br/><span class=\"section-news\">12. 联合海事信息中心JMIC：海峡通行威胁等级仍为“严重”。目前可能会发生进一步的蓄意敌对活动。</span><br/> <b>其他情况</b><br/><span class=\"section-news\">1. 伊朗解除石油化工产品出口禁令。</span><br/><span class=\"section-news\">2. 英国将伊朗革命卫队列为恐怖组织。</span><br/><span class=\"section-news\">3. 伊朗外交部：伊朗不会同意国际原子能机构总干事格罗西提出的访问受损核设施的请求。</span><br/><span class=\"section-news\">4. 法国外交部长：只要伊朗不放弃核计划，制裁就不会解除。</span><br/><span class=\"section-news\">5. 欧盟委员会：启动“加沙团队倡议”，汇集8.836亿欧元的财政捐款。 </span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-07-13T21:40:48.072Z"
     }
   ],
-  "lastUpdated": "2026-07-17T19:40:35.616Z"
+  "lastUpdated": "2026-07-17T21:10:37.356Z"
 }
