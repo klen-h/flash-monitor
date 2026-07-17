@@ -2,6 +2,19 @@
   "date": "2026/7/17",
   "items": [
     {
+      "id": "20260717085000001800",
+      "time": "2026-07-17 08:50:00",
+      "hot": "热",
+      "content": "美国总统特朗普将于十分钟后发表全国讲话。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-07-17T01:00:45.660Z"
+    },
+    {
       "id": "20260717082227956800",
       "time": "2026-07-17 08:22:27",
       "hot": "热",
@@ -4420,20 +4433,7 @@
         1
       ],
       "collectedAt": "2026-07-13T01:40:45.727Z"
-    },
-    {
-      "id": "20260713090907349800",
-      "time": "2026-07-13 09:09:07",
-      "hot": "热",
-      "content": "【金十数据整理：A股盘前市场要闻速递（2026-07-13）】<b>重要新闻</b><br/><span class=\"section-news\">1. 国常会：全链条推动新兴支柱产业规模化发展，加强基础研究和关键软硬件攻关。</span><br/><span class=\"section-news\">2. 全国用电负荷创15.18亿千瓦历史新高。</span><br/><span class=\"section-news\">3. 国务院：原则同意《中医药振兴发展“十五五”规划》。</span><br/><span class=\"section-news\">4. 商务部、海关总署：对氦气实施临时禁止出口管理。</span><br/><span class=\"section-news\">5. 国家发改委：增强稳发稳供能力 做好煤炭、天然气等一次能源生产供应。</span><br/><span class=\"section-news\">6. 外交部关于有关国家炒作“南海仲裁案裁决”出台十年的声明。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 中际旭创澄清二季度业绩严重不及预期和故意压制股价传言。</span><br/><span class=\"section-news\">2. 香农芯创：预计上半年净利润同比增长2117.54%—2434.34%。</span><br/><span class=\"section-news\">3. 赛力斯：上半年预亏15亿—18亿元，主要因原材料价格上涨致成本增加。</span><br/><span class=\"section-news\">4. 万科A：预计上半年净利润亏损120亿元—150亿元，上年同期亏损119.47亿元。</span><br/><span class=\"section-news\">5. 紫光股份：预计上半年净利润同比增长83.50%—122.89%。</span><br/><span class=\"section-news\">6. 融捷股份：预计上半年净利润同比增长956.84%-1191.69%。</span><br/><span class=\"section-news\">7. 中国卫星：预计上半年净利润3050万元—3650万元 同比扭亏。</span><br/><span class=\"section-news\">8. 中信证券：预计上半年净利润233.43亿元，同比增加70.15%。</span><br/><span class=\"section-news\">9. 中矿资源：预计上半年净利润为10.5亿元-12.5亿元，同比增长1078.07%-1302.46%。</span><br/><span class=\"section-news\">10. 风华高科：预计上半年净利润同比增长61.84%—79.82%。</span><br/><span class=\"section-news\">11. 亿道信息：预计上半年净利同比增长1442%-1792% AI PC等产品线带动销售规模扩大。</span><br/><span class=\"section-news\">12. 诚志股份：预计上半年净利润2.6亿元-3.2亿元，同比增长1259.43%-1573.15%。</span><br/><span class=\"section-news\">13. 牧原股份：预计上半年由盈转亏，净利润亏损57亿—67亿元。</span><br/><span class=\"section-news\">14. 多氟多：预计上半年净利润4.5亿元–5.6亿元 同比增长776.68%—990.98%。</span><br/><span class=\"section-news\">15. 洛阳钼业：预计上半年净利润同比增长78.76%到90.29%。</span><br/><span class=\"section-news\">16. 翔鹭钨业：预计上半年净利润4.5亿元至6.5亿元，同比增长2347.83%~3435.76%。</span><br/><span class=\"section-news\">17. 世运电路：预计上半年净利同比下降73.97%-82.56%，年内第三次提价计划7月陆续执行料显著提升下半年业绩。</span><br/><span class=\"section-news\">18. 中国石化完成对中国航油重组，中国航油成为其二级全资子公司。</span><br/><span class=\"section-news\">19. 巨力索具：澄清商业航天业务不实传闻 提醒投资风险。</span><br/><span class=\"section-news\">20. 华工科技：TGV玻璃通孔激光加工智能装备已完成整机定型。</span><br/><span class=\"section-news\">21. 东阳光：控股子公司签署130亿元至150亿元算力服务采购合同。</span><br/><span class=\"section-news\">22. 原材料价格攀升，盛弘股份全系产品提价10%—30%。</span><br/><span class=\"section-news\">23. 三友化工：2026年上半年净利润同比预增129%左右。</span><br/><span class=\"section-news\">24. 隆华科技集团旗下丰联科光电实现G8.7 AMOLED银合金管靶全自主量产出货。</span><br/><span class=\"section-news\">25. 鼎龙股份：玻璃基板专用软抛光垫已完成多家头部封测企业及晶圆制造企业的送样工作。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-07-13T01:20:47.820Z"
     }
   ],
-  "lastUpdated": "2026-07-17T00:40:36.764Z"
+  "lastUpdated": "2026-07-17T01:00:46.972Z"
 }
