@@ -2,6 +2,21 @@
   "date": "2026/7/18",
   "items": [
     {
+      "id": "20260718104201601800",
+      "time": "2026-07-18 10:42:01",
+      "hot": "热",
+      "content": "伊朗媒体援引当地官员的话称，多枚导弹击中了（伊朗霍尔木兹甘省）贾斯克地区的电力设施和海水淡化水泵。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-07-18T02:50:30.107Z"
+    },
+    {
       "id": "20260718094142790800",
       "time": "2026-07-18 09:41:42",
       "hot": "热",
@@ -4446,20 +4461,7 @@
         2
       ],
       "collectedAt": "2026-07-14T01:40:49.750Z"
-    },
-    {
-      "id": "20260714090133622800",
-      "time": "2026-07-14 09:01:33",
-      "hot": "沸",
-      "content": "【金十数据整理：A股盘前市场要闻速递（2026-07-14）】<b>重要新闻</b><br/><span class=\"section-news\">1. 国务院：持续巩固资本市场稳中向好发展态势，多渠道增加城乡居民财产性收入。</span><br/><span class=\"section-news\">2. 国务院：目标到2030年，社会消费品零售总额达到60万亿元左右。</span><br/><span class=\"section-news\">3. 李强：保持高质量发展战略定力，加大逆周期调节力度。</span><br/><span class=\"section-news\">4. 多家头部量化机构回应“韩国因子”传言：行业极少使用韩国数据。</span><br/><span class=\"section-news\">5. 国家药监局：我国上半年创新药对外授权约1100亿美元，创历史新高。</span><br/><span class=\"section-news\">6. 工信部等四部门：加强互联网科技创新规划，推动实施相关国家重点研发计划和国家科技重大专项。</span><br/><span class=\"section-news\">7. 长征五号遥十四火箭运抵文昌 将执行嫦娥七号发射任务。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 胜宏科技：网络平台上流传关于公司产品、市场份额、项目进展等负面传闻，内容严重失实。</span><br/><span class=\"section-news\">2. 存储芯片迎跌停潮，兆易创新回应：本轮股价调整与外围市场联动性较强。</span><br/><span class=\"section-news\">3. 亨通光电：预计上半年净利润30.16亿元-35.68亿元，同比增长87%-121%。</span><br/><span class=\"section-news\">4. 天原股份：预计上半年净利润1.8亿元到2.3亿元，同比增长981.39%到1,282.34%。</span><br/><span class=\"section-news\">5. 北斗星通：预计上半年净利润同比增长2,368.27%到3,426.09%。</span><br/><span class=\"section-news\">6. 龙蟠科技：预计上半年净利润3.73亿元至4.48亿元，同比扭亏为盈。</span><br/><span class=\"section-news\">7. 博杰股份：预计上半年净利润同比增长642.86%—816.20%。</span><br/><span class=\"section-news\">8. 北京君正：预计上半年净利润同比增长431%-531%，受益于存储大周期推动。</span><br/><span class=\"section-news\">9. 金安国纪：预计上半年净利润7.3亿元至8.2亿元，同比增长935.75%-1063.45%。</span><br/><span class=\"section-news\">10. 风范股份：预计上半年净利润7500万元到1亿元，同比增加741.98%到1022.64%。</span><br/><span class=\"section-news\">11. 东方材料：预计上半年净利润935.65万到1265.88万元，同比增长1330%到1834%。</span><br/><span class=\"section-news\">12. 三安光电：预计上半年净亏损9000万元到1.35亿元，集成电路中滤波器、碳化硅相关主营业务盈利状况尚未得到改善。</span><br/><span class=\"section-news\">13. 和邦生物：预计上半年净利润3.7亿元到4.3亿元，同比增长614.68%到730.57%。</span><br/><span class=\"section-news\">14. 中国船舶：预计上半年净利润同比增长212%-273%，手持订单充足。</span><br/><span class=\"section-news\">15. 西部黄金：预计上半年净利润同比增加280.16%到333.39%。</span><br/><span class=\"section-news\">16. 沃格光电：预计上半年净亏损为1亿元—1.4亿元。</span><br/><span class=\"section-news\">17. 赛力斯：控股股东小康控股拟增持公司股份1.5亿元至3亿元。</span><br/><span class=\"section-news\">18. 天际股份：公司股票将于7月15日起被实施其他风险警示。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-07-14T01:20:47.001Z"
     }
   ],
-  "lastUpdated": "2026-07-18T02:20:31.132Z"
+  "lastUpdated": "2026-07-18T02:50:31.116Z"
 }
