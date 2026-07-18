@@ -2,6 +2,21 @@
   "date": "2026/7/19",
   "items": [
     {
+      "id": "20260719021205798800",
+      "time": "2026-07-19 02:12:05",
+      "hot": "热",
+      "content": "据以色列第13频道：美国正准备通过向中东地区派遣约100架加油机，扩大对伊朗的行动范围。以色列国防机构正在为该地区可能出现的重大局势升级做准备。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-07-18T18:30:37.533Z"
+    },
+    {
       "id": "20260719012159619800",
       "time": "2026-07-19 01:21:59",
       "hot": "热",
@@ -4452,20 +4467,7 @@
         3
       ],
       "collectedAt": "2026-07-14T07:30:55.198Z"
-    },
-    {
-      "id": "20260714143720958800",
-      "time": "2026-07-14 14:37:20",
-      "hot": "热",
-      "content": "【金十数据整理：每日全球外汇市场要闻速递（2026-07-14）】<b>美元</b><br/><span class=\"section-news\">1. 美联储传声筒：核心CPI对美联储而言更加重要。</span><br/><span class=\"section-news\">2. 市场接近完全定价美联储9月加息预期，预计到明年3月底将加息两次。</span><br/><span class=\"section-news\">3. 美联储理事沃勒：如果本周核心通胀再次表现火热，FOMC将不得不考虑在短期内加息；建议点阵图发布时间延迟至FOMC会议次日；主张放弃2%的通胀目标，偏向设定1.5%-2.5%的区间。</span><br/><b>欧元</b><br/><span class=\"section-news\">1. 受中东战事拖累，经济学家下调欧元区2026增长预期。</span><br/><span class=\"section-news\">2. 市场定价显示，欧洲央行加息预期被上调，目前已完全定价9月前加息25个基点。</span><br/><b>日元</b><br/><span class=\"section-news\">1. 日本政府将在经济蓝图中强调尊重日本央行独立性。</span><br/><span class=\"section-news\">2. 日本交易所集团首席执行官：个人认为日元汇率远低于合理水平。</span><br/><span class=\"section-news\">3. 日本财务大臣片山皋月：如果资产管理环境发生剧烈变化，可考虑调整政府养老金投资基金的投资组合。</span><br/><b>韩元</b><br/><span class=\"section-news\">1. 韩国拟放宽外汇管制，推动韩元国际化。</span><br/><span class=\"section-news\">2. 韩国央行密切关注创纪录的NDF交易风险。</span><br/><span class=\"section-news\">3. 韩元走强带动逢低买入美元，韩国银行美元存款创逾三年新高。</span><br/><span class=\"section-news\">4. 韩国财政部：韩国芯片制造商、造船企业在远期市场大量抛售美元。</span><br/><span class=\"section-news\">5. 韩国政府上调2026年经济增长预期至3%，理由是芯片行业“超级周期”。</span><br/><span class=\"section-news\">6. 路透调查显示，37位经济学家中有36位预计韩国央行将在7月16日的会议上将基准利率提高至2.75%。31位经济学家中有28位预计韩国央行将在年底前将基准利率提高至3.00%。</span><br/><b>其他</b><br/><span class=\"section-news\">1. 匈牙利央行行长：夏季还有进一步降息的空间。</span><br/><span class=\"section-news\">2. 新西兰联储首席经济学家保罗·康威：可能需要进一步减少货币刺激。</span><br/><span class=\"section-news\">3. 印尼央行副行长：印尼银行将继续坚持维护卢比稳定的承诺，以鼓励外资流入。</span><br/><span class=\"section-news\">4. 欧佩克月报：将2026年全球经济增长预测维持在3.1%，将2027年全球经济增长预测维持在3.2%。</span><br/><span class=\"section-news\">5. 路透调查：经济学家预计加拿大央行在2027年前不会调整利率政策。部分经济学家表示不能排除加拿大央行未来降息的可能性。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-07-14T07:10:44.735Z"
     }
   ],
-  "lastUpdated": "2026-07-18T18:10:31.890Z"
+  "lastUpdated": "2026-07-18T18:30:38.664Z"
 }
