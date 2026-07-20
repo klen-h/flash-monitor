@@ -2,6 +2,22 @@
   "date": "2026/7/20",
   "items": [
     {
+      "id": "20260720143150732800",
+      "time": "2026-07-20 14:31:50",
+      "hot": "热",
+      "content": "【贵州茅台股价反超源杰科技】金十数据7月20日讯，贵州茅台日内涨近6%，报1324.98元/股，源杰科技现跌20%，报1324.81元/股。贵州茅台此前公告称，公司自2026年7月18日零时起，将飞天53%vol500ml贵州茅台酒(2026)i茅台平台零售价由1539元/瓶调整为1639元/瓶，销售合同价由1269元/瓶调整为1369元/瓶。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        5,
+        4,
+        3,
+        1
+      ],
+      "collectedAt": "2026-07-20T06:40:29.836Z"
+    },
+    {
       "id": "20260720122901276800",
       "time": "2026-07-20 12:29:01",
       "hot": "热",
@@ -4452,22 +4468,7 @@
         3
       ],
       "collectedAt": "2026-07-14T22:50:49.554Z"
-    },
-    {
-      "id": "20260715053511921800",
-      "time": "2026-07-15 05:35:11",
-      "hot": "热",
-      "content": "【美国会众议院通过永久实行夏令时法案】金十数据7月15日讯，当地时间7月14日，美国国会众议院投票通过永久实行夏令时的法案，并将法案提交参议院审议。今年5月，美国国会众议院能源和商业委员会以48比1的结果通过了《阳光保护法案》，该法案旨在永久取消美国每年两次调整时间的做法，让夏令时全年永久化。",
-      "source": "央视新闻",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=17969739567745199079&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D17969739567745199079%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-07-14T22:40:48.233Z"
     }
   ],
-  "lastUpdated": "2026-07-20T05:10:31.081Z"
+  "lastUpdated": "2026-07-20T06:40:30.924Z"
 }
