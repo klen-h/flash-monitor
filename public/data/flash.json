@@ -2,6 +2,21 @@
   "date": "2026/7/20",
   "items": [
     {
+      "id": "20260720155511610800",
+      "time": "2026-07-20 15:55:11",
+      "hot": "沸",
+      "content": "【伊朗外交部确认收到调解方提议 但未透露详情】金十数据7月20日讯，当地时间7月20日，伊朗外交部发言人巴加埃在新闻发布会上确认收到了调解方的提议，但是拒绝透露详情。此外，巴加埃还强烈谴责美军对伊朗医疗中心、桥梁以及其他基础设施的袭击。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=2046082545359484659&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D2046082545359484659%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-07-20T08:10:31.378Z"
+    },
+    {
       "id": "20260720154134681800",
       "time": "2026-07-20 15:41:34",
       "hot": "热",
@@ -4466,21 +4481,7 @@
         2
       ],
       "collectedAt": "2026-07-15T00:30:55.600Z"
-    },
-    {
-      "id": "20260715080734414800",
-      "time": "2026-07-15 08:07:34",
-      "hot": "爆",
-      "content": "韩国交易所对KOSPI指数启动临时停牌机制，程序化交易暂停5分钟。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-07-15T00:20:46.876Z"
     }
   ],
-  "lastUpdated": "2026-07-20T08:03:54.968Z"
+  "lastUpdated": "2026-07-20T08:10:32.280Z"
 }
