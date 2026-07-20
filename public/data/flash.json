@@ -2,6 +2,20 @@
   "date": "2026/7/20",
   "items": [
     {
+      "id": "20260720072532377800",
+      "time": "2026-07-20 07:25:32",
+      "hot": "热",
+      "content": "【金十数据整理：每日科技要闻速递（7月20日）】<br/><span class=\"section-news\">1. 万拿机器人发布两款灵巧手产品。</span><br/><span class=\"section-news\">2. 阿里千问Qwen3.8大模型正式版即将发布并开源，新模型参数2.4T。</span><br/><span class=\"section-news\">3. 月之暗面Kimi：算力紧缺 暂停C端新用户订阅。</span><br/><span class=\"section-news\">4. 世界人工智能合作组织未来将重点开展三方面工作。</span><br/><span class=\"section-news\">5. SK崔泰源：明年半导体需求至少增五成。</span><br/><span class=\"section-news\">6. 天数智芯WAIC发布新一代通用GPU旗舰产品天垓300。.</span><br/><span class=\"section-news\">7. SK崔泰源：正筹划在美国建厂，以增加供应并应对价格异常高企。</span><br/><span class=\"section-news\">8. SpaceX计划最早于当地时间7月23日进行“星舰”第13次飞行测试。</span><br/><span class=\"section-news\">9. 台积电：亚利桑那州工厂建设面临物理层面的制约；正与美国政府密切合作。若市场时机有利，不排除发行债券以资助资本支出。 </span>",
+      "source": "",
+      "source_link": "",
+      "important": 0,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-07-20T00:00:56.184Z"
+    },
+    {
       "id": "20260720071722833800",
       "time": "2026-07-20 07:17:22",
       "hot": "热",
@@ -4444,22 +4458,7 @@
         3
       ],
       "collectedAt": "2026-07-14T15:10:51.200Z"
-    },
-    {
-      "id": "20260714222747500800",
-      "time": "2026-07-14 22:27:47",
-      "hot": "热",
-      "content": "美联储主席沃什：我将重新审视通胀框架，以了解通胀的成因及我们可以采取的措施。",
-      "source": "",
-      "source_link": "",
-      "important": 0,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-07-14T15:01:33.215Z"
     }
   ],
-  "lastUpdated": "2026-07-19T23:40:30.777Z"
+  "lastUpdated": "2026-07-20T00:00:57.517Z"
 }
