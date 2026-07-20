@@ -2,6 +2,38 @@
   "date": "2026/7/20",
   "items": [
     {
+      "id": "20260720154134681800",
+      "time": "2026-07-20 15:41:34",
+      "hot": "热",
+      "content": "【外交部：中美双方就年内元首互动安排保持沟通】金十数据7月20日讯，外交部发言人林剑主持例行记者会。有记者提问，美国国务卿鲁比奥表示，中国国家主席习近平即将于9月对美国进行的访问仍在按计划进行。请问，中国外交部是否认为此次访问仍在按计划进行？林剑表示，元首外交对中美关系具有不可替代的战略引领作用。双方就年内元首的互动安排保持了沟通。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=9073285599086709699&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D9073285599086709699%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        5,
+        4,
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-07-20T08:00:47.419Z"
+    },
+    {
+      "id": "20260720154605074800",
+      "time": "2026-07-20 15:46:05",
+      "hot": "沸",
+      "content": "伊朗外交部发言人：伊朗在霍尔木兹海峡的主权权利不可谈判。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-07-20T08:00:47.418Z"
+    },
+    {
       "id": "20260720153532042800",
       "time": "2026-07-20 15:35:32",
       "hot": "爆",
@@ -4448,35 +4480,7 @@
         3
       ],
       "collectedAt": "2026-07-15T00:20:46.876Z"
-    },
-    {
-      "id": "20260715074836964800",
-      "time": "2026-07-15 07:48:36",
-      "hot": "热",
-      "content": "消息人士称，Coreweave(CRWV.O)正在探索使用金融衍生品，以对冲未来存储芯片价格下跌的风险。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-07-15T00:10:47.882Z"
-    },
-    {
-      "id": "20260715080203623800",
-      "time": "2026-07-15 08:02:03",
-      "hot": "沸",
-      "content": "【韩国股指开涨超3%】金十数据7月15日讯，韩国KOSPI指数7月15日（周三）开盘上涨239.58点，涨幅3.49%，报7096.41点。SK海力士涨10%，三星电子涨7%。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        5,
-        1
-      ],
-      "collectedAt": "2026-07-15T00:10:47.882Z"
     }
   ],
-  "lastUpdated": "2026-07-20T07:50:32.426Z"
+  "lastUpdated": "2026-07-20T08:03:54.968Z"
 }
