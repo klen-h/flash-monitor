@@ -2,6 +2,22 @@
   "date": "2026/7/20",
   "items": [
     {
+      "id": "20260720174136502800",
+      "time": "2026-07-20 17:41:36",
+      "hot": "沸",
+      "content": "【中国平安：坚定支持资本市场发展】金十数据7月20日讯，中国平安公告，作为一家大型综合金融集团和资本市场发展的重要力量，本公司对中国经济的发展前景充满信心，对中国资本市场的长远价值坚定看好。本公司将进一步发挥好大规模长线资金的优势，灵活运用多种综合金融工具和投资策略，持续加大对战略性新兴产业、先进制造业、新型基础设施及价值型品种等领域投资力度，以实际行动体现耐心资本的应有担当。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        4,
+        5,
+        3,
+        1
+      ],
+      "collectedAt": "2026-07-20T09:50:31.757Z"
+    },
+    {
       "id": "20260720164405560800",
       "time": "2026-07-20 16:44:05",
       "hot": "爆",
@@ -4470,20 +4486,7 @@
         2
       ],
       "collectedAt": "2026-07-15T02:20:49.557Z"
-    },
-    {
-      "id": "20260715090716695800",
-      "time": "2026-07-15 09:07:16",
-      "hot": "热",
-      "content": "【金十数据整理：A股盘前市场要闻速递（2026-07-15）】<b>重要新闻</b><br/><span class=\"section-news\">1. 央行：7月15日将开展14000亿元6个月期买断式逆回购操作。</span><br/><span class=\"section-news\">2. 长鑫科技：发行价格为8.66元/股，7月16日进行网上和网下申购。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 天齐锂业：预计上半年净利润同比增长3276%—4935%。</span><br/><span class=\"section-news\">2. 埃斯顿：预计上半年净利润同比增长2144.74%—2593.68%。</span><br/><span class=\"section-news\">3. 五粮液：预计上半年净利润同比增长88.80%—98.97%。</span><br/><span class=\"section-news\">4. 长飞光纤：预计上半年净利润同比增长711%—914%。</span><br/><span class=\"section-news\">5. 赣锋锂业：预计上半年净利润为36.5亿元—46亿元，同比扭亏为盈。</span><br/><span class=\"section-news\">6. 国轩高科：预计上半年净利润同比增长227.31%—322.77%。</span><br/><span class=\"section-news\">7. 通富微电：预计上半年净利润同比增长288.26%—336.80%。</span><br/><span class=\"section-news\">8. 利通电子：预计上半年净利润同比增加1,172.53%到1,368.31%。</span><br/><span class=\"section-news\">9. 好想你：预计上半年净利润同比增长3779.66%—3930.88%。</span><br/><span class=\"section-news\">10. 德明利：预计上半年净利润为57亿元—65亿元。</span><br/><span class=\"section-news\">11. 隆基绿能：预计上半年净亏损34亿元—38亿元，主要系光伏行业供需关系未有显著改善。</span><br/><span class=\"section-news\">12. 通威股份：预计上半年净亏损48亿元—54亿元。</span><br/><span class=\"section-news\">13. 章源钨业：预计上半年归母净利润同比增长447.32%—551.57%。</span><br/><span class=\"section-news\">14. 士兰微：预计上半年净利润同比增加96.05%。</span><br/><span class=\"section-news\">15. 北方稀土：预计上半年净利润同比增长112.74%—121.33%。</span><br/><span class=\"section-news\">16. 中国人寿：预计上半年净利润同比增长约215%到235%。</span><br/><span class=\"section-news\">17. 昭衍新药：预计上半年净利润同比增长884.9%—1377.4%。</span><br/><span class=\"section-news\">18. 中国巨石：上半年净利同比预增65%-85% 玻纤下游需求增加产品量价齐升。</span><br/><span class=\"section-news\">19. 利欧股份：预计上半年净利润同比下降68.63%—77%。</span><br/><span class=\"section-news\">20. 长电科技：上半年净利同比预增63%-102%，半导体行业景气度提升客户订单增长。</span><br/><span class=\"section-news\">21. 通鼎互联：Q2净利预计环比增长131%-268%，光纤产品需求量价齐升带动公司业绩增长。</span><br/><span class=\"section-news\">22. 光迅科技：预计上半年净利润同比增长50%-65.15%，全球AI算力投资浪潮驱动数通光模块需求快速增长。</span><br/><span class=\"section-news\">23. 信维通信：拟收购益阳电子科技55%股权并增资，加强高端MLCC产品布局。</span><br/><span class=\"section-news\">24. 中金公司：重大资产重组事项相关申请获得中国证监会受理。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-07-15T01:20:48.439Z"
     }
   ],
-  "lastUpdated": "2026-07-20T09:00:45.004Z"
+  "lastUpdated": "2026-07-20T09:50:32.762Z"
 }
