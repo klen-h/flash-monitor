@@ -2,6 +2,19 @@
   "date": "2026/7/21",
   "items": [
     {
+      "id": "20260721090827572800",
+      "time": "2026-07-21 09:08:27",
+      "hot": "热",
+      "content": "【金十数据整理：A股盘前市场要闻速递（2026-07-21）】<b>重要新闻</b><br/><span class=\"section-news\">1. 沪市一晚新增回购增持计划25家，金额上限逾百亿元。</span><br/><span class=\"section-news\">2. 市场监管总局：合理降低佣金、抽成、会员费等费用，减轻个体工商户运营初期成本压力。</span><br/><span class=\"section-news\">3. 郑栅洁：目前企业生产经营平稳，市场预期稳步改善，有能力、有信心完成全年生产经营目标。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 中国平安：坚定支持资本市场发展。</span><br/><span class=\"section-news\">2. 中国人保：坚定看好中国资本市场发展前景。</span><br/><span class=\"section-news\">3. 中国人寿集团：近日国寿资产对权益市场积极配置，单日净买入超100亿元。</span><br/><span class=\"section-news\">4. 新华保险：对中国经济发展充满信心，坚定看好中国资本市场发展前景。</span><br/><span class=\"section-news\">5. 中国太保：发挥保险资金优势，支持资本市场发展。</span><br/><span class=\"section-news\">6. 新易盛：整体来看，二季度业绩预告情况与公司年初对全年整体情况的预期基本吻合。</span><br/><span class=\"section-news\">7. 新易盛：预计下半年订单交付情况仍处于快速增长阶段 1.6T光模块预计Q3/Q4起放量节奏将进一步加快。</span><br/><span class=\"section-news\">8. 北京君正：第三季度DRAM会持续涨价，预计毛利率将继续提升。</span><br/><span class=\"section-news\">9. 东山精密：拟使用2-3亿元人民币回购公司股份。</span><br/><span class=\"section-news\">10. 大族激光：上半年净利润12.86亿元，同比增长163.47%。</span><br/><span class=\"section-news\">11. 睿创微纳：预计上半年净利润12亿-13亿元，同比增长242%-270%。</span><br/><span class=\"section-news\">12. 东芯股份：预计上半年净利润6.4亿元至6.8亿元，以SLCNANDFlash为代表的存储业务量价齐升。</span><br/><span class=\"section-news\">13. 杭电股份：拟定增募资不超28.8亿元用于光纤预制棒及高端铜箔项目。</span><br/><span class=\"section-news\">14. 炬芯科技：公司第二代存内计算技术研发取得重大进展。</span><br/><span class=\"section-news\">15. 国瓷材料：7月27日起上调氧化锆粉体销售价格10%-40%。</span><br/><span class=\"section-news\">16. 胜宏科技：拟155.94元/股价格授予不超486.24万股限制性股票，考核目标为2026年净利润基准增长率不低于40%等。</span><br/><span class=\"section-news\">17. 华友钴业：拟以6亿元-10亿元回购公司股份。</span><br/><span class=\"section-news\">18. 中国建筑：控股股东中建集团拟增持公司A股股份5亿元-10亿元。</span><br/><span class=\"section-news\">19. 淳中科技：董事长提议5000万元-1亿元回购股份，用于减少注册资本。</span><br/><span class=\"section-news\">20. 三花智控：控股股东三花控股集团提议以2亿元-4亿元回购公司A股股份。</span><br/><span class=\"section-news\">21. 科达利：董事长励建立提议以1.5亿至3亿元回购公司股份。</span><br/><span class=\"section-news\">22. 长缆科技：拟以1.8亿元-2.2亿元回购公司股份。</span><br/><span class=\"section-news\">23. 融捷股份：拟斥资5000万元至1亿元回购股份。</span><br/><span class=\"section-news\">24. 杰创智能：拟以1500万元-3000万元回购公司股份。</span><br/><span class=\"section-news\">25. 华勤技术：拟以1.5亿-2亿元回购A股股份。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-07-21T01:20:28.703Z"
+    },
+    {
       "id": "20260721084712386800",
       "time": "2026-07-21 08:47:12",
       "hot": "热",
@@ -4452,21 +4465,7 @@
         3
       ],
       "collectedAt": "2026-07-15T12:50:49.045Z"
-    },
-    {
-      "id": "20260715203003297800",
-      "time": "2026-07-15 20:30:03",
-      "hot": "热",
-      "content": "",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-07-15T12:40:52.922Z"
     }
   ],
-  "lastUpdated": "2026-07-21T01:10:30.473Z"
+  "lastUpdated": "2026-07-21T01:20:29.932Z"
 }
