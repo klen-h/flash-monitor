@@ -1,5 +1,187 @@
 [
   {
+    "date": "2026/7/21",
+    "timestamp": "2026-07-21T07:00:46.954Z",
+    "holdings": [
+      {
+        "name": "沪深300ETF",
+        "code": "510300",
+        "price": "4.787",
+        "prevClose": "4.650",
+        "change": 2.95,
+        "changeStr": "2.95"
+      },
+      {
+        "name": "中证1000ETF",
+        "code": "560010",
+        "price": "3.008",
+        "prevClose": "2.883",
+        "change": 4.34,
+        "changeStr": "4.34"
+      },
+      {
+        "name": "科创板50ETF",
+        "code": "588000",
+        "price": "2.016",
+        "prevClose": "1.815",
+        "change": 11.07,
+        "changeStr": "11.07"
+      },
+      {
+        "name": "纳斯达克ETF",
+        "code": "513100",
+        "price": "2.130",
+        "prevClose": "2.096",
+        "change": 1.62,
+        "changeStr": "1.62"
+      },
+      {
+        "name": "恒生科技ETF",
+        "code": "513130",
+        "price": "0.601",
+        "prevClose": "0.593",
+        "change": 1.35,
+        "changeStr": "1.35"
+      },
+      {
+        "name": "日经225ETF",
+        "code": "513880",
+        "price": "2.096",
+        "prevClose": "2.006",
+        "change": 4.49,
+        "changeStr": "4.49"
+      },
+      {
+        "name": "半导体ETF",
+        "code": "512480",
+        "price": "1.144",
+        "prevClose": "1.040",
+        "change": 10,
+        "changeStr": "10.00"
+      },
+      {
+        "name": "人工智能ETF",
+        "code": "515070",
+        "price": "1.269",
+        "prevClose": "1.180",
+        "change": 7.54,
+        "changeStr": "7.54"
+      },
+      {
+        "name": "军工ETF",
+        "code": "512660",
+        "price": "1.090",
+        "prevClose": "1.055",
+        "change": 3.32,
+        "changeStr": "3.32"
+      },
+      {
+        "name": "新能源车ETF",
+        "code": "515030",
+        "price": "1.579",
+        "prevClose": "1.517",
+        "change": 4.09,
+        "changeStr": "4.09"
+      },
+      {
+        "name": "电力ETF",
+        "code": "159611",
+        "price": "1.073",
+        "prevClose": "1.081",
+        "change": -0.74,
+        "changeStr": "-0.74"
+      },
+      {
+        "name": "医药ETF",
+        "code": "512010",
+        "price": "0.376",
+        "prevClose": "0.376",
+        "change": 0,
+        "changeStr": "0.00"
+      },
+      {
+        "name": "消费ETF",
+        "code": "159928",
+        "price": "0.669",
+        "prevClose": "0.676",
+        "change": -1.04,
+        "changeStr": "-1.04"
+      },
+      {
+        "name": "证券ETF",
+        "code": "512880",
+        "price": "1.123",
+        "prevClose": "1.118",
+        "change": 0.45,
+        "changeStr": "0.45"
+      },
+      {
+        "name": "银行ETF",
+        "code": "512800",
+        "price": "0.790",
+        "prevClose": "0.808",
+        "change": -2.23,
+        "changeStr": "-2.23"
+      },
+      {
+        "name": "煤炭ETF",
+        "code": "515220",
+        "price": "1.191",
+        "prevClose": "1.213",
+        "change": -1.81,
+        "changeStr": "-1.81"
+      },
+      {
+        "name": "有色ETF",
+        "code": "512400",
+        "price": "1.710",
+        "prevClose": "1.625",
+        "change": 5.23,
+        "changeStr": "5.23"
+      },
+      {
+        "name": "黄金ETF",
+        "code": "518880",
+        "price": "8.468",
+        "prevClose": "8.318",
+        "change": 1.8,
+        "changeStr": "1.80"
+      },
+      {
+        "name": "标普油气ETF",
+        "code": "159518",
+        "price": "1.152",
+        "prevClose": "1.200",
+        "change": -4,
+        "changeStr": "-4.00"
+      },
+      {
+        "name": "豆粕ETF",
+        "code": "159985",
+        "price": "2.197",
+        "prevClose": "2.180",
+        "change": 0.78,
+        "changeStr": "0.78"
+      },
+      {
+        "name": "国债ETF",
+        "code": "511010",
+        "price": "140.824",
+        "prevClose": "140.815",
+        "change": 0.01,
+        "changeStr": "0.01"
+      },
+      {
+        "name": "短融ETF",
+        "code": "511360",
+        "price": "113.695",
+        "prevClose": "113.695",
+        "change": 0,
+        "changeStr": "0.00"
+      }
+    ]
+  },
+  {
     "date": "2026/7/10",
     "timestamp": "2026-07-10T07:00:49.533Z",
     "holdings": [
