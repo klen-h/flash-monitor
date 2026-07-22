@@ -7409,6 +7409,111 @@
       "etfName": "半导体ETF",
       "direction": "long",
       "trend": "neutral",
+      "support": "1.1",
+      "resistance": "10",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "1.1"
+      },
+      "stopLoss": "1.067",
+      "takeProfit": "10",
+      "reasoning": "| **半导体ETF** | 1.100      | 1.180      | 观望（若破1.100可轻仓试多） | 公募重仓调仓（增持中际旭创） + 工业需求（铜涨）支撑；但昨日暴涨10%后高位，需回调确认。 |",
+      "source": "premarket",
+      "id": "1784682769559",
+      "createdAt": "2026-07-22T01:12:49.559Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 115,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 45454,
+        "positionValue": 49999.4,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "军工ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "1.07",
+      "resistance": "1.12",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "1.07"
+      },
+      "stopLoss": "1.038",
+      "takeProfit": "1.12",
+      "reasoning": "| **军工ETF**   | 1.070      | 1.120      | 1.070附近做多（目标1.120） | 地缘风险（伊朗冲突升级）对冲；历史波动低（昨日涨0%），未超买。           |",
+      "source": "premarket",
+      "id": "1784682769556",
+      "createdAt": "2026-07-22T01:12:49.556Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 115,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 46874,
+        "positionValue": 50155.18,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "黄金ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "1.96",
+      "resistance": "4100",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "1.96"
+      },
+      "stopLoss": "1.901",
+      "takeProfit": "4100",
+      "reasoning": "| **黄金ETF**   | 8.40       | 8.60       | 现价附近做多（目标8.60） | 滞胀强化（原油涨+黄金涨）驱动避险；COMEX黄金突破$4100 + GLD涨1.96%验证需求。 |",
+      "source": "premarket",
+      "id": "1784682769551",
+      "createdAt": "2026-07-22T01:12:49.551Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 115,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 25423,
+        "positionValue": 49829.08,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "半导体ETF",
+      "direction": "long",
+      "trend": "neutral",
       "support": "2",
       "resistance": "30",
       "entryCondition": {
@@ -9082,111 +9187,6 @@
       "positionSize": {
         "shares": 149999,
         "positionValue": 50249.665,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "科技ETF",
-      "direction": "long",
-      "trend": "neutral",
-      "support": "4",
-      "resistance": "30",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "4"
-      },
-      "stopLoss": "3.880",
-      "takeProfit": "30",
-      "reasoning": "- **事件驱动反弹（概率30%）**：若半导体热度延续（关注N臻宝），短线参与科技ETF（半导体/人工智能），但审慎追涨（单日涨幅>4%）。",
-      "source": "postmarket",
-      "id": "1782284611580",
-      "createdAt": "2026-06-24T07:03:31.580Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 100,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 12499,
-        "positionValue": 49996,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "半导体ETF",
-      "direction": "long",
-      "trend": "neutral",
-      "support": "5.57",
-      "resistance": "1200",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "5.57"
-      },
-      "stopLoss": "5.403",
-      "takeProfit": "1200",
-      "reasoning": "- **半导体ETF暴涨（+5.57%）**：由N臻宝事件（涨超1200%）直接解释，事件簇已覆盖。",
-      "source": "postmarket",
-      "id": "1782284611578",
-      "createdAt": "2026-06-24T07:03:31.578Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 135,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 8982,
-        "positionValue": 50029.740000000005,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "银行ETF",
-      "direction": "long",
-      "trend": "neutral",
-      "support": "1.46",
-      "resistance": "2.19",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "1.46"
-      },
-      "stopLoss": "1.416",
-      "takeProfit": "2.19",
-      "reasoning": "- **修正需求**：框架无需根本修正，但需纳入事件干扰（N臻宝事件掩盖宏观风险）。衰退逻辑仍有效（传统板块承压：银行ETF-2.19%、消费ETF-1.46%），但科技股受事件驱动独立走强。",
-      "source": "postmarket",
-      "id": "1782284611575",
-      "createdAt": "2026-06-24T07:03:31.575Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 100,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 34090,
-        "positionValue": 49771.4,
         "riskAmount": 1500,
         "riskPercent": "1.50"
       }
