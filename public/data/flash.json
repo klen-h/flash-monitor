@@ -2,6 +2,22 @@
   "date": "2026/7/23",
   "items": [
     {
+      "id": "20260723231344909800",
+      "time": "2026-07-23 23:13:44",
+      "hot": "热",
+      "content": "【金十数据整理：欧盘美盘重要新闻汇总（2026-07-23）】<b>国内新闻：</b><br/><span class=\"section-news\">1. 商务部：中美正就降税安排征求意见并将尽快推动实施。</span><br/><span class=\"section-news\">2. 王虹、邓煜获菲尔兹奖，中国数学实现历史性突破。</span><br/><span class=\"section-news\">3. 外交部：中方一贯反对将科技经贸问题政治化、工具化。</span><br/><span class=\"section-news\">4. 上海：推动科创板持续深化改革，持续扩大科创板第五套上市标准的适用范围。</span><br/><span class=\"section-news\">5. 国务院印发《全民健身计划（2026—2030年）》。</span><br/><span class=\"section-news\">6. 中国人民银行：7月24日将开展5000亿元MLF操作，期限为1年期。</span><br/><span class=\"section-news\">7. 中国证监会召开党的建设暨监管工作座谈会：确保资本市场“十五五”良好开局。</span><br/><span class=\"section-news\">8. 国家新闻出版署发布2026年7月份网络游戏审批信息，共197款游戏获得版号。</span><br/><b>国际新闻：</b><br/><span class=\"section-news\">1. 美众院再次通过决议，要求特朗普结束对伊朗战事。</span><br/><span class=\"section-news\">2. 白宫被曝欲借SVB报告罢免美联储理事巴尔。</span><br/><span class=\"section-news\">3. 欧盟外交官称，欧盟各代表在第21轮对俄制裁方案中同意将石油价格上限冻结12个月。</span><br/><span class=\"section-news\">4. 欧洲央行如预期维持利率不变，但为9月加息保留空间。</span><br/><span class=\"section-news\">5. 谷歌未来支出承诺升至8110亿美元，三个月内暴涨近5000亿美元。</span><br/><span class=\"section-news\">6. 特朗普：若胡塞武装再次袭击船只 美国将追究伊朗责任。</span><br/><span class=\"section-news\">7. 布伦特原油期货自5月以来首次突破100美元/桶。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        5,
+        4,
+        1,
+        3
+      ],
+      "collectedAt": "2026-07-23T15:30:42.920Z"
+    },
+    {
       "id": "20260723225426878800",
       "time": "2026-07-23 22:54:26",
       "hot": "热",
@@ -4467,21 +4483,7 @@
         3
       ],
       "collectedAt": "2026-07-17T17:50:34.299Z"
-    },
-    {
-      "id": "20260718002633591800",
-      "time": "2026-07-18 00:26:33",
-      "hot": "热",
-      "content": "【据悉Meta洽谈向Anthropic出租算力，交易规模至高达100亿美元】金十数据7月18日讯，据纽约时报报道，三位消息人士透露，Meta Platforms(META.O)正洽谈将自有AI数据中心算力出租给Anthropic，这份为期两年的合作协议规模最高可达100亿美元。消息人士称，Anthropic在6月提出该合作方案，Meta目前正在评估，交易细节仍在调整。按照方案，Anthropic将在两年内按月分期向Meta支付费用，且两家企业均有权提前终止协议。Anthropic此次向Meta提出的算力采购规模，仅为其今年5月与SpaceX所签合约的三分之一。知情人士表示，谈判尚处于初期阶段，最终未必能落地。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-07-17T16:50:36.998Z"
     }
   ],
-  "lastUpdated": "2026-07-23T15:10:38.094Z"
+  "lastUpdated": "2026-07-23T15:30:44.253Z"
 }
