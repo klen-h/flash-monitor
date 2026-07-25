@@ -2,6 +2,21 @@
   "date": "2026/7/26",
   "items": [
     {
+      "id": "20260726031254710800",
+      "time": "2026-07-26 03:12:54",
+      "hot": "热",
+      "content": "【特朗普：若不能100%得到想要的 将考虑恢复全面战争】金十数据7月26日讯，据法国LCI电视新闻：特朗普谈及伊朗时表示，如果我们不能从伊朗得到我们想要的100%，我们绝对会考虑恢复全面战争。当被问及有什么话想对欧洲盟友说时，特朗普表示，他们很幸运能有我这样的朋友。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-07-25T21:00:42.330Z"
+    },
+    {
       "id": "20260726013259150800",
       "time": "2026-07-26 01:32:59",
       "hot": "热",
@@ -4458,20 +4473,7 @@
         1
       ],
       "collectedAt": "2026-07-20T05:10:29.612Z"
-    },
-    {
-      "id": "20260720110937957800",
-      "time": "2026-07-20 11:09:37",
-      "hot": "热",
-      "content": "【金十数据整理：每日存储市场要闻速递（2026-07-20）】<span class=\"section-news\">1. 上半年我国集成电路出口额同比增长88.7%。</span><br/><span class=\"section-news\">2. SK崔泰源：明年半导体需求至少增五成。</span><br/><span class=\"section-news\">3. SK崔泰源：内存应该降价，如果一直高价消费电子行业可能受到冲击。</span><br/><span class=\"section-news\">4. SK崔泰源：正筹划在美国建厂，以增加供应并应对价格异常高企。</span><br/><span class=\"section-news\">5. 韩国存储双雄暴跌引爆爆仓潮，30多万个账户遭强平。</span><br/><span class=\"section-news\">6. 平头哥开源AI软件栈T-Head SAIL，可最大程度释放芯片算力。</span><br/><span class=\"section-news\">7. 光电融合芯片有望让Token成本降50%，国产算力集群或成降本关键。</span><br/><span class=\"section-news\">8. 多氟多：G5级电子级氢氟酸已持续稳定批量供应长鑫存储等。</span><br/><span class=\"section-news\">9. 传音控股：预计上半年净利润同比增长45%，存储价格增长公司调整产品定价。</span><br/><span class=\"section-news\">10. 力源信息：上半年净利同比预增207%-217%，代理的MLCC产品及意法半导体光模块用MCU产品等销售额均实现大幅增长。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-07-20T04:30:39.087Z"
     }
   ],
-  "lastUpdated": "2026-07-25T18:13:11.417Z"
+  "lastUpdated": "2026-07-25T21:00:43.280Z"
 }
