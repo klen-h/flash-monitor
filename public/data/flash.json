@@ -2,6 +2,20 @@
   "date": "2026/7/27",
   "items": [
     {
+      "id": "20260727060246653800",
+      "time": "2026-07-27 06:02:46",
+      "hot": "热",
+      "content": "WTI原油期货盘初重挫8.00%，现报83.23美元/桶。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2
+      ],
+      "collectedAt": "2026-07-26T22:20:31.816Z"
+    },
+    {
       "id": "20260727051919935800",
       "time": "2026-07-27 05:19:19",
       "hot": "热",
@@ -4444,22 +4458,7 @@
         3
       ],
       "collectedAt": "2026-07-20T21:40:29.137Z"
-    },
-    {
-      "id": "20260721051156352800",
-      "time": "2026-07-21 05:11:56",
-      "hot": "热",
-      "content": "【美国宣布对加拿大部分产品加征50%关税】金十数据7月21日讯，当地时间7月20日，白宫发布公告称，美国将对加拿大部分产品额外加征50%的从价关税，以应对“加拿大在汽车及汽车零部件贸易方面对美国采取的歧视性措施”。据称，新关税将自美东时间8月19日凌晨00时01分起生效，并将在现有相关关税、税费及其他收费基础上叠加征收。",
-      "source": "央视",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=11460069711356785906&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D11460069711356785906%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-07-20T21:40:29.137Z"
     }
   ],
-  "lastUpdated": "2026-07-26T22:00:43.286Z"
+  "lastUpdated": "2026-07-26T22:20:32.611Z"
 }
