@@ -2,6 +2,21 @@
   "date": "2026/7/27",
   "items": [
     {
+      "id": "20260726234844568800",
+      "time": "2026-07-26 23:48:44",
+      "hot": "热",
+      "content": "【以总理：此次访美旨在了解美总统对伊朗问题的想法】金十数据7月26日讯，以色列总理内塔尼亚胡在接受采访时表示，以色列与伊朗的冲突只有在伊朗现政权倒台或被彻底削弱到被迫放弃其核计划时才会结束。他强调，“无论是否达成协议”，伊朗的核计划都必须终止。在谈及计划与美国总统特朗普举行的会晤时，内塔尼亚胡表示，会晤的重点并非递交新情报，因为美以两国的军事和情报部门正在开展密切合作。他声称，此行的目的是同特朗普商讨并了解其想法，并称在很大程度上局势发展取决于特朗普的最终决定。此外，内塔尼亚胡还就美沙核协议一事发表评论。他表示赞同特朗普关于“沙特只能获得民用核协议”的表态，并强调以美双方绝不容许沙特拥有军事性质的核计划。内塔尼亚胡还表示，他“绝对”会出席9月份在纽约举行的联合国大会。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=11276366314698966071&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D11276366314698966071%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
+      "important": 0,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-07-26T17:31:22.392Z"
+    },
+    {
       "id": "20260726230008764800",
       "time": "2026-07-26 23:00:08",
       "hot": "热",
@@ -4444,22 +4459,7 @@
         2
       ],
       "collectedAt": "2026-07-20T15:00:47.353Z"
-    },
-    {
-      "id": "20260720221412047800",
-      "time": "2026-07-20 22:14:12",
-      "hot": "热",
-      "content": "市场消息：由希腊Dynacom Tankers Management管理的一艘油轮在霍尔木兹海峡遭袭。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-07-20T14:40:31.028Z"
     }
   ],
-  "lastUpdated": "2026-07-26T16:20:31.796Z"
+  "lastUpdated": "2026-07-26T17:31:23.647Z"
 }
