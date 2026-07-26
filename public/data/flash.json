@@ -2,6 +2,20 @@
   "date": "2026/7/27",
   "items": [
     {
+      "id": "20260727063748506800",
+      "time": "2026-07-27 06:37:48",
+      "hot": "热",
+      "content": "【金十数据整理：昨日今晨重要新闻汇总（2026-07-27）】<b>国内新闻：</b><br/><span class=\"section-news\">1. 越南籍船舶南海遇险沉没，中方已救起45人。</span><br/><span class=\"section-news\">2. 希音通过港交所上市聆讯：去年营收418亿美元，净利20.6亿美元。</span><br/><span class=\"section-news\">3. 南部战区新闻发言人就菲律宾拉拢域外国家组织所谓“联合巡航”发表谈话。</span><br/><b>国际新闻：</b><br/><span class=\"section-news\">1. “大空头”迈克尔·伯里据悉加码做空美光和英伟达。</span><br/><span class=\"section-news\">2. 美国能源部因高温天气对17个州发布电网紧急状态令。</span><br/><span class=\"section-news\">3. 英伟达“开放权重模型”公开信联署方翻倍至50个，谷歌等加入。</span><br/><span class=\"section-news\">4. 韩国养老金基金今年首次转为KOSPI净买入，SK海力士获大举加仓。</span><br/><span class=\"section-news\">5. 据日本共同社：日本首相高市早苗内阁支持率降至53.7%，为内阁成立以来最低。</span><br/><span class=\"section-news\">6. 中东局势—<br/>①伊朗称就霍尔木兹海峡航运管理与阿曼会谈有进展，伊美间信息交流及斡旋方活动仍在进行。<br/>②伊高级消息人士：只要美国继续维持停火状态，伊朗也将停止攻击。<br/>③沙特媒体：伊朗方面称并未退出谈判，愿在日内瓦多地与美国继续谈判。<br/>④伊媒：一艘油轮在霍尔木兹海峡触雷爆炸。<br/>⑤美媒：美国中央司令部司令库珀建议停止在海峡周边的轰炸行动，因该行动的效力已达极限。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-07-26T23:00:42.412Z"
+    },
+    {
       "id": "20260727062159268800",
       "time": "2026-07-27 06:21:59",
       "hot": "热",
@@ -4444,22 +4458,7 @@
         2
       ],
       "collectedAt": "2026-07-20T22:30:38.015Z"
-    },
-    {
-      "id": "20260721053041072800",
-      "time": "2026-07-21 05:30:41",
-      "hot": "热",
-      "content": "【金十数据整理：中东局势跟踪（7月21日）】<br/><b>冲突情况</b><br/><span class=\"section-news\">1. 英国海上贸易行动办公室：一艘在阿曼库姆扎尔西北8海里处的船只被不明抛射物击中，船员已安全弃船。火灾尚未扑灭，船只目前正漂流中。</span><br/><span class=\"section-news\">2. 海湾基石石油公司：鉴于地区安全局势变化，作为安全防范措施，已暂时停产。公司资产未受影响，沙伊坎油田最新日产量已超过4.5万桶/日。</span><br/><span class=\"section-news\">3. 伊拉克民兵武装：若美扩大“对伊朗侵略”将直接参战。</span><br/><span class=\"section-news\">4. 胡塞武装宣布对沙特实施海上禁令。</span><br/><span class=\"section-news\">5. 伊朗称分三阶段打击美在巴林和科威特军事目标。</span><br/><span class=\"section-news\">6. 据法尔斯通讯社：伊朗伊斯兰革命卫队称已打击巴林萨尔基尔空军基地、萨勒曼港及科威特阿里夫詹基地。</span><br/><span class=\"section-news\">7. 美官员：本月伊朗袭击已致近100名美军人员受伤。</span><br/><span class=\"section-news\">8. 美国中央司令部：美东时间周一下午4时，美军对伊朗发动新一轮打击。此次行动旨在进一步削弱伊朗用于攻击霍尔木兹海峡商业船只的军事能力。</span><br/><span class=\"section-news\">9. 以色列媒体报道称，位于以色列南部的港口城市埃拉特（Eilat）传出爆炸声。</span><br/><span class=\"section-news\">10. 据Axios网站：以色列高级官员表示，以色列国防军将于当地时间周二从黎巴嫩南部的试点区域撤出。</span><br/><b>美伊谈判</b><br/><span class=\"section-news\">1. 伊朗外交部发言人：伊朗可能基于国家利益与美国谈判。</span><br/><span class=\"section-news\">2. 伊朗外交部发言人：伊朗在霍尔木兹海峡的主权权利不可谈判。</span><br/><span class=\"section-news\">3. 伊朗外交部确认收到调解方提议，但未透露详情。</span><br/><span class=\"section-news\">4. 伊朗外交部发言人：伊拉克代表团将于周四抵达德黑兰。</span><br/><span class=\"section-news\">5. 伊朗高级消息人士表示，调解方已提议暂停打击10天，以寻找恢复伊朗与美国临时协议的途径。</span><br/><span class=\"section-news\">6. 特朗普威胁称，“伊朗每杀害一名美国士兵都将为此付出数倍的代价”。</span><br/><b>霍尔木兹海峡</b><br/><span class=\"section-news\">1. 伊朗外交部发言人：伊朗在霍尔木兹海峡的主权权利不可谈判。</span><br/><span class=\"section-news\">2. 美国中央司令部：截至7月20日，美军已迫使7艘商船改道，并使1艘商船失去行动能力。</span><br/> <b>其他情况</b><br/><span class=\"section-news\">1. 伊拉克民兵武装：若美扩大“对伊朗侵略”将直接参战。</span><br/><span class=\"section-news\">2. 据纽约时报：美国国防部隐瞒了数十起美国军方在伊朗战争中的伤亡情况。</span><br/><span class=\"section-news\">3. 哈马斯任命哈利勒·哈亚为新任领导人。</span><br/><span class=\"section-news\">4. 也门总统领导委员会主席表示，将于当地时间周一起推动恢复石油出口。</span><br/><span class=\"section-news\">5. 美国总统特朗普：以色列总理内塔尼亚胡在美国期间不会以任何形式遭到逮捕。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-07-20T22:10:27.529Z"
     }
   ],
-  "lastUpdated": "2026-07-26T22:42:17.981Z"
+  "lastUpdated": "2026-07-26T23:00:43.536Z"
 }
