@@ -2,6 +2,35 @@
   "date": "2026/7/27",
   "items": [
     {
+      "id": "20260727090559498800",
+      "time": "2026-07-27 09:05:59",
+      "hot": "热",
+      "content": "【金十数据整理：A股盘前市场要闻速递（2026-07-27）】<b>重要新闻</b><br/><span class=\"section-news\">1. “两高”修改司法解释，加大力度惩治内幕交易、泄露内幕信息犯罪。</span><br/><span class=\"section-news\">2. 证监会：进一步加大对证券期货违法犯罪的惩治力度。</span><br/><span class=\"section-news\">3. 工业和信息化部装备工业一司赴有关汽车生产企业开展监督检查。</span><br/><span class=\"section-news\">4. 两部门：个人将财产装入离岸信托以及通过离岸信托取得收益，应当按照规定申报缴纳个人所得税。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 长鑫科技今日上市。</span><br/><span class=\"section-news\">2. 宁德时代：2026年上半年净利润432.84亿元，同比增长41.98%；拟以200亿元-400亿元回购公司股份。</span><br/><span class=\"section-news\">3. 德明利：控股股东李虎自愿承诺12个月内不减持公司股票。</span><br/><span class=\"section-news\">4. 海康威视：2026年上半年净利润78.96亿元，同比增长39.57%。</span><br/><span class=\"section-news\">5. 嘉立创：首次公开发行股票网上发行最终中签率为0.0218%。</span><br/><span class=\"section-news\">6. 天齐锂业：射洪天齐拟1.5亿元认购欣旺达动力新增股份7921.81万股。</span><br/><span class=\"section-news\">7. 山西汾酒：2025年度每股派发现金红利6.56元,股权登记日为7月30日。</span><br/><span class=\"section-news\">8. 湖北能源：江陵电厂二期项目全面建成投产。</span><br/><span class=\"section-news\">9. 立新能源：公司股价近期累计涨幅较大，存在快速下跌风险。</span><br/><span class=\"section-news\">10. 顺钠股份：针对AI算力中心、超大型数据中心对供电可靠性及能效的要求开展前瞻性技术研究及产品研发。</span><br/><span class=\"section-news\">11. 市场传闻的7N级六氟化钨产品及价格体系情况如何？中船特气回应：国内尚无7N级六氟化钨的统一国家标准，按6N交付。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-07-27T01:40:28.199Z"
+    },
+    {
+      "id": "20260727092527746800",
+      "time": "2026-07-27 09:25:27",
+      "hot": "沸",
+      "content": "A股开盘，上证指数跌0.14%，深证成指跌0.04%，创业板指涨0.03%；N长鑫上市首日开涨471.59%，报49.5元/股。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        5,
+        4,
+        1,
+        3
+      ],
+      "collectedAt": "2026-07-27T01:40:28.199Z"
+    },
+    {
       "id": "20260727083147417800",
       "time": "2026-07-27 08:31:47",
       "hot": "热",
@@ -4428,36 +4457,7 @@
         1
       ],
       "collectedAt": "2026-07-21T01:40:28.193Z"
-    },
-    {
-      "id": "20260721090827572800",
-      "time": "2026-07-21 09:08:27",
-      "hot": "热",
-      "content": "【金十数据整理：A股盘前市场要闻速递（2026-07-21）】<b>重要新闻</b><br/><span class=\"section-news\">1. 沪市一晚新增回购增持计划25家，金额上限逾百亿元。</span><br/><span class=\"section-news\">2. 市场监管总局：合理降低佣金、抽成、会员费等费用，减轻个体工商户运营初期成本压力。</span><br/><span class=\"section-news\">3. 郑栅洁：目前企业生产经营平稳，市场预期稳步改善，有能力、有信心完成全年生产经营目标。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 中国平安：坚定支持资本市场发展。</span><br/><span class=\"section-news\">2. 中国人保：坚定看好中国资本市场发展前景。</span><br/><span class=\"section-news\">3. 中国人寿集团：近日国寿资产对权益市场积极配置，单日净买入超100亿元。</span><br/><span class=\"section-news\">4. 新华保险：对中国经济发展充满信心，坚定看好中国资本市场发展前景。</span><br/><span class=\"section-news\">5. 中国太保：发挥保险资金优势，支持资本市场发展。</span><br/><span class=\"section-news\">6. 新易盛：整体来看，二季度业绩预告情况与公司年初对全年整体情况的预期基本吻合。</span><br/><span class=\"section-news\">7. 新易盛：预计下半年订单交付情况仍处于快速增长阶段 1.6T光模块预计Q3/Q4起放量节奏将进一步加快。</span><br/><span class=\"section-news\">8. 北京君正：第三季度DRAM会持续涨价，预计毛利率将继续提升。</span><br/><span class=\"section-news\">9. 东山精密：拟使用2-3亿元人民币回购公司股份。</span><br/><span class=\"section-news\">10. 大族激光：上半年净利润12.86亿元，同比增长163.47%。</span><br/><span class=\"section-news\">11. 睿创微纳：预计上半年净利润12亿-13亿元，同比增长242%-270%。</span><br/><span class=\"section-news\">12. 东芯股份：预计上半年净利润6.4亿元至6.8亿元，以SLCNANDFlash为代表的存储业务量价齐升。</span><br/><span class=\"section-news\">13. 杭电股份：拟定增募资不超28.8亿元用于光纤预制棒及高端铜箔项目。</span><br/><span class=\"section-news\">14. 炬芯科技：公司第二代存内计算技术研发取得重大进展。</span><br/><span class=\"section-news\">15. 国瓷材料：7月27日起上调氧化锆粉体销售价格10%-40%。</span><br/><span class=\"section-news\">16. 胜宏科技：拟155.94元/股价格授予不超486.24万股限制性股票，考核目标为2026年净利润基准增长率不低于40%等。</span><br/><span class=\"section-news\">17. 华友钴业：拟以6亿元-10亿元回购公司股份。</span><br/><span class=\"section-news\">18. 中国建筑：控股股东中建集团拟增持公司A股股份5亿元-10亿元。</span><br/><span class=\"section-news\">19. 淳中科技：董事长提议5000万元-1亿元回购股份，用于减少注册资本。</span><br/><span class=\"section-news\">20. 三花智控：控股股东三花控股集团提议以2亿元-4亿元回购公司A股股份。</span><br/><span class=\"section-news\">21. 科达利：董事长励建立提议以1.5亿至3亿元回购公司股份。</span><br/><span class=\"section-news\">22. 长缆科技：拟以1.8亿元-2.2亿元回购公司股份。</span><br/><span class=\"section-news\">23. 融捷股份：拟斥资5000万元至1亿元回购股份。</span><br/><span class=\"section-news\">24. 杰创智能：拟以1500万元-3000万元回购公司股份。</span><br/><span class=\"section-news\">25. 华勤技术：拟以1.5亿-2亿元回购A股股份。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-07-21T01:20:28.703Z"
-    },
-    {
-      "id": "20260721084712386800",
-      "time": "2026-07-21 08:47:12",
-      "hot": "热",
-      "content": "【两市融资余额减少596.85亿元】金十数据7月21日讯，截至7月20日，上交所融资余额报13627.47亿元，较前一交易日减少300.86亿元；深交所融资余额报13267.13亿元，较前一交易日减少295.99亿元；两市合计26894.6亿元，较前一交易日减少596.85亿元。",
-      "source": "",
-      "source_link": "",
-      "important": 0,
-      "channel": [
-        4,
-        5,
-        1,
-        3
-      ],
-      "collectedAt": "2026-07-21T01:10:29.074Z"
     }
   ],
-  "lastUpdated": "2026-07-27T01:20:30.884Z"
+  "lastUpdated": "2026-07-27T01:40:29.713Z"
 }
