@@ -2,6 +2,21 @@
   "date": "2026/7/27",
   "items": [
     {
+      "id": "20260727205346151800",
+      "time": "2026-07-27 20:53:46",
+      "hot": "沸",
+      "content": "声明显示，也门胡塞武装表示，使用无人机瞄准了沙特的原油运输基础设施。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-07-27T13:10:31.618Z"
+    },
+    {
       "id": "20260727201634236800",
       "time": "2026-07-27 20:16:34",
       "hot": "热",
@@ -4442,20 +4457,7 @@
         1
       ],
       "collectedAt": "2026-07-21T08:10:33.675Z"
-    },
-    {
-      "id": "20260721152545892800",
-      "time": "2026-07-21 15:25:45",
-      "hot": "热",
-      "content": "【金十数据整理：A股每日市场要闻回顾（2026-07-21）】<b>重要新闻</b><br/><span class=\"section-news\">1. 历史首次，私募证券投资基金规模突破8万亿元。</span><br/><span class=\"section-news\">2. 工信部锂电池及类似产品标准工作组：将召开10项固态锂电池行业标准讨论会。</span><br/><span class=\"section-news\">3. 《山西省统筹煤炭行业发展和安全新规十七条》即将发布，拟彻底清理取缔隐蔽工作面。</span><br/><span class=\"section-news\">4. 国务院国资委：培育开放更多标志性场景，牵引带动模型迭代、算力升级。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 主力资金流向数据显示，中际旭创主力资金净流入29.33亿元居首位，兆易创新、京东方A、长电科技、北方华创获主力资金净流入居前；德明利主力资金净流出15.69亿元居首位，五粮液、贵州茅台、信维通信、亨通光电主力资金净流出居前。</span><br/><span class=\"section-news\">2. 三环集团：预计上半年净利润同比增长45%-65%，MLCC产品价格修复。</span><br/><span class=\"section-news\">3. 天赐材料：控股股东提议每10股派发现金红利1元。</span><br/><span class=\"section-news\">4. 无锡市与中科曙光签署战略合作协议，将共建国家超算无锡中心。</span><br/><span class=\"section-news\">5. 康希诺与巴基斯坦AGP Limited公司就13价肺炎结合疫苗达成相关合作意向。</span><br/><span class=\"section-news\">6. 招商轮船：子公司香港明华签订矿产长期运输协议。</span><br/><span class=\"section-news\">7. 中国移动：支持光互联、光计算等前沿技术创新。</span><br/><span class=\"section-news\">8. 网宿科技与深度动力联合发布全链路优化解决方案。</span><br/><span class=\"section-news\">9. 效率提升50%，中国电信完成无线网络规划大模型试点应用。</span><br/><span class=\"section-news\">10. 中工国际：目前公司合同储备充足，已制定市值管理制度和工作机制。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-07-21T08:00:48.106Z"
     }
   ],
-  "lastUpdated": "2026-07-27T12:30:52.479Z"
+  "lastUpdated": "2026-07-27T13:10:32.662Z"
 }
