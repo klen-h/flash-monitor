@@ -2,6 +2,20 @@
   "date": "2026/7/28",
   "items": [
     {
+      "id": "20260728091421157800",
+      "time": "2026-07-28 09:14:21",
+      "hot": "沸",
+      "content": "【韩国KOSPI指数触发熔断】金十数据7月28日讯，韩国交易所因KOSPI指数下跌8%触发熔断机制，交易暂停20分钟。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-07-28T01:20:36.808Z"
+    },
+    {
       "id": "20260728085646191800",
       "time": "2026-07-28 08:56:46",
       "hot": "爆",
@@ -4429,22 +4443,7 @@
         3
       ],
       "collectedAt": "2026-07-21T22:50:33.616Z"
-    },
-    {
-      "id": "20260722055745916800",
-      "time": "2026-07-22 05:57:45",
-      "hot": "热",
-      "content": "【金十数据整理：中东局势跟踪（7月22日）】<br/><b>冲突情况</b><br/><span class=\"section-news\">1. 伊朗革命卫队表示已对约旦境内的美国军方基地发起攻击。</span><br/><span class=\"section-news\">2. 伊朗警告保加利亚勿为美军提供便利。</span><br/><span class=\"section-news\">3. 据伊朗塔斯尼姆通讯社：伊朗革命卫队表示，打击了位于巴林的美国亚马逊公司基础设施。</span><br/><span class=\"section-news\">4. 伊朗军方表示，已对巴林谢赫伊萨空军基地的美军人员住宿点实施打击。</span><br/><span class=\"section-news\">5. 伊朗革命卫队：伊朗部队在约旦鲁克班地区袭击了一处驻有美军的营地，造成数名美军人员死亡。</span><br/><span class=\"section-news\">6. 科威特称其发电及海水淡化厂连续四天遭袭。</span><br/><span class=\"section-news\">7. 据伊通社：伊朗军方发言人表示，伊朗已完成部分受损防空系统修复，并将新型防空装备纳入作战体系，大幅提升防空能力。</span><br/><span class=\"section-news\">8. 伊朗最高联合军事指挥部：如果美国袭击伊朗核设施，地区内所有美国及其盟友的利益都将成为目标。</span><br/><span class=\"section-news\">9. 新任英国首相伯纳姆批准美国使用英国基地对伊朗进行部分打击。</span><br/><b>美伊谈判</b><br/><span class=\"section-news\">1. 以媒：10天停火提议系由伊方提出，特朗普要求伊朗“付出代价”。</span><br/><span class=\"section-news\">2. 巴基斯坦总理与伊朗内政部长举行会晤，巴总理表示，将继续发挥调解者的角色。</span><br/><span class=\"section-news\">3. 特朗普：伊朗想会面，我们没兴趣。</span><br/><b>霍尔木兹海峡</b><br/><span class=\"section-news\">1. Kpler：周一共有四艘大宗商品船通过霍尔木兹海峡，少于前一日的七艘。</span><br/><span class=\"section-news\">2. 据伊朗法尔斯通讯社：军方消息人士表示，霍尔木兹海峡的完全控制权掌握在伊朗武装力量手中；关于是否重新开放或继续限制这一通道的任何决定，均将基于安全考虑和国家利益作出。</span><br/><span class=\"section-news\">3. 美国军方：截至7月21日，美军已在执行封锁行动期间改变8艘商业船只航向，并使1艘船只失去行动能力。</span><br/><b>其他情况</b><br/><span class=\"section-news\">1. 黎巴嫩安全官员：黎巴嫩军队已开始在南部城镇扎瓦特尔·阿尔-加尔比耶部署。黎军队在以军撤离后开始部署。</span><br/><span class=\"section-news\">2. 以色列财长：以色列无意加入美国对伊朗的战争。</span><br/><span class=\"section-news\">3. 荷兰宣布对以色列非法定居点实施贸易制裁。</span><br/><span class=\"section-news\">4. 特朗普警告胡塞武装：若封锁红海，美国将“采取行动”。</span><br/><span class=\"section-news\">5. 特朗普会见黎巴嫩总统奥恩，将谈论黎巴嫩军队接管真主党撤出的村庄一事，并且美国已经制定了一些非常具体的计划，同时也会有其他各方参与提供协助。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-07-21T22:30:39.153Z"
     }
   ],
-  "lastUpdated": "2026-07-28T01:10:29.983Z"
+  "lastUpdated": "2026-07-28T01:20:37.635Z"
 }
