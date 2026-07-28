@@ -2,6 +2,22 @@
   "date": "2026/7/28",
   "items": [
     {
+      "id": "20260728092543722800",
+      "time": "2026-07-28 09:25:43",
+      "hot": "热",
+      "content": "A股开盘，上证指数跌0.91%，深证成指跌2.25%，创业板指跌3.12%；C长鑫开跌7.7%。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        5,
+        4,
+        3,
+        1
+      ],
+      "collectedAt": "2026-07-28T01:40:29.596Z"
+    },
+    {
       "id": "20260728091421157800",
       "time": "2026-07-28 09:14:21",
       "hot": "沸",
@@ -4429,21 +4445,7 @@
         2
       ],
       "collectedAt": "2026-07-21T23:10:33.854Z"
-    },
-    {
-      "id": "20260722063054973800",
-      "time": "2026-07-22 06:30:54",
-      "hot": "热",
-      "content": "【金十数据整理：昨日今晨重要新闻汇总（2026-07-22）】<b>国内新闻：</b><br/><span class=\"section-news\">1. 证监会召开上市公司、行业机构、专家学者系列座谈会听取意见建议。</span><br/><span class=\"section-news\">2. 王毅会见欧洲议会外事委员会代表团。</span><br/><span class=\"section-news\">3. 长鑫科技：网上投资者放弃认购658.62万股。</span><br/><span class=\"section-news\">4. 据悉月之暗面以500亿美元估值洽谈Pre-IPO融资。</span><br/><span class=\"section-news\">5. A股科创50指数涨超10%，刷新年内最高单日涨幅。</span><br/><span class=\"section-news\">6. 工信部锂电池及类似产品标准工作组：将召开10项固态锂电池行业标准讨论会。</span><br/><b>国际新闻：</b><br/><span class=\"section-news\">1. 油轮遇袭后，哈萨克斯坦将暂停向黑海输送石油。</span><br/><span class=\"section-news\">2. AI逃离沙盒，OpenAI认下Hugging Face被黑事件。</span><br/><span class=\"section-news\">3. 必和必拓与黑德兰港工会取得进展，谈判将于下周恢复。</span><br/><span class=\"section-news\">4. 台积电据悉将于2027年起上调晶圆代工价格，涨幅最高10%。</span><br/><span class=\"section-news\">5. 10%的临时关税即将到期，美贸易代表预告新关税将很快补位。</span><br/><span class=\"section-news\">6. 据英国金融时报：特朗普最快将于本周内对数十个国家实施新的关税。</span><br/><span class=\"section-news\">7. 伊拉克石油部长：伊拉克石油部与美国企业签署协议的总价值预计达到2000亿美元。</span><br/><span class=\"section-news\">8. 隔夜行情—美元兑日元升破163、金银大涨、美股内存股大幅反弹、国际原油涨超2%、美元涨0.2%，美债收益率普涨。</span><br/><span class=\"section-news\">9. 中东局势—<br/>①巴基斯坦总理与伊朗内政部长举行会晤，巴总理表示，将继续发挥调解者的角色。<br/>②伊朗军方：如果美国袭击伊朗核设施，地区内所有美国及其盟友的利益都将成为目标。<br/>③以媒：10天停火提议系由伊方提出，特朗普要求伊朗“付出代价”。<br/>④以色列财长：以色列无意加入美国对伊朗的战争。<br/>⑤特朗普：伊朗希望会晤，但我们没有兴趣。将非常猛烈地打击伊朗镐山地区（据称此地藏有核设施）。若胡塞武装封锁红海，美国将“采取行动”。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-07-21T22:50:33.616Z"
     }
   ],
-  "lastUpdated": "2026-07-28T01:20:37.635Z"
+  "lastUpdated": "2026-07-28T01:40:31.125Z"
 }
