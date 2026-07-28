@@ -2,6 +2,34 @@
   "date": "2026/7/29",
   "items": [
     {
+      "id": "20260729064444774800",
+      "time": "2026-07-29 06:44:44",
+      "hot": "爆",
+      "content": "SK海力士(SKHY.O)第二季度收入为79万亿韩元，市场预期为84万亿韩元。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-07-28T23:00:45.312Z"
+    },
+    {
+      "id": "20260729064523430800",
+      "time": "2026-07-29 06:45:23",
+      "hot": "热",
+      "content": "<b>SK海力士(SKHY.O)第二季度营业利润为60.5万亿韩元，市场预期为64万亿韩元。</b>",
+      "source": "",
+      "source_link": "",
+      "important": 0,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-07-28T23:00:45.312Z"
+    },
+    {
       "id": "20260729063338334800",
       "time": "2026-07-29 06:33:38",
       "hot": "爆",
@@ -4405,37 +4433,7 @@
         2
       ],
       "collectedAt": "2026-07-22T22:20:31.367Z"
-    },
-    {
-      "id": "20260723060004762800",
-      "time": "2026-07-23 06:00:04",
-      "hot": "热",
-      "content": "【胡塞武装称袭击两艘沙特油轮 警告或对沙特境内发动更大规模打击】金十数据7月23日讯，也门胡塞武装23日发表声明称，为回应其所称沙特对也门实施的封锁，并落实其“以封锁回应封锁”的行动原则，胡塞武装对两艘沙特油轮发动军事打击。声明称，遭袭船只分别为“ENCELIA”号和“LAYLA”号，因违反胡塞武装此前发布的红海航运禁令，胡塞武装使用弹道导弹、巡航导弹及无人机对两艘油轮实施打击，并称袭击引发两艘船只起火。声明还称，胡塞武装当天迫使约10艘船只掉头返航。声明表示，胡塞武装将继续针对沙特实施海上军事行动，并继续执行所谓“以封锁回应封锁”措施。声明还警告称，如沙特对也门发动新的军事行动，胡塞武装将对沙特境内目标发动更大规模打击。",
-      "source": "央视",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=13133495616689184508&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D13133495616689184508%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-07-22T22:20:31.367Z"
-    },
-    {
-      "id": "20260723053055731800",
-      "time": "2026-07-23 05:30:55",
-      "hot": "热",
-      "content": "也门胡塞武装：袭击了两艘沙特油轮。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-07-22T22:10:31.219Z"
     }
   ],
-  "lastUpdated": "2026-07-28T22:50:31.692Z"
+  "lastUpdated": "2026-07-28T23:00:46.379Z"
 }
