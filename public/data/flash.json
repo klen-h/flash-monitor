@@ -2,6 +2,35 @@
   "date": "2026/7/29",
   "items": [
     {
+      "id": "20260729064820097800",
+      "time": "2026-07-29 06:48:20",
+      "hot": "热",
+      "content": "美国总统特朗普：伊朗极其渴望达成协议。我们会让伊朗在协议上签字。我们会结束这场战争的。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-07-28T23:10:27.674Z"
+    },
+    {
+      "id": "20260729065115920800",
+      "time": "2026-07-29 06:51:15",
+      "hot": "沸",
+      "content": "SK海力士(SKHY.O)美股盘后转为下跌超3%，其二季度营收不及预期。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-07-28T23:10:27.674Z"
+    },
+    {
       "id": "20260729064444774800",
       "time": "2026-07-29 06:44:44",
       "hot": "爆",
@@ -4403,37 +4432,7 @@
         3
       ],
       "collectedAt": "2026-07-22T23:00:45.018Z"
-    },
-    {
-      "id": "20260723061154517800",
-      "time": "2026-07-23 06:11:54",
-      "hot": "热",
-      "content": "【美媒：美国向中东增派兵力，为特朗普扩大对伊战事提供更多选项】金十数据7月23日讯，据华尔街日报，知情人士透露，美国正向中东地区紧急增派部队、医务人员和武器装备，旨在为美国总统特朗普提供更强有力的军事选项，以应对其考虑扩大针对伊朗的冲突。根据飞行追踪数据和美国官员的消息，过去一周内，特种作战部队已从美国本土基地部署至该地区。一位官员表示，多个战斗机中队已在中东各地完成部署，而位于美国和英国基地的轰炸机也处于高度戒备状态，随时准备加强行动。另一位官员称，过去几天里，已有超过150名医务人员抵达位于德国的兰德斯图尔地区医疗中心。该医院是救治在中东战斗中受伤美军士兵的主要场所。",
-      "source": "",
-      "source_link": "",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-07-22T22:50:33.838Z"
-    },
-    {
-      "id": "20260723054831241800",
-      "time": "2026-07-23 05:48:31",
-      "hot": "热",
-      "content": "【金十数据整理：中东局势跟踪（7月23日）】<br/><b>冲突情况</b><br/><span class=\"section-news\">1. 美军：完成针对伊朗的连续第11晚打击。</span><br/><span class=\"section-news\">2. 伊朗革命卫队：惩罚侵略者的行动仍在继续。</span><br/><span class=\"section-news\">3. 据以色列第12频道：在伊朗对约旦城市亚喀巴发动弹道导弹袭击期间，以色列最南部城市埃拉特传出爆炸声。</span><br/><span class=\"section-news\">4. 据伊朗塔斯尼姆通讯社：伊朗革命卫队称已打击美国在约旦的军事资产。</span><br/><span class=\"section-news\">5. 据伊朗塔斯尼姆通讯社：伊朗的拉腊克岛遭到美国导弹袭击。</span><br/><span class=\"section-news\">6. 位于沙特阿拉伯的美军基地遭导弹袭击。</span><br/><span class=\"section-news\">7. 巴林军方：周三拦截了伊朗的攻击。</span><br/><span class=\"section-news\">8. 特朗普警告伊朗：每袭击一艘海峡船只，美国就摧毁一座桥梁或电厂。</span><br/><span class=\"section-news\">9. 伊朗：若美袭击伊桥梁电厂，将对美关联地区基础设施进行报复。</span><br/><span class=\"section-news\">10. 以媒：美国已通知以色列，计划在未来几天内升级对伊朗的打击行动，可能首次使用重型轰炸机。</span><br/><span class=\"section-news\">11. 美威胁袭伊基础设施，伊朗军方：将不允许本地区出口一滴石油。</span><br/><span class=\"section-news\">12. 伊朗外长：伊朗的防御原则很明确，即“以眼还眼”。</span><br/><b>美伊谈判</b><br/><span class=\"section-news\">1. 美国国务卿鲁比奥：美国对中东冲突持开放态度，愿意参与、谈判并解决分歧。我们面临的问题是对方并不认真对待谈判。</span><br/><span class=\"section-news\">2. 据伊朗迈赫尔通讯社：伊朗内政部发言人表示，目前未与美国进行谈判。与美国进行“信息交流”是可能的。</span><br/><span class=\"section-news\">3. 美国国务卿鲁比奥：愿意与伊朗达成外交解决方案，但伊朗缺乏诚意。</span><br/><b>霍尔木兹海峡</b><br/><span class=\"section-news\">1. 伊朗革命卫队警告船只不要使用替代航线进出霍尔木兹海峡。</span><br/><span class=\"section-news\">2. 卡利巴夫：如果伊朗没办法卖油，谁都别想卖。</span><br/><span class=\"section-news\">3. 也门胡塞武装发言人：将发表声明，宣布一项重大军事行动。</span><br/><span class=\"section-news\">4. 也门胡塞武装：袭击了两艘沙特油轮。</span><br/> <b>其他情况</b><br/><span class=\"section-news\">1. 消息人士：巴基斯坦在斡旋伊朗谈判后向美国寻求100亿美元资金。</span><br/><span class=\"section-news\">2. 美媒：特朗普批准与沙特达成30年核协议，包含铀浓缩选项。</span><br/><span class=\"section-news\">3. 航运数据显示，四艘油轮中有两艘在红海改变航向后，将苏伊士运河列为下一目的地。</span><br/><span class=\"section-news\">4. 伊朗外交部发言人巴加埃：伊朗“镐山”不存在核活动。</span><br/><span class=\"section-news\">5. 保加利亚允许美国在该国部署加油机以支持中东行动。</span><br/><span class=\"section-news\">6. 欧盟航空局将约旦列入禁飞警告名单。</span><br/><span class=\"section-news\">7. 据Axios网站：美国总统特朗普与以色列总理内塔尼亚胡的会晤正在讨论中，但尚未确定具体会面安排。</span><br/><span class=\"section-news\">8. 世行警告美伊继续冲突或让全球经济增速降至1.3%。</span><br/><span class=\"section-news\">9. 英国撤回驻伊朗外交人员。</span><br/><span class=\"section-news\">10. 美情报机构调查俄罗斯是否协助伊朗锁定CIA海湾设施目标。</span><br/><span class=\"section-news\">11. 哈马斯新领导人：首要任务是停止以军加沙行动。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-07-22T22:20:31.367Z"
     }
   ],
-  "lastUpdated": "2026-07-28T23:00:46.379Z"
+  "lastUpdated": "2026-07-28T23:10:28.899Z"
 }
