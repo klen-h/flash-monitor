@@ -2,6 +2,19 @@
   "date": "2026/7/28",
   "items": [
     {
+      "id": "20260728161355810800",
+      "time": "2026-07-28 16:13:55",
+      "hot": "热",
+      "content": "【金十数据整理：每日投行/机构观点梳理（2026-07-28）】<b>国外</b><br/><span class=\"section-news\">1. 城堡证券：沃什本周或将意外加息。</span><br/><span class=\"section-news\">2. 汇丰：除非美联储加息，否则美元不太可能大幅上涨。</span><br/><span class=\"section-news\">3. 花旗：预计短期黄金目标价为4500美元。</span><br/><span class=\"section-news\">4. 花旗坚持押注本周美联储将按兵不动。</span><br/><span class=\"section-news\">5. 花旗：预计年底铜价目标每吨1.5万美元。</span><br/><span class=\"section-news\">6. 百达财富：市场可能过度反映了美联储加息预期。</span><br/><span class=\"section-news\">7. IEA：尽管价格创新高，到2035年铜供应缺口可能达到25%。</span><br/><span class=\"section-news\">8. 三菱日联：美债收益率高企与中东紧张局势支撑美元。</span><br/><span class=\"section-news\">9. 荷兰国际：若英国央行维持利率不变，英镑兑欧元可能进一步下跌。</span><br/><span class=\"section-news\">10. 摩根士丹利：全球并购交易规模迈向创纪录水平。</span><br/><span class=\"section-news\">11. 凯投宏观：到2027年美联储政策可能与欧洲央行、英国央行出现分化。</span><br/><b>国内</b><br/><span class=\"section-news\">1. 中信建投：A股长期致胜的八个宏观视角。</span><br/><span class=\"section-news\">2. 中信证券：坚定看好超跌后的电子板块投资机会。</span><br/><span class=\"section-news\">3. 中信证券：当前铜板块尚处估值修复伊始。</span><br/><span class=\"section-news\">4. 中信证券：乳清蛋白景气上行超预期，关注国产蛋白机会。</span><br/><span class=\"section-news\">5. 中信证券：坚定看好超跌后的电子板块投资机会。</span><br/><span class=\"section-news\">6. 国金证券：AI光模块+NV-CoWoP预计将带动mSAP-PCB快速扩容。</span><br/><span class=\"section-news\">7. 南方基金：权益磨底或已进入后期，半导体扩产逻辑有望重启主线。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-07-28T08:50:30.294Z"
+    },
+    {
       "id": "20260728160159884800",
       "time": "2026-07-28 16:01:59",
       "hot": "沸",
@@ -4426,21 +4439,7 @@
         2
       ],
       "collectedAt": "2026-07-22T06:30:37.485Z"
-    },
-    {
-      "id": "20260722141911600800",
-      "time": "2026-07-22 14:19:11",
-      "hot": "热",
-      "content": "【消息人士：巴基斯坦在斡旋伊朗谈判后向美国寻求100亿美元资金】金十数据7月22日讯，据知情人士透露，巴基斯坦已向美国提出请求，希望获得100亿美元的基金，用于稳定汇率。如果该基金获批，将为陷入财政困境的南亚经济提供一条生命线。此前巴基斯坦曾参与促成伊朗战争相关谈判，此举提升了其外交影响力，并引发了外界希望它能从华盛顿及其他伙伴那里获得经济利益的期待。在向美国财长贝森特提出的请求中，伊斯兰堡正在寻求美国和巴基斯坦政府之间价值100亿美元的双边汇率稳定支持基金，期限最长为五年。如果获得同意，该安排将增强巴基斯坦的储备，缓解巴基斯坦卢比的压力，并减少其对多边融资的依赖，同时伊斯兰堡也将根据国际货币基金组织计划实施更严格的财政和货币政策。",
-      "source": "",
-      "source_link": "",
-      "important": 0,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-07-22T06:30:37.485Z"
     }
   ],
-  "lastUpdated": "2026-07-28T08:10:39.141Z"
+  "lastUpdated": "2026-07-28T08:50:31.465Z"
 }
