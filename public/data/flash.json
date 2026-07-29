@@ -2,6 +2,21 @@
   "date": "2026/7/29",
   "items": [
     {
+      "id": "20260729190529765800",
+      "time": "2026-07-29 19:05:29",
+      "hot": "热",
+      "content": "【WTI原油日内涨5%】金十数据7月29日讯，国际油价走高，WTI原油日内涨5.00%，现报82.24美元/桶。布伦特原油现涨4.6%。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-07-29T11:30:39.059Z"
+    },
+    {
       "id": "20260729183420733800",
       "time": "2026-07-29 18:34:20",
       "hot": "热",
@@ -4385,23 +4400,7 @@
         2
       ],
       "collectedAt": "2026-07-23T14:20:34.083Z"
-    },
-    {
-      "id": "20260723215847982800",
-      "time": "2026-07-23 21:58:47",
-      "hot": "沸",
-      "content": "【王虹、邓煜获菲尔兹奖 中国数学实现历史性突破】金十数据7月23日讯，当地时间7月23日上午，2026年国际数学家大会在美国费城开幕，现场揭晓2026年菲尔兹奖得主。中国青年数学家王虹、邓煜获奖。王虹出生于1991年，邓煜出生于1989年，本科均毕业于北京大学。这是中国数学家首次获得菲尔兹奖，也是中国数学家首次在同一届国际数学家大会上同时获得两枚菲尔兹奖，实现了中国数学发展的历史性突破。",
-      "source": "央视新闻",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=15436223788705158816&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D15436223788705158816%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
-      "important": 1,
-      "channel": [
-        4,
-        5,
-        3,
-        1
-      ],
-      "collectedAt": "2026-07-23T14:20:34.083Z"
     }
   ],
-  "lastUpdated": "2026-07-29T11:00:47.101Z"
+  "lastUpdated": "2026-07-29T11:30:40.292Z"
 }
