@@ -2,6 +2,21 @@
   "date": "2026/7/30",
   "items": [
     {
+      "id": "20260730054528291800",
+      "time": "2026-07-30 05:45:28",
+      "hot": "热",
+      "content": "【金十数据整理：中东局势跟踪（7月30日）】<br/><b>冲突情况</b><br/><span class=\"section-news\">1. 伊媒称美空袭伊朗与伊拉克边境地区。</span><br/><span class=\"section-news\">2. 美方称伊朗发射多枚导弹袭击驻中东美军。</span><br/><span class=\"section-news\">3. 美沙空袭伊拉克致4名伊朗革命卫队成员身亡。</span><br/><span class=\"section-news\">4. 据约旦国家新闻社：约旦表示已击落五枚来自伊朗的导弹。</span><br/><span class=\"section-news\">5. 在伊朗发动突然袭击后，特朗普回应：美军将“狠狠干他们一顿”。</span><br/><span class=\"section-news\">6. 伊拉克人民动员力量（PMF）称，美国和沙特部队袭击了其在伊拉克各地的总部。</span><br/><span class=\"section-news\">7. 伊拉克总理办公室：伊拉克安全委员会指示外交部对美国和沙特的空袭采取法律行动。</span><br/><span class=\"section-news\">8. 伊拉克真主党旅：将“不可避免”对美沙联合打击作出回应，可能针对美国在沙特境内的“工具”。</span><br/><b>霍尔木兹海峡</b><br/><span class=\"section-news\">1. 伊朗称在霍尔木兹海峡拦截3艘“违规”油轮。</span><br/><span class=\"section-news\">2. 美国能源部长赖特：美国军方正在护送石油和天然气通过海峡。</span><br/><span class=\"section-news\">3. 据日本共同社：3艘与日本相关的船只通过伊朗航线离开波斯湾。</span><br/><span class=\"section-news\">4. 曼德海峡通航船只增至7月19日以来最高，霍尔木兹海峡通行量仍稀少。</span><br/><span class=\"section-news\">5. 消息人士称，也门胡塞武装正在考虑对通过红海南部的商业船只征收费用。</span><br/><span class=\"section-news\">6. 伊朗高级官员称伊朗已否决阿曼提出的霍尔木兹海峡区域共同管理方案，认为该方案没有成功的可能。</span><br/><span class=\"section-news\">7. 美国财政部：美国对八艘油轮和十个与伊朗相关的实体实施制裁，制裁目标指向伊朗的霍尔木兹海峡“勒索网络”。</span><br/><span class=\"section-news\">8. 美国中央司令部：美军在对伊朗实施封锁行动中，已使20艘商船改道，使2艘商船失去行动能力，并对2艘商船进行了登船检查。</span><br/><span class=\"section-news\">9. 知情人士透露，沙特阿拉伯正寻求建立国际联盟，以保护红海航运免受胡塞武装袭击。具体组成尚不明确，仍在与数十个国家进行讨论。</span><br/><b>其他情况</b><br/><span class=\"section-news\">1. 美抗议者要求逮捕内塔尼亚胡。</span><br/><span class=\"section-news\">2. 以色列官员：伊朗仍在镐山进行铀浓缩。</span><br/><span class=\"section-news\">3. 美媒：伊朗曾考虑袭击乌克兰港口，经外交斡旋后局势暂缓。</span><br/><span class=\"section-news\">4. 美国总统特朗普：我希望国会在俄罗斯制裁法案中增加对伊朗的关税。</span><br/><span class=\"section-news\">5. 美媒：美国武器库存持续缩减，与伊朗的冲突尚无彻底结束的迹象。</span><br/><span class=\"section-news\">6. 声明显示，在沙特和美国实施袭击后，伊拉克总理呼吁召开紧急安全会议。</span><br/><span class=\"section-news\">7. 内塔尼亚胡被曝与特朗普讨论三种对伊策略：寻求达成新的协议、维持并加强经济压力和制裁，或升级军事行动。</span><br/><span class=\"section-news\">8. 市场消息：三名消息人士称，因伊拉克境内民兵组织袭击沙特，伊拉克总理原定周四与沙特王储在吉达的会晤取消。</span><br/><span class=\"section-news\">9. 市场消息：消息人士称，部分美国驻中东部队人员可能会被没收手机，美军指挥官警告部队不得分享伊朗打击行动相关视频。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-07-29T22:10:31.274Z"
+    },
+    {
       "id": "20260730051708325800",
       "time": "2026-07-30 05:17:08",
       "hot": "热",
@@ -4385,22 +4400,7 @@
         3
       ],
       "collectedAt": "2026-07-24T20:10:28.054Z"
-    },
-    {
-      "id": "20260725022038678800",
-      "time": "2026-07-25 02:20:38",
-      "hot": "热",
-      "content": "据纽约时报：据四位知情人士透露，特朗普周五与高级顾问和内阁高级成员会面，决定是否加大对伊朗的军事打击力度。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-07-24T18:50:30.751Z"
     }
   ],
-  "lastUpdated": "2026-07-29T21:50:32.513Z"
+  "lastUpdated": "2026-07-29T22:10:32.246Z"
 }
