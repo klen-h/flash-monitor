@@ -2,6 +2,20 @@
   "date": "2026/7/31",
   "items": [
     {
+      "id": "20260731030227229800",
+      "time": "2026-07-31 03:02:27",
+      "hot": "热",
+      "content": "【Meta承诺未来将投入近7000亿美元 用于数据中心等领域】金十数据7月31日讯，Meta Platforms(META.O)表示，已通过长期和短期协议，承诺在未来投入近7000亿美元，用于人工智能数据中心、云计算等领域。Meta周四在一份监管文件中称，其不可撤销的合同承诺总额为3493亿美元，主要涉及第三方云服务协议、服务器和网络基础设施。Meta表示，这是一个保守的估计。该公司还有3470亿美元尚未开始履行的租赁承诺，尚未反映在资产负债表中。其中仅7月份就新增了680亿美元，付款将从2027年和2028年开始。这些成本是在现有租赁之外的，主要包括数据中心、机房托管服务以及“某些网络基础设施”。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-07-30T20:20:39.020Z"
+    },
+    {
       "id": "20260731020234480800",
       "time": "2026-07-31 02:02:34",
       "hot": "热",
@@ -4403,22 +4417,7 @@
         3
       ],
       "collectedAt": "2026-07-26T22:00:41.859Z"
-    },
-    {
-      "id": "20260727053615877800",
-      "time": "2026-07-27 05:36:15",
-      "hot": "热",
-      "content": "【金十数据整理：中东局势跟踪（7月27日）】<br/><b>冲突情况</b><br/><span class=\"section-news\">1. 以色列声称在加沙击毙3名哈马斯武装分子。</span><br/><span class=\"section-news\">2. 伊朗官员：一艘里海通行伊朗商船遭袭致1死3伤。</span><br/><span class=\"section-news\">3. 伊高级消息人士：只要美国继续维持停火状态，伊朗也将停止攻击。</span><br/><span class=\"section-news\">4. 伊朗称约旦、科威特和巴林美军基地为报复行动的重点目标。</span><br/><span class=\"section-news\">5. 伊朗军方称已对可能发生的空袭或地面行动做好准备。</span><br/><span class=\"section-news\">6. 美国中央司令部周五和周六均未宣布针对伊朗的新一轮打击行动。</span><br/><span class=\"section-news\">7. 以色列国防军：哈马斯中部营地无人机部队指挥官哈马姆·伊德已被清除。</span><br/><span class=\"section-news\">8. 以色列安全内阁批准豁免措施，允许加沙国际稳定部队进入不受以色列控制的地区。</span><br/><b>美伊谈判</b><br/><span class=\"section-news\">1. 沙特媒体：伊朗方面称并未退出谈判，愿在日内瓦多地与美国继续谈判。</span><br/><span class=\"section-news\">2. 伊朗外交部：伊美间信息交流及斡旋方活动仍在进行。</span><br/><b>霍尔木兹海峡</b><br/><span class=\"section-news\">1. 伊媒：一艘油轮在霍尔木兹海峡触雷爆炸。</span><br/><span class=\"section-news\">2. 伊朗称就霍尔木兹海峡航运管理与阿曼会谈有进展。</span><br/><span class=\"section-news\">3. 伊朗革命卫队：过去24小时在霍尔木兹海峡拦截6艘船只。</span><br/><span class=\"section-news\">4. 伊朗议会各委员会正审议关于霍尔木兹海峡的法案草案。</span><br/><span class=\"section-news\">5. 伊朗阿曼多轮磋商霍尔木兹海峡问题，伊朗称目前霍尔木兹海峡船舶通航状况未发生变化。</span><br/><span class=\"section-news\">6. 美国中央司令部司令库珀建议停止在霍尔木兹海峡周边的轰炸行动，因该行动的效力已达极限。这影响了特朗普周五做出的暂停对伊打击的决定。</span><br/><b>其他情况</b><br/><span class=\"section-news\">1. 官网数据显示，沙特5月石油出口增长19.5%。</span><br/><span class=\"section-news\">2. 据阿拉比亚电视台：伊拉克总理将于周四访问沙特。</span><br/><span class=\"section-news\">3. 以色列总理：此次访美旨在了解美总统对伊朗问题的想法。</span><br/><span class=\"section-news\">4. 伊朗革命卫队发言人警告以色列：若重启战争将“承受严重后果”。</span><br/><span class=\"section-news\">5. 伊朗总统佩泽希齐扬：美袭击伊朗民用基础设施是“明显的战争罪行”。</span><br/><span class=\"section-news\">6. 伊朗高层警告乌克兰：对伊行动必遭回击，误判者名单在持续增加。</span><br/><span class=\"section-news\">7. 内塔尼亚胡主持召开内阁会议，讨论会见特朗普及国际刑事法院事宜。</span><br/><span class=\"section-news\">8. 也门总理：胡塞武装持续袭击船只并威胁红海安全，证明其正在执行伊朗的指令。</span><br/><span class=\"section-news\">9. 以色列总理内塔尼亚胡：如果伊朗以任何方式发动攻击，我们的回应将是强有力的。</span><br/><span class=\"section-news\">10. 美媒爆料特朗普已暂时搁置大幅升级对伊朗军事打击计划，白宫驳斥：特朗普依然保留所有选项。</span><br/><span class=\"section-news\">11. 伊朗军队发言人阿克拉米尼亚：美国已陷入绝境。如果美国受以色列政权影响，执意继续战争和空袭，战争的地理范围将进一步扩大。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-07-26T22:00:41.859Z"
     }
   ],
-  "lastUpdated": "2026-07-30T18:20:40.571Z"
+  "lastUpdated": "2026-07-30T20:20:40.223Z"
 }
