@@ -2,6 +2,20 @@
   "date": "2026/7/30",
   "items": [
     {
+      "id": "20260730183531645800",
+      "time": "2026-07-30 18:35:31",
+      "hot": "爆",
+      "content": "市场消息：SK集团会长崔泰源购入3620股SK海力士股票。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-07-30T10:50:35.496Z"
+    },
+    {
       "id": "20260730181216734800",
       "time": "2026-07-30 18:12:16",
       "hot": "热",
@@ -4402,22 +4416,7 @@
         2
       ],
       "collectedAt": "2026-07-26T01:00:43.808Z"
-    },
-    {
-      "id": "20260726080133666800",
-      "time": "2026-07-26 08:01:33",
-      "hot": "热",
-      "content": "【金十数据整理：中东局势跟踪（7月26日）】<br/><b>冲突情况</b><br/><span class=\"section-news\">1. 胡塞武装称一天内两次打击沙特。</span><br/><span class=\"section-news\">2. 沙特证实多国联军打击也门胡塞武装。</span><br/><span class=\"section-news\">3. 也门胡塞武装称打击沙特南部城市。</span><br/><span class=\"section-news\">4. 黎巴嫩称以军行动致该国南部发生强烈爆炸。</span><br/><span class=\"section-news\">5. 消息人士称袭击沙特炼油厂的导弹被拦截。</span><br/><span class=\"section-news\">6. 连续13晚打击伊朗后，美军未再宣布对伊朗发动空袭。</span><br/><span class=\"section-news\">7. 胡塞武装发言人：海上封锁是“封锁换封锁”行动的第一步。</span><br/><span class=\"section-news\">8. 泽连斯基：乌克兰袭击里海海域运送伊朗军事物资的船只。</span><br/><span class=\"section-news\">9. 安全消息人士：伊拉克防空系统在埃尔比勒美国领事馆附近击落了一架无人机。</span><br/><span class=\"section-news\">10. 两名也门军方官员表示，也门空军打击了马里卜和焦夫省前线沿线的胡塞武装导弹及无人机发射阵地。</span><br/><span class=\"section-news\">11. 英国海事贸易组织：周五收到一份报告，称阿曼湾发生一起涉及一艘油轮及军事力量的事件。</span><br/><span class=\"section-news\">12. 特朗普：若不能100%得到想要的 将考虑恢复全面战争。</span><br/><span class=\"section-news\">13. 伊朗革命卫队： 在“胜利2”行动中，美国的死亡人数超过200人。</span><br/><b>美伊谈判</b><br/><span class=\"section-news\">1. 美国总统特朗普：伊朗方面目前正与我们保持联系，但我认为他们尚未准备好达成协议。</span><br/><span class=\"section-news\">2. 据悉阿曼与伊朗谈判取得进展，特朗普周五叫停对伊打击。</span><br/><b>霍尔木兹海峡</b><br/><span class=\"section-news\">1. 美国中央司令部：美国对伊朗的海上封锁仍在全面执行中。截至7月25日，已迫使12艘试图突破封锁的商船改变航向，对2艘不服从的船只瘫痪其航线能力，并对2艘船只进行登临检查，以确保完全遵守规定。</span><br/><span class=\"section-news\">2. 美国中央司令部：于7月24日在阿曼湾对悬挂莫桑比克国旗的“Lavine”号油轮实施使其中止航行的措施。</span><br/><span class=\"section-news\">3. 伊朗议会国家安全委员会发言人：伊朗与美国之间的主要争论点是霍尔木兹海峡。 海峡永远不会回到战争前的状态。</span><br/><b>其他情况</b><br/><span class=\"section-news\">1. 伊朗官员：镐山设施“目前是空的”。</span><br/><span class=\"section-news\">2. 巴林、科威特被曝曾秘密空袭伊朗，科方否认。</span><br/><span class=\"section-news\">3. 以军在约旦河西岸展开大规模搜捕，扣押70多名巴勒斯坦人。</span><br/><span class=\"section-news\">4. 美英拟就霍尔木兹海峡问题召开会议，推动组建霍尔木兹海峡护航联盟。</span><br/><span class=\"section-news\">5. 据伊朗Press TV：也门方面袭击炼油厂后，沙特各地出现大规模排队加油的现象。</span><br/><span class=\"section-news\">6. 卡塔尔交通部：从7月26日起，所有类型的海洋运输和船舶的海上航行活动将全面恢复。</span><br/><span class=\"section-news\">7. 卡塔尔外交部：首相与外交部长确认各方有必要致力于落实华盛顿与德黑兰之间的谅解备忘录。</span><br/><span class=\"section-news\">8. 伊朗革命卫队发言人表示，如果英国在战争中支持美国，将成为明确且合法的目标。</span><br/><span class=\"section-news\">9. 一架无人机在以色列国家安全部长本-格维尔位于希伯伦的住宅附近坠毁，无人员伤亡。</span><br/><span class=\"section-news\">10. 伊朗：在战争及停火期间合计出售180亿美元石油。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-07-26T00:31:20.486Z"
     }
   ],
-  "lastUpdated": "2026-07-30T10:30:41.537Z"
+  "lastUpdated": "2026-07-30T10:50:36.791Z"
 }
