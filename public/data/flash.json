@@ -2,6 +2,35 @@
   "date": "2026/7/30",
   "items": [
     {
+      "id": "20260730230116479800",
+      "time": "2026-07-30 23:01:16",
+      "hot": "热",
+      "content": "据伊朗迈赫尔通讯社：也门萨那传出爆炸声。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-07-30T15:20:48.138Z"
+    },
+    {
+      "id": "20260730230757965800",
+      "time": "2026-07-30 23:07:57",
+      "hot": "沸",
+      "content": "【谷歌Deepmind推出Gemini Robotics 2机器人AI模型】金十数据7月30日讯，谷歌Deepmind推出Gemini Robotics 2模型。据介绍，Gemini Robotics 2使机器人能够对每一个动作进行推理，从而解锁广泛的任务范围。例如，它可以使一个人形机器人行走、下蹲、伸展和操控物体，以清理一个杂乱的房间。它甚至可以与其他机器人合作，以更快地完成工作。这种深度智能还可以在设备本地运行，同时能在短短几小时内无缝适应全新的机器人本体。同时，谷歌DeepMind还发布了另外两款机器人AI模型——Gemini Robotics ER 2和On-Device 2。Gemini Robotics ER 2是最强大的具身推理（ER）模型，是一个视觉语言模型（VLM），将使机器人能够与人类交流、理解物理世界并规划持续数分钟的多步骤任务。On-Device 2是最高效的视觉-语言-动作模型（VLA），经过优化可在机器人设备上本地运行。该模型现在可以通过数小时的数据，快速适应全新的机器人实体。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-07-30T15:20:48.138Z"
+    },
+    {
       "id": "20260730225307084800",
       "time": "2026-07-30 22:53:07",
       "hot": "沸",
@@ -4389,35 +4418,7 @@
         2
       ],
       "collectedAt": "2026-07-26T17:50:29.750Z"
-    },
-    {
-      "id": "20260726234844568800",
-      "time": "2026-07-26 23:48:44",
-      "hot": "热",
-      "content": "【以总理：此次访美旨在了解美总统对伊朗问题的想法】金十数据7月26日讯，以色列总理内塔尼亚胡在接受采访时表示，以色列与伊朗的冲突只有在伊朗现政权倒台或被彻底削弱到被迫放弃其核计划时才会结束。他强调，“无论是否达成协议”，伊朗的核计划都必须终止。在谈及计划与美国总统特朗普举行的会晤时，内塔尼亚胡表示，会晤的重点并非递交新情报，因为美以两国的军事和情报部门正在开展密切合作。他声称，此行的目的是同特朗普商讨并了解其想法，并称在很大程度上局势发展取决于特朗普的最终决定。此外，内塔尼亚胡还就美沙核协议一事发表评论。他表示赞同特朗普关于“沙特只能获得民用核协议”的表态，并强调以美双方绝不容许沙特拥有军事性质的核计划。内塔尼亚胡还表示，他“绝对”会出席9月份在纽约举行的联合国大会。",
-      "source": "央视新闻",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=11276366314698966071&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D11276366314698966071%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-07-26T17:31:22.392Z"
-    },
-    {
-      "id": "20260726230008764800",
-      "time": "2026-07-26 23:00:08",
-      "hot": "热",
-      "content": "【金十数据整理：周日重要消息汇总】<br/><b>国内新闻：</b><br/><span class=\"section-news\">1. 越南籍船舶南海遇险沉没，中方已救起45人。</span><br/><span class=\"section-news\">2. 我国蜂群无人机首次实现台风过境全程立体观测。</span><br/><span class=\"section-news\">3. 南部战区新闻发言人就菲律宾拉拢域外国家组织所谓“联合巡航”发表谈话。</span><br/><span class=\"section-news\">4. 广东省财政厅、省应急管理厅向广东受灾地区拨付省级自然灾害救灾资金5000万元。</span><br/><b>国际新闻：</b><br/><span class=\"section-news\">1. “大空头”迈克尔·伯里据悉加码做空美光和英伟达。</span><br/><span class=\"section-news\">2. 英伟达“开放权重模型”公开信联署方翻倍至50个，谷歌等加入。</span><br/><span class=\"section-news\">3. 韩国养老金基金今年首次转为KOSPI净买入，SK海力士获大举加仓。</span><br/><span class=\"section-news\">4. 据日本共同社：日本首相高市早苗内阁支持率降至53.7%，为内阁成立以来最低。</span><br/><span class=\"section-news\">5. 中东局势—<br/>①特朗普下令暂停空袭伊朗，伊方暂停对等打击。<br/>②伊高级消息人士：只要美国继续维持停火状态，伊朗也将停止攻击。<br/>③沙特媒体：伊朗方面称并未退出谈判，愿在日内瓦多地与美国继续谈判。<br/>④伊朗称就霍尔木兹海峡航运管理与阿曼会谈有进展。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-07-26T16:20:30.739Z"
     }
   ],
-  "lastUpdated": "2026-07-30T15:10:33.877Z"
+  "lastUpdated": "2026-07-30T15:23:21.158Z"
 }
