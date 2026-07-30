@@ -7636,6 +7636,115 @@
   },
   "rejectedSignals": [
     {
+      "etfName": "纳斯达克ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "2.05",
+      "resistance": "4",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "2.05"
+      },
+      "stopLoss": "1.988",
+      "takeProfit": "4",
+      "reasoning": "| **纳斯达克ETF** | 2.050  | 2.100  | 观望 ⚠️                | 纳指期货反弹但费城半导体跌-4%，科技链脆弱；若破支撑可试多，否则等待信号。|",
+      "source": "premarket",
+      "id": "1785373939991",
+      "createdAt": "2026-07-30T01:12:19.991Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [
+          "趋势向下，逆势做多"
+        ],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 70,
+      "techGrade": "B",
+      "positionSize": {
+        "shares": 24193,
+        "positionValue": 49595.649999999994,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "军工ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "1.08",
+      "resistance": "1.12",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "1.08"
+      },
+      "stopLoss": "1.048",
+      "takeProfit": "1.12",
+      "reasoning": "| **军工ETF**   | 1.080  | 1.120  | 1.085附近做多 🟢       | 美军打击伊朗直接催化，对冲地缘风险，D状态允许推荐。                      |",
+      "source": "premarket",
+      "id": "1785373939988",
+      "createdAt": "2026-07-30T01:12:19.988Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 100,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 46874,
+        "positionValue": 50623.920000000006,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "黄金ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "8.35",
+      "resistance": "4145",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "8.35"
+      },
+      "stopLoss": "8.099",
+      "takeProfit": "4145",
+      "reasoning": "| **黄金ETF**   | 8.350  | 8.450  | 现价附近做多 🟢         | COMEX黄金突破$4145 + 地缘避险强化，D状态禁空黄金。                       |",
+      "source": "premarket",
+      "id": "1785373939983",
+      "createdAt": "2026-07-30T01:12:19.983Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [
+          "趋势向下，逆势做多"
+        ],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 85,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 5976,
+        "positionValue": 49899.6,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
       "etfName": "油气ETF",
       "direction": "long",
       "trend": "neutral",
@@ -9308,113 +9417,6 @@
       "positionSize": {
         "shares": 6097,
         "positionValue": 49995.399999999994,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "科创50ETF",
-      "direction": "long",
-      "trend": "neutral",
-      "support": "2.9",
-      "resistance": "50",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "2.9"
-      },
-      "stopLoss": "2.813",
-      "takeProfit": "50",
-      "reasoning": "- **科技**（传导链：纳指期货涨 + 金龙指数涨2.9% → 成本下降逻辑，利好科创50ETF/半导体ETF）。",
-      "source": "premarket",
-      "id": "1782954761934",
-      "createdAt": "2026-07-02T01:12:41.934Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 100,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 17241,
-        "positionValue": 49998.9,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "军工ETF",
-      "direction": "long",
-      "trend": "neutral",
-      "support": "1.22",
-      "resistance": "1.25",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "1.22"
-      },
-      "stopLoss": "1.183",
-      "takeProfit": "1.25",
-      "reasoning": "| **军工ETF**   | 1.220      | 1.250      | 观望             | 地缘风险（伊朗局势）提供对冲，但现价1.234接近阻力；需确认事件升级。       |",
-      "source": "premarket",
-      "id": "1782781960442",
-      "createdAt": "2026-06-30T01:12:40.442Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [
-          "趋势向下，逆势做多"
-        ],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 85,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 40540,
-        "positionValue": 49458.799999999996,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "半导体ETF",
-      "direction": "long",
-      "trend": "neutral",
-      "support": "2.652",
-      "resistance": "24",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "2.652"
-      },
-      "stopLoss": "2.572",
-      "takeProfit": "24",
-      "reasoning": "| **半导体ETF** | 2.850      | 2.950      | 在2.850附近做多   | 原油跌降低生产成本 + 纳指隔夜涨（事件5）；阻力位参考6/24高点2.652 + 近期动能。 |",
-      "source": "premarket",
-      "id": "1782781960439",
-      "createdAt": "2026-06-30T01:12:40.439Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 135,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 18749,
-        "positionValue": 49722.348000000005,
         "riskAmount": 1500,
         "riskPercent": "1.50"
       }
