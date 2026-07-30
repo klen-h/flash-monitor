@@ -2,6 +2,35 @@
   "date": "2026/7/30",
   "items": [
     {
+      "id": "20260730080329922800",
+      "time": "2026-07-30 08:03:29",
+      "hot": "热",
+      "content": "<b>SK海力士跌幅扩大至近5%，三星电子抹去4%的涨幅。</b>",
+      "source": "",
+      "source_link": "",
+      "important": 0,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-07-30T00:30:38.749Z"
+    },
+    {
+      "id": "20260730080923727800",
+      "time": "2026-07-30 08:09:23",
+      "hot": "沸",
+      "content": "【中金：沃什试图将部分紧缩功能“外包”，或招致市场定价美联储行动过晚】金十数据7月30日讯，中金研报称，美联储7月会议维持利率不变，但内部鹰派力量进一步增强，三位票委投票支持加息25个基点。我们认为，本次会议最大的变化并非利率决议，而是沃什试图减少政策干预，更多依赖市场利率自发上升来收紧金融条件，将部分紧缩功能“外包”给市场。然而，在通胀持续高于目标的背景下，这种做法很容易削弱市场对美联储政策公信力的信心。会后，长端美债收益率大幅走高，曲线明显陡峭化，或反映投资者开始定价更高的长期通胀与政策风险。展望未来，我们认为若就业或通胀数据超出预期，市场不仅将进一步提高9月加息预期，还可能定价美联储“行动过晚（too late）”的风险。长端利率进一步上行，风险资产也将面临更大的调整压力。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-07-30T00:30:38.748Z"
+    },
+    {
       "id": "20260730080232294800",
       "time": "2026-07-30 08:02:32",
       "hot": "热",
@@ -4369,36 +4398,7 @@
         2
       ],
       "collectedAt": "2026-07-25T01:10:29.023Z"
-    },
-    {
-      "id": "20260725083139937800",
-      "time": "2026-07-25 08:31:39",
-      "hot": "热",
-      "content": "Anthropic首席执行官：已与三星电子及SK海力士签署供应协议。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-07-25T00:40:29.037Z"
-    },
-    {
-      "id": "20260725080405347800",
-      "time": "2026-07-25 08:04:05",
-      "hot": "热",
-      "content": "【金十数据整理：中东局势跟踪（7月25日）】<br/><b>冲突情况</b><br/><span class=\"section-news\">1. 美国中央司令部：成功完成了针对伊朗连续第13晚的打击行动。</span><br/><span class=\"section-news\">2. 伊朗袭击约旦和巴林境内美军基地。</span><br/><span class=\"section-news\">3. 伊外长：任何袭击伊朗的源头都将成防御行动合法目标。</span><br/><span class=\"section-news\">4. 伊朗革命卫队海军基地遭美军袭击。</span><br/><span class=\"section-news\">5. 伊朗革命卫队：已打击美国在科威特的阿尔阿迪里基地。</span><br/><span class=\"section-news\">6. 伊朗称袭击地区内美军设施 摧毁一套“爱国者”防空系统。</span><br/><span class=\"section-news\">7. 约旦称拦截伊朗7枚导弹和6架无人机。</span><br/><span class=\"section-news\">8. 伊朗指控美军误袭商船，致两名船员死亡。</span><br/><span class=\"section-news\">9. 伊朗胡齐斯坦省副省长：有关美国再次袭击伊朗与伊拉克接壤的沙拉姆切边境口岸的传闻不属实。</span><br/><span class=\"section-news\">10. 也门荷台达传出多次剧烈爆炸声，消息称沙特进行了空袭。</span><br/><b>美伊谈判</b><br/><span class=\"section-news\">1. 据纽约时报：伊朗周四拒绝了特朗普的停火方案。</span><br/><span class=\"section-news\">2. 美官员否认伊朗拒绝停火提议。</span><br/><span class=\"section-news\">3. 伊拉克方面否认《纽约时报》关于其斡旋美伊停火的报道，称其“毫无根据”。</span><br/><span class=\"section-news\">4. 伊朗外长阿拉格齐：已与作为调解方的巴基斯坦讨论了其倡议和提案。美伊之间不缺斡旋方 问题在于美国本身。</span><br/><span class=\"section-news\">5. 据悉巴基斯坦正探索重启美伊谈判的途径。</span><br/><span class=\"section-news\">6. 巴基斯坦官员：胡塞武装停止袭击沙特是美伊停火前提。</span><br/><span class=\"section-news\">7. 伊朗外长阿拉格齐：伊朗不会接受停火，除非其在霍尔木兹海峡的要求得到满足。</span><br/><span class=\"section-news\">8. 特朗普：尚未就对伊朗进行重大打击作出决定，认为伊朗更认真对待谈判了。</span><br/><b>霍尔木兹海峡</b><br/><span class=\"section-news\">1. 据伊通社（IRNA）：阿曼外交代表团前往德黑兰讨论霍尔木兹海峡相关机制。</span><br/><span class=\"section-news\">2. 美英拟就霍尔木兹海峡问题召开会议，推动组建霍尔木兹海峡护航联盟。</span><br/><b>其他情况</b><br/><span class=\"section-news\">1. 据悉特朗普对伊朗战争久拖不决感到沮丧。</span><br/><span class=\"section-news\">2. 以政府指示以军在约旦河西岸采取一系列强硬措施。</span><br/><span class=\"section-news\">3. 也门胡塞武装发言人否认曼德布海峡关闭，称海上封锁仅针对沙特。</span><br/><span class=\"section-news\">4. 以色列总理办公室：以色列总理内塔尼亚胡将于周一应美国总统特朗普邀请访问华盛顿。内塔尼亚胡将于周二在白宫会见特朗普。</span><br/><span class=\"section-news\">5. 美国财政部宣布对伊朗实施新一轮制裁。</span><br/><span class=\"section-news\">6. 美媒：情报机构评估称伊朗新领导层具有更大的核野心。 </span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-07-25T00:30:33.506Z"
     }
   ],
-  "lastUpdated": "2026-07-30T00:20:36.773Z"
+  "lastUpdated": "2026-07-30T00:30:39.553Z"
 }
