@@ -2,6 +2,21 @@
   "date": "2026/7/31",
   "items": [
     {
+      "id": "20260731223427667800",
+      "time": "2026-07-31 22:34:27",
+      "hot": "热",
+      "content": "美国财长贝森特：美国将积极在全球范围内追查伊朗资产，以确保为伊朗支持的恐怖主义活动的受害者获得赔偿资金。美国政府针对伊朗政权采取的军事和经济封锁措施将继续推进，绝不松懈。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-07-31T15:00:46.222Z"
+    },
+    {
       "id": "20260731222806545800",
       "time": "2026-07-31 22:28:06",
       "hot": "热",
@@ -4414,20 +4429,7 @@
         1
       ],
       "collectedAt": "2026-07-28T08:00:51.583Z"
-    },
-    {
-      "id": "20260728144324920800",
-      "time": "2026-07-28 14:43:24",
-      "hot": "热",
-      "content": "【金十数据整理：每日全球外汇市场要闻速递（2026-07-28）】<b>美元：</b><br/><span class=\"section-news\">1. 特朗普：相信沃什会做正确的事，知道沃什想要什么。美国应拥有全球最低的利率。</span><br/><b>欧元：</b><br/><span class=\"section-news\">1. 欧洲央行管委卡兹米尔：即使前景改善，9月仍可能需要加息。</span><br/><span class=\"section-news\">2. 欧元跌至月内谷底，美联储决议前美元强势施压。</span><br/><b>英镑：</b><br/><span class=\"section-news\">1. 英国食品通胀连续六个月回落，7月同比涨幅降至2.2%。</span><br/><span class=\"section-news\">2. 荷兰国际：英国央行今年铁定不动，新首相承诺让市场捏一把汗。</span><br/><b>日元：</b><br/><span class=\"section-news\">1. 日本首相高市早苗：应对通胀是首要任务。</span><br/><span class=\"section-news\">2. 据日经新闻：日本将大幅扩大公司债券交易披露，提升市场透明度。</span><br/><span class=\"section-news\">3. 据日本共同社：日本考虑将最低工资上调至最高每小时1100日元的范围。</span><br/><span class=\"section-news\">4. 策略师：高市早苗支持率下滑或拖累日元和日本债券。</span><br/><span class=\"section-news\">5. 日兴证券：高市早苗拟推减税计划，恐令日元和日本国债面临压力。</span><br/><span class=\"section-news\">6. 日本财务大臣片山皋月：日本的货币政策已转向由利率水平主导的阶段。</span><br/><span class=\"section-news\">7. 日本央行：6月剔除特殊因素后的核心CPI同比上涨2.7%，5月涨幅为2.7%。6月剔除特殊因素后的核心-核心CPI同比上涨2.0%，5月涨幅为2.1%。</span><br/><b>韩元：</b><br/><span class=\"section-news\">1. 韩国承诺采取更多措施抑制杠杆ETF需求。</span><br/><span class=\"section-news\">2. 韩国住房抵押贷款利率升至逾两年半以来最高水平。</span><br/><span class=\"section-news\">3. 韩国股市低迷推动散户转战美股，本月净买入额超5万亿韩元。</span><br/><b>其他：</b><br/><span class=\"section-news\">1. 据悉瑞士央行计划维持零利率至2027年底。</span><br/><span class=\"section-news\">2. 澳洲联储主席布洛克：三次加息效果待评估，不排除进一步加息。</span><br/><span class=\"section-news\">3. 俄罗斯总统普京：通货膨胀风险正在加大。</span><br/><span class=\"section-news\">4. 巴基斯坦央行行长：在过去三年中从市场购买了价值280亿美元的外汇以增加储备。</span><br/><span class=\"section-news\">5. 交易员：印度央行可能通过国有银行出售美元，以推动卢比升破96卢比兑1美元水平。</span><br/><span class=\"section-news\">6. 菲律宾央行行长：当美元强势时，我们限制干预以维持秩序；认为激进加息的可能性很小。</span><br/><span class=\"section-news\">7. 马来西亚央行行长：马来西亚经济预计在2026年增长4%-5%；货币政策立场与国内增长和通胀前景保持一致。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-07-28T07:30:47.115Z"
     }
   ],
-  "lastUpdated": "2026-07-31T14:50:35.905Z"
+  "lastUpdated": "2026-07-31T15:00:47.616Z"
 }
