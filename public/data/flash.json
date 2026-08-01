@@ -2,6 +2,20 @@
   "date": "2026/8/1",
   "items": [
     {
+      "id": "20260801095824370800",
+      "time": "2026-08-01 09:58:24",
+      "hot": "热",
+      "content": "【金十数据整理：每日科技要闻速递（8月1日）】<br/><b>人工智能：</b><br/><span class=\"section-news\">1. OpenAI：我们的模型现在拥有超过十亿活跃用户。</span><br/><span class=\"section-news\">2. 美媒：OpenAI面临投资者担忧与竞争压力，IPO或推迟至明年。</span><br/><span class=\"section-news\">3. 美媒：OpenAI筹备发布新模型系列Astra，主打多智能体长周期任务协同。</span><br/><span class=\"section-news\">4. 字节火山引擎：小鹏汽车、智元机器人等将率先接入Seedance2.5视频生成模型。</span><br/><span class=\"section-news\">5. 谷歌(GOOG.O)：Gemini Spark正在向美国以外的GoogleAI Pro用户推出。</span><br/><span class=\"section-news\">6. Anthropic披露三起AI模型安全测试入侵事件，OpenAI发现更多AI智能体突破隔离的证据。</span><br/><span class=\"section-news\">7. OpenAI：GPT-5.4和GPT-5.4mini将从8月31日起不再向登录ChatGPT的用户提供。这些模型仍将在OpenAI API以及使用API密钥进行身份验证的Codex会话中继续提供。</span><br/><b>集成电路（芯片）：</b><br/><span class=\"section-news\">1. 消息称三星电子GaN半导体代工项目试生产出现故障，年内量产计划或延期。</span><br/><span class=\"section-news\">2. 铠侠第一财季业绩不及预期。铠侠将进行1股拆3股的股票分拆，并宣布股票回购计划。</span><br/><b>新能源汽车：</b><br/><span class=\"section-news\">1. 小米汽车：2026年7月，小米汽车交付量持续超过30000台。</span><br/><span class=\"section-news\">2. 特斯拉中国称媒体报道所谓”特斯拉正考虑剥离中国业务“为不实消息。</span><br/><span class=\"section-news\">3. 工信部赴奇瑞、蔚来、江汽开展监督检查，现场随机抽取样车、动力电池等。</span><br/><b>其他：</b><br/><span class=\"section-news\">1. 北斗卫星导航系统已全面完成在轨升级。</span><br/><span class=\"section-news\">2. 我国新核准8台核电机组，项目总投资超1700亿元。</span><br/><span class=\"section-news\">3. 韩国股市周五暴涨18%，三星电子、SK海力士均刷新单日涨幅之最。</span><br/><span class=\"section-news\">4. 市场监管总局开展光伏行业价格合规指导，抵制恶性低价竞争。</span><br/><span class=\"section-news\">5. 国家发展改革委：上半年人工智能相关行业保持30%以上高增长。</span><br/><span class=\"section-news\">6. 李强主持召开国务院常务会议，听取新型电网、物流网建设情况汇报。</span><br/><span class=\"section-news\">7. 力箭一号遥十八运载火箭顺利出厂，拟于近期执行“一箭9星”发射任务。</span><br/><span class=\"section-news\">8. 据英国金融时报：恩智浦半导体正洽谈收购一家价值33亿美元的自动驾驶汽车摄像头芯片设计公司。</span><br/><span class=\"section-news\">9. 亚马逊：截至6月30日的6个月内，向OpenAI的C轮优先股投资了287亿美元，其中，二季度投资137亿美元。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-08-01T03:00:52.012Z"
+    },
+    {
       "id": "20260801093617139800",
       "time": "2026-08-01 09:36:17",
       "hot": "热",
@@ -4419,23 +4433,7 @@
         1
       ],
       "collectedAt": "2026-07-28T14:20:40.671Z"
-    },
-    {
-      "id": "20260728215131035800",
-      "time": "2026-07-28 21:51:31",
-      "hot": "热",
-      "content": "【寒武纪：拟推500万股限制性股票激励计划 业绩考核目标为2026-2028年累计营收不低于1000亿元等】金十数据7月28日讯，寒武纪公告，公司拟实施2026年限制性股票激励计划，拟向激励对象授予500万股限制性股票，约占公告时公司股本总额的0.80%。其中首次授予400万股，预留100万股。授予价格为每股750元。该计划尚待公司股东会以特别决议审议通过后方可实施。公司已履行现阶段必要的法定程序，不存在明显损害公司及全体股东利益和违反相关文件的情形。业绩考核目标为：2026年营收不低于135亿元，2026-2027年累计营收不低于405亿元，2026-2028年累计营收不低于1000亿元。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        5,
-        4,
-        3,
-        1
-      ],
-      "collectedAt": "2026-07-28T14:10:32.195Z"
     }
   ],
-  "lastUpdated": "2026-08-01T02:10:37.075Z"
+  "lastUpdated": "2026-08-01T03:00:53.675Z"
 }
