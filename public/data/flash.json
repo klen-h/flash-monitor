@@ -2,6 +2,21 @@
   "date": "2026/8/1",
   "items": [
     {
+      "id": "20260801192342522800",
+      "time": "2026-08-01 19:23:42",
+      "hot": "热",
+      "content": "【美驻以大使馆发布安全警告 敦促在中东美国公民考虑撤离】金十数据8月1日讯，当地时间8月1日，美国驻以色列大使馆发布安全警告说，鉴于当前中东地区局势持续紧张，该地区安全环境依旧复杂，存在不可预测的升级风险。警告说，目前在中东地区的美国公民应当保持谨慎，提高警惕。同时，美国公民应为可能出现的航班取消、领空关闭以及潜在的旅行受阻做好准备。目前该地区部分航空公司已推迟恢复先前的航班计划，另有部分航线已被取消。美国大使馆强调，在中东地区的美国公民应当考虑撤离，或做好局势升级后随时撤离的准备。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=18191058906156203747&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D18191058906156203747%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 0,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-08-01T11:50:35.118Z"
+    },
+    {
       "id": "20260801184158588800",
       "time": "2026-08-01 18:41:58",
       "hot": "热",
@@ -4419,22 +4434,7 @@
         2
       ],
       "collectedAt": "2026-07-28T15:40:36.300Z"
-    },
-    {
-      "id": "20260728231948137800",
-      "time": "2026-07-28 23:19:48",
-      "hot": "沸",
-      "content": "据Mizan通讯社：伊朗伊斯兰革命卫队呼吁沙特阿拉伯结束对也门的封锁。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-07-28T15:30:37.785Z"
     }
   ],
-  "lastUpdated": "2026-08-01T11:10:30.451Z"
+  "lastUpdated": "2026-08-01T11:50:36.422Z"
 }
