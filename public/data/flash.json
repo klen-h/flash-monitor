@@ -2,6 +2,19 @@
   "date": "2026/8/3",
   "items": [
     {
+      "id": "20260803090247835800",
+      "time": "2026-08-03 09:02:47",
+      "hot": "热",
+      "content": "【金十数据整理：A股盘前市场要闻速递（2026-08-03）】<b>重要新闻</b><br/><span class=\"section-news\">1. 国家外汇管理局召开2026年下半年外汇管理工作交流会。</span><br/><span class=\"section-news\">2. 中国人民银行召开2026年下半年工作会议：继续实施适度宽松的货币政策。</span><br/><span class=\"section-news\">3. 国常会：有效扩大国内需求，抓住潜力大、带动强的领域推出一批有力举措。</span><br/><span class=\"section-news\">4. 我国新核准8台核电机组，项目总投资超1700亿元。</span><br/><span class=\"section-news\">5. 市场监管总局开展光伏行业价格合规指导。</span><br/><span class=\"section-news\">6. 规范互联网渠道售卡管理，运营商停止第三方互联网渠道号卡办理。</span><br/><span class=\"section-news\">7. 证监会对多家券商开出罚单，投行业务继续严监管。</span><br/><span class=\"section-news\">8. 四部门：严禁违规跨业经营、杠杆率过高的企业或存在严重失信行为、重大违法违规记录的企业和个人成为金融机构主要股东或实际控制人。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 长鑫科技LPDDR6接近研发验证尾声。</span><br/><span class=\"section-news\">2. 兆易创新：拟以10亿元-20亿元回购公司股份。</span><br/><span class=\"section-news\">3. 比亚迪：2026年7月新能源汽车产量超42万辆；海外销量近18万辆。</span><br/><span class=\"section-news\">4. 富瀚微：预计上半年净利同比增长1073%-1420%，全球电子业存储价格上涨及上游原材料供应紧缺致产品价格上调。</span><br/><span class=\"section-news\">5. 天力锂能：公司及控股股东、实际控制人收到证监会立案告知书。</span><br/><span class=\"section-news\">6. 富瀚微：预计2026年上半年净利润同比增长1072.72%-1420.19%。</span><br/><span class=\"section-news\">7. 一博科技：2026年上半年营收7.09亿元，净利润同比增1561.55%。</span><br/><span class=\"section-news\">8. 杰创智能：2026年以来公司在国产算力领域已签约项目金额合计约4.3亿元。</span><br/><span class=\"section-news\">9. 铭普光磁：拟定增募资不超12.83亿元，用于高速光模块智能制造项目等。</span><br/><span class=\"section-news\">10. 9连板爱丽家居：7月21日至7月31日期间累计涨幅达135.77%，自8月3日起停牌核查。</span><br/><span class=\"section-news\">11. 交大昂立：8月4日起将被实施其他风险警示，A股简称变更为“ST交昂”。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-08-03T01:30:38.018Z"
+    },
+    {
       "id": "20260803083710671800",
       "time": "2026-08-03 08:37:10",
       "hot": "热",
@@ -4449,22 +4462,7 @@
         1
       ],
       "collectedAt": "2026-07-29T12:20:32.801Z"
-    },
-    {
-      "id": "20260729190529765800",
-      "time": "2026-07-29 19:05:29",
-      "hot": "热",
-      "content": "【WTI原油日内涨5%】金十数据7月29日讯，国际油价走高，WTI原油日内涨5.00%，现报82.24美元/桶。布伦特原油现涨4.6%。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-07-29T11:30:39.059Z"
     }
   ],
-  "lastUpdated": "2026-08-03T00:50:38.415Z"
+  "lastUpdated": "2026-08-03T01:30:39.348Z"
 }
