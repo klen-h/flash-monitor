@@ -7636,6 +7636,113 @@
   },
   "rejectedSignals": [
     {
+      "etfName": "科技ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "0.71",
+      "resistance": "7.16",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "0.71"
+      },
+      "stopLoss": "0.689",
+      "takeProfit": "7.16",
+      "reasoning": "- 推荐科技ETF合理（纳斯达克ETF +0.71% 受益成本下降），但需强化“极端波动审慎”（如半导体ETF单日-7.16%，禁止追空）。",
+      "source": "postmarket",
+      "id": "1785740635236",
+      "createdAt": "2026-08-03T07:03:55.236Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 100,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 71428,
+        "positionValue": 50713.88,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "半导体ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "5",
+      "resistance": "50",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "5"
+      },
+      "stopLoss": "4.850",
+      "takeProfit": "50",
+      "reasoning": "- **显著异动**：科创板50ETF（-5.32%）和半导体ETF（-7.16%）领跌，但事件簇无对应催化剂（如国内政策事件5利好港股而非A股科技）。可能原因：",
+      "source": "postmarket",
+      "id": "1785740635230",
+      "createdAt": "2026-08-03T07:03:55.230Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [
+          "趋势向下，逆势做多"
+        ],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 70,
+      "techGrade": "B",
+      "positionSize": {
+        "shares": 9999,
+        "positionValue": 49995,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
+      "etfName": "科技ETF",
+      "direction": "long",
+      "trend": "neutral",
+      "support": "1",
+      "resistance": "7.16",
+      "entryCondition": {
+        "type": "price",
+        "targetPrice": "1"
+      },
+      "stopLoss": "0.970",
+      "takeProfit": "7.16",
+      "reasoning": "- **事件5（国内政策）**：中港监管合作 → 恒生科技ETF领涨（+1.00%）（传导链：政策利好港股 → 外资流入预期）。成立，但A股科技ETF（如半导体ETF -7.16%）未受益，或因国内流动性担忧。",
+      "source": "postmarket",
+      "id": "1785740635224",
+      "createdAt": "2026-08-03T07:03:55.224Z",
+      "status": "rejected",
+      "entries": [],
+      "exits": [],
+      "validation": {
+        "passed": false,
+        "warnings": [],
+        "reasons": [
+          "持仓数超限 (5/5)"
+        ]
+      },
+      "techScore": 100,
+      "techGrade": "A",
+      "positionSize": {
+        "shares": 49999,
+        "positionValue": 49999,
+        "riskAmount": 1500,
+        "riskPercent": "1.50"
+      }
+    },
+    {
       "etfName": "医药ETF",
       "direction": "long",
       "trend": "neutral",
@@ -9310,111 +9417,6 @@
       "positionSize": {
         "shares": 40540,
         "positionValue": 50269.6,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "黄金ETF",
-      "direction": "long",
-      "trend": "neutral",
-      "support": "8.4",
-      "resistance": "8.55",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "8.4"
-      },
-      "stopLoss": "8.148",
-      "takeProfit": "8.55",
-      "reasoning": "| **黄金ETF**   | 8.400  | 8.550  | 逢低做多       | D状态避险强化 + COMEX黄金涨。 |",
-      "source": "premarket",
-      "id": "1783041142386",
-      "createdAt": "2026-07-03T01:12:22.386Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 115,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 5952,
-        "positionValue": 49996.8,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "半导体ETF",
-      "direction": "long",
-      "trend": "neutral",
-      "support": "2.21",
-      "resistance": "71.7",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "2.21"
-      },
-      "stopLoss": "2.144",
-      "takeProfit": "71.7",
-      "reasoning": "- 美联储加息概率低（7月不变 71.7%）未提振风险资产 → 证券ETF跌 -2.21%、半导体ETF跌 -4.99%（紧缩担忧残余 + 美股科技股跌拖累）。",
-      "source": "lunchbreak",
-      "id": "1782963268115",
-      "createdAt": "2026-07-02T03:34:28.115Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 135,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 22727,
-        "positionValue": 50226.67,
-        "riskAmount": 1500,
-        "riskPercent": "1.50"
-      }
-    },
-    {
-      "etfName": "科技ETF",
-      "direction": "long",
-      "trend": "neutral",
-      "support": "0.54",
-      "resistance": "2.9",
-      "entryCondition": {
-        "type": "price",
-        "targetPrice": "0.54"
-      },
-      "stopLoss": "0.524",
-      "takeProfit": "2.9",
-      "reasoning": "- 中概股涨（金龙指数 +2.9%）→ 恒生科技ETF涨 +0.54%（跨境情绪传导）。",
-      "source": "lunchbreak",
-      "id": "1782963268112",
-      "createdAt": "2026-07-02T03:34:28.112Z",
-      "status": "rejected",
-      "entries": [],
-      "exits": [],
-      "validation": {
-        "passed": false,
-        "warnings": [],
-        "reasons": [
-          "持仓数超限 (5/5)"
-        ]
-      },
-      "techScore": 100,
-      "techGrade": "A",
-      "positionSize": {
-        "shares": 93749,
-        "positionValue": 50624.46000000001,
         "riskAmount": 1500,
         "riskPercent": "1.50"
       }
