@@ -1,12 +1,12 @@
 {
-  "lastId": "20260804232429779800",
+  "lastId": "20260804233947485800",
   "pushedClusters": [
     {
       "cluster": "原油能源",
       "firstId": "20260506224544267800",
       "firstTime": "2026-05-06T17:17:35.708Z",
-      "lastUpdateId": "20260804232429779800",
-      "lastUpdateTime": "2026-08-04T15:40:35.634Z",
+      "lastUpdateId": "20260804233947485800",
+      "lastUpdateTime": "2026-08-04T15:50:35.236Z",
       "pushCount": 161,
       "hotMax": "沸",
       "hadUrgent": true,
