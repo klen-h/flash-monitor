@@ -2,6 +2,35 @@
   "date": "2026/8/4",
   "items": [
     {
+      "id": "20260804074417462800",
+      "time": "2026-08-04 07:44:17",
+      "hot": "热",
+      "content": "【日本新一轮救汇行动或已耗资870亿美元】金十数据8月4日讯，美国方面近日称，为了支撑日元汇率，在最新一轮的外汇干预行动中，日本央行可能已经动用了约870亿美元，相当于11万亿日元的资金。消息称，根据日本央行的最新货币市场数据推算，日本央行在7月30日和31日的外汇干预中，很可能分别动用了530亿美元和340亿美元，总共870亿美元、相当于11万亿日元的资金来买入日元，以支撑日元汇率。",
+      "source": "央视",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=11709320837620231596&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D11709320837620231596%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
+      "important": 0,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-08-04T00:40:30.966Z"
+    },
+    {
+      "id": "20260804080213645800",
+      "time": "2026-08-04 08:02:13",
+      "hot": "热",
+      "content": "【日韩股市高开】金十数据8月4日讯，韩国KOSPI指数8月4日（周二）开盘上涨77.7点，涨幅1.24%，报6335.15点。海力士涨超3%，三星涨超2%。日经225指数8月4日（周二）开盘上涨193.23点，涨幅0.30%，报63948.13点。",
+      "source": "",
+      "source_link": "",
+      "important": 0,
+      "channel": [
+        5,
+        1
+      ],
+      "collectedAt": "2026-08-04T00:40:30.966Z"
+    },
+    {
       "id": "20260804073733674800",
       "time": "2026-08-04 07:37:33",
       "hot": "热",
@@ -4432,37 +4461,7 @@
         3
       ],
       "collectedAt": "2026-07-29T18:30:41.243Z"
-    },
-    {
-      "id": "20260730020609151800",
-      "time": "2026-07-30 02:06:09",
-      "hot": "爆",
-      "content": "市场预期显示，现已不再完全定价美联储九月份加息的预期。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-07-29T18:20:31.914Z"
-    },
-    {
-      "id": "20260730020626063800",
-      "time": "2026-07-30 02:06:26",
-      "hot": "热",
-      "content": "美联储FOMC声明对比：与6月相比基本一字未变",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        2,
-        3
-      ],
-      "collectedAt": "2026-07-29T18:20:31.914Z"
     }
   ],
-  "lastUpdated": "2026-08-04T00:30:42.693Z"
+  "lastUpdated": "2026-08-04T00:42:39.373Z"
 }
