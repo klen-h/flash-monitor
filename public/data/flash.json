@@ -2,6 +2,21 @@
   "date": "2026/8/5",
   "items": [
     {
+      "id": "20260805065853580800",
+      "time": "2026-08-05 06:58:53",
+      "hot": "热",
+      "content": "【国内航线燃油附加费今起再次下调】金十数据8月5日讯，从多家航空公司了解到，从今天（5日）起销售的国内航线机票燃油附加费再次下调。调整后的国内航线燃油附加费标准为：800公里以上航线每位成人旅客收取70元燃油附加费，800公里（含）以下航线每位成人旅客收取40元燃油附加费，相较于调整前分别降低了30元和10元。这是今年6月以来第三次下调国内航线燃油附加费，进一步降低旅客出行成本。",
+      "source": "央视",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=17202538324720454715&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D17202538324720454715%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-08-05T00:10:31.219Z"
+    },
+    {
       "id": "20260805065000001800",
       "time": "2026-08-05 06:50:00",
       "hot": "热",
@@ -4449,23 +4464,7 @@
         3
       ],
       "collectedAt": "2026-07-30T05:50:30.332Z"
-    },
-    {
-      "id": "20260730131515875800",
-      "time": "2026-07-30 13:15:15",
-      "hot": "沸",
-      "content": "【午后多只宽基ETF放量回升 2只双创ETF连续3日成交超100亿】金十数据7月30日讯，午后多只宽基ETF放量回升跌幅收窄，创业板ETF易方达（159915）、科创50ETF华夏（588000）连续第3个交易日成交额突破100亿，A500ETF华泰柏瑞（563360）、中证500ETF南方（510500）、沪深300ETF华泰（510300）成交额超40亿。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        5,
-        4,
-        1,
-        3
-      ],
-      "collectedAt": "2026-07-30T05:40:29.082Z"
     }
   ],
-  "lastUpdated": "2026-08-04T23:40:38.157Z"
+  "lastUpdated": "2026-08-05T00:10:32.348Z"
 }
