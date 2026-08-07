@@ -2,6 +2,23 @@
   "date": "2026/8/7",
   "items": [
     {
+      "id": "20260807212323904800",
+      "time": "2026-08-07 21:23:23",
+      "hot": "沸",
+      "content": "【北京：非京籍家庭购房社保个税缴纳年限下调为一年】金十数据8月7日讯，北京市住房和城乡建设委员会、北京市规划和自然资源委员会、北京住房公积金管理中心7日晚联合印发《关于进一步优化调整本市房地产政策的通知》，明确非京籍家庭购买五环内商品住房的社保或个税缴纳年限由“2年”，调减为“1年”。调整后，非京籍家庭在全市范围内购买商品住房的社保或个税缴纳年限统一为“1年”，购买商品住房的套数保持不变。即：社保或个税缴纳满1年的非京籍家庭，在五环内可购买1套商品住房，多子女家庭可再多购买1套；在五环外，不限购买套数。《通知》自8日起实施。",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=15977812999427666323&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D15977812999427666323%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 1,
+      "channel": [
+        5,
+        4,
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-08-07T13:30:39.711Z"
+    },
+    {
       "id": "20260807204822387800",
       "time": "2026-08-07 20:48:22",
       "hot": "热",
@@ -4425,22 +4442,7 @@
         2
       ],
       "collectedAt": "2026-08-02T12:10:37.295Z"
-    },
-    {
-      "id": "20260802190322702800",
-      "time": "2026-08-02 19:03:22",
-      "hot": "热",
-      "content": "【伊朗称打击巴林亚马逊数据中心是对美国行动回应】金十数据8月2日讯，当地时间8月2日，伊朗伊斯兰革命卫队发言人介绍“胜利-2”行动时表示，位于巴林的美国亚马逊公司数据处理中心因承担情报支持、云计算以及与美军指挥体系相关的服务，被列为打击目标。<b>该发言人没有明确说明发动打击的时间，但表示此次行动是伊朗对美国袭击行动作出的回应之一。</b>",
-      "source": "央视新闻",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=13219794064396000491&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D13219794064396000491%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-08-02T11:40:33.153Z"
     }
   ],
-  "lastUpdated": "2026-08-07T13:10:38.523Z"
+  "lastUpdated": "2026-08-07T13:30:40.774Z"
 }
