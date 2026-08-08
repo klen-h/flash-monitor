@@ -2,6 +2,21 @@
   "date": "2026/8/8",
   "items": [
     {
+      "id": "20260808184038506800",
+      "time": "2026-08-08 18:40:38",
+      "hot": "热",
+      "content": "【伊朗：同阿曼的谈判与霍尔木兹海峡能否重开无关】金十数据8月8日讯，当地时间8日，伊朗伊斯兰革命卫队发言人称，重开霍尔木兹海峡与伊朗同阿曼之间的谈判无关，而是取决于美国是否完全接受伊朗的条件，并停止干涉地区谈判。“一旦美国接受伊朗的条件，海峡必将重新开放。”",
+      "source": "央视新闻",
+      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=6334285652855823657&channelId=1119&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D6334285652855823657%2526channelId%253D1119%2526toc_style_id%253Dfeeds_default",
+      "important": 0,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-08-08T11:30:37.622Z"
+    },
+    {
       "id": "20260808182411357800",
       "time": "2026-08-08 18:24:11",
       "hot": "热",
@@ -4423,21 +4438,7 @@
         1
       ],
       "collectedAt": "2026-08-03T01:30:38.018Z"
-    },
-    {
-      "id": "20260803083710671800",
-      "time": "2026-08-03 08:37:10",
-      "hot": "热",
-      "content": "【美日短线下挫170点 跌破156关口】金十数据8月3日讯，美元兑日元USD/JPY15分钟内跌幅扩大至170点，为5月6日以来首次跌破156关口，日内跌超1%。此前美日均称将毫不犹豫地进一步联手实施汇市干预。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-08-03T00:50:37.614Z"
     }
   ],
-  "lastUpdated": "2026-08-08T11:20:30.949Z"
+  "lastUpdated": "2026-08-08T11:30:38.840Z"
 }
