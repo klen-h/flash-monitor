@@ -2,6 +2,21 @@
   "date": "2026/8/10",
   "items": [
     {
+      "id": "20260810061333893800",
+      "time": "2026-08-10 06:13:33",
+      "hot": "热",
+      "content": "【金十数据整理：中东局势跟踪（8月10日）】<br/><b>冲突情况</b><br/><span class=\"section-news\">1. 胡塞武装称袭击沙特阿美公司炼油厂并“命中目标”。</span><br/><span class=\"section-news\">2. 也门军事发言人表示，（胡塞武装对）摩卡港的袭击造成七人死亡。</span><br/><span class=\"section-news\">3. 据天空新闻：也门消息人士表示，胡塞武装的第四波导弹和无人机袭击目标是摩卡港及该市郊区的政府军阵地。</span><br/><span class=\"section-news\">4. 美媒：特朗普暂缓对伊动武，称正“低调处理”伊朗问题。</span><br/><b>霍尔木兹海峡</b><br/><span class=\"section-news\">1. 伊媒说议会国家安全委员会批准霍尔木兹海峡安全纲要。</span><br/><span class=\"section-news\">2. 美媒：美官员称特朗普耐心应对伊朗僵局，重点聚焦海峡通航。</span><br/><span class=\"section-news\">3. 美国中央司令部：截至8月9日，中央司令部已调转55艘在霍尔木兹海峡的商船航线，使2艘船只失去行动能力，并登船检查了2艘船只，以确保其遵守封锁令。</span><br/><b>其他</b><br/><span class=\"section-news\">1. 伊朗外长称将继续坚持抵抗立场。</span><br/><span class=\"section-news\">2. 伊朗任命雷扎伊为最高国家安全委员会秘书。</span><br/><span class=\"section-news\">3. 伊朗最高领袖任命佐勒加德尔为其政治顾问。</span><br/><span class=\"section-news\">4. 伊朗称在阿巴斯港附近海域扣押12艘违规船只。</span><br/><span class=\"section-news\">5. 据伊朗迈赫尔通讯社：伊朗外长阿拉格齐表示，与美国没有谈判，只通过中介交换信息。</span><br/><span class=\"section-news\">6. 伊朗陆军司令称部队全面战备，警告美军勿踏足伊朗领土。</span><br/><span class=\"section-news\">7. 伊朗总统：愿保持沟通，但绝不会坐等任何外部势力。</span><br/><span class=\"section-news\">8. 以色列政府被曝将投资专款挪至国防预算，紧急采购武器。</span><br/><span class=\"section-news\">9. 以媒：内塔尼亚胡曾同意从加沙部分地区撤军，现已反悔。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2,
+        3
+      ],
+      "collectedAt": "2026-08-09T22:30:39.551Z"
+    },
+    {
       "id": "20260810045558184800",
       "time": "2026-08-10 04:55:58",
       "hot": "热",
@@ -4421,21 +4436,7 @@
         2
       ],
       "collectedAt": "2026-08-03T18:20:33.181Z"
-    },
-    {
-      "id": "20260804001800060800",
-      "time": "2026-08-04 00:18:00",
-      "hot": "热",
-      "content": "纳指涨幅扩大至2%，标普500指数涨1.3%，道指涨1%。甲骨文(ORCL.N)涨7.3%，谷歌(GOOG.O)涨超5%，亚马逊(AMZN.O)、微软(MSFT.O)涨超4%，特斯拉(TSLA.O)涨3.8%，英伟达(NVDA.O)涨3.2%。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-08-03T16:50:31.236Z"
     }
   ],
-  "lastUpdated": "2026-08-09T21:30:41.975Z"
+  "lastUpdated": "2026-08-09T22:30:40.974Z"
 }
