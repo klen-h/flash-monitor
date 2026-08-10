@@ -2,6 +2,22 @@
   "date": "2026/8/10",
   "items": [
     {
+      "id": "20260810190952022800",
+      "time": "2026-08-10 19:09:52",
+      "hot": "沸",
+      "content": "【宇树科技：回拨机制启动后，网上发行最终中签率为0.01809759%】金十数据8月10日讯，宇树科技公告，回拨机制启动后，网下最终发行数量为2,265.0148万股，约占扣除最终战略配售数量后发行数量的70.00%；网上最终发行数量为970.7000万股，约占扣除最终战略配售数量后发行数量的30.00%。回拨机制启动后，网上发行最终中签率为0.01809759%。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        4,
+        5,
+        1,
+        3
+      ],
+      "collectedAt": "2026-08-10T11:20:36.169Z"
+    },
+    {
       "id": "20260810182202668800",
       "time": "2026-08-10 18:22:02",
       "hot": "热",
@@ -4428,22 +4444,7 @@
         2
       ],
       "collectedAt": "2026-08-04T10:10:31.917Z"
-    },
-    {
-      "id": "20260804172609735800",
-      "time": "2026-08-04 17:26:09",
-      "hot": "热",
-      "content": "【一希腊货轮在霍尔木兹海峡遭袭】金十数据8月4日讯，当地时间8月4日，希腊货轮“米诺阿先锋”号在霍尔木兹尔斯海峡阿曼一侧遭到导弹袭击，船上轮机舱被击中起火，一名船员失踪，船长发出了求救信号。",
-      "source": "央视新闻",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=13440366148880240283&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D13440366148880240283%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-08-04T10:00:46.360Z"
     }
   ],
-  "lastUpdated": "2026-08-10T10:50:32.844Z"
+  "lastUpdated": "2026-08-10T11:20:36.783Z"
 }
