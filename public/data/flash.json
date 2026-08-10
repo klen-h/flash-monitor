@@ -2,6 +2,21 @@
   "date": "2026/8/11",
   "items": [
     {
+      "id": "20260811053027436800",
+      "time": "2026-08-11 05:30:27",
+      "hot": "热",
+      "content": "【金十数据整理：中东局势跟踪（8月11日）】<br/><b>冲突情况</b><br/><span class=\"section-news\">1. 伊朗军方：美军敢来就斩断他们的脚。</span><br/><span class=\"section-news\">2. 胡塞武装再袭政府军，联合国特使警告也门冲突升级。</span><br/><span class=\"section-news\">3. 也门政府媒体：也门军方轰炸了马里卜省胡塞武装的军事据点和导弹发射架。</span><br/><b>霍尔木兹海峡</b><br/><span class=\"section-news\">1. 伊朗外交部发言人：与阿曼的讨论集中在建立安全航运路线，未就过境费征收进行讨论；但拟议协议将包括海事服务费用。霍尔木兹海峡局势取决于美方的行为。</span><br/><span class=\"section-news\">2. 伊朗议会副议长：美国必须接受伊朗在霍尔木兹海峡建立的安排。</span><br/><span class=\"section-news\">3. 美国总统特朗普：我们已经对整个霍尔木兹海峡进行了扫雷。海峡现在是开放的，我们控制着它。</span><br/><b>和平谈判</b><br/><span class=\"section-news\">1. 伊朗外交部发言人：未与华盛顿进行直接谈判，仅通过中间人与交换信息。</span><br/><span class=\"section-news\">2. 伊朗议会议长卡利巴夫对巴格达的访问将推迟至下周。</span><br/><span class=\"section-news\">3. 伊朗“圣城旅”指挥官到访巴格达，同伊拉克多方会晤。</span><br/><span class=\"section-news\">4. 巴基斯坦与伊朗外长通话，就地区局势交换意见。</span><br/><span class=\"section-news\">5. 美国总统特朗普：要求伊朗进行赔偿，已指示代表将这一要求明确纳入未来所有谈判。</span><br/><span class=\"section-news\">6. 美媒：美以叙达成谅解，叙利亚秘密地点核材料将被移除。</span><br/><b>其他事项</b><br/><span class=\"section-news\">1. 伊朗最高领袖公布多项任命，调整武装力量领导层。</span><br/><span class=\"section-news\">2. 伊朗总统：美以袭击依赖AI数据 但所有“算计”均被挫败。</span><br/><span class=\"section-news\">3. 伊朗总统：与最高领袖的会议持续了7-8小时。</span><br/><span class=\"section-news\">4. 伊朗：乌克兰必须为袭击伊朗货轮赔偿。</span><br/><span class=\"section-news\">5. 加沙和平委员会官员：加沙路线图由和平委员会和哈马斯共同制定，与以色列的磋商仍在继续。在实地采取经核实的步骤之前，不会要求以色列依赖信任或采取不可逆转的行动。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3,
+        2
+      ],
+      "collectedAt": "2026-08-10T22:00:52.534Z"
+    },
+    {
       "id": "20260811030959482800",
       "time": "2026-08-11 03:09:59",
       "hot": "热",
@@ -4423,22 +4438,7 @@
         2
       ],
       "collectedAt": "2026-08-04T15:30:48.340Z"
-    },
-    {
-      "id": "20260804222511009800",
-      "time": "2026-08-04 22:25:11",
-      "hot": "爆",
-      "content": "据报道，一艘位于荷台达海岸13英里处的印度船只遭无人艇袭击后沉没。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-08-04T14:40:32.214Z"
     }
   ],
-  "lastUpdated": "2026-08-10T20:10:33.490Z"
+  "lastUpdated": "2026-08-10T22:00:53.742Z"
 }
