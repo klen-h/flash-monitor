@@ -2,6 +2,20 @@
   "date": "2026/8/10",
   "items": [
     {
+      "id": "20260810133052293800",
+      "time": "2026-08-10 13:30:52",
+      "hot": "热",
+      "content": "台积电(TSM.N)：7月营收为4675.8亿新台币，同比增长44.7%。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-08-10T05:40:30.154Z"
+    },
+    {
       "id": "20260810113847154800",
       "time": "2026-08-10 11:38:47",
       "hot": "热",
@@ -4432,20 +4446,7 @@
         3
       ],
       "collectedAt": "2026-08-04T02:20:31.003Z"
-    },
-    {
-      "id": "20260804090408251800",
-      "time": "2026-08-04 09:04:08",
-      "hot": "热",
-      "content": "【金十数据整理：A股盘前市场要闻速递（2026-08-04）】<b>重要新闻</b><br/><span class=\"section-news\">1. 李强签署国务院令，公布修订后的《集成电路布图设计保护条例》。</span><br/><span class=\"section-news\">2. 国家发改委两部门：到2030年，常规水电装机达到4.1亿千瓦左右，核电装机约1.1亿千瓦。</span><br/><span class=\"section-news\">3. 国家发改委等两部门：推动现役煤电机组实施宽负荷高效改造，低负荷运行工况的煤耗增幅控制在25%以内。</span><br/><span class=\"section-news\">4. 商务部：外国企业对特定二次圆柱形电池、电池组件及包含该组件的产品提起337调查申请。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 药明康德：上半年净利润111亿元，同比增长29%；全面上调2026年业绩指引。</span><br/><span class=\"section-news\">2. 五粮液：累计回购股份金额达10.02亿元。</span><br/><span class=\"section-news\">3. 中微公司：预计2026年上半年净利润同比增282.48%到310.81%。</span><br/><span class=\"section-news\">4. 行云科技：在手算力、存储类3-5年期长期框架订单规模超154亿元。</span><br/><span class=\"section-news\">5. 赛力斯：7月新能源汽车销量24229辆，同比下降45.65%。</span><br/><span class=\"section-news\">6. 高乐股份：签署31.95亿元算力服务合同，预计2026年增加收入约2亿元。</span><br/><span class=\"section-news\">7. 传智教育：近日发布“AI具身智能机器人开发”新学科，首期班报名已完成。</span><br/><span class=\"section-news\">8. 阳光股份：拟投资不超过9.8亿元建设阳光智算中心项目。</span><br/><span class=\"section-news\">9. 石大胜华：拟合计投资28.05亿元建设23万吨/年液态锂盐和20万吨/年电解液等三个项目。</span><br/><span class=\"section-news\">10. 远东股份：7月子公司中标/签约千万元以上合同订单合计28.08亿元，包括AIDC用光纤产品合同1969.5万元。</span>",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1
-      ],
-      "collectedAt": "2026-08-04T01:30:36.161Z"
     }
   ],
-  "lastUpdated": "2026-08-10T04:00:47.772Z"
+  "lastUpdated": "2026-08-10T05:40:31.396Z"
 }
