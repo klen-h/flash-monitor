@@ -2,6 +2,36 @@
   "date": "2026/8/10",
   "items": [
     {
+      "id": "20260810140812820800",
+      "time": "2026-08-10 14:08:12",
+      "hot": "热",
+      "content": "【金十数据整理：每日全球大宗商品市场要闻速递（2026-08-10）】<b>能源：</b><br/><span class=\"section-news\">1. 塞浦路斯有望2028年为欧洲供气。</span><br/><span class=\"section-news\">2. 据悉因担忧安全问题，土耳其限制商业船只进入黑海。</span><br/><span class=\"section-news\">3. 数据显示，霍尔木兹海峡关闭致伊拉克石油出口骤降75%。</span><br/><span class=\"section-news\">4. 白宫国家经济委员会主任哈塞特：预计柴油或汽油价格不会上涨。</span><br/><span class=\"section-news\">5. 伊拉克石油部长：正与伊朗进行谈判，以允许伊拉克石油出口。</span><br/><span class=\"section-news\">6. 特朗普政府冻结石油大亨萨金特资产，施压其退出委内瑞拉。</span><br/><span class=\"section-news\">7. 美国中央司令部：上周再次拦截并改道了20艘驶往伊朗港口的商业船只。</span><br/><span class=\"section-news\">8. 哈萨克斯坦国家石油公司计划在2026年将通过巴库-第比利斯-杰伊汉管道的石油出口增加31%，达到170万吨。</span><br/><span class=\"section-news\">9. 惠誉评级：中期来看，继续预计原油价格将在2028年逐步恢复正常，趋向每桶约60美元的中期周期水平。</span><br/><span class=\"section-news\">10. 根据数据以及消息源显示，里海管道联盟7月石油装载量较计划落后20%，降至每日120万至130万桶。</span><br/><span class=\"section-news\">11. 花旗：美伊谈判反复无常，将第三季度布伦特原油均价预期调整为80美元，第四季度维持在70美元，2027年为65美元。</span><br/><span class=\"section-news\">12. 阿联酋阿布扎比国家石油公司ADNOC：自冲突开始以来，公司有15艘船只遭到攻击；将投资超过80亿美元以扩大生产能力。</span><br/><b>农业/矿业：</b><br/><span class=\"section-news\">1. 德国商业银行：将年底镍价预测下调至每吨17,000美元；预计到年底锌价将达到每吨3500美元。</span><br/><span class=\"section-news\">2. 印度央行数据显示，截至7月31日，印度黄金储备为1047.4亿美元，前一周为1030.6亿美元。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        2
+      ],
+      "collectedAt": "2026-08-10T07:10:33.322Z"
+    },
+    {
+      "id": "20260810144835745800",
+      "time": "2026-08-10 14:48:35",
+      "hot": "爆",
+      "content": "A股爱丽家居尾盘涨停，走出12天11板。",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        4,
+        5,
+        3,
+        1
+      ],
+      "collectedAt": "2026-08-10T07:10:33.321Z"
+    },
+    {
       "id": "20260810133052293800",
       "time": "2026-08-10 13:30:52",
       "hot": "热",
@@ -4417,36 +4447,7 @@
         3
       ],
       "collectedAt": "2026-08-04T04:20:34.247Z"
-    },
-    {
-      "id": "20260804095630934800",
-      "time": "2026-08-04 09:56:30",
-      "hot": "热",
-      "content": "【科威特发生多起爆炸 当地一美军基地遭袭】金十数据8月4日讯，据伊朗方面消息，科威特4日凌晨发生多起爆炸。初步报告显示，位于科威特的一个美军基地遭到袭击，科威特中部可以看到浓烟和火光。消息称，伊拉克南部也能听见爆炸声。对于相关消息，目前科威特和美军方面没有作出回应。",
-      "source": "央视",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=11518447614763572965&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D11518447614763572965%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-08-04T02:20:31.003Z"
-    },
-    {
-      "id": "20260804101248800800",
-      "time": "2026-08-04 10:12:48",
-      "hot": "沸",
-      "content": "韩国交易所：韩国创业板指（KOSDAQ）期货上涨超过6%，触发五分钟交易暂停。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-08-04T02:20:31.003Z"
     }
   ],
-  "lastUpdated": "2026-08-10T05:40:31.396Z"
+  "lastUpdated": "2026-08-10T07:10:34.451Z"
 }
