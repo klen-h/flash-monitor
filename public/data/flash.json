@@ -2,6 +2,19 @@
   "date": "2026/8/10",
   "items": [
     {
+      "id": "20260810090642368800",
+      "time": "2026-08-10 09:06:42",
+      "hot": "热",
+      "content": "【金十数据整理：A股盘前市场要闻速递（2026-08-10）】<b>重要新闻</b><br/><span class=\"section-news\">1. A股迎“人形机器人第一股”打新时刻，宇树科技启动申购。</span><br/><span class=\"section-news\">2. 国家统计局：7月份CPI同比上涨0.5%，PPI同比涨幅有所回落。</span><br/><span class=\"section-news\">3. 中国央行连续第21个月增持黄金。</span><br/><span class=\"section-news\">4. 北京：非京籍家庭购房社保个税缴纳年限下调为一年。</span><br/><b>个股新闻</b><br/><span class=\"section-news\">1. 寒武纪：上半年净利润23.11亿元，同比增123%。</span><br/><span class=\"section-news\">2. 江波龙：完成37亿元定增事项，发行价格为560元/股。</span><br/><span class=\"section-news\">3. 宁德时代宜春枧下窝锂矿复产迎来关键期。</span><br/><span class=\"section-news\">4. 摩尔线程：筹划发行H股股票并在港交所主板上市。</span><br/><span class=\"section-news\">5. 药明康德：美国法院就公司的初步禁令动议作出裁决。</span><br/><span class=\"section-news\">6. 拓维信息：上半年净利润同比下降12.16%，拟10派0.25元。</span><br/><span class=\"section-news\">7. 奥士康：与AMD合作尚处送样阶段，未与英伟达、谷歌开展订单合作。</span><br/><span class=\"section-news\">8. 欧菲光澄清：不存在人为压低公司零部件售价、向实控人控制公司转移利润的行为。</span><br/><span class=\"section-news\">9. 四连板沃格光电：控股股东及5%以上股东相关方因信披违规收行政处罚事先告知书。</span><br/><span class=\"section-news\">10. 五粮液：公司持续关注低度酒、轻饮酒类的市场消费趋势。</span><br/><span class=\"section-news\">11. 超颖电子：拟投资20.86亿元建设高多层及HDI印制电路板P3项目。</span><br/><span class=\"section-news\">12. 蓝盾光电：拟购买岚创科技控股权预计构成重大资产重组，股票复牌。</span><br/><span class=\"section-news\">13. 力源信息：上半年净利润2.98亿元 同比增长209.5%。</span><br/><span class=\"section-news\">14. 高争民爆：如后续公司股票交易继续出现非理性大幅波动，公司可能申请停牌核查。</span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1
+      ],
+      "collectedAt": "2026-08-10T01:20:32.202Z"
+    },
+    {
       "id": "20260810085129155800",
       "time": "2026-08-10 08:51:29",
       "hot": "热",
@@ -4428,22 +4441,7 @@
         3
       ],
       "collectedAt": "2026-08-04T01:00:41.260Z"
-    },
-    {
-      "id": "20260804074417462800",
-      "time": "2026-08-04 07:44:17",
-      "hot": "热",
-      "content": "【日本新一轮救汇行动或已耗资870亿美元】金十数据8月4日讯，美国方面近日称，为了支撑日元汇率，在最新一轮的外汇干预行动中，日本央行可能已经动用了约870亿美元，相当于11万亿日元的资金。消息称，根据日本央行的最新货币市场数据推算，日本央行在7月30日和31日的外汇干预中，很可能分别动用了530亿美元和340亿美元，总共870亿美元、相当于11万亿日元的资金来买入日元，以支撑日元汇率。",
-      "source": "央视",
-      "source_link": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=11709320837620231596&channelId=1017&toc_style_id=feeds_default&module=ccnews%3A%2F%2Fappclient%2Fpage%2Ffeeds%2Fdetail%3Furl%3Dhttps%253A%252F%252Fcontent-static.cctvnews.cctv.com%252Fsnow-book%252Findex.html%253Fitem_id%253D11709320837620231596%2526channelId%253D1017%2526toc_style_id%253Dfeeds_default",
-      "important": 0,
-      "channel": [
-        1,
-        3,
-        2
-      ],
-      "collectedAt": "2026-08-04T00:40:30.966Z"
     }
   ],
-  "lastUpdated": "2026-08-10T01:10:31.405Z"
+  "lastUpdated": "2026-08-10T01:20:33.363Z"
 }
