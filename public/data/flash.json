@@ -2,6 +2,20 @@
   "date": "2026/8/11",
   "items": [
     {
+      "id": "20260811073705529800",
+      "time": "2026-08-11 07:37:05",
+      "hot": "热",
+      "content": "【金十数据整理：每日科技要闻速递（8月11日）】<br/><b>人工智能：</b><br/><span class=\"section-news\">1. 阿里云计划将全球数据中心产能提升两倍以上。</span><br/><span class=\"section-news\">2. Applied Compute融资估值有望翻倍至30亿美元。</span><br/><span class=\"section-news\">3. OpenAI推出GPT-5.6-Cyber模型，提升高级网络安全任务能力。</span><br/><span class=\"section-news\">4. 大摩启动1.5万亿美元美国创新基础设施计划，聚焦AI等前沿技术。</span><br/><span class=\"section-news\">5. 英伟达与华尔街巨头合作，推进规模达5000亿美元的AI融资计划。</span><br/><span class=\"section-news\">6. Meta开源30B模型Muse Glimmer，4bit量化可在单卡24GB显存GPU运行。</span><br/><span class=\"section-news\">7. 据悉OpenAI回购70亿美元员工股份，对应估值8520亿美元，与近期融资估值一致。+</span><br/><span class=\"section-news\">8. 大摩启动1.5万亿美元美国创新基础设施计划，聚焦AI等前沿技术。</span><br/><span class=\"section-news\">9. 报道称智谱MaaS开放平台注册用户（即API用户）近700万，相比七月初增长约200万。</span><br/><span class=\"section-news\">10. Anthropic：曾让一个尚未发布的研究版Claude尝试解决“黎曼猜想”，虽未证明但取得了进展。</span><br/><b>集成电路（芯片）：</b><br/><span class=\"section-news\">1. 英特尔宣布拟发行150亿美元普通股。</span><br/><span class=\"section-news\">2. 索尼集团与台积电最早将于2029年量产新一代图像传感器。</span><br/><span class=\"section-news\">3. 台积电：7月营收4675.8亿新台币，同比增44.7%。</span><br/><span class=\"section-news\">4. SK海力士：正在考虑多种方案以提升封装业务竞争力。</span><br/><span class=\"section-news\">5. 台积电因内存短缺积压10亿美元苹果芯片？分析师郭明錤否认。</span><br/><span class=\"section-news\">6. 微软一直在与台积电洽谈，以确保获得超过30万颗MAIA芯片的生产能力，并于2027年交付。</span><br/><b>其他：</b><br/><span class=\"section-news\">1. 中星4B卫星火箭飞行异常，发射任务失利。</span><br/><span class=\"section-news\">2. 理想汽车：第二代理想AI眼镜Livis预计明年下半年到来。 </span>",
+      "source": "",
+      "source_link": "",
+      "important": 1,
+      "channel": [
+        1,
+        3
+      ],
+      "collectedAt": "2026-08-11T00:00:48.312Z"
+    },
+    {
       "id": "20260811065555735800",
       "time": "2026-08-11 06:55:55",
       "hot": "热",
@@ -4423,21 +4437,7 @@
         3
       ],
       "collectedAt": "2026-08-04T17:10:39.546Z"
-    },
-    {
-      "id": "20260804234750298800",
-      "time": "2026-08-04 23:47:50",
-      "hot": "热",
-      "content": "英特尔(INTC.O)涨幅扩大至10%，费城半导体指数现涨6.2%。",
-      "source": "",
-      "source_link": "",
-      "important": 1,
-      "channel": [
-        1,
-        3
-      ],
-      "collectedAt": "2026-08-04T16:10:32.730Z"
     }
   ],
-  "lastUpdated": "2026-08-10T23:20:32.428Z"
+  "lastUpdated": "2026-08-11T00:00:49.491Z"
 }
